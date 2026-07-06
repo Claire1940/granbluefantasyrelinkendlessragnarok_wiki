@@ -91,8 +91,8 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Granblue Fantasy: Relink Developers</strong> - Creators of the Granblue Fantasy: Relink game</li>
+              <li><strong>Cygames, Inc.</strong> - Developer and publisher of Granblue Fantasy: Relink</li>
+              <li><strong>Steam</strong> - Owner of the Steam platform (Valve Corporation)</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -153,8 +153,9 @@ export default function Copyright() {
             </p>
             <ul>
               <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Granblue Fantasy: Relink</strong> - Trademark of the game developers</li>
-              <li><strong>Granblue Fantasy Relink Endless Ragnarok Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Granblue Fantasy: Relink</strong> - Trademark of Cygames, Inc.</li>
+              <li><strong>Granblue Fantasy Relink Endless Ragnarok</strong> - DLC, trademark of Cygames, Inc.</li>
+              <li><strong>Granblue Fantasy Relink Endless Ragnarok Wiki</strong> - Our own branding (not affiliated with or endorsed by Cygames, Inc.)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of

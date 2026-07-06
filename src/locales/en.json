@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Granblue Fantasy Relink Endless Ragnarok Wiki - Characters, Builds & Quests",
+      "description": "Explore Granblue Fantasy Relink guides for characters, builds, weapons, sigils, quests, bosses, co-op tips, and Endless Ragnarok update coverage.",
+      "keywords": "Granblue Fantasy Relink, Steam, PS5, PS4, builds, characters, quests, sigils, bosses",
+      "ogTitle": "Granblue Fantasy Relink Endless Ragnarok Wiki - Characters, Builds & Quests",
+      "ogDescription": "Explore Granblue Fantasy Relink guides for characters, builds, weapons, sigils, quests, bosses, co-op tips, and Endless Ragnarok update coverage.",
+      "twitterTitle": "Granblue Fantasy Relink Endless Ragnarok Wiki - Characters, Builds & Quests",
+      "twitterDescription": "Explore Granblue Fantasy Relink guides for characters, builds, weapons, sigils, quests, bosses, co-op tips, and Endless Ragnarok update coverage."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Fast-Paced Anime Action RPG",
+    "title": "Granblue Fantasy Relink Endless Ragnarok Wiki",
+    "description": "Master a skyfaring action RPG with four-person party combat, Link Attacks, Chain Bursts, solo and co-op quests, weapon farming, sigil builds, boss guides, and Endless Ragnarok updates.",
+    "getFreeCodesCTA": "View Guides",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "52K+",
+        "label": "Steam Reviews"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "100+",
+        "label": "Quests"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "1-4",
+        "label": "Co-op Players"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
+        "value": "Feb 1, 2024",
         "label": "Release Date"
       }
     }
@@ -785,26 +785,28 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Granblue Fantasy: Relink?",
+    "description": "Join the Granblue Fantasy: Relink community on Discord and official channels for guides, builds, and Endless Ragnarok updates!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Granblue Fantasy Relink Endless Ragnarok Wiki",
+    "description": "Your complete resource hub for Granblue Fantasy: Relink characters, builds, weapons, sigils, quests, bosses, and Endless Ragnarok updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "Official Site",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Granblue Fantasy Relink Endless Ragnarok Wiki. Not affiliated with Cygames.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

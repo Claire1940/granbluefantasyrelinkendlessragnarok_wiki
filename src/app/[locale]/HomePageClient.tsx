@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Granblue Fantasy Relink Endless Ragnarok Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Granblue Fantasy: Relink Wiki covering characters, builds, weapons, sigils, quests, bosses, materials, and Endless Ragnarok updates.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Granblue Fantasy: Relink - Endless Ragnarok",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Granblue Fantasy Relink Endless Ragnarok Wiki",
+        alternateName: "Granblue Fantasy: Relink",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Granblue Fantasy: Relink Wiki resource hub for characters, builds, weapons, sigils, quests, bosses, and Endless Ragnarok guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,38 +130,41 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Granblue Fantasy Relink Endless Ragnarok Wiki",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://relink.granbluefantasy.jp/en/",
+          "https://relink-ragnarok.granbluefantasy.com/en/",
+          "https://store.steampowered.com/app/889450/Granblue_Fantasy_Relink/",
+          "https://discord.gg/relink-official",
+          "https://x.com/relink_official",
+          "https://www.reddit.com/r/GranblueFantasyRelink/",
+          "https://www.youtube.com/@relink_official",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Granblue Fantasy: Relink",
+        gamePlatform: ["PlayStation 5", "PlayStation 4", "PC", "Steam"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Action RPG", "JRPG", "Action", "Adventure"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 4,
         },
         offers: {
           "@type": "Offer",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://store.steampowered.com/app/889450/Granblue_Fantasy_Relink/",
         },
       },
       {
         "@type": "VideoObject",
-        name: "Granblue Fantasy: Relink - Endless Ragnarok",
+        name: "Granblue Fantasy: Relink - Endless Ragnarok - Third Trailer",
         description:
           "Official Granblue Fantasy: Relink - Endless Ragnarok trailer showcasing the new expansion's gameplay, characters, and quests.",
-        uploadDate: "2026-02-05",
+        uploadDate: "2025-12-15",
         thumbnailUrl: `${siteUrl}/images/hero.webp`,
         embedUrl: "https://www.youtube.com/embed/p3AmoK58D6Q",
         url: "https://www.youtube.com/watch?v=p3AmoK58D6Q",
@@ -247,7 +250,7 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://store.steampowered.com/app/889450/Granblue_Fantasy_Relink/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
@@ -1325,7 +1328,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.gg/relink-official"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1334,7 +1337,7 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://store.steampowered.com/app/889450/Granblue_Fantasy_Relink/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1400,7 +1403,17 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://relink-ragnarok.granbluefantasy.com/en/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.officialSite}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://discord.gg/relink-official"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1423,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/relink_official"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,17 +1433,27 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.reddit.com/r/GranblueFantasyRelink/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamCommunity}
+                    {t.footer.reddit}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.youtube.com/@relink_official"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
+                  >
+                    {t.footer.youtube}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://store.steampowered.com/app/889450/Granblue_Fantasy_Relink/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

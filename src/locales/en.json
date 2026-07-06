@@ -79,6 +79,26 @@
         "icon": "Swords",
         "title": "Endless Ragnarok",
         "description": "Expansion release, editions, demo, new characters, Chaos quests, and crossplay"
+      },
+      {
+        "icon": "Users",
+        "title": "Characters",
+        "description": "All playable characters across the base roster, free updates, and Endless Ragnarok"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Builds, Weapons & Sigils",
+        "description": "Progression from early game to Damage Cap, War Elemental, Sigil Synthesis, and Master Traits"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Quests & Bosses",
+        "description": "Quest order, Lucilius, Chaos difficulty, summons, and Conflux solo progression"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Platforms & Crossplay",
+        "description": "PS5, PS4, Steam, and Switch 2 support, multiplayer, crossplay, and PC requirements"
       }
     ]
   },
@@ -759,7 +779,7 @@
           "details": [
             "Endless Ragnarok adds a new story arc after the base Relink adventure.",
             "The expansion introduces new skybound threats including Beelzebub and The World.",
-            "Chaos is a new high-difficulty quest tier designed as the expansion's toughest challenge.",
+            "Chaos is a new high-difficulty quest tier designed as the expansion's most demanding challenge.",
             "Chaos quests feature ragnalia and new boss mechanics, including EX Burst attacks."
           ]
         },
@@ -812,6 +832,557 @@
             "Online play can require the relevant platform's online membership service.",
             "GameShare is not available during Nintendo Switch 2 local communication."
           ]
+        }
+      ]
+    },
+    "granblueRelinkCharacters": {
+      "title": "Granblue Fantasy Relink Characters",
+      "eyebrow": "Characters",
+      "subtitle": "All playable, update, and Endless Ragnarok characters in one roster breakdown.",
+      "intro": "Browse the main launch roster, free update characters, and the new playable characters added with Endless Ragnarok. Each card covers role, source, playable status, and who should try them first.",
+      "displayType": "cardList",
+      "items": [
+        {
+          "name": "Main Character (Gran / Djeeta)",
+          "group": "Base roster",
+          "role": "Flexible sword user and party anchor",
+          "source": "Main story crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available as the player character, with Gran or Djeeta selected as the Captain.",
+          "bestFor": "Players who want a balanced starter character, easy party access, and a flexible build path."
+        },
+        {
+          "name": "Katalina",
+          "group": "Base roster",
+          "role": "Saber wielder with defensive and support utility",
+          "source": "Grandcypher crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available through the base story roster.",
+          "bestFor": "Players who want a steady melee character with protection, sustain, and team-friendly tools."
+        },
+        {
+          "name": "Rackam",
+          "group": "Base roster",
+          "role": "Ranged gunner",
+          "source": "Grandcypher crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available through the base story roster.",
+          "bestFor": "Players who prefer ranged pressure, safer positioning, and consistent damage uptime."
+        },
+        {
+          "name": "Io",
+          "group": "Base roster",
+          "role": "Mage with charged spells and healing support",
+          "source": "Grandcypher crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available through the base story roster.",
+          "bestFor": "Players who like spellcasting, burst windows, and helping the party recover."
+        },
+        {
+          "name": "Eugen",
+          "group": "Base roster",
+          "role": "Long-range firearm specialist",
+          "source": "Grandcypher crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available through the base story roster.",
+          "bestFor": "Players who want to target weak points from range and control space without constantly standing under a boss."
+        },
+        {
+          "name": "Rosetta",
+          "group": "Base roster",
+          "role": "Zone-control support with rose-based attacks",
+          "source": "Grandcypher crew",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available through the base story roster.",
+          "bestFor": "Players who enjoy positioning tools, area control, and supportive damage patterns."
+        },
+        {
+          "name": "Lancelot",
+          "group": "Base roster",
+          "role": "Fast dual-blade attacker",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who like quick combos, evasive play, and aggressive melee pressure."
+        },
+        {
+          "name": "Vane",
+          "group": "Base roster",
+          "role": "Durable axe user and protector",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who want a sturdy frontline fighter with party-saving defensive value."
+        },
+        {
+          "name": "Percival",
+          "group": "Base roster",
+          "role": "Fire-aligned sword attacker with charged strikes",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who enjoy deliberate melee timing, strong hit confirmation, and stylish burst damage."
+        },
+        {
+          "name": "Siegfried",
+          "group": "Base roster",
+          "role": "Heavy sword fighter built around timing",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who want powerful melee strings and are comfortable learning rhythm-based inputs."
+        },
+        {
+          "name": "Charlotta",
+          "group": "Base roster",
+          "role": "Compact melee attacker with rapid sword combos",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who like fast attacks, close-range pressure, and a small, mobile target profile."
+        },
+        {
+          "name": "Yodarha",
+          "group": "Base roster",
+          "role": "Technical katana duelist",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who enjoy counters, sharp timing, and compact melee skill expression."
+        },
+        {
+          "name": "Narmaya",
+          "group": "Base roster",
+          "role": "Stance-based katana attacker",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who want a high-ceiling melee character with stance flow and burst potential."
+        },
+        {
+          "name": "Zeta",
+          "group": "Base roster",
+          "role": "Spear attacker with aerial loops",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who like jump-based offense, spear combos, and staying active above ground threats."
+        },
+        {
+          "name": "Vaseraga",
+          "group": "Base roster",
+          "role": "Heavy scythe attacker",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who prefer slow, heavy hits, armor-style commitment, and huge melee impact."
+        },
+        {
+          "name": "Ferry",
+          "group": "Base roster",
+          "role": "Whip user with spectral companions",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who want mid-range control, summon-like pressure, and a different rhythm from standard sword users."
+        },
+        {
+          "name": "Ghandagoza",
+          "group": "Base roster",
+          "role": "Martial artist and fist fighter",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who enjoy close-range brawling, big punches, and simple-looking attacks with strict timing."
+        },
+        {
+          "name": "Cagliostro",
+          "group": "Base roster",
+          "role": "Alchemist with damage, healing, and utility",
+          "source": "Crewmate character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Unlocked through crewmate access in the base game.",
+          "bestFor": "Players who want a flexible caster-support hybrid with strong team usefulness."
+        },
+        {
+          "name": "Id",
+          "group": "Base roster",
+          "role": "Dragon-themed melee attacker",
+          "source": "Base game story character",
+          "playableStatus": "Playable in the base game",
+          "unlockOrAccess": "Available after progressing through the base game story.",
+          "bestFor": "Players who want a dramatic melee kit tied closely to Relink's main story."
+        },
+        {
+          "name": "Seofon",
+          "group": "Free update roster",
+          "role": "Sword specialist and Eternals leader",
+          "source": "Version 1.2.0 free update",
+          "playableStatus": "Playable after update access",
+          "unlockOrAccess": "Unlocked at no additional cost by meeting in-game requirements, or unlocked immediately through a paid character unlock set.",
+          "bestFor": "Players who want a late-game sword character and enjoy unlocking powerful roster additions through challenge content."
+        },
+        {
+          "name": "Tweyen",
+          "group": "Free update roster",
+          "role": "Bow master and long-range attacker",
+          "source": "Version 1.2.0 free update",
+          "playableStatus": "Playable after update access",
+          "unlockOrAccess": "Unlocked at no additional cost by meeting in-game requirements, or unlocked immediately through a paid character unlock set.",
+          "bestFor": "Players who want a precision ranged character with endgame-style unlock progression."
+        },
+        {
+          "name": "Sandalphon",
+          "group": "Free update roster",
+          "role": "Winged sword fighter with late-game story importance",
+          "source": "Version 1.3.0 free update",
+          "playableStatus": "Playable after update access",
+          "unlockOrAccess": "Added as a playable character in Version 1.3.0, with access tied to update content and related unlock items.",
+          "bestFor": "Players who want a major Granblue character added after launch and are ready for higher-level postgame content."
+        },
+        {
+          "name": "Gallanza",
+          "group": "Endless Ragnarok roster",
+          "role": "Heavy spear-axe powerhouse with wide attack reach",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who want broad melee swings, a heavyweight feel, and a former Avia commander on their side."
+        },
+        {
+          "name": "Maglielle",
+          "group": "Endless Ragnarok roster",
+          "role": "Magical blade master",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who like elegant ranged-melee blade control, flashy attacks, and a stylish boss-turned-playable pick."
+        },
+        {
+          "name": "Beatrix",
+          "group": "Endless Ragnarok roster",
+          "role": "Society attacker with offense, defense, and recovery buff cycles",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who want an aggressive sword character with stance-like buff management and a high-energy combat style."
+        },
+        {
+          "name": "Eustace",
+          "group": "Endless Ragnarok roster",
+          "role": "Society marksman and firearm specialist",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who prefer composed ranged combat, tactical spacing, and a firearm-based kit."
+        },
+        {
+          "name": "Fraux",
+          "group": "Endless Ragnarok roster",
+          "role": "Pactbearer to The Devil with striking power",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who want an Evoker-style character with forceful close-range identity."
+        },
+        {
+          "name": "Fediel",
+          "group": "Endless Ragnarok roster",
+          "role": "Darkness-aligned dragon of the Six Dragons",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Playable with Endless Ragnarok",
+          "unlockOrAccess": "Added as one of the six playable characters in the Endless Ragnarok upgrade.",
+          "bestFor": "Players who want a powerful dark-element fantasy, dragon lore, and a standout expansion character."
+        },
+        {
+          "name": "Lyria",
+          "group": "Story cast",
+          "role": "Primal-beast-linked story companion",
+          "source": "Base game story",
+          "playableStatus": "Story character",
+          "unlockOrAccess": "Appears throughout the base game story rather than as a standard quest roster pick.",
+          "bestFor": "Players following the main story and Granblue lore."
+        },
+        {
+          "name": "Vyrn",
+          "group": "Story cast",
+          "role": "Mascot companion and crew member",
+          "source": "Base game story",
+          "playableStatus": "Story character",
+          "unlockOrAccess": "Appears throughout the base game story.",
+          "bestFor": "Players tracking the Grandcypher crew and story dialogue."
+        },
+        {
+          "name": "Rolan",
+          "group": "Story cast",
+          "role": "Key Relink story ally",
+          "source": "Base game story",
+          "playableStatus": "Story character",
+          "unlockOrAccess": "Appears as a story-focused character in the base game.",
+          "bestFor": "Players who care about Relink's original story arc."
+        },
+        {
+          "name": "Lilith",
+          "group": "Story cast",
+          "role": "Leader of the Pilgrims of Avia",
+          "source": "Base game story",
+          "playableStatus": "Boss and story character",
+          "unlockOrAccess": "Encountered through the base game narrative.",
+          "bestFor": "Players following the Avia conflict and campaign bosses."
+        },
+        {
+          "name": "Lucilius",
+          "group": "Free update boss",
+          "role": "High-difficulty boss known as the Primal Progenitor",
+          "source": "Version 1.1.0 free update",
+          "playableStatus": "Boss character",
+          "unlockOrAccess": "Fought through the post-story quest The Final Vision and related high-difficulty content.",
+          "bestFor": "Players looking for the signature late-game raid-style challenge."
+        },
+        {
+          "name": "Beelzebub",
+          "group": "Endless Ragnarok boss",
+          "role": "Major expansion boss known as the Eternity Ender",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Boss character",
+          "unlockOrAccess": "Appears as part of the Endless Ragnarok expansion content.",
+          "bestFor": "Players seeking expansion-era boss encounters and harder postgame progression."
+        },
+        {
+          "name": "The World",
+          "group": "Endless Ragnarok boss",
+          "role": "Arcarum-linked boss known as the Inchoate World",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Boss character",
+          "unlockOrAccess": "Appears as part of the Endless Ragnarok expansion content.",
+          "bestFor": "Players interested in the expansion's Arcarum-themed threats and boss roster."
+        }
+      ]
+    },
+    "granblueRelinkBuildsWeaponsSigils": {
+      "title": "Granblue Fantasy Relink Builds, Weapons, and Sigils",
+      "eyebrow": "Builds",
+      "subtitle": "Builds, weapons, sigils, Damage Cap, and Endless Ragnarok progression in one table.",
+      "intro": "Use this progression table to understand what to build first, when sigils start to matter, and how late-game systems such as Sigil Synthesis and Master Traits connect to character growth.",
+      "displayType": "table",
+      "items": [
+        {
+          "stage": "Main story and early quests",
+          "buildGoal": "Learn one character, keep the party alive, and upgrade weapons steadily instead of chasing perfect sigils early.",
+          "weapons": "Use the best available weapon for your current character and upgrade it when materials are easy to spare. Base attack and weapon level matter more than rare optimization at this stage.",
+          "sigils": "Equip simple attack, health, defense, cooldown, and utility sigils that match how you actually play. Do not waste rare materials trying to force a final build before endgame.",
+          "keyTerms": "Character level, Mastery, weapon level, skills, basic sigils",
+          "playerTip": "Pick a main character and three AI party members you like. Spreading every upgrade across the whole roster too early slows progress."
+        },
+        {
+          "stage": "Mid-game and first post-story farming",
+          "buildGoal": "Start shaping characters by role: damage dealer, ranged attacker, support, tanky frontline, or utility pick.",
+          "weapons": "Continue strengthening the weapons used by your active party. Match upgrades to characters you actually bring into quests.",
+          "sigils": "Begin replacing filler sigils with stronger damage, survivability, cooldown, and character-friendly choices. Keep practical defensive sigils when learning harder fights.",
+          "keyTerms": "Quest Counter, role builds, skill loadouts, party balance",
+          "playerTip": "Keep enough survivability to maintain damage uptime and clear quests consistently."
+        },
+        {
+          "stage": "Late game before heavy min-maxing",
+          "buildGoal": "Move from general power to focused damage uptime, boss control, and stable clears.",
+          "weapons": "Invest more heavily in the weapons of your main party and begin planning around endgame weapon growth instead of constantly swapping favorites.",
+          "sigils": "Start prioritizing Damage Cap when your attacks begin reaching the game's damage ceiling. Combine it with offensive sigils, useful utility traits, and survival tools for hard quests.",
+          "keyTerms": "Damage Cap, boss uptime, Link Attacks, Skybound Arts, Chain Bursts",
+          "playerTip": "When more raw attack stops raising real hit numbers, Damage Cap becomes a core build piece rather than a luxury."
+        },
+        {
+          "stage": "Proud, Lucilius, and endgame farming",
+          "buildGoal": "Build around stable high-difficulty clears, not just attractive stat screens.",
+          "weapons": "Push your main weapon path hard, then support it with sigils that let you stay active through dangerous boss patterns.",
+          "sigils": "Damage Cap, War Elemental, Supplementary Damage, cooldown tools, quick skill access, and defensive insurance become high-value priorities for endgame-ready builds.",
+          "keyTerms": "War Elemental, Supplementary Damage V, Damage Cap, Lucilius, The Final Vision",
+          "playerTip": "War Elemental and Supplementary Damage are premium endgame-style sigils. Treat them as build accelerators, not as a reason to ignore core weapon and mastery growth."
+        },
+        {
+          "stage": "Version 1.3 Sigil Synthesis",
+          "buildGoal": "Refine endgame builds by combining sigils and traits once your account has enough strong legendary sigils.",
+          "weapons": "Keep weapon upgrades moving while using synthesis to reduce awkward trait gaps in your build.",
+          "sigils": "Sigil Synthesis lets players combine sigils and traits, including eligible legendary sigils and sigils marked for synthesis, to create stronger build pieces.",
+          "keyTerms": "Sigil Synthesis, legendary sigils, traits, Version 1.3.0",
+          "playerTip": "Use synthesis to solve specific trait gaps and improve established endgame builds."
+        },
+        {
+          "stage": "Free update character expansion",
+          "buildGoal": "Build Seofon, Tweyen, and Sandalphon after unlocking them through update content or unlock items.",
+          "weapons": "Treat each update character as a serious build project with their own weapon, mastery, skill, and sigil needs.",
+          "sigils": "Use the same progression logic: safe early setup, focused damage and utility later, then endgame traits and Damage Cap when their numbers justify it.",
+          "keyTerms": "Seofon, Tweyen, Sandalphon, character unlock sets, update quests",
+          "playerTip": "New characters still need full investment. Unlocking them is not the same thing as making them ready for high-difficulty quests."
+        },
+        {
+          "stage": "Endless Ragnarok progression",
+          "buildGoal": "Use Master Traits, summons, new co-op tiers, and Chaos difficulty to push builds beyond the base postgame.",
+          "weapons": "Continue enhancing characters and weapons with materials earned from expansion quests and Conflux runs.",
+          "sigils": "Keep core endgame sigils while using Master Traits and expansion rewards to specialize characters further.",
+          "keyTerms": "Master Traits, summons, Chaos difficulty, Ragnalia, Beelzebub, The World",
+          "playerTip": "Master Traits are an expansion-layer growth system. Build them alongside sigils instead of treating them as replacements."
+        },
+        {
+          "stage": "Conflux solo endgame",
+          "buildGoal": "Create self-sufficient builds that can clear sequential solo zones and adapt to temporary perks.",
+          "weapons": "Bring characters with upgraded weapons and reliable personal damage because Conflux progress depends on your solo execution.",
+          "sigils": "Favor consistent damage, survival, and utility. Temporary perks can enhance a run, but the base build still needs to stand on its own.",
+          "keyTerms": "Conflux, temporary perks, rare materials, high-tier equipment, solo mode",
+          "playerTip": "Conflux rewards flexible builds. Over-specialized setups can crumble when a run asks for objectives your build cannot handle."
+        }
+      ]
+    },
+    "granblueRelinkQuestsBosses": {
+      "title": "Granblue Fantasy Relink Quests and Bosses",
+      "eyebrow": "Quests",
+      "subtitle": "Quest order, update bosses, Chaos difficulty, and Conflux progression on one path.",
+      "intro": "Follow the content path from main story quests into postgame, Lucilius, free update quests, Endless Ragnarok's Chaos difficulty, and the Conflux solo mode.",
+      "displayType": "accordion",
+      "items": [
+        {
+          "title": "Main story and standard quest counter",
+          "tag": "Base game",
+          "summary": "Start with campaign progress, character access, basic party building, and regular Quest Counter missions.",
+          "content": "The base game teaches core battle systems such as normal attacks, skills, Link Attacks, Skybound Arts, Chain Bursts, dodges, guarding, and four-character party play. After the story opens up more quest access, the Quest Counter becomes the main place to farm materials, raise characters, and prepare for harder postgame content.",
+          "bossesOrTargets": "Campaign bosses, standard Quest Counter targets, material quests",
+          "recommendedOrder": "Play before all update and expansion content."
+        },
+        {
+          "title": "Post-story and Proud preparation",
+          "tag": "Base postgame",
+          "summary": "Farm materials, strengthen weapons, build sigils, and prepare your core party for the hardest base-game quests.",
+          "content": "Post-story progression shifts from simply clearing quests to making your main team reliable. Focus on weapon upgrades, Mastery, useful sigils, skill loadouts, and party balance. This is the stage where boss mechanics matter more and incomplete builds start getting punished.",
+          "bossesOrTargets": "Higher-difficulty Quest Counter encounters and Proud-level preparation targets",
+          "recommendedOrder": "Clear after the story and before Lucilius or expansion-era challenge tiers."
+        },
+        {
+          "title": "The Final Vision and Lucilius",
+          "tag": "Free update 1.1.0",
+          "summary": "Version 1.1.0 adds The Final Vision, a post-story quest featuring Lucilius.",
+          "content": "The Final Vision becomes available after completing a story segment in Seedhollow. It is built as a high-difficulty update quest and functions as one of the major late-game boss checks before later update and expansion progression.",
+          "bossesOrTargets": "Lucilius",
+          "recommendedOrder": "Attempt after your party has strong weapons, practical sigils, and reliable survival."
+        },
+        {
+          "title": "Seofon and Tweyen unlock quests",
+          "tag": "Free update 1.2.0",
+          "summary": "Version 1.2.0 adds Seofon and Tweyen as playable characters and adds quests tied to their update content.",
+          "content": "The update introduces the quests Lock Horns and Gulp... So These Are the Rumored Monsters, alongside Seofon and Tweyen as playable roster additions. Both characters can be unlocked at no additional cost by meeting in-game requirements, with paid unlock sets available for immediate access.",
+          "bossesOrTargets": "Lock Horns, Gulp... So These Are the Rumored Monsters",
+          "recommendedOrder": "Clear after building a stable postgame team, then invest in the new characters if you want to main them."
+        },
+        {
+          "title": "Sandalphon, Zero, and Version 1.3 challenge quests",
+          "tag": "Free update 1.3.0",
+          "summary": "Version 1.3.0 adds Sandalphon, new quests, Photo Mode, Sigil Synthesis, and additional endgame systems.",
+          "content": "The update adds Sandalphon as a playable character and introduces Pageant of Might and Magic, Zathba's Volunteers, Dark Swordsman's Nightmare, and Zero. It also adds Sigil Synthesis, giving endgame players a deeper way to combine sigils and traits.",
+          "bossesOrTargets": "Pageant of Might and Magic, Zathba's Volunteers, Dark Swordsman's Nightmare, Zero",
+          "recommendedOrder": "Play after Version 1.1 and Version 1.2 content when your team is ready for deeper postgame optimization."
+        },
+        {
+          "title": "Endless Ragnarok story and Chaos quests",
+          "tag": "Expansion",
+          "summary": "Endless Ragnarok adds a new story arc, new co-op quest tiers, Chaos difficulty, Master Traits, summons, and major bosses.",
+          "content": "Endless Ragnarok expands the game with new stories and game modes, including the domain of Ragnalia, gateways, Beelzebub, new co-op quest tiers, summon unlocks, and Master Traits. Chaos difficulty is presented as the expansion's most challenging quest tier, with bosses gaining EX Burst attacks.",
+          "bossesOrTargets": "Ragnalia, Beelzebub, The World, Chaos-tier bosses",
+          "recommendedOrder": "Start after clearing the base game and building at least one serious endgame party."
+        },
+        {
+          "title": "Summons and Primal Bursts",
+          "tag": "Expansion system",
+          "summary": "Endless Ragnarok adds summons that provide attack skills, support abilities, and Primal Burst follow-ups.",
+          "content": "Summons can be equipped to characters and used in battle for offensive, support, or crowd-control value. Some summons can be invoked and controlled for a short period, and certain conditions allow Primal Bursts from powers such as Proto Bahamut and Excavallion.",
+          "bossesOrTargets": "Summon unlock quests, Primal Burst-enabled encounters",
+          "recommendedOrder": "Use throughout Endless Ragnarok progression once summon access opens."
+        },
+        {
+          "title": "The Conflux solo endgame",
+          "tag": "Expansion mode",
+          "summary": "The Conflux is a solo mode with sequential zones, objectives, battles, temporary perks, and high-tier rewards.",
+          "content": "Conflux runs send one character through multiple zones with puzzles, battles, and special traits or buffs. Each zone can offer temporary perk choices, while rewards include treasure used to enhance characters and weapons, rare materials, and high-tier equipment.",
+          "bossesOrTargets": "Solo Conflux objectives, zone bosses, reward encounters",
+          "recommendedOrder": "Enter after you have an expansion-ready character with upgraded weapons, practical sigils, and strong personal survivability."
+        }
+      ]
+    },
+    "granblueRelinkPlatformsCrossplay": {
+      "title": "Granblue Fantasy Relink Platforms and Crossplay",
+      "eyebrow": "Platforms",
+      "subtitle": "Platforms, multiplayer, crossplay, Switch 2, and PC requirements compared.",
+      "intro": "Compare PlayStation, Steam, and Nintendo Switch 2 support before buying the base game or Endless Ragnarok. This table separates base-game platform rules from the expansion's all-platform crossplay support.",
+      "displayType": "table",
+      "items": [
+        {
+          "topic": "PlayStation 4",
+          "platform": "PS4",
+          "version": "Base game and Endless Ragnarok support",
+          "players": "1 player offline; online co-op supports 1-4 players.",
+          "crossplay": "Base game cross-platform play is supported between PS4 and PS5. Endless Ragnarok supports crossplay with Nintendo Switch 2, PS5, PS4, and Steam.",
+          "requirementsOrNotes": "The PS4 version can be upgraded to the digital PS5 version at no additional cost. Online play requires the relevant platform online service.",
+          "bestFor": "Players staying in the PlayStation ecosystem or upgrading from PS4 to PS5."
+        },
+        {
+          "topic": "PlayStation 5",
+          "platform": "PS5",
+          "version": "Base game and Endless Ragnarok support",
+          "players": "1 player offline; online co-op supports 1-4 players.",
+          "crossplay": "Base game cross-platform play is supported between PS5 and PS4. Endless Ragnarok supports crossplay with Nintendo Switch 2, PS5, PS4, and Steam.",
+          "requirementsOrNotes": "PlayStation 5 is one of the official launch platforms for the base game and one of the supported platforms for Endless Ragnarok.",
+          "bestFor": "Players who want console play, PlayStation cross-generation co-op, and expansion crossplay."
+        },
+        {
+          "topic": "Steam base game",
+          "platform": "PC / Steam",
+          "version": "Granblue Fantasy Relink base game",
+          "players": "Single-player and online co-op for up to four players.",
+          "crossplay": "The base game does not support cross-platform play with PlayStation. Base-game cross-platform play is listed only for PS4 and PS5.",
+          "requirementsOrNotes": "The Steam base game is required before purchasing and using Endless Ragnarok upgrade content on Steam.",
+          "bestFor": "PC players who want keyboard and controller flexibility and Steam multiplayer."
+        },
+        {
+          "topic": "Endless Ragnarok Upgrade Kit on Steam",
+          "platform": "PC / Steam",
+          "version": "Standard Edition or Special Edition upgrade kit",
+          "players": "Online co-op supports up to four players in supported expansion quests.",
+          "crossplay": "Endless Ragnarok supports four-player online co-op crossplay across Nintendo Switch 2, PS5, PS4, and Steam.",
+          "requirementsOrNotes": "The upgrade kit requires the base game on the same platform. The Special Edition includes extra color packs, useful item packs, and character unlock-related items for Seofon, Tweyen, and Sandalphon.",
+          "bestFor": "Existing Steam owners who want the expansion story, Chaos quests, Conflux, summons, Master Traits, and new playable characters."
+        },
+        {
+          "topic": "Nintendo Switch 2",
+          "platform": "Nintendo Switch 2",
+          "version": "Granblue Fantasy Relink Endless Ragnarok",
+          "players": "Supports handheld, tabletop, and TV modes. Online play is supported, and local communication supports up to four-player co-op.",
+          "crossplay": "Endless Ragnarok supports crossplay with Nintendo Switch 2, PS5, PS4, and Steam.",
+          "requirementsOrNotes": "Nintendo lists the release date as July 9, 2026, download size as 38.7 GB, and supported languages including Japanese, English, Spanish, French, German, Italian, Portuguese, Korean, and Chinese. Save Data Cloud backup is listed as unsupported.",
+          "bestFor": "Players who want portable play, local Switch 2 co-op, or all-platform expansion crossplay."
+        },
+        {
+          "topic": "Crossplay rule",
+          "platform": "All platforms",
+          "version": "Base game versus Endless Ragnarok",
+          "players": "Online co-op supports up to four players where online play is available.",
+          "crossplay": "Base game: PS4 and PS5 crossplay only. Endless Ragnarok: Nintendo Switch 2, PS5, PS4, and Steam crossplay.",
+          "requirementsOrNotes": "Platform membership or online service requirements may apply. GameShare is not available during Nintendo Switch 2 Local Communication sessions.",
+          "bestFor": "Players buying the game mainly to co-op with friends on different platforms."
+        },
+        {
+          "topic": "Steam minimum requirements",
+          "platform": "PC / Steam",
+          "version": "Base game and Endless Ragnarok PC requirement profile",
+          "players": "Online co-op support depends on Steam and network access.",
+          "crossplay": "Base Steam does not crossplay with PlayStation; Endless Ragnarok supports expansion crossplay across all listed platforms.",
+          "requirementsOrNotes": "Minimum: Windows 11 64-bit, Intel Core i3-9100 or AMD Ryzen 3 3200G, 16 GB RAM, NVIDIA GeForce GTX 1060 6 GB or AMD Radeon RX 580 8 GB, DirectX 11, 90 GB available storage, SSD recommended, target profile 1080p and 30 FPS on Standard settings.",
+          "bestFor": "PC players checking whether their system can run the game before buying."
+        },
+        {
+          "topic": "Steam recommended requirements",
+          "platform": "PC / Steam",
+          "version": "Base game and Endless Ragnarok PC requirement profile",
+          "players": "Online co-op support depends on Steam and network access.",
+          "crossplay": "Base Steam does not crossplay with PlayStation; Endless Ragnarok supports expansion crossplay across all listed platforms.",
+          "requirementsOrNotes": "Recommended: Windows 11 64-bit, Intel Core i7-8700 or AMD Ryzen 5 3600, 16 GB RAM, NVIDIA GeForce RTX 2080 8 GB or AMD Radeon RX 6700 XT 12 GB, DirectX 11, 90 GB available storage, SSD recommended, target profile 1080p and 60 FPS on Ultra settings.",
+          "bestFor": "PC players who want smoother high-setting gameplay and a safer setup for expansion co-op."
         }
       ]
     }

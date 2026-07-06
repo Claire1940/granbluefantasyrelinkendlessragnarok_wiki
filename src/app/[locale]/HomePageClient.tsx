@@ -7,16 +7,24 @@ import {
   BookOpen,
   Calendar,
   Check,
+  ChevronDown,
+  ClipboardCheck,
   Crosshair,
+  Cpu,
   Crown,
+  Gamepad2,
   Gift,
   Globe,
+  Hammer,
   Info,
   Layers,
   ListOrdered,
   MapPin,
+  Monitor,
   Rocket,
   ShieldAlert,
+  Smartphone,
+  Skull,
   Sparkles,
   Star,
   Swords,
@@ -49,8 +57,17 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
   />
 );
 
-// Tools Grid 卡片索引 -> 模块 section id（1:1 锚点，4 卡对应 4 模块）
-const TOOL_CARD_SECTION_IDS = ["codes", "tier-list", "beginner-guide", "endless-ragnarok"];
+// Tools Grid 卡片索引 -> 模块 section id（1:1 锚点，8 卡对应 8 模块）
+const TOOL_CARD_SECTION_IDS = [
+  "codes",
+  "tier-list",
+  "beginner-guide",
+  "endless-ragnarok",
+  "characters",
+  "builds-weapons-sigils",
+  "quests-bosses",
+  "platforms-crossplay",
+];
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
@@ -224,6 +241,38 @@ export default function HomePageClient({
       default:
         return Sparkles;
     }
+  };
+
+  // ---- Module 5: Characters 分组图标 + 分组顺序 ----
+  const characterGroupIcon: Record<string, any> = {
+    "Base roster": Users,
+    "Free update roster": Sparkles,
+    "Endless Ragnarok roster": Swords,
+    "Story cast": BookOpen,
+    "Free update boss": Skull,
+    "Endless Ragnarok boss": Crown,
+  };
+  const characterItems = (t.modules.granblueRelinkCharacters?.items || []) as any[];
+  const characterGroups = Array.from(new Set(characterItems.map((c: any) => c.group)));
+
+  // ---- Module 7: Quests tag -> 图标 ----
+  const questTagIcon = (tag: string) => {
+    if (/expansion mode/i.test(tag)) return Target;
+    if (/expansion system/i.test(tag)) return Layers;
+    if (/expansion/i.test(tag)) return Crown;
+    if (/postgame/i.test(tag)) return Swords;
+    if (/free update/i.test(tag)) return Sparkles;
+    if (/base/i.test(tag)) return BookOpen;
+    return ClipboardCheck;
+  };
+
+  // ---- Module 8: Platforms 平台 -> 图标 ----
+  const platformIcon = (platform: string) => {
+    if (/switch/i.test(platform)) return Smartphone;
+    if (/steam|pc/i.test(platform)) return Monitor;
+    if (/ps[45]/i.test(platform)) return Gamepad2;
+    if (/all platform/i.test(platform)) return Globe;
+    return Cpu;
   };
 
   return (
@@ -854,6 +903,326 @@ export default function HomePageClient({
               (PlayStation Store, Steam, Nintendo eShop) or official Cygames channels to guarantee valid
               purchase bonuses and a working Upgrade Kit.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Characters */}
+      <section id="characters" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 scroll-reveal text-center md:mb-12">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+              <Users className="h-3.5 w-3.5" />
+              {t.modules.granblueRelinkCharacters.eyebrow}
+            </div>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              {t.modules.granblueRelinkCharacters.title}
+            </h2>
+            <p className="mx-auto max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.granblueRelinkCharacters.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.granblueRelinkCharacters.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-8">
+            {characterGroups.map((group: string) => {
+              const GroupIcon = characterGroupIcon[group] || Users;
+              const members = characterItems.filter((c: any) => c.group === group);
+              return (
+                <div key={group}>
+                  <div className="mb-4 flex items-center gap-2">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                      <GroupIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <h3 className="text-lg font-bold md:text-xl">{group}</h3>
+                    <span className="text-xs text-muted-foreground">({members.length})</span>
+                  </div>
+                  <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                    {members.map((c: any, ci: number) => (
+                      <div
+                        key={ci}
+                        className="flex flex-col rounded-xl border border-border bg-white/5 p-4 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)]"
+                      >
+                        <h4 className="mb-1 font-bold text-[hsl(var(--nav-theme-light))]">{c.name}</h4>
+                        <p className="mb-2 text-xs text-muted-foreground">{c.role}</p>
+                        <div className="mb-2 flex flex-wrap gap-1">
+                          <span className="rounded bg-[hsl(var(--nav-theme)/0.1)] px-1.5 py-0.5 text-[10px] text-foreground">
+                            {c.source}
+                          </span>
+                          <span className="rounded border border-border bg-white/[0.04] px-1.5 py-0.5 text-[10px] text-muted-foreground">
+                            {c.playableStatus}
+                          </span>
+                        </div>
+                        <p className="mb-2 text-xs text-muted-foreground">
+                          <span className="font-semibold text-foreground">Unlock: </span>
+                          {c.unlockOrAccess}
+                        </p>
+                        <p className="mt-auto text-xs">
+                          <span className="font-semibold text-[hsl(var(--nav-theme-light))]">Best for: </span>
+                          <span className="text-muted-foreground">{c.bestFor}</span>
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 模块 5 之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 6: Builds, Weapons & Sigils */}
+      <section id="builds-weapons-sigils" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 scroll-reveal text-center md:mb-12">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+              <Hammer className="h-3.5 w-3.5" />
+              {t.modules.granblueRelinkBuildsWeaponsSigils.eyebrow}
+            </div>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              {t.modules.granblueRelinkBuildsWeaponsSigils.title}
+            </h2>
+            <p className="mx-auto max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.granblueRelinkBuildsWeaponsSigils.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.granblueRelinkBuildsWeaponsSigils.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {/* 桌面端列头 */}
+            <div className="hidden md:grid grid-cols-12 gap-3 px-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+              <div className="col-span-3">Stage</div>
+              <div className="col-span-3">Build Goal</div>
+              <div className="col-span-3">Weapons</div>
+              <div className="col-span-3">Sigils</div>
+            </div>
+            {(t.modules.granblueRelinkBuildsWeaponsSigils?.items || []).map((row: any, ri: number) => (
+              <div
+                key={ri}
+                className="rounded-xl border border-border bg-white/5 p-4 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-5"
+              >
+                <div className="md:grid md:grid-cols-12 md:gap-3">
+                  <div className="mb-3 md:mb-0 md:col-span-3">
+                    <div className="flex items-center gap-2">
+                      <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-[hsl(var(--nav-theme)/0.2)] text-xs font-bold text-[hsl(var(--nav-theme-light))]">
+                        {ri + 1}
+                      </span>
+                      <h3 className="font-bold leading-tight">{row.stage}</h3>
+                    </div>
+                    <div className="mt-2 flex flex-wrap gap-1">
+                      {row.keyTerms
+                        .split(",")
+                        .map((k: string) => k.trim())
+                        .filter(Boolean)
+                        .map((k: string, ki: number) => (
+                          <span
+                            key={ki}
+                            className="rounded bg-[hsl(var(--nav-theme)/0.1)] px-1.5 py-0.5 text-[10px] text-muted-foreground"
+                          >
+                            {k}
+                          </span>
+                        ))}
+                    </div>
+                  </div>
+                  <div className="mb-3 md:mb-0 md:col-span-3">
+                    <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                      Build Goal
+                    </p>
+                    <p className="text-sm text-muted-foreground">{row.buildGoal}</p>
+                  </div>
+                  <div className="mb-3 md:mb-0 md:col-span-3">
+                    <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                      Weapons
+                    </p>
+                    <p className="text-sm text-muted-foreground">{row.weapons}</p>
+                  </div>
+                  <div className="md:col-span-3">
+                    <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                      Sigils
+                    </p>
+                    <p className="text-sm text-muted-foreground">{row.sigils}</p>
+                  </div>
+                </div>
+                <div className="mt-3 flex items-start gap-2 rounded-lg border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.05)] p-3">
+                  <Star className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                  <p className="text-sm text-muted-foreground">
+                    <span className="font-semibold text-foreground">Tip: </span>
+                    {row.playerTip}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 7: 模块 6 之后的阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-468x60"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Quests & Bosses */}
+      <section id="quests-bosses" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 scroll-reveal text-center md:mb-12">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+              <ClipboardCheck className="h-3.5 w-3.5" />
+              {t.modules.granblueRelinkQuestsBosses.eyebrow}
+            </div>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              {t.modules.granblueRelinkQuestsBosses.title}
+            </h2>
+            <p className="mx-auto max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.granblueRelinkQuestsBosses.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.granblueRelinkQuestsBosses.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {(t.modules.granblueRelinkQuestsBosses?.items || []).map((q: any, qi: number) => {
+              const TagIcon = questTagIcon(q.tag);
+              return (
+                <details
+                  key={qi}
+                  className="group rounded-xl border border-border bg-white/5 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] open:border-[hsl(var(--nav-theme)/0.5)] open:bg-white/[0.03]"
+                >
+                  <summary className="flex cursor-pointer list-none items-center gap-3 p-4 [&::-webkit-details-marker]:hidden md:p-5">
+                    <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                      <TagIcon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <span className="inline-block rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-2 py-0.5 text-[10px] uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                        {q.tag}
+                      </span>
+                      <h3 className="mt-1 font-bold leading-tight">{q.title}</h3>
+                      <p className="text-sm text-muted-foreground">{q.summary}</p>
+                    </div>
+                    <ChevronDown className="h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform duration-300 group-open:rotate-180" />
+                  </summary>
+                  <div className="border-t border-border px-4 py-4 md:px-5">
+                    <p className="mb-3 text-sm text-muted-foreground">{q.content}</p>
+                    <div className="mb-2 flex items-start gap-2">
+                      <Swords className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <p className="text-sm text-muted-foreground">
+                        <span className="font-semibold text-foreground">Bosses &amp; targets: </span>
+                        {q.bossesOrTargets}
+                      </p>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <Check className="mt-0.5 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <p className="text-sm text-muted-foreground">
+                        <span className="font-semibold text-foreground">Recommended order: </span>
+                        {q.recommendedOrder}
+                      </p>
+                    </div>
+                  </div>
+                </details>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Platforms & Crossplay */}
+      <section id="platforms-crossplay" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 scroll-reveal text-center md:mb-12">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-medium uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+              <Gamepad2 className="h-3.5 w-3.5" />
+              {t.modules.granblueRelinkPlatformsCrossplay.eyebrow}
+            </div>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              {t.modules.granblueRelinkPlatformsCrossplay.title}
+            </h2>
+            <p className="mx-auto max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.granblueRelinkPlatformsCrossplay.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.granblueRelinkPlatformsCrossplay.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-3">
+            {/* 桌面端列头 */}
+            <div className="hidden md:grid grid-cols-12 gap-3 px-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+              <div className="col-span-3">Platform</div>
+              <div className="col-span-2">Version</div>
+              <div className="col-span-3">Players &amp; Crossplay</div>
+              <div className="col-span-4">Requirements</div>
+            </div>
+            {(t.modules.granblueRelinkPlatformsCrossplay?.items || []).map((p: any, pi: number) => {
+              const PlatIcon = platformIcon(p.platform);
+              return (
+                <div
+                  key={pi}
+                  className="rounded-xl border border-border bg-white/5 p-4 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-5"
+                >
+                  <div className="md:grid md:grid-cols-12 md:gap-3">
+                    <div className="mb-3 md:mb-0 md:col-span-3">
+                      <div className="flex items-center gap-2">
+                        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                          <PlatIcon className="h-4 w-4 text-[hsl(var(--nav-theme-light))]" />
+                        </span>
+                        <div className="min-w-0">
+                          <h3 className="font-bold leading-tight">{p.topic}</h3>
+                          <span className="text-[10px] uppercase tracking-wide text-muted-foreground">
+                            {p.platform}
+                          </span>
+                        </div>
+                      </div>
+                      <p className="mt-2 text-xs italic text-muted-foreground">{p.bestFor}</p>
+                    </div>
+                    <div className="mb-3 md:mb-0 md:col-span-2">
+                      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                        Version
+                      </p>
+                      <p className="text-sm text-muted-foreground">{p.version}</p>
+                    </div>
+                    <div className="mb-3 md:mb-0 md:col-span-3">
+                      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                        Players
+                      </p>
+                      <p className="mb-1 text-sm text-muted-foreground">{p.players}</p>
+                      <p className="text-xs text-muted-foreground">
+                        <span className="font-semibold text-foreground">Crossplay: </span>
+                        {p.crossplay}
+                      </p>
+                    </div>
+                    <div className="md:col-span-4">
+                      <p className="mb-1 text-[10px] font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] md:hidden">
+                        Requirements
+                      </p>
+                      <p className="text-sm text-muted-foreground">{p.requirementsOrNotes}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

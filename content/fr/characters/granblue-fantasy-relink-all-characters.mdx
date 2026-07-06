@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Tous les personnages : guide du roster 2026",
+  description: "Suivez chaque personnage jouable de Granblue Fantasy Relink, du roster de lancement aux mises à jour gratuites et aux ajouts de Endless Ragnarok, avec des notes d’accès et des recommandations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e2a44/fff?text=All+Characters+Roster+Guide",
+  date: "2026-07-06",
+  author: "Équipe Wiki de Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Tous les personnages de Granblue Fantasy Relink** se répartissent clairement entre les groupes de lancement, de mise à jour gratuite et de Endless Ragnarok.
+- **Captain, Lancelot, Eugen et Cagliostro** sont des piliers fiables en début de partie pour la plupart des équipes.
+- **Seofon, Tweyen et Sandalphon** sont des ajouts issus des mises à jour gratuites qui valent la peine d’être anticipés.
+- **Gallanza, Maglielle, Beatrix, Eustace, Fraux et Fediel** élargissent le roster via Endless Ragnarok.
+- **Les personnages réservés à l’histoire et les boss** apportent de la richesse au lore, mais ne font pas partie du roster jouable.
+</Callout>
+
+<Section icon={Map} title="Carte du roster de tous les personnages de Granblue Fantasy Relink">
+
+La couverture de tous les personnages de Granblue Fantasy Relink est plus simple si vous classez le roster par voie d’accès, et non par popularité. La [page officielle des personnages](https://relink.granbluefantasy.jp/en/characters/) et les [archives des mises à jour](https://relink.granbluefantasy.jp/en/updates/) rendent la structure très claire : d’abord le roster de lancement, ensuite les mises à jour gratuites, puis Endless Ragnarok.
+
+<CardGrid cols={4}>
+  <Card title="Roster de lancement">
+    - **19 personnages jouables**
+    - Conçu pour l’histoire et le début de l’endgame
+    - Meilleur point de départ pour les nouveaux joueurs
+  </Card>
+  <Card title="Mises à jour gratuites">
+    - **Seofon**
+    - **Tweyen**
+    - **Sandalphon**
+  </Card>
+  <Card title="Endless Ragnarok">
+    - **6 nouveaux personnages jouables**
+    - Nouvelle histoire et contenu plus difficile
+    - Idéal pour les joueurs de retour
+  </Card>
+  <Card title="Personnages non jouables">
+    - Alliés réservés à l’histoire
+    - Rencontres de boss
+    - Utiles pour suivre le lore
+  </Card>
+</CardGrid>
+
+| Groupe | Personnages | Accès | Principal enseignement |
+|---|---|---|---|
+| Roster de base | Captain, Katalina, Rackam, Io, Eugen, Rosetta, Lancelot, Vane, Percival, Siegfried, Charlotta, Yodarha, Narmaya, Zeta, Vaseraga, Ferry, Ghandagoza, Cagliostro, Id | Disponible dans le jeu de base | La fondation de tout plan de roster |
+| Roster de mise à jour gratuite | Seofon, Tweyen, Sandalphon | Ajoutés via des mises à jour gratuites | De solides ajouts de fin de partie avec une identité claire |
+| Roster Endless Ragnarok | Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | Ajoutés via Endless Ragnarok | Des personnages d’extension qui redéfinissent la planification d’équipe |
+| Casting réservé à l’histoire | Lyria, Vyrn, Rolan | Rôles liés à l’histoire uniquement | Importants pour l’intrigue, pas pour le roster du joueur |
+| Rencontres de boss | Lilith, Lucilius, Beelzebub, The World | Personnages réservés aux affrontements | Excellents pour le lore et le design des boss, pas pour le déblocage |
+
+<Callout type="tip" title="Règle du roster">
+Utilisez les pages officielles des personnages pour vérifier qui est réellement jouable avant de planifier un build. L’importance dans l’histoire ne signifie pas toujours accès au roster.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Groupes de personnages jouables et meilleur rôle">
+
+Le roster est vaste, mais il n’est pas aléatoire. Les personnages de lancement couvrent les kits de mêlée, à distance, de soutien et spécialisés ; les personnages ajoutés poussent les dégâts de fin de partie et la flexibilité ; Endless Ragnarok ajoute des options plus agressives et plus techniques. Si vous voulez une référence pratique, évaluez d’abord les personnages selon leur rôle dans l’équipe, puis selon votre préférence esthétique.
+
+<Callout type="warning" title="Note éditoriale">
+Il n’existe pas de classement officiel de puissance de la part de Cygames. Ce guide se concentre sur la valeur pratique en équipe, la facilité d’utilisation et la manière dont chaque personnage s’intègre à la progression réelle des quêtes.
+</Callout>
+
+| Groupe de personnages | Schéma de rôle | Ce qu’il fait généralement le mieux |
+|---|---|---|
+| Captain, Katalina, Vane, Cagliostro | Avant-garde équilibrée et soutien | Investissement initial stable, valeur d’équipe à faible risque |
+| Rackam, Eugen, Io, Rosetta | Pression à distance et utilité | Uptime plus sûr contre les boss, positionnement plus facile |
+| Lancelot, Charlotta, Percival, Siegfried | Mêlée rapide ou à timing | Fenêtres de dégâts fiables et bon rythme de progression |
+| Narmaya, Zeta, Ferry, Yodarha, Ghandagoza, Vaseraga, Id | Mêlée technique ou lourde | Potentiel plus élevé, mais demande plus d’exécution |
+| Seofon, Tweyen, Sandalphon | Choix puissants des mises à jour | Fort accent fin de partie et profondeur de roster |
+| Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | Spécialistes d’extension | Mécaniques nouvelles, forte identité, pertinence en fin de partie |
+
+| Personnage | Ce qui les distingue | Niveau de difficulté |
+|---|---|---|
+| Captain | Départ flexible, accès simple et outils équilibrés | Facile |
+| Lancelot | Pression rapide en mêlée et déplacements nets | Facile |
+| Charlotta | Compacte, mobile et simple à prendre en main | Facile |
+| Eugen | Excellent uptime à distance et jeu sûr contre les boss | Facile |
+| Cagliostro | Valeur de soutien plus dégâts réguliers | Facile à modéré |
+| Vane | Sécurité en première ligne et stabilité de l’équipe | Facile à modéré |
+| Narmaya | Très forte récompense une fois le flux des postures maîtrisé | Modéré |
+| Percival | Le timing des bursts récompense le jeu patient | Modéré |
+
+<Callout type="info" title="Conseil pratique">
+Si vous voulez la première partie la plus fluide possible, construisez autour d’un combattant de mêlée facile, d’un attaquant à distance, d’un soutien et d’un choix solide en première ligne.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleur ordre de déblocage pour un roster propre">
+
+La progression la plus propre est simple : apprendre un personnage principal, stabiliser votre équipe, puis élargir vers les personnages de mise à jour et d’extension. Cette approche concentre les ressources et évite l’erreur fréquente qui consiste à monter trop de personnages avant que le roster ne commence à porter ses fruits.
+
+<Steps>
+  <Step num="1" title="Verrouillez un personnage principal">
+    Commencez avec Captain, Lancelot, Charlotta, Eugen ou Cagliostro si vous voulez une courbe d’apprentissage plus douce.
+  </Step>
+  <Step num="2" title="Couvrez chaque rôle d’équipe">
+    Ajoutez un personnage à distance, un choix de type soutien et un allié résistant pour que votre escouade IA reste régulière.
+  </Step>
+  <Step num="3" title="Débloquez les personnages de mise à jour gratuite">
+    Seofon, Tweyen et Sandalphon sont d’excellents objectifs à long terme une fois votre équipe de base déjà stable.
+  </Step>
+  <Step num="4" title="Passez aux ajouts de Endless Ragnarok">
+    Gallanza, Maglielle, Beatrix, Eustace, Fraux et Fediel sont à considérer comme de vrais projets de build, pas comme de simples extras rapides.
+  </Step>
+  <Step num="5" title="Reformez votre équipe pour l’équilibre de fin de partie">
+    Revérifiez vos armes, sigils et la couverture des rôles après chaque ajout majeur au roster.
+  </Step>
+</Steps>
+
+| Priorité | Meilleurs choix | Pourquoi ils passent en premier |
+|---|---|---|
+| Départ pour nouveaux joueurs | Captain, Lancelot, Charlotta | Exécution facile et faible friction |
+| Emplacement à distance sûr | Eugen, Rackam | Très bon uptime contre les boss mobiles |
+| Emplacement de soutien | Cagliostro, Io, Rosetta | Soin, utilité ou pression contrôlée |
+| Emplacement de première ligne | Vane, Katalina, Siegfried | Meilleure stabilité de l’équipe dans les quêtes difficiles |
+| Emplacement à fort investissement | Narmaya, Percival, Zeta | Meilleur retour à long terme avec la pratique |
+
+<Callout type="success" title="Conseil de planification du roster">
+Si un personnage paraît spectaculaire mais ralentit votre vitesse de validation des quêtes, mettez-le de côté pour plus tard. Le meilleur roster est celui qui termine les contenus de façon régulière.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modèle d’équipe et checklist du roster">
+
+Un bon roster n’est pas seulement une collection de favoris. C’est une équipe fonctionnelle de quatre personnages capable d’affronter les boss, de se remettre des erreurs et de maintenir un bon uptime de dégâts. C’est pourquoi les plans de roster les plus sûrs mélangent des personnages faciles à piloter avec un ou deux favoris techniques.
+
+<Checklist
+  id="relink-roster-goals"
+  title="Objectifs du roster :"
+  items={[
+    "Choisir un personnage principal et le garder en avance sur l’équipement et la maîtrise",
+    "Conserver un personnage à distance pour un uptime sûr contre les boss",
+    "Garder un personnage de soutien ou utilitaire prêt pour les quêtes difficiles",
+    "Débloquer Seofon, Tweyen et Sandalphon lorsque votre équipe de base est stable",
+    "Ajouter les personnages de Endless Ragnarok uniquement lorsque vous avez le temps d’investir pleinement"
+  ]}
+/>
+
+| Rôle d’équipe | Bons exemples | Pourquoi c’est important | À éviter |
+|---|---|---|---|
+| Dégâts principaux | Lancelot, Narmaya, Percival, Beatrix | Porte les clears de quêtes et les fenêtres de burst sur les boss | Trop alterner entre trop de personnages principaux |
+| Pression à distance | Eugen, Rackam, Tweyen, Eustace | Maintient les dégâts pendant les schémas dangereux des boss | Rester trop près quand ce n’est pas nécessaire |
+| Soutien et survie | Cagliostro, Io, Rosetta | Ajoute sécurité, récupération et valeur d’équipe | Ignorer l’utilité parce que les dégâts bruts semblent meilleurs |
+| Ancre de première ligne | Captain, Vane, Katalina, Siegfried | Aide les escouades IA à survivre aux erreurs | Jouer quatre attaquants fragiles trop tôt |
+
+<Callout type="tip" title="Règle des ressources">
+Ne dispersez pas les matériaux rares sur tout le roster dès le premier jour. Construisez d’abord une équipe centrale, puis élargissez.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et référence rapide">
+
+Ces réponses rapides couvrent les questions de roster les plus courantes pour les joueurs qui veulent une liste claire des personnages, pas une page de suppositions. Utilisez la [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/) et la [page des personnages de Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/) officielles dès que vous voulez connaître les derniers ajouts au roster.
+
+<Callout type="info" title="Référence rapide">
+Le roster jouable se compose actuellement de 19 personnages de base, 3 personnages ajoutés via les mises à jour gratuites et 6 ajouts de Endless Ragnarok.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Combien de personnages jouables compte la couverture de tous les personnages de Granblue Fantasy Relink ?",
+    answer: "Le roster jouable totalise 28 personnages si l’on additionne les 19 personnages de base, les 3 ajouts des mises à jour gratuites et les 6 ajouts de Endless Ragnarok."
+  },
+  {
+    question: "Lyria, Vyrn et Rolan sont-ils jouables ?",
+    answer: "Non. Ce sont des personnages importants pour l’histoire, mais ils ne font pas partie du roster contrôlé par le joueur."
+  },
+  {
+    question: "Quel est le meilleur personnage de départ pour la plupart des joueurs ?",
+    answer: "Captain, Lancelot, Charlotta, Eugen et Cagliostro sont les choix initiaux les plus sûrs parce qu’ils sont faciles à utiliser et utiles dans de nombreuses équipes."
+  },
+  {
+    question: "Dois-je attendre Endless Ragnarok avant de construire mon roster ?",
+    answer: "Seulement si vous voulez spécifiquement les personnages et le contenu de l’extension. Sinon, le roster de base et les personnages des mises à jour gratuites offrent déjà une excellente trajectoire d’équipe."
+  }
+]} />
+
+<Callout type="success" title="Note finale">
+Un bon roster de personnages repose sur la couverture des rôles, pas seulement sur les favoris. Construisez d’abord selon les rôles, puis affinez autour des personnages que vous aimez le plus.
+</Callout>
+
+</Section>

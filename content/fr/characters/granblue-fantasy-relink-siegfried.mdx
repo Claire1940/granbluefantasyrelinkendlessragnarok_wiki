@@ -1,0 +1,217 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Siegfried : guide de build et combos",
+  description: "Apprenez à construire Siegfried dans Granblue Fantasy Relink avec le timing des combos, les priorités de sigils, les rôles en équipe et des conseils de combat de boss à chaque étape.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Siegfried+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki de granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Granblue Fantasy Relink Siegfried** brille lorsque vous apprenez les fenêtres des boss et que vous cessez de forcer chaque enchaînement dans des ouvertures dangereuses.
+- **La priorité de build de base** commence par le confort, le niveau de l’arme et la survie avant les sigils de fin de jeu premium.
+- **Le meilleur schéma de dégâts** consiste en de courtes phases de pression, puis des compétences de burst, des Link Attacks et des Chain Bursts.
+- **La valeur en fin de jeu** augmente fortement dans les quêtes de style Proud, les combats de boss en coopération et le contenu de défi de l’extension.
+- **Objectif principal** : rester assez près pour punir, mais assez discipliné pour se repositionner avant que le combat ne vous punisse.
+</Callout>
+
+<Section icon={Swords} title="Pourquoi Siegfried fonctionne si bien">
+
+Siegfried est un excellent choix si vous voulez un personnage de mêlée qui donne une impression de maîtrise plutôt que de frénésie. Son kit récompense le timing, le placement et la patience, ce qui le rend fiable dans les longs combats de boss et les quêtes à forte pression. Si vous voulez une référence claire du roster, la [page officielle du personnage](https://relink.granbluefantasy.jp/en/characters/) est le meilleur point de départ.
+
+La meilleure façon de penser à Siegfried est simple : ce n’est pas une tornade d’agression, c’est un pilier de dégâts. Il veut des ouvertures nettes, une présence stable et une équipe capable de garder le combat sous contrôle pendant qu’il engage des coups plus lourds.
+
+<CardGrid cols={3}>
+  <Card title="Meilleures qualités">
+    - **Présence de mêlée résistante**
+    - Forte constance en combat de boss
+    - À l’aise en groupe coopératif
+  </Card>
+  <Card title="Ce qu’il veut">
+    - **Ouvertures sûres**
+    - Fenêtres d’attaque claires
+    - Utilisation régulière des compétences
+  </Card>
+  <Card title="Ce qu’il punit">
+    - **Surengagement avide**
+    - Déversement de compétences en panique
+    - Mauvais placement
+  </Card>
+</CardGrid>
+
+| Trait | Valeur de Siegfried | Pourquoi c’est important |
+|---|---|---|
+| Rôle | Attaquant à grande épée au timing précis | Il récompense les joueurs qui lisent les patterns au lieu de marteler sans réfléchir. |
+| Facilité pour débutants | Moyenne | Il est accessible, mais demande tout de même une discipline de timing. |
+| Valeur en coopération | Élevée | Il apporte des dégâts de mêlée stables aux groupes coordonnés. |
+| Dégâts en fin de jeu | Élevés | Son rendement augmente lorsque vous maîtrisez mieux les ouvertures des boss. |
+| Survie | Élevée | Il peut rester actif plus longtemps que beaucoup d’options de mêlée plus légères. |
+
+<Callout type="tip" title="Règle de placement">
+Restez juste assez près pour maintenir la pression, mais assez loin pour qu’une esquive ou une garde puisse réinitialiser tout l’échange. Siegfried devient meilleur quand vous cessez de traiter chaque seconde comme une course au DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Flux de combos et rythme de combat de Siegfried">
+
+La boucle de combat de base de Siegfried repose sur une agressivité contrôlée. Le [manuel de combat](https://relink.granbluefantasy.jp/en/manual/detail?s=battles) explique bien le système général, mais la règle pratique pour Siegfried est simple : construire la pression avec les attaques normales, puis convertir pendant les fenêtres sûres.
+
+Vous n’avez pas besoin de forcer la vitesse d’exécution maximale. Vous avez besoin de fenêtres répétables. Cela signifie qu’il faut reconnaître quand un boss est inactif, vacillant, en récupération ou bloqué dans une longue animation, puis y consacrer vos outils les plus lourds.
+
+<Steps>
+  <Step num="1" title="Commencez par une pression contrôlée">
+    Démarrez avec des enchaînements d’attaques normales pour installer le rythme. Ne dépensez pas tous vos outils immédiatement ; votre première tâche est de lire le combat.
+  </Step>
+  <Step num="2" title="Utilisez vos compétences sur de vraies ouvertures">
+    Déclenchez vos compétences après une esquive, pendant un vacillement, ou quand le boss termine une longue attaque. Cela maintient vos dégâts efficaces au lieu de les gaspiller.
+  </Step>
+  <Step num="3" title="Convertissez l’élan de l’équipe">
+    Quand le groupe crée un Link Attack ou une fenêtre d’étourdissement, engagez davantage. C’est là que Siegfried peut transformer un jeu stable en véritable pic de burst.
+  </Step>
+  <Step num="4" title="Réinitialisez avant le retour du danger">
+    Si le boss entre dans une phase dangereuse, cessez de courir après un coup supplémentaire. Gardez, esquivez et revenez lors de la prochaine ouverture propre.
+  </Step>
+</Steps>
+
+| Fenêtre | Meilleure action | Résultat |
+|---|---|---|
+| Récupération du boss | Courte série d’attaques | Pression sûre sans surengagement |
+| Vacillement ou étourdissement | Burst de compétences | Dégâts plus élevés dans une fenêtre protégée |
+| Déclenchement de Link Attack | Rejoindre immédiatement | Meilleurs dégâts et meilleur tempo pour l’équipe |
+| Préparation de Chain Burst | Garder les Skybound Arts | Gain plus important pour toute l’équipe |
+| Danger imminent | Garder ou esquiver | Préserve le temps d’activité pour le cycle suivant |
+
+<Callout type="warning" title="Erreur courante">
+Ne traitez pas Siegfried comme un personnage qui doit toujours finir la plus longue série possible. Dans les combats difficiles, la meilleure série est souvent celle qui se termine avant le prochain coup du boss.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleures armes, sigils et priorités de maîtrise">
+
+Siegfried évolue le mieux lorsque votre build soutient son timing au lieu de le contrarier. Au début, vous voulez un niveau d’arme stable et des statistiques pratiques. Plus tard, votre build doit se diriger vers des plafonds de dégâts, une utilité premium et des combinaisons de traits plus serrées.
+
+La progression la plus propre est la suivante : survivre d’abord, stabiliser vos dégâts ensuite, puis vous spécialiser. Cette approche s’accorde bien avec la structure de build plus large présentée dans le matériel officiel de progression et les systèmes de mise à jour autour de la Sigil Synthesis et des Master Traits.
+
+| Étape du jeu | Priorité principale | Focus recommandé | Pourquoi ça fonctionne |
+|---|---|---|---|
+| Début de partie | Confort | Niveau de l’arme, PV, puissance d’attaque de base | Rend les clears fluides pendant que vous apprenez le timing |
+| Milieu de partie | Régularité | Temps d’activité des compétences, dégâts, utilité, survie | Vous aide à terminer des quêtes plus difficiles sans vous effondrer |
+| Fin de partie | Plafond de dégâts | Plafond de dégâts, bons traits offensifs | Transforme de bons coups en dégâts significatifs |
+| Fin de jeu de l’extension | Finition | Sigil Synthesis, Master Traits, sigils premium | Peaufine votre meilleur build au lieu de tout reconstruire de zéro |
+
+<CardGrid cols={3}>
+  <Card title="Build du début">
+    - **Améliorations d’arme d’abord**
+    - Offense simple et PV
+    - Aucun investissement risqué en matériaux
+  </Card>
+  <Card title="Build intermédiaire">
+    - **Offense équilibrée**
+    - Plus de temps d’activité des compétences
+    - Meilleurs outils de survie
+  </Card>
+  <Card title="Build de fin de jeu">
+    - **Focus sur le plafond de dégâts**
+    - Sigils premium
+    - Affinage des traits
+  </Card>
+</CardGrid>
+
+| Priorité de sigil | Valeur | Notes |
+|---|---|---|
+| Plafond de dégâts | Excellente | Très rentable une fois que l’attaque brute n’améliore plus beaucoup les dégâts réels |
+| War Elemental | Excellente | Bonus premium de type fin de jeu pour les builds plus solides |
+| Dégâts supplémentaires | Excellente | Idéal pour tirer une valeur extra des rotations puissantes |
+| Aide au temps de recharge | Bonne | Maintient vos compétences pertinentes dans les quêtes plus longues |
+| Outils de survie | Bonne | Utiles pendant l’apprentissage des boss dangereux |
+
+<Callout type="success" title="Règle de build">
+Si vos quêtes actuelles semblent fragiles, ne courez pas trop tôt après les traits de luxe. Un Siegfried stable avec une bonne survie surpassera un build fragile qui n’a l’air impressionnant que sur le papier.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Composition d’équipe et affrontements de boss">
+
+Siegfried s’intègre le mieux dans des équipes qui lui laissent le temps de frapper. Il apprécie les coéquipiers qui couvrent la portée, le soutien durable et l’utilité, car cela lui permet de rester concentré sur le boss au lieu de devoir constamment réparer les problèmes du groupe. Dans le roster plus large, des personnages comme Eugen, Rackam, Cagliostro, Io, Katalina, Vane et Rosetta apportent tous une aide différente.
+
+La structure des quêtes dans Granblue Fantasy Relink récompense ce style. À mesure que les combats deviennent plus difficiles, surtout dans le contenu de fin de jeu et de l’ère de l’extension, la valeur d’une première ligne stable augmente. Si vous voulez un contexte sur la plateforme et la coopération, la [page du magasin Steam](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/) est une référence utile pour les détails du multijoueur de base.
+
+| Emplacement d’équipe | Meilleur type d’allié | Pourquoi cela aide Siegfried |
+|---|---|---|
+| Soutien de première ligne | Défense type Vane ou Katalina | Absorbe la pression et stabilise le combat |
+| DPS à distance | Attaquant type Eugen ou Rackam | Maintient les dégâts pendant que vous vous repositionnez |
+| Soutien utilitaire | Soutien type Cagliostro ou Io | Ajoute des soins, des buffs ou des outils de récupération |
+| Slot de contrôle | Contrôle de zone type Rosetta | Aide à gérer l’espace dans les affrontements chaotiques |
+
+| Type de rencontre | Plan pour Siegfried | Risque à éviter |
+|---|---|---|
+| Boss mobile | Utiliser des séries plus courtes | Rater des attaques lentes |
+| Boss de raid lourd | Jouer sur les fenêtres de punition | Surengagement avide |
+| Quête de farm en coopération | Servir d’ancre à l’équipe | Ne viser que le burst en tunnel vision |
+| Défi de type chaos | Prioriser d’abord la survie | Perdre le tempo après une seule erreur |
+
+<Callout type="info" title="État d’esprit de quête">
+Siegfried est au plus fort lorsque toute l’équipe lui permet de rester concentré sur sa tâche. Si vos coéquipiers gèrent le soutien et la pression à distance, vous pouvez consacrer plus de temps à ce qu’il fait le mieux : punir les ouvertures avec discipline.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Erreurs à éviter, checklist et FAQ">
+
+La plupart des problèmes de Siegfried ne sont pas des problèmes de build. Ce sont des problèmes de rythme. Les joueurs ont généralement soit tendance à surengager dans de mauvaises fenêtres, soit à sous-investir dans les bases qui rendent ses dégâts réguliers. Corrigez ces deux points et ses performances deviennent beaucoup plus fiables.
+
+| Erreur | Meilleure approche | Résultat |
+|---|---|---|
+| Utiliser les compétences dès qu’elles sont disponibles | Les garder pour des ouvertures nettes | Davantage de dégâts réels |
+| Courir après chaque coup supplémentaire | Réinitialiser avant le retour du danger | Meilleure survie |
+| Ignorer les améliorations d’arme | Garder la voie d’arme active à jour | Clears de quête plus solides |
+| Construire uniquement pour les dégâts | Équilibrer offense et confort | Moins de wipes |
+| Copier trop tôt les traits de fin de jeu | Progresser par étapes | Moins de matériaux gâchés |
+
+<Checklist
+  id="siegfried-core-goals"
+  title="Checklist de progression de Siegfried"
+  items={[
+    "Améliorez une voie principale d’arme avant de courir après des sigils de luxe",
+    "Entraînez-vous à utiliser des séries d’attaques courtes et sûres sur les boss mobiles",
+    "N’utilisez vos compétences que lorsque le boss est dans une fenêtre de punition",
+    "Gardez au moins un outil de survie dans votre configuration",
+    "Testez le build dans des quêtes plus difficiles avant un min-maxing complet"
+  ]}
+/>
+
+<Callout type="tip" title="Raccourci pratique">
+Si un combat semble chaotique, simplifiez votre rotation. Siegfried s’améliore généralement plus vite lorsque vous supprimez les habitudes dangereuses que lorsque vous ajoutez de la complexité.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Siegfried est-il bon pour les débutants dans Granblue Fantasy Relink ?",
+    answer: "Oui, mais il se situe dans la catégorie de difficulté moyenne. Il est assez accessible pour être appris, tout en vous demandant de respecter le timing des boss et d’éviter le surengagement."
+  },
+  {
+    question: "Que dois-je prioriser en premier sur Siegfried ?",
+    answer: "Commencez par les améliorations d’arme, la survie de base et le confort. Ensuite, orientez-vous vers des traits offensifs plus puissants et le plafond de dégâts une fois vos clears devenus stables."
+  },
+  {
+    question: "Siegfried fonctionne-t-il mieux en solo ou en coopération ?",
+    answer: "Il fonctionne bien dans les deux cas. Le solo récompense sa discipline défensive, tandis que la coopération lui permet de se concentrer sur une pression de mêlée stable pendant que ses alliés gèrent le soutien et la portée."
+  },
+  {
+    question: "Quel contenu convient le mieux à Siegfried ?",
+    answer: "Il excelle dans les quêtes centrées sur les boss, les paliers de défi de fin de jeu, le contenu de style Proud et les combats de l’ère de l’extension où le timing compte plus que la vitesse brute."
+  }
+]} />
+
+</Section>

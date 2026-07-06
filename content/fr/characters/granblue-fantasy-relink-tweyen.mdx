@@ -1,0 +1,248 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Tweyen : meilleur guide de build et conseils",
+  description: "Construisez Tweyen dans Granblue Fantasy Relink avec un chemin de déblocage clair, des priorités de sigils intelligentes, des rôles de groupe, un rythme de combat et des conseils de fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Tweyen+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du Wiki de Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Granblue Fantasy Relink Tweyen** récompense le bon placement à distance, une présence constante et un timing de burst propre.
+- **Déverrouillez-la via la version 1.2.0** ou via un set de déverrouillage de personnage, puis testez-la dans des quêtes à faible risque.
+- **Privilégiez d’abord les dégâts de base et la survie** ; gardez les sigils premium pour la montée en puissance plus tard.
+- **Damage Cap devient important en fin de jeu** une fois que l’attaque brute ne se traduit plus par de plus gros dégâts réels.
+- **Associez-la à un soutien de première ligne** afin qu’elle puisse continuer à tirer sans mouvements de panique.
+</Callout>
+
+<Section icon={Target} title="Granblue Fantasy Relink Tweyen en bref">
+
+Granblue Fantasy Relink Tweyen est une excellente spécialiste à distance pour les joueurs qui préfèrent la précision aux échanges brutaux au corps à corps. Elle s’intègre à l’effectif ajouté après la sortie et donne le meilleur d’elle-même si vous la traitez comme un moteur de dégâts contrôlé : restez en sécurité, maintenez la pression sur le boss et transformez les ouvertures en dégâts de burst nets.
+
+Ce style de jeu en fait un choix naturel pour les joueurs qui veulent un rythme plus serein sans renoncer à la valeur en fin de jeu. Si vous aimez les personnages qui récompensent le placement et le timing, Tweyen est une cible de build intelligente sur le long terme.
+
+**Points vidéo :**
+- Aucun embed vidéo n’est utilisé ici, car aucune source vidéo réellement pertinente n’est disponible.
+- L’article se concentre sur les informations officielles du personnage et des mises à jour.
+- La valeur de Tweyen vient de sa présence sûre à distance et de sa montée en puissance en fin de jeu.
+- Son chemin de build est simple au début, puis s’approfondit par la suite.
+
+<CardGrid cols={3}>
+  <Card title="Points forts">
+    - **Pression sûre à distance**
+    - Accès facile aux cibles sur les boss mobiles
+    - Forte montée en puissance à long terme
+  </Card>
+  <Card title="Points faibles">
+    - Moins tolérante si vous ratez vos mouvements
+    - Exige une bonne discipline de placement
+    - Ses pics de puissance sont plus nets plus tard
+  </Card>
+  <Card title="Profil idéal">
+    - **Joueurs axés sur la précision**
+    - Équipes en coop ou en solo
+    - Joueurs qui aiment le contrôle à distance
+  </Card>
+</CardGrid>
+
+| Champ | Tweyen |
+|---|---|
+| Rôle | **Archère à distance** |
+| Mise à jour | **Version 1.2.0** |
+| Déblocage | Conditions en jeu ou set de déverrouillage de personnage |
+| Difficulté | Modérée |
+| Meilleure utilisation | Présence sûre, pression sur le boss, dégâts de précision |
+
+<Callout type="tip" title="Conseil de style de jeu">
+Tweyen est généralement à son meilleur lorsque vous traitez chaque ouverture comme une fenêtre de scoring. Ne courez pas après le boss de manière imprudente ; laissez plutôt le boss venir à vos dégâts.
+</Callout>
+
+Pour vérifier le roster et les mises à jour, gardez en favoris la [page des personnages](https://relink.granbluefantasy.jp/en/characters/) officielle et la [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/).
+
+</Section>
+
+<Section icon={Map} title="Comment débloquer Tweyen et préparer son premier build">
+
+Tweyen fait partie du roster ajouté via la mise à jour gratuite ; ce n’est donc pas un personnage disponible au lancement de base. L’approche la plus propre consiste à la débloquer via le contenu de mise à jour, puis à construire un setup de départ qui vous permet d’apprendre son rythme avant d’investir des matériaux rares dans l’optimisation.
+
+L’objectif ici n’est pas d’imposer un build final dès le premier jour. L’objectif est de faire en sorte que Tweyen soit suffisamment stable pour que vous puissiez juger ses vraies forces dans de vraies quêtes.
+
+| Chemin d’accès | Ce qu’il faut faire | Meilleure utilisation |
+|---|---|---|
+| Déblocage gratuit | Remplir les conditions en jeu après la mise à jour | Idéal si vous ne voulez rien dépenser de plus |
+| Set de déverrouillage de personnage | Utiliser l’option payante pour un accès immédiat | Idéal pour tester rapidement le roster |
+| Parcours d’entraînement | Commencer par des quêtes à faible risque | Idéal pour apprendre le placement et le timing |
+
+<Steps>
+  <Step num="1" title="Vérifiez l’accès à la mise à jour">
+    Assurez-vous que votre jeu est sur la version qui inclut Tweyen. Son emplacement dans le roster est lié au chemin de mise à jour, et non au roster de lancement de base.
+  </Step>
+  <Step num="2" title="Choisissez votre méthode de déblocage">
+    Utilisez le chemin de déblocage en jeu si vous voulez l’obtenir naturellement, ou le set de déverrouillage de personnage si vous voulez la tester immédiatement.
+  </Step>
+  <Step num="3" title="Montez un build de départ simple">
+    Équipez une voie d’amélioration d’arme raisonnable, des sigils orientés attaque de base, et suffisamment d’outils de survie pour garder vos runs réguliers.
+  </Step>
+  <Step num="4" title="Testez-la d’abord dans des quêtes plus sûres">
+    Affrontez des ennemis mobiles et des premiers boss avant d’investir lourdement. La valeur de Tweyen est plus facile à lire lorsque vous pouvez vous concentrer sur le placement.
+  </Step>
+</Steps>
+
+<Checklist
+  id="tweyen-starter-setup"
+  title="Liste de vérification du premier build :"
+  items={[
+    "Débloquez Tweyen via le chemin de mise à jour ou le set de déverrouillage de personnage",
+    "Améliorez une voie d’arme principale au lieu d’éparpiller les matériaux",
+    "Équipez des sigils de base orientés attaque, PV ou recharge",
+    "Gardez un emplacement flexible pour le confort ou les besoins spécifiques à la quête",
+    "Faites quelques quêtes à faible risque pour apprendre son rythme"
+  ]}
+/>
+
+<Callout type="warning" title="Avertissement sur les ressources">
+Ne gaspillez pas des sigils rares de fin de jeu sur Tweyen avant de savoir si son placement correspond à votre style. Le confort au début compte plus qu’un min-max parfait.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleures priorités de build pour Tweyen">
+
+La logique de build de Tweyen est simple : gardez ses dégâts sûrs au début, puis visez des plafonds de dégâts plus élevés une fois que son rythme de base vous paraît naturel. L’erreur principale à éviter est de trop optimiser trop tôt. Un setup stable qui vous garde en vie et en capacité de tirer vaut mieux qu’un build en verre fragile que vous ne parvenez pas à piloter proprement.
+
+<CardGrid cols={3}>
+  <Card title="Début de partie">
+    - **Apprenez le placement**
+    - Utilisez des dégâts de base et de la valeur de PV
+    - Gardez le build simple
+  </Card>
+  <Card title="Milieu de partie">
+    - **Stabilisez les clears**
+    - Ajoutez utilité et confort
+    - Remplacez les sigils de remplissage faibles
+  </Card>
+  <Card title="Fin de partie">
+    - **Augmentez le plafond de dégâts**
+    - Ajoutez des sigils offensifs premium
+    - Optimisez pour les quêtes difficiles
+  </Card>
+</CardGrid>
+
+| Étape | Objectif principal | Priorité arme | Priorité sigils | Notes |
+|---|---|---|---|---|
+| Début | Apprendre le placement | Améliorations de base | Attaque, PV, recharge | Restez simple |
+| Milieu | Clears de quêtes stables | Gardez l’arme principale en avance | Utilité, survie, régularité | Remplacez les pièces de remplissage |
+| Fin | Améliorer les dégâts réels | Poussez la voie d’arme centrale | Damage Cap, War Elemental, Supplementary Damage | Optimisez pour la présence en combat |
+| Endgame | Spécialiser le build | Terminez les améliorations clés | Synergie des traits, outils de confort | Construisez pour le contenu difficile |
+
+| Priorité de sigil | Valeur pour Tweyen | Pourquoi c’est important |
+|---|---|---|
+| Damage Cap | **Excellent** | Aide quand l’attaque brute cesse de bien évoluer |
+| War Elemental | **Très élevée** | Gros bonus de dégâts de style endgame |
+| Supplementary Damage | **Très élevée** | Ajoute de la valeur pendant les fenêtres de présence sûre |
+| Recharge ou utilité | Élevée | Rend sa rotation plus fluide |
+| Outils de survie | Élevée | Mieux si vous apprenez encore les patterns des boss |
+
+<Callout type="success" title="Règle de montée en puissance">
+Une fois que vos chiffres commencent à atteindre leur plafond, **Damage Cap** devient une vraie pièce de build et non plus un luxe. C’est à ce moment-là que la valeur de Tweyen en fin de jeu devient beaucoup plus nette.
+</Callout>
+
+Tweyen suit la même logique générale de build que les personnages forts ajoutés après la sortie : apprenez d’abord le kit, puis façonnez l’endgame autour de fenêtres de dégâts fiables. Si vous voulez un contexte plus large sur le roster, la [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/) officielle est le meilleur endroit pour suivre les changements selon la version.
+
+</Section>
+
+<Section icon={Swords} title="Boucle de combat, synergie d’équipe et erreurs courantes">
+
+Tweyen donne le meilleur d’elle-même quand l’équipe lui crée de l’espace. Elle n’a pas besoin d’être en première ligne ; elle a besoin d’ouvertures. Cela signifie que votre rôle consiste à continuer de tirer quand le boss est occupé, puis à repartir proprement quand le combat devient dangereux.
+
+| Situation | Meilleure réponse | Pourquoi ça fonctionne |
+|---|---|---|
+| Le boss est immobile | Lancez vos attaques les plus fortes | Fenêtre de présence maximale |
+| Le boss commence à bouger | Repositionnez-vous tôt | Gardez le flux de dégâts |
+| L’équipe déclenche une fenêtre d’étourdissement | Dépensez les compétences de burst | Maximisez les dégâts du groupe |
+| Un Link Attack apparaît | Rejoignez immédiatement | Augmentez vite la valeur de l’équipe |
+
+<Steps>
+  <Step num="1" title="Entrez par un angle sûr">
+    Commencez les combats à distance et gardez une bonne discipline de caméra. Tweyen gagne en valeur lorsque vous évitez de poursuivre le boss dans de mauvaises positions.
+  </Step>
+  <Step num="2" title="Dépensez vos dégâts pendant les ouvertures">
+    Utilisez vos attaques les plus puissantes lorsque le boss est bloqué dans une animation, étourdi ou en récupération après un gros mouvement.
+  </Step>
+  <Step num="3" title="Réinitialisez plutôt que de trop insister">
+    Si le boss lance une séquence dangereuse, arrêtez de forcer les dégâts. Repositionnez-vous d’abord, puis reprenez la pression.
+  </Step>
+  <Step num="4" title="Chaînez avec l’équipe">
+    Suivez les opportunités de Link Attacks et de Chain Burst. Tweyen devient bien meilleure lorsque tout le groupe attaque en rythme.
+  </Step>
+</Steps>
+
+| Emplacement dans l’équipe | Bonne combinaison | Rôle de Tweyen |
+|---|---|---|
+| Première ligne | Vane, Siegfried, Lancelot | Restez derrière eux et maintenez la pression sur le boss |
+| Soutien | Cagliostro, Rosetta, Io | Profitez des buffs, du sustain et du contrôle |
+| Second DPS | Eugen, Narmaya, Percival | Partagez les fenêtres de burst et gardez l’équipe létale |
+
+<Checklist
+  id="tweyen-combat-habits"
+  title="Habitudes de combat qui aident Tweyen :"
+  items={[
+    "Gardez la distance sans perdre la perception de la cible",
+    "Réservez les actions de burst pour les ouvertures sûres",
+    "Rejoignez rapidement les Link Attacks et les Chain Bursts",
+    "N’esquivez pas en panique loin de chaque attaque",
+    "Laissez votre équipe conserver l’aggro quand c’est possible"
+  ]}
+/>
+
+<Callout type="info" title="Rappel sur le placement">
+Tweyen est à son apogée lorsqu’on lui permet de jouer le combat à ses conditions. Si vous êtes forcé à bouger sans cesse, la solution vient généralement de la composition d’équipe ou de la connaissance du boss, pas des dégâts bruts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et notes de référence">
+
+<Callout type="tip" title="Réponse rapide">
+Si vous voulez la version la plus courte : Tweyen mérite d’être montée si vous aimez le contrôle à distance, une présence sûre et un chemin fluide vers l’optimisation endgame.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Granblue Fantasy Relink Tweyen vaut-elle la peine d’être montée dès le début ?",
+    answer: "Oui, si vous aimez la régularité à distance. Elle peut sembler solide dès le départ, mais son vrai potentiel augmente quand votre voie d’arme et vos sigils sont en place."
+  },
+  {
+    question: "Comment débloquer Tweyen ?",
+    answer: "Elle fait partie du roster de mise à jour. Vous pouvez la débloquer via le chemin en jeu ou utiliser le set de déverrouillage de personnage pour un accès immédiat."
+  },
+  {
+    question: "Quels sigils fonctionnent le mieux sur Tweyen ?",
+    answer: "Commencez par des dégâts pratiques et de la survie, puis orientez-vous vers Damage Cap, War Elemental, Supplementary Damage et des outils de confort."
+  },
+  {
+    question: "Tweyen est-elle meilleure en solo ou en coop ?",
+    answer: "Elle fonctionne dans les deux cas. La coop peut sembler plus facile parce que les coéquipiers aident à créer des ouvertures, mais le solo reste solide si vous gérez bien le placement."
+  }
+]} />
+
+Points de référence officiels à garder à portée de main :
+
+- [Index officiel des personnages de Granblue Fantasy Relink](https://relink.granbluefantasy.jp/en/characters/)
+- [Page officielle des mises à jour de Granblue Fantasy Relink](https://relink.granbluefantasy.jp/en/updates/)
+- [Page Steam de Granblue Fantasy Relink](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/)
+- [Site officiel de Granblue Fantasy Relink](https://relink.granbluefantasy.jp/en/)
+
+<Callout type="info" title="Note finale">
+Si vous voulez continuer à améliorer Tweyen au fil du temps, revisitez les pages officielles de mise à jour à chaque nouveau patch. Cela permet à votre build de rester aligné sur le jeu en direct plutôt que sur des hypothèses obsolètes.
+</Callout>
+
+</Section>

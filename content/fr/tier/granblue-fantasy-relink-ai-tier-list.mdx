@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink : classement IA — meilleurs choix d’équipe",
+  description: "Classez les meilleurs coéquipiers IA dans Granblue Fantasy Relink avec des paliers, des modèles d’équipe et des priorités de build pour le solo, le coop et l’après-jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=AI+Tier+List",
+  date: "2026-07-06",
+  author: "Équipe du wiki granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink ai tier list** classe les personnages selon le temps d’activité de l’IA, sa sécurité et sa valeur avec peu d’actions.
+- Les **choix de rang S** restent forts parce qu’ils continuent d’attaquer, résistent à la pression et s’intègrent dans presque n’importe quelle équipe.
+- **L’équilibre de l’équipe** compte plus que les dégâts bruts ; un soutien, une unité à distance et un bruiser fonctionnent bien.
+- **Les builds doivent rester simples** pour les coéquipiers IA afin que leurs dégâts restent réguliers pendant les longs combats de boss.
+- La **valeur en endgame** vient de la fiabilité, pas de mécaniques spectaculaires que l’IA ne peut pas exploiter proprement.
+</Callout>
+
+<Section icon={Target} title="granblue fantasy relink ai tier list : règles de classement">
+
+Ce classement est conçu pour les **coéquipiers IA**, pas pour les performances en main contrôlé par le joueur. Les meilleurs choix sont ceux qui continuent à contribuer sans exiger un timing parfait, des changements de posture compliqués ou des entrées manuelles constantes. Autrement dit, un bon temps d’activité des dégâts, des outils de survie, la sécurité à distance et des boucles de compétences simples comptent davantage que le plafond théorique des dégâts.
+
+Comme base de référence, utilisez le roster officiel et les pages de mises à jour pour vérifier qui est disponible dans votre version du jeu : [Roster officiel des personnages](https://relink.granbluefantasy.jp/en/characters/), [Page officielle des mises à jour](https://relink.granbluefantasy.jp/en/updates/), et [Personnages Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/).
+
+<CardGrid cols={3}>
+  <Card title="Temps d’activité des dégâts">
+    - **Continue d’attaquer**
+    - Exploite rapidement les ouvertures
+    - Ne bloque pas sur de longues préparations
+  </Card>
+  <Card title="Survie">
+    - **Reste en vie plus longtemps**
+    - Gère mieux la pression des boss
+    - A besoin de moins de secours d’urgence
+  </Card>
+  <Card title="Valeur avec peu d’actions">
+    - **Fonctionne avec des builds simples**
+    - Performant sous contrôle IA
+    - Ne demande pas d’exécution parfaite
+  </Card>
+</CardGrid>
+
+| Critère | Ce que fait une bonne IA | Pourquoi c’est important |
+| --- | --- | --- |
+| Temps d’activité | Attaque souvent, se remet vite au combat | Plus de dégâts sur une quête complète |
+| Portée | Utilise un positionnement sûr | Moins de morts pendant les patterns de boss |
+| Utilité | Soigne, buffe ou stabilise l’équipe | Meilleures clears en solo et en équipe mixte |
+| Simplicité | Possède une boucle de combat facile | L’IA la gère plus régulièrement |
+
+<Callout type="info" title="Note éditoriale">
+Ce classement est un outil pratique pour composer une équipe. Si votre personnage principal couvre déjà le soin ou les dégâts à distance, adaptez vos choix IA pour combler le rôle manquant.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Paliers IA S, A, B et C">
+
+À partir de **juillet 2026**, la méta IA favorise les personnages qui attaquent en sécurité à distance ou qui survivent à de longs fenêtres de boss tout en apportant des dégâts utiles. C’est pourquoi quelques personnages de base et d’extension montent au sommet même s’ils ne sont pas les plus spectaculaires sur le papier.
+
+| Palier | Personnages | Force de l’IA | Meilleure utilisation |
+| --- | --- | --- | --- |
+| S | Cagliostro, Eugen, Lancelot, Charlotta, Narmaya, Sandalphon | Excellent temps d’activité, très bonne survie, valeur simple | Cœur IA par défaut pour la plupart des équipes |
+| A | Vane, Percival, Zeta, Siegfried, Id, Captain, Seofon, Tweyen, Beatrix, Eustace | Très forts, mais un peu plus dépendants du rôle | Offense flexible et équipes équilibrées |
+| B | Katalina, Io, Rackam, Ferry, Rosetta, Vaseraga, Yodarha, Maglielle, Fraux, Fediel, Gallanza | Bonne puissance, mais plus situationnels ou sensibles au timing | Équipes spécialisées et compositions avec personnages favoris |
+| C | Ghandagoza | Lent et plus exigeant pour le contrôle IA | Utilisation de niche, équipes de préférence personnelle |
+
+La grande tendance est simple : **les unités IA de rang S continuent d’être utiles même quand le combat devient chaotique**. Cagliostro et Eugen sont particulièrement fiables parce qu’ils apportent une valeur constante à l’équipe sans que vous ayez à les surveiller. Lancelot et Charlotta restent dangereux parce qu’ils sont rapides, mobiles et faciles à maintenir actifs par l’IA. Sandalphon est aussi un excellent ajout tardif, car son kit post-lancement ajoute un autre polyvalent de haut niveau au roster.
+
+<Callout type="warning" title="Ne surinterprétez pas le classement">
+Un rang plus bas ne veut pas dire qu’un personnage est mauvais. Cela signifie généralement que l’IA a besoin de plus de soutien, de plus de préparation ou d’un combat plus propre pour donner le meilleur d’elle-même.
+</Callout>
+
+Voici la façon la plus rapide de penser chaque palier :
+
+- **Rang S** : investissement le plus sûr pour presque toutes les quêtes
+- **Rang A** : excellent avec le bon personnage principal
+- **Rang B** : solide, mais plus dépendant de la structure de l’équipe
+- **Rang C** : utilisable, mais pas le premier choix pour l’efficacité
+
+</Section>
+
+<Section icon={Shield} title="Meilleurs modèles d’équipe IA">
+
+Le moyen le plus simple de tirer de la valeur d’un roster IA est de construire autour des rôles, pas seulement autour de vos favoris. Une bonne équipe couvre trois aspects : **dégâts réguliers, survie fiable et une source d’utilité flexible**. Si votre personnage principal est déjà un carry de mêlée, laissez l’IA gérer la portée et le soutien. Si vous jouez une unité à distance, laissez l’IA encaisser la pression à l’avant.
+
+<Callout type="success" title="Meilleure règle d’équipe">
+Un bon dealer de dégâts IA, une ligne de front durable et une unité orientée soutien donnent généralement les clears de quête les plus propres.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Équipe de farm agressive">
+    - **Eugen**
+    - Lancelot
+    - Cagliostro
+  </Card>
+  <Card title="Équipe scénario sécurisée">
+    - **Charlotta**
+    - Vane
+    - Io
+  </Card>
+  <Card title="Équipe test de boss">
+    - **Sandalphon**
+    - Siegfried
+    - Percival
+  </Card>
+</CardGrid>
+
+| Modèle | Membres clés | Pourquoi ça fonctionne |
+| --- | --- | --- |
+| Équipe de farm agressive | Eugen, Lancelot, Cagliostro | Clears rapides, pression à distance sûre, peu de temps mort |
+| Équipe scénario sécurisée | Charlotta, Vane, Io | Grande stabilité, récupération facile, moins de risques de wipe |
+| Équipe test de boss | Sandalphon, Siegfried, Percival | Fortes fenêtres de burst et bons dégâts sur boss |
+| Équipe d’extension | Beatrix, Eustace, Fediel | Bonne pour le contenu avancé et les combats plus longs |
+
+<Steps>
+  <Step num="1" title="Choisissez votre personnage principal">
+    Commencez avec le personnage que vous aimez le plus contrôler. L’IA doit soutenir ce choix, pas lutter contre lui.
+  </Step>
+  <Step num="2" title="Comblez les rôles manquants">
+    Ajoutez un soigneur ou buffer, un attaquant à distance et un avant-garde durable si votre principal ne les couvre pas déjà.
+  </Step>
+  <Step num="3" title="Évitez les kits IA complexes">
+    Les personnages avec des boucles simples surpassent généralement les choix techniques lorsqu’ils sont contrôlés par le jeu.
+  </Step>
+  <Step num="4" title="Testez en vraies quêtes">
+    Faites passer l’équipe sur un boss ou une route de farm, puis remplacez quiconque meurt trop souvent ou cesse de contribuer.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Priorités de build et progression">
+
+Les coéquipiers IA s’améliorent quand vous gardez leurs builds simples et efficaces. Ne courez pas après chaque amélioration brillante en même temps. Les meilleures performances IA viennent généralement de **bonnes armes, de sigils pratiques et d’un build qui correspond aux forces naturelles du personnage**. Cette approche évolue bien des quêtes scénario jusqu’au farm de fin de jeu.
+
+<Callout type="tip" title="Le meilleur état d’esprit pour un build">
+Pour l’IA, la régularité bat l’ingéniosité. Une voie d’amélioration d’arme fiable et un petit ensemble de sigils à forte valeur sont généralement meilleurs qu’un assemblage brouillon de “best in slot” à faible synergie.
+</Callout>
+
+| Étape de progression | Priorité | Focus adapté à l’IA |
+| --- | --- | --- |
+| Début de jeu | Améliorations de base des armes | Dégâts simples, santé et valeur de recharge |
+| Milieu de jeu | Sigils basés sur le rôle | Meilleur temps d’activité, survie et utilité |
+| Fin de jeu | Damage Cap et offense principale | Augmenter les dégâts réels sans complexifier le build |
+| Endgame | Sigil Synthesis, Master Traits, outils pour quêtes difficiles | Affiner les meilleurs setups au lieu de repartir de zéro |
+
+Voici un chemin de progression pratique :
+
+- **Améliorez d’abord l’arme** de vos personnages IA les plus utilisés.
+- **Utilisez des sigils qui améliorent le temps d’activité** plutôt que des statistiques de niche que l’IA exploite mal.
+- **Conservez un emplacement de soutien** pour le soin, les buffs ou la sécurité si votre équipe paraît fragile.
+- **Investissez davantage dans les unités de rang S** avant de répartir des matériaux rares sur tout le roster.
+- **Revenez sur les systèmes d’extension** une fois que vous atteignez le contenu postgame plus difficile et que vous avez besoin de clears plus serrés.
+
+<Checklist
+  id="ai-tier-list-checklist"
+  title="Checklist d’optimisation de l’équipe IA :"
+  items={[
+    "Utiliser au moins une unité IA de rang S",
+    "Couvrir le soin, la portée et la pression en première ligne",
+    "Équilibrer les améliorations d’armes sur l’équipe principale",
+    "Éviter les builds complexes sur les personnages contrôlés par l’IA",
+    "Tester l’équipe dans un vrai combat de boss",
+    "Remplacer toute unité qui meurt trop souvent ou manque de temps d’activité"
+  ]}
+/>
+
+L’idée la plus importante en fin de jeu est que **la puissance ne vient plus seulement des statistiques d’attaque**. Une fois plongé dans le farm de quêtes, la valeur se déplace vers les plafonds de dégâts, les passifs fiables et les systèmes d’extension comme Sigil Synthesis et Master Traits. C’est là qu’un roster IA propre commence à faire gagner du temps.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Points clés de la FAQ">
+Ces réponses se concentrent sur des choix IA pratiques, pas sur des tableaux de dégâts théoriques ou des configurations de speedrun parfaites.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur point de départ pour un granblue fantasy relink ai tier list ?",
+    answer: "Commencez avec des unités de rang S comme Cagliostro, Eugen, Lancelot, Charlotta, Narmaya et Sandalphon. Ce sont les plus faciles à faire confiance dans la plupart des équipes."
+  },
+  {
+    question: "Pourquoi certains personnages techniques sont-ils plus bas pour l’IA ?",
+    answer: "L’IA fonctionne mieux avec des boucles simples. Les personnages qui demandent un timing précis, une gestion de posture ou une préparation soigneuse perdent généralement de la valeur quand ils sont contrôlés automatiquement."
+  },
+  {
+    question: "Dois-je toujours utiliser les personnages du rang le plus élevé ?",
+    answer: "Pas forcément. Si votre personnage principal couvre déjà le rôle de soutien ou de portée, une unité d’un rang inférieur peut malgré tout être le meilleur choix pour l’équilibre."
+  },
+  {
+    question: "Comment améliorer rapidement les performances de l’IA ?",
+    answer: "Améliorez d’abord les armes, gardez des builds simples et choisissez des sigils qui augmentent le temps d’activité, la survie et l’utilité de base plutôt que des effets de niche trop étroits."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink AIティアリスト: 最強のパーティ候補",
+  description: "Granblue Fantasy Relinkの最適なAI仲間を、ティア別評価、パーティテンプレート、ビルド優先度とともに、ソロ、協力プレイ、エンドゲーム向けにランク付けします。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=AI+Tier+List",
+  date: "2026-07-06",
+  author: "granblue fantasy relink Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **granblue fantasy relink ai tier list** は、AIの稼働率、生存力、低操作での価値を基準にキャラクターをランク付けします。
+- **Sティア候補** は、攻撃を止めず、圧力に耐え、ほぼどんなパーティにも合うため強さを維持します。
+- **パーティのバランス** は生ダメージより重要です。サポート1人、遠隔1人、近接の前衛1人がよく機能します。
+- **ビルドはシンプル** に保つべきです。そうすることで、AI仲間のダメージは長いボス戦でも安定します。
+- **エンドゲームでの価値** は、AIがきれいに使えない派手なメカニクスではなく、信頼性から生まれます。
+</Callout>
+
+<Section icon={Target} title="granblue fantasy relink ai tier list: ランク付けの基準">
+
+このティアリストは、**プレイヤー操作の性能** ではなく、**AI仲間** 向けに作られています。最良の候補は、完璧なタイミング、細かい構え替え、頻繁な手動操作を求めずに、継続して貢献できるキャラクターです。つまり、安定したダメージ稼働率、生存手段、遠距離の安全性、シンプルなスキル回しが、上限火力より重要になります。
+
+基準として、公式のロスターとアップデートページで、あなたのゲームバージョンで誰が使えるかを確認してください: [Official character roster](https://relink.granbluefantasy.jp/en/characters/), [Official updates page](https://relink.granbluefantasy.jp/en/updates/), および [Endless Ragnarok characters](https://relink-ragnarok.granbluefantasy.com/en/characters/)。
+
+<CardGrid cols={3}>
+  <Card title="ダメージ稼働率">
+    - **攻撃を止めない**
+    - 短い隙をすばやく咎める
+    - 長い準備動作で止まらない
+  </Card>
+  <Card title="生存力">
+    - **長く生き残る**
+    - ボスの圧力により強い
+    - 緊急救助が少なくて済む
+  </Card>
+  <Card title="低操作での価値">
+    - **シンプルなビルドで機能する**
+    - AI操作でもよく働く
+    - 完璧な実行を必要としない
+  </Card>
+</CardGrid>
+
+| Criterion | What strong AI does | Why it matters |
+| --- | --- | --- |
+| Uptime | 頻繁に攻撃し、すぐ再接近する | クエスト全体での総ダメージが増える |
+| Range | 安全な位置取りを使う | ボス行動中の事故死が減る |
+| Utility | 回復、バフ、またはパーティの安定化を行う | ソロでも混成パーティでも安定してクリアしやすい |
+| Simplicity | 扱いやすい戦闘ループを持つ | AIがより安定して操作できる |
+
+<Callout type="info" title="編集メモ">
+このランキングは、実用的なパーティ作成のためのものです。もしメインキャラクターがすでに回復や遠距離火力を担えるなら、足りない役割を埋めるようにAI候補を調整してください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="S、A、B、CのAIティア">
+
+**2026年7月時点** では、AIメタは、安全に遠距離から攻撃できるキャラクター、または長いボス戦の中でも生き残りつつ十分なダメージを出せるキャラクターを好みます。そのため、リリース初期や拡張追加のキャラクターの中にも、見た目ほど派手ではなくても上位に入る者がいます。
+
+| Tier | Characters | AI Strength | Best Use |
+| --- | --- | --- | --- |
+| S | Cagliostro, Eugen, Lancelot, Charlotta, Narmaya, Sandalphon | 稼働率が非常に高く、生存力も強く、扱いがシンプル | ほとんどのチームで使える標準AIコア |
+| A | Vane, Percival, Zeta, Siegfried, Id, Captain, Seofon, Tweyen, Beatrix, Eustace | 非常に強力だが、役割依存がやや大きい | 柔軟な攻勢役とバランス型チーム |
+| B | Katalina, Io, Rackam, Ferry, Rosetta, Vaseraga, Yodarha, Maglielle, Fraux, Fediel, Gallanza | 火力は良いが、状況依存またはタイミング依存が強い | 特化パーティやお気に入り編成 |
+| C | Ghandagoza | AI操作では遅く、要求が多い | ニッチな用途、好み重視の編成 |
+
+大まかな傾向は単純です。**SティアのAIユニットは、戦闘が乱れても有用な仕事を続ける** ということです。Cagliostro と Eugen は、介護しなくても安定したパーティ価値を出せるので特に信頼できます。Lancelot と Charlotta は、素早く、機動力が高く、AIが動かし続けやすいので危険な存在であり続けます。Sandalphon も後から加わった強力な一人で、実装後のキットによりロスターにもう一人の高水準オールラウンダーが加わりました。
+
+<Callout type="warning" title="ランクを過度に深読みしない">
+低いティアだからといって弱いキャラクターという意味ではありません。たいていは、AIが最大限に活躍するために、より多くの支援、より多くの準備、またはより整った戦闘を必要とするという意味です。
+</Callout>
+
+各ティアの見方を、最も手早く整理すると次のとおりです。
+
+- **Sティア**: ほぼすべてのクエストで最も安全な投資先
+- **Aティア**: 適切なメインキャラクターと組み合わせると優秀
+- **Bティア**: 強いが、編成の形により依存する
+- **Cティア**: 使えるが、効率重視の第一候補ではない
+
+</Section>
+
+<Section icon={Shield} title="最適なAIパーティテンプレート">
+
+AIロスターから価値を引き出す最も簡単な方法は、好きなキャラだけでなく**役割** を中心に編成することです。良いパーティは、**安定した火力、確かな生存力、そして柔軟なユーティリティを1つ** の3要素を満たします。メインキャラがすでに近接アタッカーなら、AIに遠距離とサポートを任せましょう。遠距離キャラを使うなら、前線の圧力はAIに吸わせるとよいです。
+
+<Callout type="success" title="最適なパーティの原則">
+強力なAI火力役1人、耐久力のある前衛1人、サポート寄りの1人がいれば、たいてい最も安定してクエストをクリアできます。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="攻撃的な周回チーム">
+    - **Eugen**
+    - Lancelot
+    - Cagliostro
+  </Card>
+  <Card title="安全重視のストーリーチーム">
+    - **Charlotta**
+    - Vane
+    - Io
+  </Card>
+  <Card title="ボス検証チーム">
+    - **Sandalphon**
+    - Siegfried
+    - Percival
+  </Card>
+</CardGrid>
+
+| Template | Core members | Why it works |
+| --- | --- | --- |
+| Aggressive Farm Team | Eugen, Lancelot, Cagliostro | 速いクリア、安全な遠距離圧力、低い待機時間 |
+| Safe Story Team | Charlotta, Vane, Io | 高い安定性、立て直しが簡単、壊滅リスクが少ない |
+| Boss-Check Team | Sandalphon, Siegfried, Percival | 強いバースト区間と確かなボス火力 |
+| Expansion Team | Beatrix, Eustace, Fediel | 後半コンテンツや長期戦に向く |
+
+<Steps>
+  <Step num="1" title="メインを決める">
+    まずは、あなたが操作していて一番楽しいキャラクターから始めましょう。AIはその選択を支えるべきで、邪魔をするべきではありません。
+  </Step>
+  <Step num="2" title="足りない役割を補う">
+    メインがまだ担っていないなら、回復役かバッファー、遠距離アタッカー、耐久のある前衛を1人ずつ加えましょう。
+  </Step>
+  <Step num="3" title="複雑なAIキットを避ける">
+    わかりやすい回しを持つキャラクターは、ゲームAIが操作するとき、技巧的な候補より安定して上回ることが多いです。
+  </Step>
+  <Step num="4" title="実際のクエストで試す">
+    ボス戦や周回ルートにパーティを通し、死にやすい、または貢献が止まりやすいメンバーを入れ替えましょう。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="ビルド優先度と育成">
+
+AI仲間は、ビルドをシンプルかつ効率的に保つほど強くなります。派手な強化を片っ端から追う必要はありません。強いAI性能はたいてい、**良い武器、実用的なシジル、そしてキャラクター本来の長所に合ったビルド** から生まれます。この方針は、ストーリークエストから終盤の周回までよく伸びます。
+
+<Callout type="tip" title="最適なビルドの考え方">
+AIでは、巧妙さより一貫性が勝ちます。信頼できる武器強化ルートと、価値の高いシジルを少数そろえる方が、相性の悪い「最終装備」寄せ集めより優れていることが多いです。
+</Callout>
+
+| Progression Stage | Priority | AI-Friendly Focus |
+| --- | --- | --- |
+| Early game | 基本的な武器強化 | シンプルな火力、HP、クールダウンの価値 |
+| Mid game | 役割ベースのシジル | 稼働率、生存力、ユーティリティの向上 |
+| Late game | ダメージ上限と基礎火力 | ビルドを複雑にしすぎず、実ダメージを伸ばす |
+| Endgame | シジル合成、Master Traits、高難度クエスト用ツール | 0から作り直すより、強い構成を磨き上げる |
+
+実践的な育成ルートは、次のようになります。
+
+- **最も使うAIキャラクターの武器** を先に強化する。
+- **AIが活かしやすいシジル** を使い、特殊すぎる数値は避ける。
+- チームが脆いと感じるなら、**回復、バフ、安全性** 用のサポート枠を1つ残す。
+- レア素材をロスター全体にばらまく前に、**Sティア勢へ重点投資** する。
+- より難しい終盤コンテンツに入ったら、**拡張系システム** を見直し、よりタイトなクリアを目指す。
+
+<Checklist
+  id="ai-tier-list-checklist"
+  title="AIパーティ最適化チェックリスト:"
+  items={[
+    "少なくとも1人のSティアAIを使う",
+    "回復、遠距離、前線圧力をカバーする",
+    "主力パーティの武器強化を揃える",
+    "AI操作キャラに複雑なビルドを組まない",
+    "実際のボス戦でパーティを試す",
+    "死にやすい、または稼働率が低いユニットは入れ替える"
+  ]}
+/>
+
+終盤で最も重要なのは、**強さが攻撃力だけではなくなる** という点です。クエスト周回が深くなるほど、価値はダメージ上限、安定したパッシブ、そして Sigil Synthesis や Master Traits のような拡張システムへ移ります。そこで整ったAIロスターが、時間を節約してくれます。
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="FAQの要点">
+ここでの回答は、理論上のダメージ表や完璧なスピードラン構成ではなく、実用的なAI候補に焦点を当てています。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "granblue fantasy relink ai tier list を始めるなら、何から見るべきですか？",
+    answer: "Cagliostro、Eugen、Lancelot、Charlotta、Narmaya、Sandalphon のようなSティアから始めてください。多くのパーティで最も信頼しやすいです。"
+  },
+  {
+    question: "なぜ技術的なキャラクターはAI評価で下がるのですか？",
+    answer: "AIはシンプルな回しの方が得意だからです。正確なタイミング、構え管理、慎重な準備が必要なキャラクターは、自動操作だと価値が下がりやすいです。"
+  },
+  {
+    question: "常に最上位ティアのキャラクターを使うべきですか？",
+    answer: "必ずしもそうではありません。メインキャラがすでにサポートや遠距離役を担えるなら、バランスのために下位ティアの方が合うこともあります。"
+  },
+  {
+    question: "AI性能を素早く上げるにはどうすればいいですか？",
+    answer: "まず武器を強化し、ビルドをシンプルに保ち、狭い特殊効果よりも稼働率、生存力、基本的なユーティリティを高めるシジルを選びましょう。"
+  }
+]} />
+
+</Section>

@@ -10,7 +10,13 @@
       "twitterDescription": "Explore Granblue Fantasy Relink guides for characters, builds, weapons, sigils, quests, bosses, co-op tips, and Endless Ragnarok update coverage."
     }
   },
-  "nav": {},
+  "nav": {
+    "expansion": "Expansion",
+    "characters": "Characters",
+    "tier": "Tier List",
+    "builds": "Builds",
+    "sigils": "Sigils"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1443,5 +1449,106 @@
     "copyright": "© 2026 Granblue Fantasy Relink Endless Ragnarok Wiki. Not affiliated with Cygames.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "expansion": {
+      "title": "Granblue Fantasy Relink Endless Ragnarok Expansion",
+      "description": "Release date, editions, Upgrade Kit, demo, new characters, Chaos quests, Conflux, summons, and crossplay for the Endless Ragnarok expansion.",
+      "metaTitle": "Granblue Fantasy Relink Endless Ragnarok Expansion - Release, Editions & Demo",
+      "metaDescription": "Everything about the Granblue Fantasy Relink Endless Ragnarok expansion: release date, editions, Upgrade Kit, demo, new characters, Chaos quests, and crossplay.",
+      "categoryLabel": "EXPANSION",
+      "whatIs": "What is Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok is the major expansion for Granblue Fantasy: Relink. It adds a new story chapter, six playable characters, the Conflux solo mode, Summons, Master Traits, Chaos difficulty, and cross-platform online play across Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam.",
+      "why": "Why use this expansion guide?",
+      "whySteps": {
+        "step1Title": "Pick the right edition",
+        "step1Description": "Compare full editions, the Upgrade Kit, and Standard versus Special packs before buying.",
+        "step2Title": "Plan around the release",
+        "step2Description": "Check the launch date, demo rewards, and early purchase bonus windows for your platform.",
+        "step3Title": "Prepare for new content",
+        "step3Description": "Get ready for new characters, Chaos quests, Conflux, summons, and all-platform crossplay."
+      },
+      "featured": "Featured Expansion Guides",
+      "all": "All Expansion Guides"
+    },
+    "characters": {
+      "title": "Granblue Fantasy Relink Characters",
+      "description": "Every playable character in Granblue Fantasy Relink across the base roster, free updates, and the Endless Ragnarok expansion.",
+      "metaTitle": "Granblue Fantasy Relink Characters - Base Roster, Updates & Expansion",
+      "metaDescription": "Browse all Granblue Fantasy Relink characters including base roster, free update additions, and Endless Ragnarok newcomers with roles and unlock notes.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What is the character roster?",
+      "whatIsDescription": "Granblue Fantasy Relink features a large playable roster built from the base game, free post-launch updates, and the six newcomers added in Endless Ragnarok. Each character has a distinct weapon, role, and unlock path.",
+      "why": "Why use this roster guide?",
+      "whySteps": {
+        "step1Title": "Find your main",
+        "step1Description": "Compare roles, weapons, and playstyles to pick a character worth building first.",
+        "step2Title": "Track unlock sources",
+        "step2Description": "See which characters come from the story, free updates, or the Endless Ragnarok expansion.",
+        "step3Title": "Plan your party",
+        "step3Description": "Match a main damage dealer with ranged, defensive, and support teammates for any quest."
+      },
+      "featured": "Featured Character Guides",
+      "all": "All Character Guides"
+    },
+    "tier": {
+      "title": "Granblue Fantasy Relink Tier List",
+      "description": "A practical Granblue Fantasy Relink character tier list covering beginner ease, AI teammate value, co-op usefulness, late-game damage, and survivability.",
+      "metaTitle": "Granblue Fantasy Relink Tier List - Best Characters for 2026",
+      "metaDescription": "Rank every Granblue Fantasy Relink character by beginner ease, AI value, co-op utility, late-game damage, and survivability in this 2026 tier list.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is this tier list?",
+      "whatIsDescription": "Cygames does not publish an official strength ranking. This site editorial tier list ranks Granblue Fantasy Relink characters by beginner comfort, AI teammate value, co-op usefulness, late-game damage, and survivability, so you can choose who to build first.",
+      "why": "Why use this tier list?",
+      "whySteps": {
+        "step1Title": "Build first-time winners",
+        "step1Description": "Pick S-tier characters that stay valuable from the story into the endgame.",
+        "step2Title": "Choose AI teammates",
+        "step2Description": "See which characters perform reliably when controlled by the AI in solo play.",
+        "step3Title": "Pick co-op specialists",
+        "step3Description": "Find characters that shine in online quests and high-difficulty expansion content."
+      },
+      "featured": "Featured Tier List Guides",
+      "all": "All Tier List Guides"
+    },
+    "builds": {
+      "title": "Granblue Fantasy Relink Builds",
+      "description": "Granblue Fantasy Relink builds, weapons, sigils, team comps, and progression from the story into Damage Cap, War Elemental, and Endless Ragnarok endgame.",
+      "metaTitle": "Granblue Fantasy Relink Builds - Weapons, Sigils & Best Team",
+      "metaDescription": "Build Granblue Fantasy Relink characters and teams with weapons, sigils, Damage Cap, War Elemental, and Endless Ragnarok progression guidance.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are builds?",
+      "whatIsDescription": "Builds in Granblue Fantasy Relink combine weapons, Mastery trees, skills, and sigils into a focused loadout for each character. Strong builds balance damage, survivability, cooldowns, and party synergy from the story into endgame content.",
+      "why": "Why use these build guides?",
+      "whySteps": {
+        "step1Title": "Progress in the right order",
+        "step1Description": "Move from simple early upgrades to focused late-game damage and Damage Cap setups.",
+        "step2Title": "Spend materials wisely",
+        "step2Description": "Avoid wasting rare materials on every weapon and prioritize your main party first.",
+        "step3Title": "Reach the endgame",
+        "step3Description": "Use War Elemental, Supplementary Damage, Sigil Synthesis, and Master Traits for expansion content."
+      },
+      "featured": "Featured Build Guides",
+      "all": "All Build Guides"
+    },
+    "sigils": {
+      "title": "Granblue Fantasy Relink Sigils",
+      "description": "Granblue Fantasy Relink sigil system explained: types, Damage Cap, War Elemental, Supplementary Damage, Sigil Synthesis, and Master Traits.",
+      "metaTitle": "Granblue Fantasy Relink Sigils - Damage Cap, War Elemental & Synthesis",
+      "metaDescription": "Master Granblue Fantasy Relink sigils including Damage Cap, War Elemental, Supplementary Damage, Sigil Synthesis, and Master Traits for endgame builds.",
+      "categoryLabel": "SIGILS",
+      "whatIs": "What are sigils?",
+      "whatIsDescription": "Sigils are the core customization system in Granblue Fantasy Relink. Each character equips sigils that shape attack, defense, utility, cooldowns, and character-specific traits. Late-game sigils such as Damage Cap, War Elemental, and Supplementary Damage define endgame builds.",
+      "why": "Why use these sigil guides?",
+      "whySteps": {
+        "step1Title": "Understand sigil basics",
+        "step1Description": "Learn how sigil slots, levels, and traits work before investing rare materials.",
+        "step2Title": "Prioritize endgame sigils",
+        "step2Description": "Find Damage Cap, War Elemental, and Supplementary Damage to push real damage numbers.",
+        "step3Title": "Use Sigil Synthesis",
+        "step3Description": "Combine sigils and traits to close gaps in established endgame builds."
+      },
+      "featured": "Featured Sigil Guides",
+      "all": "All Sigil Guides"
+    }
+  }
 }

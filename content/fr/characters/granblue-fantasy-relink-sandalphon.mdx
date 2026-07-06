@@ -1,0 +1,231 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink sandalphon : Guide de configuration du build",
+  description: "Construisez Sandalphon dans Granblue Fantasy Relink avec les étapes de déblocage, les priorités d'armes et de sigils, des conseils de combat et des recommandations de progression postgame pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Sandalphon+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du Wiki de granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink Sandalphon** est un excellent investissement de la version 1.3.0 pour les dégâts de fin de jeu et la pression en coopération.
+- **Améliorer l'arme en premier** permet de stabiliser ses dégâts avant de viser des sigils premium.
+- Les **builds équilibrés** fonctionnent mieux lorsque le Damage Cap, la survie et l աջակցement des temps de recharge restent synchronisés.
+- Les **combats en coopération** récompensent davantage ses fenêtres d'explosion de dégâts que les prises de risque en solo.
+- **Testez-le tôt** dans des quêtes plus faciles avant d'engager des matériaux rares dans un seul loadout.
+</Callout>
+
+<Section icon={Swords} title="Bases du build de granblue fantasy relink Sandalphon">
+
+Sandalphon s'inscrit parfaitement dans le postgame de Granblue Fantasy Relink : un personnage que l'on construit pour punir les ouvertures des boss, maintenir la pression sur le terrain et évoluer proprement vers des quêtes plus difficiles. L'objectif pratique est simple : lui faire infliger de gros dégâts sans transformer chaque combat en pari de glass cannon.
+
+Si vous voulez le contexte source le plus propre, gardez sous la main la [liste officielle des personnages](https://relink.granbluefantasy.jp/en/characters/) et la [page de mise à jour de la version 1.3.0](https://relink.granbluefantasy.jp/en/updates/) pendant que vous planifiez votre route.
+
+| Trait | Focus de Sandalphon | Ce que cela signifie en jeu |
+|---|---|---|
+| Rôle | Attaquant de mêlée de haut niveau | Meilleur lorsque les boss restent lisibles et immobiles |
+| Difficulté | Moyenne | Facile à prendre en main, plus difficile à optimiser |
+| Meilleure utilisation | Quêtes de fin de jeu et coop | Brille pendant les longues fenêtres de dégâts |
+| Point faible | Surréagir avec les animations | Une gourmandise mal placée fait baisser la valeur globale |
+
+<CardGrid cols={3}>
+  <Card title="Meilleur si vous voulez de l'explosion">
+    - **Pics de dégâts rapides**
+    - Fortes fenêtres de punition sur les boss
+    - Meilleur avec des groupes organisés
+  </Card>
+  <Card title="Meilleur si vous voulez de la stabilité">
+    - **Offensive équilibrée**
+    - Clears de quêtes plus sûrs
+    - Farm de matériaux plus simple
+  </Card>
+  <Card title="Meilleur si vous voulez de la montée en puissance">
+    - **Valeur plus élevée en fin de jeu**
+    - Meilleur avec des sigils premium
+    - Plus fort à mesure que votre compte progresse
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Philosophie du build">
+Gardez Sandalphon d'abord pratique, et spectaculaire ensuite. Si un sigil semble fort sur le papier mais ralentit vos clears de quêtes, il n'est probablement pas encore à sa place.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comment débloquer Sandalphon et commencer prudemment">
+
+Sandalphon est lié au contenu de la version 1.3.0, donc la première étape n'est pas la théorie. Il faut surtout s'assurer que votre sauvegarde, l'état de la mise à jour et votre réserve de ressources sont prêts avant de vous engager à en faire votre carry principal ou secondaire.
+
+| Priorité | Dépenser maintenant | Garder pour plus tard |
+|---|---|---|
+| Niveau d'arme | Arme principale pour Sandalphon | Armes de secours pour les personnages de banc |
+| Maîtrise | Nœuds principaux de dégâts et de survie | Petits raffinements de statistiques |
+| Sigils | Dégâts, temps de recharge, défense | Re-rolls rares et pièces de luxe |
+| Matériaux | Progression des quêtes en cours | Réserves excédentaires pour de futurs builds |
+
+<Steps>
+  <Step num="1" title="Installez la mise à jour 2026">
+    Assurez-vous que la version 1.3.0 est active avant de planifier autour de Sandalphon. L'accès au nouveau personnage, les changements de quêtes et les systèmes de build ne comptent vraiment qu'une fois la mise à jour en place.
+  </Step>
+  <Step num="2" title="Débloquez-le via le chemin de mise à jour">
+    Terminez le contenu de mise à jour requis ou récupérez l'accès de déblocage associé si votre compte l'a déjà. Ne dépensez pas de ressources sur des suppositions ; vérifiez d'abord l'état de déblocage.
+  </Step>
+  <Step num="3" title="Améliorez son arme avant les sigils rares">
+    Une arme plus forte vous apporte une valeur immédiate dans chaque quête. C'est bien plus utile que d'essayer d'imposer dès le premier jour un setup de fin de jeu parfait.
+  </Step>
+  <Step num="4" title="Construisez un noyau de loadout stable">
+    Commencez avec des dégâts de base, une couche de survie et au moins un objet utilitaire. Cela le maintient efficace pendant que vous apprenez son timing.
+  </Step>
+  <Step num="5" title="Faites une quête de test">
+    Voyez comment il se comporte face à un boss normal, puis ajustez le loadout. Si la rotation semble lente, corrigez avant de farmer du contenu plus difficile.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note de déblocage">
+N'engloutissez pas de matériaux d'artisanat rares dans Sandalphon avant d'avoir vérifié son vrai ressenti en combat. L'enthousiasme précoce coûte cher lorsqu'un ajustement ultérieur aurait été moins onéreux.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleurs loadouts, sigils et armes pour Sandalphon">
+
+Le meilleur setup de Sandalphon dépend de votre objectif : burst sur boss, progression plus sûre ou loadout flexible qui fonctionne sur plusieurs types de quêtes. La bonne nouvelle, c'est que sa valeur évolue bien dans les trois cas. La mauvaise, c'est qu'un set de sigils mal assemblé peut effacer cet avantage très vite.
+
+| Orientation du build | Quand l'utiliser | Sigils principaux | Compromis |
+|---|---|---|---|
+| Setup burst | Boss en coop et courtes fenêtres de punition | Damage Cap, attaque, dégâts supplémentaires | Exige des ouvertures propres |
+| Setup équilibré | Farm général et nettoyage du scénario | Damage Cap, aide au cooldown, un slot de défense | Pic de puissance légèrement inférieur |
+| Setup sûr | Quêtes difficiles et équipes incertaines | Dégâts, HP, défense, utilitaire | Plafond plus bas, confort plus élevé |
+
+| Priorité des sigils | Pourquoi c'est important | Moment recommandé |
+|---|---|---|
+| Damage Cap | Convertit une offensive plus forte en vrais dégâts | Dès que les coups commencent à atteindre le plafond |
+| Soutien au cooldown | Maintient un accès régulier aux compétences | Du milieu de jeu à la fin de jeu |
+| Outils de survie | Évite de gaspiller des runs de quête | Début et milieu de progression |
+| Sigils de dégâts premium | Augmente l'efficacité en fin de jeu | Une fois le noyau du build stabilisé |
+
+<CardGrid cols={3}>
+  <Card title="Burst">
+    - **Meilleur pour les groupes solides**
+    - Rendement maximal dans les fenêtres d'ouverture
+    - Moins indulgent si vous ratez le timing
+  </Card>
+  <Card title="Équilibré">
+    - **Meilleur pour la plupart des joueurs**
+    - Clears de quêtes fluides
+    - Facile à améliorer progressivement
+  </Card>
+  <Card title="Sûr">
+    - **Meilleur pour apprendre les combats**
+    - Meilleures marges de récupération
+    - Moins de pression sur l'exécution parfaite
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Règle recommandée">
+Si votre loadout actuel clear déjà les quêtes sans difficulté, améliorez la régularité avant de viser un plafond de dégâts plus gourmand. Cela donne généralement de meilleurs résultats qu'un simple saut de statistiques brutes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Boucle de combat, rôles d'équipe et erreurs à éviter">
+
+Sandalphon fonctionne au mieux lorsque l'équipe lui laisse de l'espace pour frapper. En solo, cela signifie le combiner avec des alliés IA qui stabilisent le terrain. En coop, cela signifie jouer autour des pauses du boss, des opportunités de Link et des fenêtres de chaîne plutôt que de chercher une agressivité constante.
+
+| Phase de combat | Ce qu'il faut faire | Pourquoi ça marche |
+|---|---|---|
+| Ouverture | Réduire la distance en sécurité et installer le rythme | Construit l'élan sans gaspiller de compétences |
+| Milieu du combat | Dépenser les compétences pendant les engagements du boss | Maximise les vrais dégâts, pas seulement le temps d'animation |
+| Fenêtre de stagger | Déployer votre séquence d'explosion la plus puissante | C'est là que sa valeur monte en flèche |
+| Phase de récupération | Réinitialiser l'espacement et préparer le cycle suivant | Vous garde en vie pour la prochaine ouverture |
+
+| Slot d'équipe | Traits de partenaire préférés | Bénéfice |
+|---|---|---|
+| Alliés de première ligne | Mêlée solide et résistante | Tient l'aggro et crée de l'espace |
+| Allié à distance | Dégâts sûrs à longue portée | Maintient l'uptime lorsque les boss bougent |
+| Allié de soutien | Soins ou utilitaire | Réduit les wipes et le temps d'arrêt |
+| Slot du personnage principal | Burst fort ou contrôle flexible | Donne à l'équipe un point d'ancrage fiable |
+
+<Callout type="success" title="Priorité de combat">
+Utilisez ses actions les plus puissantes lorsque le boss est engagé, étourdi ou bloqué dans une longue animation de récupération. Cette habitude compte davantage que l'agressivité brute.
+</Callout>
+
+Erreurs courantes à éviter :
+
+- **S'engager trop loin** dans de longues animations alors que le boss est encore mobile.
+- **Ignorer la survie** juste pour viser un plus gros chiffre de dégâts.
+- **Construire pour un seul boss** au lieu d'un pool de quêtes flexible.
+- **Laisser les coéquipiers IA sous-équipés** tout en se concentrant uniquement sur Sandalphon.
+
+<Callout type="warning" title="À éviter">
+Si Sandalphon vous semble faible, le problème vient souvent du timing ou de la connaissance de la quête, pas du personnage lui-même. Corrigez la rotation avant de blâmer le slot du roster.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de progression pour la version 1.3.0">
+
+C'est la partie du guide qui empêche vos matériaux de partir en fumée. Sandalphon devient bien meilleur lorsque vous l'améliorez dans le bon ordre et que vous farmez avec un objectif clair. Si vous voulez une boucle de référence rapide, gardez la page officielle de mise à jour ouverte et ne la consultez que lorsque vous avez besoin d'une confirmation, pas toutes les cinq minutes.
+
+<Checklist
+  id="sandalphon-progression"
+  title="Objectifs principaux de Sandalphon :"
+  items={[
+    "Confirmer l'accès à la version 1.3.0 et l'état de déblocage",
+    "Améliorer l'arme de Sandalphon avant de viser des sigils rares",
+    "Équiper une couche de dégâts et une couche de survie",
+    "Tester ses sensations dans une quête normale puis dans une plus difficile",
+    "Améliorer seulement les membres de l'équipe que vous utilisez vraiment",
+    "Conserver les matériaux de luxe jusqu'à ce que le build paraisse stable"
+  ]}
+/>
+
+| Objectif de farm | À chercher | Pourquoi cela aide |
+|---|---|---|
+| Runs de la Quête Counter | Matériaux d'amélioration | Progression régulière avec faible risque |
+| Quêtes de boss plus difficiles | Sigils plus forts | Meilleure montée en puissance en fin de jeu |
+| Contenu de mise à jour | Objets de déblocage et de progression | Simplifie l'accès à Sandalphon |
+| Clears répétés | Butins constants | Réduit le temps perdu dans le farm aléatoire |
+
+Une bonne règle consiste à arrêter de farmer un slot dès que votre vitesse de clear n'augmente plus. À ce moment-là, votre prochaine amélioration vient généralement d'une répartition plus intelligente des ressources, et non de runs supplémentaires.
+
+<Callout type="info" title="Règle de progression">
+Améliorez le personnage avec lequel vous clear réellement. Les investissements de secours comptent plus tard, mais ils ne devraient pas retarder le build qui gagne les quêtes aujourd'hui.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="tip" title="Lecture rapide de la FAQ">
+Utilisez Sandalphon comme attaquant scalable de fin de jeu, gardez son build flexible et dépensez les matériaux dans l'ordre qui améliore d'abord la vitesse de clear.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Est-ce que granblue fantasy relink Sandalphon vaut la peine d'être construit tôt dans la version 1.3.0 ?",
+    answer: "Oui, si vous disposez déjà d'une base de quêtes stable. Il est au plus fort lorsque votre compte peut soutenir les améliorations d'armes, des sigils utiles et des clears réguliers en fin de jeu."
+  },
+  {
+    question: "Quelle est la meilleure première amélioration pour Sandalphon ?",
+    answer: "Améliorez d'abord son arme. Cela apporte une valeur immédiate dans chaque combat et vaut généralement mieux que de courir après des sigils rares avant que le reste du build ne soit stable."
+  },
+  {
+    question: "Dois-je le construire pour le solo ou la coop ?",
+    answer: "Les deux fonctionnent, mais la coop lui permet généralement de montrer plus facilement toute sa valeur de burst. Le solo demande un setup un peu plus sûr et un meilleur soutien IA."
+  },
+  {
+    question: "Que faire si Sandalphon semble faible au début ?",
+    answer: "Vérifiez votre timing, le niveau de l'arme et la disposition des sigils avant de changer de personnage. Dans de nombreux cas, le problème vient de l'ordre du build plutôt que du choix du personnage."
+  }
+]} />
+
+</Section>

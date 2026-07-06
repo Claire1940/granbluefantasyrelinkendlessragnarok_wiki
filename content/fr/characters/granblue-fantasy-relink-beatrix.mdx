@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink beatrix : Build, Combos et conseils",
+  description: "Découvrez la meilleure build de Beatrix dans Granblue Fantasy Relink, avec les sigils, le timing des combos, les rôles en groupe, les priorités de quêtes et les routes de farm en fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d2a44/fff?text=Beatrix+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du Wiki de granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink beatrix** récompense un temps d’activité agressif, alors maintenez la pression tout en alternant les remises à zéro défensives.
+- **Le meilleur chemin de build** commence par le Damage Cap, l’aide au cooldown et des outils de survie flexibles avant les sigils premium de fin de jeu.
+- **La boucle de combat de base** consiste d’abord à jouer des enchaînements sûrs, puis à burst, et à se repositionner rapidement quand le boss commence à riposter.
+- **La meilleure cible de farm** est la quête la plus difficile que vous pouvez réussir régulièrement sans gaspiller de ressources de relance.
+</Callout>
+
+<Section icon={Swords} title="granblue fantasy relink beatrix : ce qu’elle fait de mieux">
+
+granblue fantasy relink beatrix est un choix de mêlée technique qui brille lorsque vous continuez à bouger, à frapper et à maintenir vos buffs actifs. Ce n’est pas le personnage le plus simple du roster, mais elle offre un excellent mélange de pression, de robustesse et de récupération de dernière seconde quand vous maîtrisez son rythme.
+
+<Callout type="info" title="Contexte officiel">
+- 2026-06-18 : la page officielle des personnages d’Endless Ragnarok liste Beatrix parmi le roster de l’extension, avec des détails sur la nouvelle sélection de personnages jouables.
+- 2026-06-18 : l’annonce de l’extension par Cygames met également en avant la vague de personnages post-lancement et la nouvelle structure de contenu.
+- Références : [personnages d’Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/) et [communiqué de presse Cygames](https://www.cygames.co.jp/en/news/id-24753)
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Pression agressive">
+    - Très forte si vous restez au corps du boss
+    - Récompense les attaques régulières plutôt que les swaps paniqués
+    - Au mieux lorsque les ouvertures sont courtes et fréquentes
+  </Card>
+  <Card title="Autosuffisance">
+    - Plus sûre qu’une build de mêlée purement glass-cannon
+    - Permet de récupérer après des échanges brouillons
+    - Aide sur les clears de fin de jeu plus longs
+  </Card>
+  <Card title="Courbe d’apprentissage">
+    - Demande du timing, du placement et une bonne lecture du boss
+    - S’améliore nettement après quelques quêtes
+    - Excellente pour les joueurs qui aiment le combat actif
+  </Card>
+</CardGrid>
+
+| Situation | Valeur de Beatrix | Meilleure alternative |
+|---|---|---|
+| Longue ouverture du boss | Forte activité de burst | Attaquant à distance plus sûr |
+| Fenêtre de punition courte | Très forte | Personnage à mise en place lente |
+| Combat brouillon avec dégâts résiduels | Bonne récupération | Build de burst pur |
+| Boucle de farm en solo | Rapide une fois maîtrisée | Choix plus facile à faible input |
+
+<Callout type="warning" title="À éviter">
+Ne jouez pas Beatrix comme un personnage de rushdown à un seul bouton. Sa valeur chute rapidement si vous vous engagez pendant des animations dangereuses ou si vous ignorez les fenêtres de buff.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Priorités du meilleur build de Beatrix">
+
+Construisez Beatrix en privilégiant d’abord le temps d’activité, ensuite les dégâts, et enfin l’optimisation de luxe. Cela la rend efficace pour le farm de quêtes classiques tout en lui permettant de monter proprement en puissance vers le contenu de fin de jeu plus difficile.
+
+<Callout type="tip" title="Règle simple pour le build">
+Si un sigil a l’air bon sur le papier mais n’apporte rien pendant les vrais déplacements du boss, mettez-le de côté jusqu’à ce que votre base soit stable.
+</Callout>
+
+| Priorité | À équiper | Pourquoi c’est important | Étape |
+|---|---|---|---|
+| 1 | **Damage Cap** | Transforme les vrais coups en vrais dégâts une fois que vous commencez à capper | Fin de jeu |
+| 2 | **Aide au cooldown** | Vous donne davantage de fenêtres de buff et de punition | Milieu à fin |
+| 3 | **Outils de survie** | Maintient votre rotation en vie quand le combat devient sale | Début à fin |
+| 4 | **War Elemental / Supplementary Damage** | Multiplicateurs premium pour le farm haut niveau | Fin de jeu |
+| 5 | **Emplacements d’attaque flexibles** | Comblent les lacunes pendant que votre build se développe encore | Début à milieu |
+
+| Emplacement d’équipement | Priorité idéale | Objectif simple |
+|---|---|---|
+| Arme | La meilleure voie d’amélioration que vous pouvez maintenir | Garder des dégâts compétitifs |
+| Sigils | Dégâts, uptime et sécurité | Rester actif plus longtemps |
+| Traits | Stabilité et régularité | Réduire le temps mort |
+| Slot flex | Utilité ou dégâts supplémentaires | Corriger les points faibles du build |
+
+| Type de build | Quand l’utiliser | Résultat |
+|---|---|---|
+| Équilibré | Premiers clears de quêtes difficiles | Dégâts plus sûrs et moins de wipes |
+| Burst | Fenêtres d’ouverture du boss | Meilleure punition |
+| Farm | Boucles de quêtes répétées | Temps de clear plus rapides |
+
+<Callout type="success" title="Meilleur ordre d’amélioration">
+Commencez par un niveau d’arme fiable, verrouillez ensuite les sigils essentiels de survie et de dégâts, puis seulement après cela partez à la chasse aux multiplicateurs premium.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boucle de combo de Beatrix et timing des skills">
+
+La façon la plus simple de comprendre Beatrix est de la voir comme un personnage de rythme. Vous voulez entrer proprement dans le combat, construire de l’élan avec des attaques sûres, utiliser vos options les plus fortes quand le boss est immobilisé, puis réinitialiser avant que l’ennemi ne puisse vous punir.
+
+<Steps>
+  <Step num="1" title="Commencez par une pression sûre">
+    Débutez avec des enchaînements normaux et des engagements courts. Votre objectif n’est pas de créer un pic de dégâts instantané ; votre objectif est de lire le boss et de trouver votre rythme sans trop vous exposer.
+  </Step>
+  <Step num="2" title="Transformez les buffs en fenêtres de dégâts">
+    Une fois le combat stabilisé, superposez vos outils offensifs et restez sur la cible. Si le boss bouge beaucoup, gardez vos actions les plus fortes jusqu’à ce que le pattern ralentisse.
+  </Step>
+  <Step num="3" title="Burst pendant les phases de break, de stun ou de longue récupération">
+    Dépensez vos meilleurs outils de dégâts lorsque l’ennemi est verrouillé. C’est là que Beatrix commence à paraître bien plus puissante qu’un simple attaquant de mêlée.
+  </Step>
+  <Step num="4" title="Réinitialisez vite et survivez à la contre-attaque">
+    Dès que l’ouverture se termine, repositionnez-vous. Une désengage propre vaut souvent plus qu’un hit de trop par gourmandise.
+  </Step>
+</Steps>
+
+| Fenêtre de combat | Que faire | Objectif principal |
+|---|---|---|
+| Ouverture | Enchaînements légers, lecture des patterns | Construire le contrôle |
+| Fenêtre de buff | S’engager avec des actions plus fortes | Augmenter le rendement |
+| Break/stun | Dépenser les outils de burst | Maximiser le DPS |
+| Récupération | Esquiver, garder, se repositionner | Préserver l’uptime |
+
+| Erreur fréquente | Coût | Correction |
+|---|---|---|
+| Hit supplémentaire gourmand | Se faire toucher | Terminer les enchaînements plus tôt |
+| Burst trop tôt | Fenêtre de dégâts perdue | Garder pour le stun ou le break |
+| Ignorer le spacing | Clears plus lents | Se recentrer après chaque échange |
+| Oublier les outils de reset | Plus de morts | Garder une option de sécurité prête |
+
+<Callout type="tip" title="Conseil de combat">
+Si un boss est trop dangereux pour un engagement complet, jouez une rotation plus courte. Une petite boucle propre vaut généralement mieux qu’une énorme boucle brouillonne.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Route de farm, composition du groupe et ordre d’amélioration">
+
+La meilleure route de farm pour Beatrix est celle que vous pouvez répéter sans perdre de tempo. Cela signifie choisir des quêtes que vous pouvez nettoyer proprement, puis transformer ces clears en sigils plus puissants, meilleures armes et exécution plus fluide.
+
+<Callout type="success" title="Farm malin">
+Les clears répétables battent les clears risqués et lents. Construisez d’abord pour la régularité, puis réduisez le temps de clear une fois que le combat ne menace plus votre run.
+</Callout>
+
+<Checklist
+  id="beatrix-farm-goals"
+  title="Checklist de progression de Beatrix :"
+  items={[
+    "Améliorez votre arme principale avant de chasser les sigils de luxe",
+    "Gardez un setup de survie actif pour apprendre les combats difficiles",
+    "Testez Beatrix sur une quête avec des fenêtres de boss prévisibles",
+    "Farm le contenu le plus difficile que vous pouvez clear régulièrement",
+    "Ajustez un slot flex à la fois au lieu de refondre tout le build"
+  ]}
+/>
+
+| Cible de farm | Pourquoi c’est utile à Beatrix | Priorité |
+|---|---|---|
+| Quête répétable la plus difficile | Meilleur équilibre entre vitesse et récompenses | Élevée |
+| Contenu de niveau Chaos | Excellent entraînement contre la pression du boss | Élevée |
+| Runs solo de fin de jeu | Améliore l’exécution personnelle | Moyenne |
+| Farm en co-op | Clears plus sûrs et récupération plus rapide | Moyenne |
+
+| Rôle dans le groupe | À apporter | Pourquoi c’est utile |
+|---|---|---|
+| Frontline | Alliée de mêlée résistante ou tanky | Absorbe la pression |
+| Support | Soins ou buffs | Stabilise les runs |
+| Distance | DPS sûr | Maintient un uptime élevé |
+| Beatrix | Attaquante flexible | Punit les ouvertures |
+
+| Étape d’amélioration | Priorité | Résultat |
+|---|---|---|
+| Début | Niveau d’arme et stats de base | Dégâts stables |
+| Milieu | Sigils réguliers et utilité | Meilleure vitesse de clear |
+| Fin | Damage Cap et bonus premium | Meilleur output de fin de jeu |
+
+<Callout type="info" title="Objectif pratique">
+Si vos runs restent brouillons, ne cherchez pas encore les pièces parfaites de fin de jeu. Corrigez d’abord votre taux de clear, puis optimisez le plafond de dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Notes de la FAQ">
+Ces réponses se concentrent sur l’usage pratique, pas sur le maximum théorique de dégâts. Si un build semble maladroit, simplifiez-le et reconstruisez-le autour de la régularité.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "granblue fantasy relink beatrix est-elle un bon premier personnage ?",
+    answer: "Elle peut très bien convenir comme premier choix si vous aimez le combat de mêlée actif, mais elle est plus simple lorsque vous comprenez déjà les ouvertures des boss et le bon spacing."
+  },
+  {
+    question: "Quels sigils comptent le plus pour Beatrix ?",
+    answer: "Commencez par Damage Cap, puis ajoutez de l’aide au cooldown, des outils de survie et des multiplicateurs premium comme War Elemental ou Supplementary Damage quand votre compte est prêt."
+  },
+  {
+    question: "Beatrix est-elle meilleure en solo ou en co-op ?",
+    answer: "Elle fonctionne bien dans les deux cas. Le solo récompense son autosuffisance et son timing, tandis que le co-op vous laisse plus de marge pour rester agressif pendant la pression partagée du boss."
+  },
+  {
+    question: "Quand passer d’un setup budget à un build de fin de jeu ?",
+    answer: "Montez en gamme une fois que votre arme est stable, que votre vitesse de clear est régulière et que vous pouvez survivre aux quêtes difficiles sans brûler vos ressources."
+  }
+]} />
+
+</Section>

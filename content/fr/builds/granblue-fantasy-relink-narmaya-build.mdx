@@ -1,0 +1,228 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build Narmaya dans granblue fantasy relink : Sigils et combos",
+  description: "Construisez Narmaya pour infliger des dégâts en fin de jeu grâce au timing des postures, aux priorités d'armes, aux paliers de sigils et à une rotation de quêtes claire pour les clears en solo ou en coop.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Narmaya+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink narmaya build** fonctionne mieux lorsque vous protégez le timing des postures et les fenêtres de dégâts.
+- **Damage Cap** devient prioritaire une fois que vos attaques commencent à atteindre le plafond en jeu de quêtes normal.
+- **Niveau d'arme, sigils et Mastery** doivent progresser ensemble plutôt que de courir après une seule statistique.
+- Les **clears en fin de jeu** s'améliorent lorsque vous réservez vos bursts pour les ouvertures du boss, et non pour des cooldowns au hasard.
+</Callout>
+
+<Section icon={Swords} title="granblue fantasy relink narmaya build : rôle principal et meilleurs cas d'utilisation">
+
+Narmaya est une attaquante au katana qui alterne entre plusieurs postures, avec un plafond de dégâts élevé et un excellent rendement en fin de jeu. Son kit récompense les entrées propres, la connaissance des boss et un rythme constant bien plus que le matraquage de boutons. Cela en fait un excellent investissement à long terme si vous aimez les personnages de mêlée techniques, mais explosifs une fois maîtrisés.
+
+La façon la plus sûre de la voir est simple : c’est d’abord une infligeuse de dégâts premium, et ensuite un choix confortable. Sa valeur augmente lorsque votre groupe peut garder les boss bloqués dans de longues fenêtres d’ouverture, car c’est à ce moment-là que sa pression commence vraiment à briller.
+
+**Aperçu de l’identité du build**
+
+| Style de build | Idéal pour | Point fort | Attention |
+|---|---|---|---|
+| DPS burst | Ouvertures de boss, fenêtres de quêtes courtes | Rendement très élevé | Punitif si vous ratez le timing des skills |
+| Build d’apprentissage | Nouveaux joueurs de Narmaya | Exécution plus sûre | Dégâts de pointe plus faibles au début |
+| Pression en coop | Clears de groupe et combats de type raid | Puissance soutenue solide | Nécessite un bon positionnement |
+
+<CardGrid cols={3}>
+  <Card title="DPS burst">
+    - **Plafond élevé**
+    - Idéal pour les quêtes de fin de jeu
+    - Récompense un bon timing de posture
+  </Card>
+  <Card title="Build d’apprentissage">
+    - **Exécution stable**
+    - Espacement et timing plus faciles
+    - Bon pour l’histoire et le début du postgame
+  </Card>
+  <Card title="Pression en coop">
+    - **Temps d’activité fiable**
+    - S’intègre bien aux groupes coordonnés
+    - Très forte quand les boss restent ouverts
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Priorité du rôle">
+Si vous apprenez encore les patterns des boss de Relink, construisez d’abord Narmaya pour la régularité. Les dégâts arrivent plus vite lorsque votre survie et votre temps d’activité sont stables.
+</Callout>
+
+Narmaya s’intègre aussi à la logique de build plus large utilisée dans tout Relink : les personnages puissants ont besoin de progression d’arme, de sigils utiles et d’une survie pratique avant de devenir des monstres de fin de jeu. Ce modèle de progression est le même que celui vers lequel les conseils officiels de construction de personnage orientent les joueurs.
+
+</Section>
+
+<Section icon={Shield} title="Meilleures priorités pour l'arme et les sigils">
+
+Le meilleur build Narmaya ne commence pas par des sigils rares. Il commence par une base d’arme solide et une progression d’attributs sensée. Au début, la puissance brute et la fiabilité comptent plus que la chasse à une feuille de statistiques de fin de jeu « idéale ».
+
+Appliquez cette règle : si une statistique vous aide à survivre, gardez-la ; si elle n’a l’air bonne que sur le papier, attendez que votre équipement puisse la soutenir. Le endgame de Relink récompense les dégâts efficaces, mais il punit les configurations fragiles de glass cannon qui n’arrivent pas à rester sur leur cible.
+
+**Échelle arme et statistiques**
+
+| Priorité | Effet | Quand se concentrer dessus |
+|---|---|---|
+| Niveau d’arme | Augmente rapidement la puissance de base | Début et milieu de jeu |
+| Mastery du personnage | Débloque des nœuds utiles | Début et milieu de jeu |
+| Damage Cap | Convertit l’attaque en excès en vrais dégâts | Fin de jeu |
+| Sigils de dégâts premium | Augmentent la production de dégâts en endgame | Postgame et Proud |
+| Utilité défensive | Maintient votre run en vie | Toujours utile |
+
+**Tableau de priorités des sigils**
+
+| Type de sigil | Pourquoi c’est utile à Narmaya | Phase recommandée |
+|---|---|---|
+| Damage Cap | Évite de gaspiller la montée d’attaque | Fin de jeu |
+| Dégâts supplémentaires | Ajoute de la valeur de dégâts en plus | Endgame |
+| War Elemental | Emplacement premium de dégâts très fort | Endgame |
+| Réduction de cooldown des skills | Permet de récupérer les outils plus souvent | Milieu à fin de jeu |
+| Sigils de survie | Aide à l’apprentissage et à la récupération | Début à milieu de jeu |
+
+<Callout type="warning" title="Piège de build à éviter">
+N’investissez pas trop dans des pièces de dégâts rares avant que votre arme et votre Mastery soient en place. Narmaya devient plus forte lorsque tout le build est équilibré, et non lorsqu’un seul emplacement est suralimenté.
+</Callout>
+
+Pour la progression de l’arme, suivez une hiérarchie simple : gardez d’abord votre katana actif amélioré, ajustez ensuite les sigils en fonction de la difficulté de quête actuelle, et seulement après cela passez à l’optimisation des dégâts premium. Cela correspond au modèle de progression plus large utilisé dans les systèmes de build de Relink et son économie de mises à jour gratuites.
+
+**Comparaison pratique des builds**
+
+| Objectif du build | Bon choix | Pourquoi ça marche |
+|---|---|---|
+| Progression de l’histoire | Arme équilibrée + sigils utilitaires | Clears fluides, moins de morts |
+| Première farm du postgame | Arme solide + offense mixte | Meilleur temps d’activité sans fragilité |
+| Poussée endgame | Damage Cap + dégâts premium | Valeur de coup réelle plus élevée |
+| Apprentissage de boss difficiles | Défense + soutien de cooldown | Sessions d’entraînement plus sûres |
+
+</Section>
+
+<Section icon={Target} title="Comment jouer la rotation de Narmaya">
+
+Narmaya est à son meilleur quand vous la considérez comme un personnage de timing, et non comme une attaquante en freestyle. Construisez de l’élan avec des enchaînements sûrs, puis convertissez-le pendant les fenêtres du boss. Quand le combat ralentit, vous pouvez appuyer sur votre avantage ; quand le boss recommence à bouger, réinitialisez votre espacement et attendez la prochaine ouverture.
+
+La boucle la plus propre est volontairement répétitive. Bien jouer Narmaya consiste moins à improviser chaque seconde qu’à reconnaître quand une fenêtre mérite d’y investir des ressources.
+
+<Steps>
+  <Step num="1" title="Ouvrez avec des attaques sûres">
+    Commencez avec vos enchaînements normaux les plus fiables. Construisez la pression sans engager trop tôt vos plus gros outils.
+  </Step>
+  <Step num="2" title="Gardez les skills pour les ouvertures nettes">
+    Utilisez vos skills lorsque le boss est verrouillé, déséquilibré ou en train de terminer une longue animation. Cela rend vos dégâts plus efficaces.
+  </Step>
+  <Step num="3" title="Dépensez vos bursts au bon moment">
+    Associez vos actions les plus fortes aux Link Attacks, aux Chain Bursts ou aux longues périodes d’inactivité du boss. C’est là que Narmaya se sent le plus forte.
+  </Step>
+  <Step num="4" title="Réinitialisez quand le combat devient chaotique">
+    Si le boss commence à tournoyer, à se téléporter ou à inonder la zone, arrêtez de forcer les dégâts et repositionnez-vous proprement.
+  </Step>
+  <Step num="5" title="Répétez le schéma de manière constante">
+    L’objectif est une pression reproductible. Une exécution stable dépassera généralement une improvisation flashy mais risquée.
+  </Step>
+</Steps>
+
+**Fiche mémo de rotation**
+
+| Situation | Meilleure action | Pourquoi |
+|---|---|---|
+| Boss immobile | Engagez les skills | Grande fenêtre de dégâts |
+| Boss en mouvement | Repositionnez-vous | Éviter les animations gaspillées |
+| Déséquilibre ou break | Combo burst | Meilleur rendement de dégâts |
+| Chain Burst de l’équipe | Suivi agressif | Pic de dégâts du groupe |
+| PV faibles ou terrain chaotique | Réinitialisez et survivez | Protéger la run |
+
+<Callout type="success" title="Meilleure habitude de combat">
+Les meilleurs joueurs de Narmaya ont souvent l’air patients. Ils attendent la bonne ouverture, puis convertissent cette fenêtre en un pic de dégâts net.
+</Callout>
+
+Si vous voulez que l’alternance de postures paraisse naturelle, entraînez-vous d’abord sur des combats plus longs. Les missions courtes cachent vos erreurs ; les combats de boss plus longs enseignent bien plus vite le rythme, l’espacement et la discipline des ressources.
+
+</Section>
+
+<Section icon={Sparkles} title="Route de farm, checklist de progression et références officielles">
+
+Il devient beaucoup plus facile de construire Narmaya une fois que vous arrêtez d’essayer de terminer le build en une seule étape. La meilleure route consiste à progresser par couches : confort dans l’histoire, améliorations du milieu de jeu, puis optimisation de fin de jeu. Cela reflète la façon dont sont conçus la construction de personnage, les paliers de quêtes et les systèmes de mise à jour de Relink.
+
+Le roster officiel des personnages et le manuel de construction de personnage sont les meilleurs points de départ pour confirmer le rôle de Narmaya et la logique d’amélioration du jeu :
+- [Roster officiel des personnages](https://relink.granbluefantasy.jp/en/characters/)
+- [Manuel de construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building)
+- [Page des mises à jour du jeu](https://relink.granbluefantasy.jp/en/updates/)
+
+**Tableau de route de farm**
+
+| Phase | Quoi farmer | Résultat |
+|---|---|---|
+| Histoire / premières quêtes | Niveaux d’arme, sigils de base, Mastery | Puissance de clear stable |
+| Milieu de jeu | Meilleurs sigils, configuration d’équipe plus solide | Plus de temps d’activité et de sécurité |
+| Postgame | Damage Cap, pièces de dégâts premium | Vraie progression des dégâts |
+| Proud / endgame | Loadouts optimisés, traits rares | Clears plus rapides, meilleure régularité |
+
+**Checklist de progression**
+
+<Checklist
+  id="narmaya-build-goals"
+  title="Objectifs du build Narmaya :"
+  items={[
+    "Gardez l'arme de Narmaya améliorée au même rythme que le reste de votre équipe principale",
+    "Utilisez des sigils qui améliorent les dégâts, la fluidité des cooldowns ou la survie",
+    "Montez le Damage Cap seulement après que vos statistiques de base soient déjà solides",
+    "Entraînez-vous sur les ouvertures de boss au lieu de forcer chaque skill dès que le cooldown revient",
+    "Passez à des pièces premium de fin de jeu une fois vos clears devenus réguliers"
+  ]}
+/>
+
+**Tableau comparatif du timing de build**
+
+| Timing | Priorité recommandée | Notes |
+|---|---|---|
+| Début de jeu | Confort et survie | Apprenez d’abord le kit |
+| Milieu de jeu | Dégâts et utilité équilibrés | Progression fluide |
+| Fin de jeu | Damage Cap et sigils premium | Phase de build maximale |
+| Endgame | Efficacité et régularité | Idéal pour les quêtes difficiles |
+
+<Callout type="info" title="Conseil de route">
+Si une quête échoue encore à cause des esquives, du positionnement ou du timing, corrigez cela d’abord. Une meilleure exécution améliore souvent Narmaya plus vite qu’un emplacement de sigil rare supplémentaire.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+Ces réponses sont calibrées pour les joueurs qui construisent Narmaya autour de la valeur de fin de jeu, et pas seulement du confort de l’histoire. Si vous décidez où investir vos premières vraies ressources, gardez des réponses courtes et pratiques : améliorez d’abord les éléments qui augmentent le temps d’activité, puis visez l’optimisation.
+
+<Callout type="tip" title="Focus de la FAQ">
+Les meilleurs résultats avec Narmaya viennent d’une progression équilibrée : niveau d’arme, Mastery, sigils pratiques et timing de posture discipliné.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure façon de commencer un build granblue fantasy relink narmaya ?",
+    answer: "Commencez par les niveaux d’arme, une Mastery de base et quelques sigils fiables. Construisez d’abord pour la régularité, puis passez aux pièces de dégâts de fin de jeu."
+  },
+  {
+    question: "Dois-je rush le Damage Cap sur Narmaya ?",
+    answer: "Pas immédiatement. Le Damage Cap devient vraiment important une fois que votre arme et vos statistiques principales sont déjà assez fortes pour que les coups normaux approchent le plafond."
+  },
+  {
+    question: "Narmaya est-elle bonne en solo et en coop ?",
+    answer: "Oui. Elle fonctionne bien dans les deux cas, mais la coop et les combats centrés sur les boss l’aident généralement davantage, car ils créent des fenêtres de dégâts plus propres."
+  },
+  {
+    question: "Qu’est-ce qui rend Narmaya plus difficile que des personnages plus simples ?",
+    answer: "Le timing des postures, l’espacement et la discipline des ressources comptent davantage que la simple vitesse d’appui sur les boutons. Elle récompense un jeu réfléchi et des ouvertures sans punition."
+  }
+]} />
+
+<Callout type="success" title="Conclusion">
+Si vous voulez un personnage avec un fort retour en fin de jeu, Narmaya est l’un des builds long terme les plus intelligents de Relink. Elle récompense la patience, la planification et une exécution propre.
+</Callout>
+
+</Section>

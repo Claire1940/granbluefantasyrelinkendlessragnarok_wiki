@@ -1,0 +1,225 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build Lancelot dans Granblue Fantasy Relink : configuration DPS rapide",
+  description: "Optimisez Lancelot pour un maintien au corps à corps rapide avec les bonnes armes, sigils, compétences et le bon soutien d’équipe dans Granblue Fantasy Relink.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Lancelot+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du Wiki de granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Le build Lancelot dans Granblue Fantasy Relink** fonctionne mieux comme une configuration mêlée à forte présence, avec un repositionnement sûr.
+- **Priorisez le plafond de dégâts, le critique et la réduction de temps de recharge** avant de courir après des lignes de statistiques trop spécialisées.
+- **Gardez une couche de survie** pour pouvoir rester agressif pendant les longues fenêtres sur les boss.
+- **Utilisez un soutien d’équipe flexible** pour couvrir les dégâts à distance, les soins et l’occupation de la jauge d’étourdissement.
+</Callout>
+
+<Section icon={Swords} title="Aperçu du build Lancelot dans Granblue Fantasy Relink">
+
+Lancelot est l’un des choix mêlée rapide les plus propres dans **Granblue Fantasy Relink**, et le meilleur build mise sur une pression constante plutôt que sur de longues fenêtres de burst spectaculaires. Il excelle lorsque vous continuez à bouger, à attaquer et à réduire au minimum ses temps morts.
+
+La liste officielle des personnages et les systèmes de combat sont documentés sur la [page des personnages](https://relink.granbluefantasy.jp/en/characters/) et le [manuel de combat](https://relink.granbluefantasy.jp/en/manual/detail?s=battles). Ce sont les bonnes pages pour confirmer les mécaniques de base avant de verrouiller une configuration de fin de jeu.
+
+**Aperçu du build :**
+
+<CardGrid cols={3}>
+  <Card title="Meilleur rôle">
+    DPS mêlée rapide
+    <br />
+    Forte présence
+    <br />
+    Bon pour poursuivre les boss
+  </Card>
+  <Card title="Meilleure sensation">
+    Agressif
+    <br />
+    Mobile
+    <br />
+    Faible temps mort
+  </Card>
+  <Card title="Objectif principal">
+    Rester sur la cible
+    <br />
+    Maintenir le flux de dégâts
+    <br />
+    Éviter les animations inutiles
+  </Card>
+</CardGrid>
+
+**Tableau de référence du rôle**
+
+| Phase | Ce que Lancelot veut | Pourquoi c’est important |
+|---|---|---|
+| Début de partie | Puissance d’attaque simple et confort | Vous aide à apprendre le positionnement sans trop investir |
+| Milieu de partie | Temps de recharge, critique et dégâts réguliers | Maintient sa pression constante dans les combats plus longs |
+| Fin de partie | Plafond de dégâts et sigils offensifs premium | Permet à ses frappes rapides de continuer à évoluer |
+| Coop | Survivabilité et présence | Plus de temps actif signifie plus de valeur pour l’équipe |
+
+<Callout type="tip" title="Le meilleur état d’esprit">
+Lancelot récompense l’exécution propre plus que l’appât du gain risqué. Si vous pouvez continuer à attaquer sans perdre en sécurité, le build commence à paraître bien plus fort.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleures armes, sigils et priorité des statistiques">
+
+Lancelot n’a pas besoin d’un arbre de build compliqué pour être efficace. Il lui faut le bon équilibre entre progression de l’attaque, régularité des coups et assez de sécurité pour rester au corps à corps. Cela rend le choix de l’arme et la planification des sigils plus importants que de trop réfléchir trop tôt à des bonus de niche.
+
+Le [manuel officiel de construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) est un bon point de contrôle pour les systèmes d’amélioration, tandis que la [page Steam](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/) est utile pour le contexte de plateforme et de version.
+
+**Tableau des priorités**
+
+| Priorité | Choix | Raisons |
+|---|---|---|
+| 1 | Plafond de dégâts | Les frappes mêlée rapides ont besoin d’une vraie progression, pas seulement de chiffres plus élevés sur le papier |
+| 2 | Critique et attaque brute | Dégâts généraux fiables pour l’histoire, l’après-jeu et la coop |
+| 3 | Réduction des temps de recharge | Plus d’utilisation des compétences maintient une pression stable |
+| 4 | Utilitaire de survie | Permet de rester au contact au lieu de reculer trop souvent |
+
+**Orientation des sigils selon la phase**
+
+| Phase | Ce qu’il faut empiler | Ce qu’il faut retarder |
+|---|---|---|
+| Histoire et premières quêtes | Attaque, santé, utilitaire simple | Sigils premium rares |
+| Milieu de partie | Critique, recharge, meilleur maintien des dégâts | Rolls parfaits de min-max |
+| Fin de partie | Plafond de dégâts, fortes synergies offensives | Statistiques de remplissage faibles |
+| Farm de fin de jeu | Pièces de dégâts premium, assurance survie | Empilement de stats sans cohérence |
+
+**Répartition de build recommandée**
+
+| Type d’emplacement | Priorité suggérée | Notes |
+|---|---|---|
+| Arme | L’attaque la plus élevée que vous pouvez maintenir de façon réaliste | Gardez-la améliorée au lieu de changer à chaque butin |
+| Sigil offensif | Plafond de dégâts ou soutien au critique | Meilleure progression à long terme |
+| Sigil utilitaire | Recharge ou confort de compétence | Aide à garder le rythme rapide fluide |
+| Sigil défensif | PV, réduction des dégâts ou confort de relance | Utile quand vous apprenez les boss difficiles |
+
+<Callout type="warning" title="Évitez ce piège">
+Ne cherchez pas uniquement l’attaque brute en ignorant la vraie progression. Une fois que vos dégâts atteignent leur plafond, le **Plafond de dégâts** compte généralement plus qu’un autre petit gain d’attaque.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment configurer l’équipement de Lancelot">
+
+Une bonne configuration Lancelot doit donner l’impression d’un rythme, pas d’un tableur. Il vous faut une ouverture fiable, un moyen de rester sur la cible et une soupape de sécurité quand les boss cassent votre cadence. Cela rend votre équipement plus simple à utiliser dans tous les niveaux de quêtes.
+
+<Steps>
+  <Step num="1" title="Choisissez l’arme la plus rapide que vous pouvez garder améliorée">
+    Commencez avec la meilleure arme que vous pouvez raisonnablement entretenir, puis améliorez-la à mesure que vos récompenses de quête progressent. Lancelot profite davantage d’une progression régulière que de changements fréquents.
+  </Step>
+  <Step num="2" title="Attribuez d’abord vos compétences de dégâts les plus fiables">
+    Placez vos compétences les plus constantes dans les emplacements que vous utilisez le plus souvent. Les personnages mêlée rapide perdent de la valeur quand leurs meilleures actions restent inutilisées.
+  </Step>
+  <Step num="3" title="Ajoutez une option de confort ou de mobilité">
+    Gardez au moins un outil qui vous aide à vous repositionner, survivre ou réintégrer rapidement le combat. Cela maintient votre présence élevée pendant les combats de boss.
+  </Step>
+  <Step num="4" title="Testez la boucle dans une vraie quête">
+    Lancez une quête normale, puis ajustez. Si vous esquivez trop souvent ou ratez des ouvertures, échangez un peu d’optimisation contre davantage de confort.
+  </Step>
+</Steps>
+
+**Référence des emplacements de compétence**
+
+| Type d’emplacement | Ce qu’il doit faire | Cas d’utilisation idéal |
+|---|---|---|
+| Compétence de dégâts principale | Forte présence, valeur de coup fiable | Ouvertures de boss et fenêtres de chaîne |
+| Outil de rapprochement | Retour rapide au corps à corps | Boss mobiles et récupération de stagger |
+| Compétence de sécurité | Éviter les dégâts ou réinitialiser le positionnement | Apprentissage de nouveaux combats |
+| Emplacement flexible | Dégâts, utilitaire ou soutien d’équipe | Adapter la quête que vous faites |
+
+<Callout type="success" title="Règle simple">
+Si une compétence ne vous aide pas à rester sur la cible, à frapper plus fort ou à survivre plus longtemps, elle n’est probablement pas à la bonne place pour votre premier vrai build Lancelot.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Soutien d’équipe et route de farm">
+
+Lancelot devient meilleur quand le reste de l’équipe couvre ce qu’il ne veut pas passer du temps à faire. Il apprécie une ligne de front stable, un allié à distance et au moins un partenaire orienté soutien qui aide à faire avancer les quêtes. C’est encore plus vrai lorsque vous commencez à farmer du contenu plus difficile.
+
+**Meilleure configuration de soutien d’équipe**
+
+| Rôle d’équipe | Bon choix | Pourquoi cela aide Lancelot |
+|---|---|---|
+| Ancre de première ligne | Vane, Siegfried | Contrôle l’espace et stabilise les combats chaotiques |
+| Pression à distance | Eugen, Rackam | Continue d’infliger des dégâts quand le boss bouge |
+| Utilitaire de soutien | Cagliostro, Io | Ajoute de la sécurité et de la récupération |
+| Emplacement flexible | Captain, Charlotta | Couvre ce dont la quête a besoin |
+
+**Tableau des priorités de farm**
+
+| Type de contenu | Quoi farmer | Pourquoi c’est important |
+|---|---|---|
+| Quêtes d’histoire | Matériaux de base et améliorations d’arme | Progrès fluide au début |
+| Quêtes d’après-jeu | Meilleurs sigils et ressources principales | Commence l’ajustement réel du build |
+| Boss plus difficiles | Améliorations orientées dégâts | Fait progresser la montée en puissance de Lancelot |
+| Quêtes coop | Vraies réussites régulières et butin supplémentaire | Flux de matériaux plus rapide |
+
+**Liste de progression**
+
+<Checklist
+  id="lancelot-farm-goals"
+  title="Objectifs hebdomadaires de Lancelot :"
+  items={[
+    "Améliorer d’abord l’arme principale",
+    "Remplacer les sigils faibles de remplissage",
+    "Garder une option de survie équipée",
+    "Faire une quête de test après chaque changement",
+    "Conserver les matériaux premium pour les améliorations à long terme"
+  ]}
+/>
+
+Si vous voulez des références officielles pendant votre farm, gardez le [manuel de combat](https://relink.granbluefantasy.jp/en/manual/detail?s=battles) et le [manuel officiel de construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) ouverts dans un autre onglet.
+
+<Callout type="info" title="Conseil d’efficacité">
+La façon la plus rapide d’améliorer un build mêlée n’est généralement pas un respec spectaculaire. C’est une petite chaîne de meilleures armes, de meilleurs sigils et d’une exécution plus propre des quêtes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Référence rapide et FAQ">
+
+Utilisez cette section comme dernier contrôle avant d’investir vos ressources. Si votre configuration est trop fragile, trop lente ou trop gourmande en matériaux rares, vous devriez la simplifier avant de passer au contenu plus difficile.
+
+**Tableau de référence rapide**
+
+| Question | Meilleure réponse |
+|---|---|
+| En quoi Lancelot excelle-t-il ? | Pression mêlée rapide et présence constante |
+| Que faut-il prioriser en premier ? | Améliorations d’arme et sigils pratiques |
+| Que faut-il prioriser ensuite ? | Plafond de dégâts premium et optimisation de fin de jeu |
+| Que faut-il éviter ? | Trop investir dans un équipement de remplissage faible |
+
+<Callout type="tip" title="Règle finale du build">
+Un bon **build Lancelot dans Granblue Fantasy Relink** doit d’abord être fluide avant d’être parfait. S’il est difficile à jouer, il est probablement trop coûteux pour la valeur qu’il apporte.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qu’est-ce qui rend Lancelot fort dans Granblue Fantasy Relink ?",
+    answer: "Il reste bien sur sa cible, attaque rapidement et transforme une bonne présence sur le boss en dégâts réguliers. Cela le rend plus simple à utiliser que beaucoup d’autres personnages mêlée plus lents."
+  },
+  {
+    question: "Quelles statistiques comptent le plus pour un build Lancelot ?",
+    answer: "Le plafond de dégâts, le soutien au critique, la valeur de recharge et assez de survie pour rester proche. L’attaque brute compte au début, mais elle ne doit pas être votre seul objectif."
+  },
+  {
+    question: "Dois-je construire Lancelot pour les dégâts purs ?",
+    answer: "Pas au début. Un peu de défense ou de confort améliore souvent les vraies réussites de quête, car vous passez plus de temps à attaquer et moins de temps à récupérer."
+  },
+  {
+    question: "Lancelot est-il bon en coop ?",
+    answer: "Oui. Sa forte présence au corps à corps lui donne une excellente valeur en coop, surtout lorsque l’équipe couvre aussi la pression à distance et les rôles de soutien."
+  }
+]} />
+
+</Section>

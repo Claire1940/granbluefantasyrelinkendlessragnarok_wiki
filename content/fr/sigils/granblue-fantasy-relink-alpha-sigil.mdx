@@ -1,0 +1,259 @@
+import { Map, Swords, Shield, Sparkles, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sigil Alpha de Granblue Fantasy Relink : guide de build et conseils",
+  description: "Apprenez à évaluer la valeur du sigil Alpha de Granblue Fantasy Relink, les priorités de slots, les synergies de build, les routes de farm et les décisions d’amélioration en fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Alpha+Sigil+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Le sigil Alpha de Granblue Fantasy Relink** fonctionne mieux lorsqu’il comble un vrai manque dans le build, et non lorsqu’il ne fait que courir après des statistiques brutes.
+- **Damage Cap, War Elemental et Supplementary Damage** passent généralement avant les options offensives de remplissage une fois votre personnage stabilisé.
+- **Gardez une option défensive** si le sigil vous aide à survivre aux patterns des boss et à préserver vos fenêtres d’attaque Link.
+- **Testez-le dans le contenu que vous farmez** ; un bon sigil pour l’histoire peut être moins performant dans les quêtes plus difficiles.
+</Callout>
+
+<Section icon={Map} title="Priorité des rôles du sigil Alpha de Granblue Fantasy Relink">
+
+Si vous construisez autour d’un sigil Alpha de Granblue Fantasy Relink, commencez par vous demander quelle fonction il remplit dans votre groupe. La progression de Relink est répartie entre l’histoire, les quêtes de post-game et le contenu de l’extension 2026, donc un sigil ne paraît vraiment fort que lorsqu’il soutient le contenu que vous êtes réellement en train de terminer.
+
+La règle la plus sûre est simple : utilisez d’abord le sigil pour résoudre un problème, puis seulement ensuite cherchez la perfection. Cela signifie plus de dégâts pour un build orienté vitesse de clear, plus de robustesse pour apprendre un boss, ou davantage d’utilité pour une équipe centrée sur le support.
+
+<CardGrid cols={3}>
+  <Card title="DPS">
+    - **Meilleure utilisation :** burst, maintien de l’uptime ou pression sur le cap
+    - **Objectif :** raccourcir les phases de boss
+    - **À garder si :** cela améliore réellement la vitesse de clear des quêtes
+  </Card>
+  <Card title="Emplacement de support">
+    - **Meilleure utilisation :** aide aux cooldowns, sécurité, valeur pour l’équipe
+    - **Objectif :** garder les alliés actifs
+    - **À garder si :** cela sauve des réanimations ou des cycles de soins
+  </Card>
+  <Card title="Emplacement de frontline">
+    - **Meilleure utilisation :** survie, régularité, stabilité
+    - **Objectif :** rester plus longtemps à portée de mêlée
+    - **À garder si :** cela évite les KO dans les quêtes difficiles
+  </Card>
+</CardGrid>
+
+<Table />
+
+| Étape de build | Priorité du sigil Alpha | Meilleures statistiques d’accompagnement | Décision principale |
+|---|---|---|---|
+| Histoire | Puissance simple ou survie | Attaque, PV, cooldown | Gardez-le s’il vous aide à progresser plus vite |
+| Milieu de jeu | Soutien du rôle | Dégâts, endurance, utilité | Remplacez d’abord les pièces de remplissage faibles |
+| Post-game | Valeur ciblée | Damage Cap, survie | Gardez-le seulement s’il améliore réellement la vitesse de clear |
+| Endgame | Synergie spécialisée | War Elemental, Supplementary Damage | Validez-le uniquement lorsque le build complet le soutient |
+
+<Callout type="tip" title="Règle de l’éditeur">
+Si un sigil a l’air impressionnant mais n’améliore pas les performances réelles de votre groupe, considérez-le comme un équipement temporaire, pas comme une solution finale.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Comment décider s’il faut le garder équipé">
+
+Granblue Fantasy Relink récompense davantage les tests pratiques que la simple course aux statistiques. Le manuel officiel de construction de personnage et la page des systèmes sont les meilleures références pour les systèmes de build plus larges : [manuel de construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) et [systèmes Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/systems/). Utilisez ces bases comme point de départ, puis évaluez le sigil dans le palier de quêtes que vous farmez réellement.
+
+<Steps>
+  <Step num="1" title="Faites correspondre le sigil à votre rôle">
+    Déterminez si votre personnage est un dealer de burst, un attaquant à distance, une frontline résistante ou une option de support. Un sigil adapté au rôle est généralement plus fort qu’un simple bonus de statistiques génériques.
+  </Step>
+  <Step num="2" title="Comparez les gains réels, pas le battage autour de l’info-bulle">
+    Demandez-vous si le sigil améliore l’uptime des dégâts, la sécurité ou le rythme de l’équipe. Si la différence est minime, l’emplacement est peut-être mieux utilisé ailleurs.
+  </Step>
+  <Step num="3" title="Testez-le dans votre quête stable la plus difficile">
+    Utilisez le sigil dans une quête que vous pouvez réussir de façon constante. S’il semble utile seulement dans du contenu facile, il ne vaut peut-être pas l’investissement.
+  </Step>
+  <Step num="4" title="Conservez-le seulement s’il aide dans plusieurs combats">
+    Un bon sigil doit fonctionner sur plusieurs boss, et pas seulement sur un seul match-up. Plus il est utile souvent, meilleure est sa valeur à long terme.
+  </Step>
+</Steps>
+
+<Table />
+
+| Situation | Garder le sigil Alpha | Le remplacer |
+|---|---|---|
+| Les boss punissent les erreurs | Oui, s’il améliore la survie | S’il n’ajoute qu’un très léger gain offensif |
+| Vous terminez déjà vite | Oui, s’il augmente la régularité | S’il ne change pas les résultats |
+| Votre build manque d’utilité | Oui, s’il comble un manque | Si un autre sigil remplit déjà la même fonction |
+| Vous entrez dans des quêtes plus difficiles | Oui, s’il aide à la stabilité | S’il n’est qu’une solution temporaire |
+
+<Callout type="warning" title="Avertissement de mise à niveau">
+N’investissez pas trop de matériaux rares dans un sigil qui n’a l’air bon que sur le papier. Dans Relink, un mauvais investissement ralentit la progression de tout le groupe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures synergies et alternatives de build">
+
+Les configurations les plus solides de sigil Alpha dans Granblue Fantasy Relink sont celles qui soutiennent le reste du build, et non celles qui essaient de tout faire seules. Une fois que votre personnage dispose d’une arme stable et des bases de maîtrise, le niveau suivant est la synergie : ce que fait le sigil aux côtés de votre offense principale, de vos outils de survie et de vos options de fin de jeu.
+
+<CardGrid cols={4}>
+  <Card title="Damage Cap">
+    - **Idéal pour :** les dégâts d’endgame
+    - **Rôle :** pousse plus haut les coups qui atteignent déjà le cap
+    - **À utiliser quand :** l’attaque brute n’apporte plus grand-chose
+  </Card>
+  <Card title="War Elemental">
+    - **Idéal pour :** les builds offensifs premium
+    - **Rôle :** slot offensif à forte valeur
+    - **À utiliser quand :** vous avez besoin d’une pièce de payoff majeure
+  </Card>
+  <Card title="Supplementary Damage">
+    - **Idéal pour :** les dégâts cumulés
+    - **Rôle :** ajoute une valeur supplémentaire aux kits solides
+    - **À utiliser quand :** votre build principal est déjà fiable
+  </Card>
+  <Card title="Sigil Alpha">
+    - **Idéal pour :** un support ou une offense flexibles
+    - **Rôle :** résout un problème précis du build
+    - **À utiliser quand :** il améliore votre plan de quête actuel
+  </Card>
+</CardGrid>
+
+<Table />
+
+| Objectif du build | Orientation de sigil idéale | Pourquoi c’est gagnant |
+|---|---|---|
+| Clears plus rapides | Damage Cap, soutien offensif | Les vrais dégâts comptent plus que les stats brutes |
+| Runs d’apprentissage plus sûres | PV, défense, récupération | Survivre aux mécaniques garde le run en vie |
+| Stabilité en co-op | Utilité, cooldown, flexibilité | La régularité de l’équipe compte plus que la gourmandise |
+| Optimisation de fin de jeu | War Elemental, Supplementary Damage | Les slots à forte valeur scalent mieux dans le contenu difficile |
+
+<Table />
+
+| Palier de contenu | À prioriser en premier | Ce que le sigil Alpha devrait faire |
+|---|---|---|
+| Histoire de base | Puissance simple et confort | Vous aider à apprendre le personnage |
+| Quêtes de post-game | Spécialisation du rôle | Renforcer l’identité du build |
+| Combats de style Lucilius | Stabilité et Damage Cap | Soutenir une exécution propre |
+| Quêtes de l’extension 2026 | Master Traits et sigils raffinés | S’adapter à la nouvelle couche d’endgame |
+
+<Callout type="success" title="Bonne pratique">
+Si votre sigil Alpha ne rivalise pas avec vos meilleures pièces premium, gardez-le comme transition jusqu’à ce que le reste du build soit en place.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Priorités de farm et d’amélioration">
+
+Le moyen le plus simple de perdre du temps est de farmer d’abord la mauvaise couche. La progression de Relink fonctionne au mieux quand vous séparez le confort du début, la puissance du post-game et les objectifs de l’extension 2026. Cela signifie construire d’abord votre progression d’arme, puis vos sigils, puis votre optimisation haut de gamme.
+
+<Steps>
+  <Step num="1" title="Terminez d’abord le palier de contenu actuel">
+    Terminez de façon fiable le palier de quêtes que vous pouvez gérer. Farmer en dessous de votre vrai niveau ralentit la progression, et farmer trop haut trop tôt crée des échecs coûteux.
+  </Step>
+  <Step num="2" title="Améliorez l’arme avant de courir après les sigils parfaits">
+    Une arme plus forte apporte une valeur immédiate. Si votre arme est en retard, même un bon sigil semblera décevant.
+  </Step>
+  <Step num="3" title="Utilisez des sigils qui résolvent un problème actuel">
+    Privilégiez l’offense, la survie ou le soutien aux cooldowns selon le type de quête. Ne cherchez pas un build final avant que votre base soit stable.
+  </Step>
+  <Step num="4" title="Passez aux slots premium d’endgame plus tard">
+    Une fois votre personnage régulier, orientez-vous vers Damage Cap, War Elemental, Supplementary Damage et d’autres pièces de fin de jeu.
+  </Step>
+  <Step num="5" title="Reconstruisez après les grosses mises à jour de 2026">
+    Endless Ragnarok ajoute de nouveaux systèmes comme Sigil Synthesis, Master Traits, les invocations, la difficulté Chaos et Conflux, alors revisitez vos anciennes configurations au lieu de conserver des habitudes dépassées.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Note de farm">
+Les pages officielles du produit méritent d’être ajoutées aux favoris pour la planification à long terme : le [site du jeu de base](https://relink.granbluefantasy.jp/en/) et la [page de l’extension Endless Ragnarok](https://relink-ragnarbluefantasy.com/en/). Si une voie de build change, ces pages sont l’endroit le plus sûr pour le vérifier.
+</Callout>
+
+<Table />
+
+| Cible de farm | Meilleure utilisation | Pourquoi c’est important |
+|---|---|---|
+| Compteur de quêtes | Progression générale | Développe votre inventaire central et votre maîtrise |
+| Endgame de type Proud | Équipement à forte valeur | Fait avancer votre groupe vers des clears plus difficiles |
+| Contenu Lucilius | Test de fin de jeu | Vérifie si le build tient réellement la route |
+| Chaos et Conflux | Optimisation de l’extension | Récompense les configurations stables, flexibles et haut de gamme |
+
+<Table />
+
+| Ordre d’amélioration | Priorité recommandée | Raison |
+|---|---|---|
+| 1 | Niveau de l’arme | Gain de puissance immédiat le plus rapide |
+| 2 | Sigils principaux | Ajoute une valeur spécifique au rôle |
+| 3 | Assurance défensive | Aide dans les patterns de quêtes plus difficiles |
+| 4 | Pièces premium d’endgame | Devient rentable une fois les bases stabilisées |
+
+<Callout type="warning" title="Évitez cette erreur">
+Ne farmez pas d’abord les sigils premium si votre arme, votre maîtrise et les bases de votre groupe sont encore en retard. C’est ainsi que les runs restent lentes et coûteuses.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist du sigil Alpha de Granblue Fantasy Relink">
+
+Utilisez cette checklist avant de considérer un build comme terminé. Un sigil n’est “bon” que s’il améliore exactement le contenu que vous voulez terminer.
+
+<Checklist
+  id="alpha-sigil-checklist"
+  title="Checklist avant validation :"
+  items={[
+    "Le sigil correspond-il au rôle de votre personnage ?",
+    "Aide-t-il dans le palier de quêtes que vous farmez le plus souvent ?",
+    "Surpasse-t-il une meilleure option de dégâts ou de survie ?",
+    "Avez-vous amélioré l’arme en premier ?",
+    "Aura-t-il encore du sens après le contenu de la mise à jour 2026 ?"
+  ]}
+/>
+
+<Table />
+
+| Erreur | Pourquoi cela nuit | Habitude plus sûre |
+|---|---|---|
+| Ne courir qu’après les statistiques | Ignore la réalité des quêtes | Tester dans du vrai contenu |
+| Trop s’engager trop tôt | Consomme trop vite les matériaux rares | Garder des emplacements flexibles temporaires |
+| Ignorer la survie | Provoque des clears ratés | Garder une option défensive |
+| Copier trop tôt les builds d’endgame | Il manque des systèmes et des matériaux | Progresser par étapes |
+
+<Callout type="tip" title="Raccourci">
+Si un sigil améliore dès maintenant votre vitesse de clear, votre survie ou votre régularité, gardez-le. S’il semble seulement coûteux, réévaluez-le.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<Callout type="info" title="Réponses rapides">
+Ces questions couvrent les décisions les plus courantes concernant le sigil Alpha de Granblue Fantasy Relink : utilisation précoce, moment du remplacement, valeur en solo et priorité de farm.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Le sigil Alpha de Granblue Fantasy Relink vaut-il la peine d’être utilisé tôt ?",
+    answer: "Oui, s’il apporte une valeur immédiate comme des dégâts, de la survie ou du confort. En début de partie, un sigil utile compte davantage qu’une configuration d’endgame idéale."
+  },
+  {
+    question: "Dois-je remplacer le sigil Alpha par Damage Cap plus tard ?",
+    answer: "En général, oui, si votre build actuel est déjà stable et que vos coups commencent à scaler vers le contenu de fin de jeu. Damage Cap devient plus intéressant lorsque l’attaque brute n’apporte plus le même rendement."
+  },
+  {
+    question: "Le sigil Alpha fonctionne-t-il mieux en solo ou en co-op ?",
+    answer: "Cela dépend de ce que le sigil soutient. Un sigil flexible ou défensif paraît souvent meilleur en solo, tandis qu’une option à forte valeur pour l’équipe peut briller en co-op si elle maintient tout le groupe en mouvement."
+  },
+  {
+    question: "Que dois-je farmer en premier si je veux un build Alpha plus fort ?",
+    answer: "Commencez par l’arme, puis les sigils de base, puis les pièces de fin de jeu comme Damage Cap et les autres slots premium. Les systèmes d’extension comme Sigil Synthesis et Master Traits doivent venir une fois le build déjà fonctionnel."
+  }
+]} />
+
+<Callout type="success" title="Conclusion finale">
+Considérez le sigil comme une partie d’un build complet, et non comme le build lui-même. La meilleure version est celle qui rend votre prochaine quête plus facile à réussir.
+</Callout>
+
+</Section>

@@ -1,0 +1,229 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "グランブルーファンタジー リリンク Endless Ragnarok デモ: デモガイド",
+  description: "グランブルーファンタジー リリンク Endless Ragnarok デモを使って各モードを把握し、報酬を回収し、自分のビルドにこの拡張が合うかどうかを判断しましょう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1E2A44/fff?text=Endless+Ragnarok+Demo+Guide",
+  date: "2026-07-06",
+  author: "グランブルーファンタジー リリンク Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **granblue fantasy relink endless ragnarok demo** は、モードの流れ、報酬、そしてこの拡張が自分のプレイスタイルに合うかを把握する用途に最適です。
+- **Quest Mode** は、戦闘のテンポ、ボスの圧力、チーム連携を最も明確に確認できます。
+- **Demo rewards** は回収する価値がありますが、**セーブデータは製品版に引き継がれません**。
+- **既存オーナー** は購入前に、Upgrade Kit と完全版を比較しましょう。
+</Callout>
+
+<Section icon={Map} title="Granblue Fantasy Relink Endless Ragnarok デモのモード">
+
+Endless Ragnarok のデモは単なる予告編ではなく、拡張コンテンツの遊び心地を短時間で実践的に試せる内容です。戦闘のテンポ、パーティシステムへのなじみやすさ、そして発売前に新コンテンツへ時間を割く価値があるかを見極めるために活用しましょう。
+
+**モードの見どころ:**
+- **Story Mode**: 雰囲気、テンポ、演出を見るのに最適
+- **Quest Mode**: 戦闘テストとリプレイ性を見るのに最適
+- **Tutorial Mode**: 基本を素早く覚えるのに最適
+
+<CardGrid cols={3}>
+  <Card title="Story Mode">
+    - **物語のサンプル**
+    - 雰囲気をつかみやすい
+    - 低負荷で最初の印象を確認できる
+  </Card>
+  <Card title="Quest Mode">
+    - **戦闘重視**
+    - ボス練習に最適
+    - 購入判断の材料として最も強い
+  </Card>
+  <Card title="Tutorial Mode">
+    - **システム確認**
+    - 操作をすばやく見直せる
+    - 復帰勢に理想的
+  </Card>
+</CardGrid>
+
+| Demo Mode | 何を確認するか | 向いている人 |
+|---|---|---|
+| Story Mode | 雰囲気、テンポ、演出 | 新規プレイヤー、設定好き |
+| Quest Mode | ボスのリズム、圧力、パーティの流れ | 難易度を見極めたい人 |
+| Tutorial Mode | 操作、戦闘の基本、各種システム | Quest Mode の前に素早く復習したい人 |
+
+<Callout type="tip" title="編集部の見解">
+まず Tutorial Mode から始め、そのまま操作感が残っているうちに Quest Mode へ進みましょう。その順番が、拡張の戦闘リズムを最もきれいに把握できます。
+</Callout>
+
+公式の拡張ハブは、エディションの詳細や発売時期を追うのに最適です: [Granblue Fantasy: Relink - Endless Ragnarok official site](https://relink-ragnarok.granbluefantasy.com/en/)。
+
+</Section>
+
+<Section icon={Target} title="最初のプレイとクエスト進行の最適解">
+
+デモから価値を得たいなら、偶然のつまみ食いではなく、偵察ランのつもりで遊びましょう。目的は、扱いやすいキャラクター、安定して使える攻撃パターン、そして初日に追いかける価値があると感じる難易度を見つけることです。
+
+<Steps>
+  <Step num="1" title="最初に Tutorial Mode を開く">
+    何かを本格的に試す前に、基本操作を覚え直しましょう。これで、残りのデモを単なる入力確認ではなく、実戦判断に集中できます。
+  </Step>
+  <Step num="2" title="Story Mode を 1 回プレイする">
+    演出の印象を確認し、そのうえでデモがどのくらい早く反応、回避、火力を出すタイミングを求めてくるかを見てください。
+  </Step>
+  <Step num="3" title="最初の 3 回の Quest Clear を達成する">
+    最初の 3 回のクエストクリアは、製品版で **Sephira's Sanguine Glimmer** を解放できるため、デモの中で最も重要です。
+  </Step>
+  <Step num="4" title="難しいクエストをもう一度遊ぶ">
+    最後の 1 回で、選んだキャラクター、タイミング、周囲への注意が、反撃の強い相手でも安定して機能するかを確認しましょう。
+  </Step>
+</Steps>
+
+| Demo Step | 焦点 | 注目ポイント |
+|---|---|---|
+| Tutorial Mode | 操作と基本 | 回避のタイミング、スキル、カメラの見やすさ |
+| Story Mode | 流れとテンポ | カットシーンのリズム、戦闘の間合い |
+| Quest 1-3 | 進行確認 | 火力維持、生存力、チームの使い方 |
+| Final Quest | ストレステスト | 立て直し、反応速度、安定性 |
+
+<Callout type="warning" title="最後の戦いを急がない">
+最終戦が雑に感じても、それを失敗だと受け取らないでください。デモは弱点を早めに見つけるためのものです。装備や立ち回りを改善するか、購入を見送るかを判断する材料にしましょう。
+</Callout>
+
+展開の流れをプラットフォーム側から把握するなら、2026 年 6 月 18 日の PlayStation の記事が参考になります: [PlayStation hands-on report](https://blog.playstation.com/2026/06/18/granblue-fantasy-relink-endless-ragnarok-hands-on-report-demo-available-today/)。
+
+</Section>
+
+<Section icon={Trophy} title="デモ報酬、引き継ぎ、そして重要な点">
+
+デモの最大の価値は、単なる戦利品ではなく情報です。拡張コンテンツが購入に値するほど快適かを見極めると同時に、製品版で引き換え可能なボーナスにつながるコンテンツも回収できます。
+
+| Item | 状態 | すべきこと |
+|---|---|---|
+| Demo quest rewards | 製品版で引き換え可能 | 利用できるデモクエストはすべて終える |
+| Demo save data | 引き継ぎ不可 | 発売後の計画に頼らない |
+| Sephira's Sanguine Glimmer unlock | 最初の 3 回クリアで解放 | 早めに Quest Mode を優先する |
+| Story progress | デモ限定 | 進行ではなく演出の確認に使う |
+
+報酬重視の流れは、だいたい次のようになります:
+
+- Tutorial Mode を 1 回クリアする
+- Story Mode を 1 回クリアする
+- 最初の 3 回の Quest Clear を終える
+- 最後のクエストを再挑戦して難易度を確認する
+- 拡張のテンポが自分のビルドスタイルに合うか判断する
+
+<Callout type="info" title="報酬のルール">
+デモ報酬が意味を持つのは、周回ではなくクリアに報いる設計だからです。これにより、先の見えない道へ何時間も費やさずに拡張を試したい人に最適です。
+</Callout>
+
+| Reward Type | 目的 | 優先度 |
+|---|---|---|
+| Completion rewards | デモ全体をしっかり遊んでもらうため | 高 |
+| Unlock-linked rewards | クリア進行と報酬を結びつけるため | 高 |
+| Save data transfer | 非対応 | N/A |
+| Story-only progress | 雰囲気の確認を助けるため | 中 |
+
+発売日に迷いを減らして判断したいなら、デモは次の 3 つに答えてくれるべきです。戦闘を楽しめるか、圧力に耐えられるか、そして発売後もこのシステムをもっと遊びたいと思えるか、です。
+
+</Section>
+
+<Section icon={Shield} title="デモ後に選ぶべきエディション">
+
+デモを終えたあとに考えるべきなのは、単純な「買うか見送るか」ではありません。「このアカウントに合う購入ルートはどれか」です。既存の本編所有者が重複コンテンツにお金を払う必要はなく、新規プレイヤーが所有前提のアップグレード経路を買うべきでもありません。
+
+| Edition | 向いている人 | 価格 | 重要な注記 |
+|---|---|---|---|
+| Full Standard Edition | 新規プレイヤー | $59.99 / €59.99 | 拡張パッケージ一式を含む |
+| Full Special Edition | 特典も欲しい新規プレイヤー | $79.99 / €79.99 | Special Pack と DLC Collection を追加 |
+| Upgrade Kit Standard Edition | 本編所有者 | $29.99 / €29.99 | 同一プラットフォーム上の本編が必要 |
+| Upgrade Kit Special Edition | 特典も欲しい本編所有者 | $54.99 / €54.99 | こちらも同一プラットフォーム上の本編が必要 |
+
+| Platform Bonus Window | 2026 年の締切 | 重要な理由 |
+|---|---|---|
+| Nintendo Switch 2 / PS5 / PS4 | 2026 年 7 月 8 日 午後 11:59（現地時間） | 早期ボーナスの締切 |
+| Steam | 2026 年 8 月 31 日 午後 11:59（現地時間） | 購入猶予が長い |
+
+<Checklist
+  id="buying-checklist"
+  title="購入前に確認:"
+  items={[
+    "すでに本編を所有しているか確認する",
+    "エディションを自分のプラットフォームに合わせる",
+    "2026 年の購入ボーナス締切を確認する",
+    "Standard と Special のどちらが欲しいか決める"
+  ]}
+/>
+
+<Callout type="success" title="最適な購入ルール">
+すでに本編を持っているなら、通常は Upgrade Kit のほうが賢い選択です。ゲームが初めてなら、完全版を選んで所有条件の不一致を避けましょう。
+</Callout>
+
+エディションの詳細を確認する最も安全な方法は、公式ストアの掲載ページ、特に Endless Ragnarok コンテンツに紐づく Steam のアップグレードページです。
+
+</Section>
+
+<Section icon={Sparkles} title="新規・復帰プレイヤー向けの実践的なデモ所感">
+
+このデモは、ふるいとして使うと最も効果的です。拡張のシステムが、遊び続ける価値のある鋭さを持っているか、そして自分の好みのプレイスタイルが、きちんとした操作を求められたときにも心地よく感じられるかを教えてくれます。
+
+| Player Type | 試すべき点 | 購入判断の目安 |
+|---|---|---|
+| 新規プレイヤー | Tutorial の流れ、分かりやすさ、テンポ | 戦闘が読みやすいなら買い |
+| 復帰プレイヤー | 操作、体で覚えた感覚、タイミング | Quest Mode が自然なら買い |
+| 協力プレイ重視 | パーティのリズム、圧力がかかる場面 | 連携が活きるなら買い |
+| 収集・コンプ勢 | 報酬、解放要素、ボーナス期間 | 追加要素に価値を感じるなら買い |
+
+デモの見方は、だいたい次の点に集約されます:
+
+- **Quest Mode** を楽しめるなら、拡張にはおそらく十分な深さがあります。
+- Story Mode の印象は良いのに戦闘が硬く感じるなら、追加のプレイ映像を待ちましょう。
+- すでに本編を持っているなら、Upgrade Kit で費用を抑えられます。
+- 初めてなら、完全版のほうが購入はシンプルで分かりやすいです。
+
+<Callout type="tip" title="最後の編集部アドバイス">
+デモを完成版として評価しないでください。戦闘感、報酬の価値、購入への確信を測る発売前テストとして見ましょう。その考え方のほうが、はるかに良い判断につながります。
+</Callout>
+
+| Decision | 推奨アクション | 理由 |
+|---|---|---|
+| デモが気に入った | 対応するエディションを購入する | 戦闘とテンポが自分に合っていた |
+| Quest Mode 後も迷う | 追加映像を待つ | 購入前にもっと確かな材料が必要 |
+| 本編所有者 | Upgrade Kit の選択肢を比較する | 重複所有にお金を払わずに済む |
+| 新規プレイヤー | 完全版を選ぶ | 拡張への最も簡単な入口 |
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<Callout type="info" title="よくある質問">
+ここでは **granblue fantasy relink endless ragnarok demo** と、それがサポートする発売判断に焦点を当てています。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Granblue Fantasy Relink Endless Ragnarok のデモセーブは引き継がれますか？",
+    answer: "いいえ。デモのセーブデータは製品版に引き継がれません。なので、デモは進行を作るためではなく、ゲームを覚えるために使いましょう。"
+  },
+  {
+    question: "デモでは何から始めるべきですか？",
+    answer: "Tutorial Mode から始め、次に Story Mode、最後に Quest Mode へ進みましょう。その順番が、操作、テンポ、戦闘の圧力を最も把握しやすいです。"
+  },
+  {
+    question: "デモで最も重要な目的は何ですか？",
+    answer: "最初の 3 回のクエストクリアを達成することです。そのルートで製品版の Sephira's Sanguine Glimmer が解放されるため、デモ内での主な進行目標になります。"
+  },
+  {
+    question: "本編所有者は完全版と Upgrade Kit のどちらを買うべきですか？",
+    answer: "本編所有者は、まず Upgrade Kit を比較するのが基本です。同じプラットフォームで元のゲームをすでに持っているなら、完全版を買うのは通常あまり効率的ではありません。"
+  }
+]} />
+
+<Callout type="warning" title="最後にもう一度確認">
+デモが簡単すぎると感じても、製品版まで同じだと決めつけないでください。テンポと生存判断が最も重要になる最終クエストを、本当のテストとして使いましょう。
+</Callout>
+
+</Section>

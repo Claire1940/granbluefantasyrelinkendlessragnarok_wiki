@@ -1,1 +1,518 @@
-{}
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "granblue-fantasy-relink-best-team",
+        "file": "granblue-fantasy-relink-best-team"
+      },
+      {
+        "slug": "granblue-fantasy-relink-builds",
+        "file": "granblue-fantasy-relink-builds"
+      },
+      {
+        "slug": "granblue-fantasy-relink-charlotta-build",
+        "file": "granblue-fantasy-relink-charlotta-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-lancelot-build",
+        "file": "granblue-fantasy-relink-lancelot-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-narmaya-build",
+        "file": "granblue-fantasy-relink-narmaya-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-rackam-build",
+        "file": "granblue-fantasy-relink-rackam-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon-build",
+        "file": "granblue-fantasy-relink-sandalphon-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen-build",
+        "file": "granblue-fantasy-relink-tweyen-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vane-build",
+        "file": "granblue-fantasy-relink-vane-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-zeta-build",
+        "file": "granblue-fantasy-relink-zeta-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "granblue-fantasy-relink-all-characters",
+        "file": "granblue-fantasy-relink-all-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-beatrix",
+        "file": "granblue-fantasy-relink-beatrix"
+      },
+      {
+        "slug": "granblue-fantasy-relink-characters",
+        "file": "granblue-fantasy-relink-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-fraux",
+        "file": "granblue-fantasy-relink-fraux"
+      },
+      {
+        "slug": "granblue-fantasy-relink-maglielle",
+        "file": "granblue-fantasy-relink-maglielle"
+      },
+      {
+        "slug": "granblue-fantasy-relink-new-characters",
+        "file": "granblue-fantasy-relink-new-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon",
+        "file": "granblue-fantasy-relink-sandalphon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-seofon",
+        "file": "granblue-fantasy-relink-seofon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-siegfried",
+        "file": "granblue-fantasy-relink-siegfried"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen",
+        "file": "granblue-fantasy-relink-tweyen"
+      }
+    ],
+    "expansion": [
+      {
+        "slug": "granblue-fantasy-relink-dlc",
+        "file": "granblue-fantasy-relink-dlc"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-characters",
+        "file": "granblue-fantasy-relink-endless-ragnarok-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-demo",
+        "file": "granblue-fantasy-relink-endless-ragnarok-demo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-price",
+        "file": "granblue-fantasy-relink-endless-ragnarok-price"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-release-date",
+        "file": "granblue-fantasy-relink-endless-ragnarok-release-date"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok",
+        "file": "granblue-fantasy-relink-endless-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-ragnarok",
+        "file": "granblue-fantasy-relink-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vs-endless-ragnarok",
+        "file": "granblue-fantasy-relink-vs-endless-ragnarok"
+      }
+    ],
+    "sigils": [
+      {
+        "slug": "granblue-fantasy-relink-alpha-sigil",
+        "file": "granblue-fantasy-relink-alpha-sigil"
+      },
+      {
+        "slug": "granblue-fantasy-relink-berserker-echo",
+        "file": "granblue-fantasy-relink-berserker-echo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-damage-cap",
+        "file": "granblue-fantasy-relink-damage-cap"
+      },
+      {
+        "slug": "granblue-fantasy-relink-supplementary-damage-v",
+        "file": "granblue-fantasy-relink-supplementary-damage-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental-v",
+        "file": "granblue-fantasy-relink-war-elemental-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental",
+        "file": "granblue-fantasy-relink-war-elemental"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "granblue-fantasy-relink-ai-tier-list",
+        "file": "granblue-fantasy-relink-ai-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-ai-characters",
+        "file": "granblue-fantasy-relink-best-ai-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-characters",
+        "file": "granblue-fantasy-relink-best-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-character-tier-list",
+        "file": "granblue-fantasy-relink-character-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list-2026",
+        "file": "granblue-fantasy-relink-tier-list-2026"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list",
+        "file": "granblue-fantasy-relink-tier-list"
+      }
+    ]
+  },
+  "fr": {
+    "builds": [
+      {
+        "slug": "granblue-fantasy-relink-best-team",
+        "file": "granblue-fantasy-relink-best-team"
+      },
+      {
+        "slug": "granblue-fantasy-relink-builds",
+        "file": "granblue-fantasy-relink-builds"
+      },
+      {
+        "slug": "granblue-fantasy-relink-charlotta-build",
+        "file": "granblue-fantasy-relink-charlotta-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-lancelot-build",
+        "file": "granblue-fantasy-relink-lancelot-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-narmaya-build",
+        "file": "granblue-fantasy-relink-narmaya-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-rackam-build",
+        "file": "granblue-fantasy-relink-rackam-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon-build",
+        "file": "granblue-fantasy-relink-sandalphon-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen-build",
+        "file": "granblue-fantasy-relink-tweyen-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vane-build",
+        "file": "granblue-fantasy-relink-vane-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-zeta-build",
+        "file": "granblue-fantasy-relink-zeta-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "granblue-fantasy-relink-all-characters",
+        "file": "granblue-fantasy-relink-all-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-beatrix",
+        "file": "granblue-fantasy-relink-beatrix"
+      },
+      {
+        "slug": "granblue-fantasy-relink-characters",
+        "file": "granblue-fantasy-relink-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-fraux",
+        "file": "granblue-fantasy-relink-fraux"
+      },
+      {
+        "slug": "granblue-fantasy-relink-maglielle",
+        "file": "granblue-fantasy-relink-maglielle"
+      },
+      {
+        "slug": "granblue-fantasy-relink-new-characters",
+        "file": "granblue-fantasy-relink-new-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon",
+        "file": "granblue-fantasy-relink-sandalphon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-seofon",
+        "file": "granblue-fantasy-relink-seofon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-siegfried",
+        "file": "granblue-fantasy-relink-siegfried"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen",
+        "file": "granblue-fantasy-relink-tweyen"
+      }
+    ],
+    "expansion": [
+      {
+        "slug": "granblue-fantasy-relink-dlc",
+        "file": "granblue-fantasy-relink-dlc"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-characters",
+        "file": "granblue-fantasy-relink-endless-ragnarok-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-demo",
+        "file": "granblue-fantasy-relink-endless-ragnarok-demo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-price",
+        "file": "granblue-fantasy-relink-endless-ragnarok-price"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-release-date",
+        "file": "granblue-fantasy-relink-endless-ragnarok-release-date"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok",
+        "file": "granblue-fantasy-relink-endless-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-ragnarok",
+        "file": "granblue-fantasy-relink-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vs-endless-ragnarok",
+        "file": "granblue-fantasy-relink-vs-endless-ragnarok"
+      }
+    ],
+    "sigils": [
+      {
+        "slug": "granblue-fantasy-relink-alpha-sigil",
+        "file": "granblue-fantasy-relink-alpha-sigil"
+      },
+      {
+        "slug": "granblue-fantasy-relink-berserker-echo",
+        "file": "granblue-fantasy-relink-berserker-echo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-damage-cap",
+        "file": "granblue-fantasy-relink-damage-cap"
+      },
+      {
+        "slug": "granblue-fantasy-relink-supplementary-damage-v",
+        "file": "granblue-fantasy-relink-supplementary-damage-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental-v",
+        "file": "granblue-fantasy-relink-war-elemental-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental",
+        "file": "granblue-fantasy-relink-war-elemental"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "granblue-fantasy-relink-ai-tier-list",
+        "file": "granblue-fantasy-relink-ai-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-ai-characters",
+        "file": "granblue-fantasy-relink-best-ai-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-characters",
+        "file": "granblue-fantasy-relink-best-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-character-tier-list",
+        "file": "granblue-fantasy-relink-character-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list-2026",
+        "file": "granblue-fantasy-relink-tier-list-2026"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list",
+        "file": "granblue-fantasy-relink-tier-list"
+      }
+    ]
+  },
+  "ja": {
+    "builds": [
+      {
+        "slug": "granblue-fantasy-relink-best-team",
+        "file": "granblue-fantasy-relink-best-team"
+      },
+      {
+        "slug": "granblue-fantasy-relink-builds",
+        "file": "granblue-fantasy-relink-builds"
+      },
+      {
+        "slug": "granblue-fantasy-relink-charlotta-build",
+        "file": "granblue-fantasy-relink-charlotta-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-lancelot-build",
+        "file": "granblue-fantasy-relink-lancelot-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-narmaya-build",
+        "file": "granblue-fantasy-relink-narmaya-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-rackam-build",
+        "file": "granblue-fantasy-relink-rackam-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon-build",
+        "file": "granblue-fantasy-relink-sandalphon-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen-build",
+        "file": "granblue-fantasy-relink-tweyen-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vane-build",
+        "file": "granblue-fantasy-relink-vane-build"
+      },
+      {
+        "slug": "granblue-fantasy-relink-zeta-build",
+        "file": "granblue-fantasy-relink-zeta-build"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "granblue-fantasy-relink-all-characters",
+        "file": "granblue-fantasy-relink-all-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-beatrix",
+        "file": "granblue-fantasy-relink-beatrix"
+      },
+      {
+        "slug": "granblue-fantasy-relink-characters",
+        "file": "granblue-fantasy-relink-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-fraux",
+        "file": "granblue-fantasy-relink-fraux"
+      },
+      {
+        "slug": "granblue-fantasy-relink-maglielle",
+        "file": "granblue-fantasy-relink-maglielle"
+      },
+      {
+        "slug": "granblue-fantasy-relink-new-characters",
+        "file": "granblue-fantasy-relink-new-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-sandalphon",
+        "file": "granblue-fantasy-relink-sandalphon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-seofon",
+        "file": "granblue-fantasy-relink-seofon"
+      },
+      {
+        "slug": "granblue-fantasy-relink-siegfried",
+        "file": "granblue-fantasy-relink-siegfried"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tweyen",
+        "file": "granblue-fantasy-relink-tweyen"
+      }
+    ],
+    "expansion": [
+      {
+        "slug": "granblue-fantasy-relink-dlc",
+        "file": "granblue-fantasy-relink-dlc"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-characters",
+        "file": "granblue-fantasy-relink-endless-ragnarok-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-demo",
+        "file": "granblue-fantasy-relink-endless-ragnarok-demo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-price",
+        "file": "granblue-fantasy-relink-endless-ragnarok-price"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok-release-date",
+        "file": "granblue-fantasy-relink-endless-ragnarok-release-date"
+      },
+      {
+        "slug": "granblue-fantasy-relink-endless-ragnarok",
+        "file": "granblue-fantasy-relink-endless-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-ragnarok",
+        "file": "granblue-fantasy-relink-ragnarok"
+      },
+      {
+        "slug": "granblue-fantasy-relink-vs-endless-ragnarok",
+        "file": "granblue-fantasy-relink-vs-endless-ragnarok"
+      }
+    ],
+    "sigils": [
+      {
+        "slug": "granblue-fantasy-relink-alpha-sigil",
+        "file": "granblue-fantasy-relink-alpha-sigil"
+      },
+      {
+        "slug": "granblue-fantasy-relink-berserker-echo",
+        "file": "granblue-fantasy-relink-berserker-echo"
+      },
+      {
+        "slug": "granblue-fantasy-relink-damage-cap",
+        "file": "granblue-fantasy-relink-damage-cap"
+      },
+      {
+        "slug": "granblue-fantasy-relink-supplementary-damage-v",
+        "file": "granblue-fantasy-relink-supplementary-damage-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental-v",
+        "file": "granblue-fantasy-relink-war-elemental-v"
+      },
+      {
+        "slug": "granblue-fantasy-relink-war-elemental",
+        "file": "granblue-fantasy-relink-war-elemental"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "granblue-fantasy-relink-ai-tier-list",
+        "file": "granblue-fantasy-relink-ai-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-ai-characters",
+        "file": "granblue-fantasy-relink-best-ai-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-best-characters",
+        "file": "granblue-fantasy-relink-best-characters"
+      },
+      {
+        "slug": "granblue-fantasy-relink-character-tier-list",
+        "file": "granblue-fantasy-relink-character-tier-list"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list-2026",
+        "file": "granblue-fantasy-relink-tier-list-2026"
+      },
+      {
+        "slug": "granblue-fantasy-relink-tier-list",
+        "file": "granblue-fantasy-relink-tier-list"
+      }
+    ]
+  }
+}

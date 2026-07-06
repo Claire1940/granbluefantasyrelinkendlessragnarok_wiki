@@ -1,0 +1,204 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Builds de Granblue Fantasy Relink : armes, sigils et équipes",
+  description: "Planifiez des builds pour Granblue Fantasy Relink avec une progression étape par étape pour les armes, les sigils, le Damage Cap, les rôles d’équipe et le farm de fin de jeu en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **builds de granblue fantasy relink** fonctionnent le mieux quand vous vous concentrez sur un seul personnage principal, une seule voie d’arme et des sigils pratiques.
+- **Damage Cap** devient une priorité une fois que l’attaque brute n’améliore plus vos dégâts réels.
+- Les **coéquipiers IA** doivent combler les lacunes de soutien, de portée ou de résistance de votre équipe principale.
+- Les **builds de fin de jeu** progressent le plus vite quand vous équilibrez l’offensive, la survie et la régularité des quêtes.
+</Callout>
+
+<Section icon={Map} title="Philosophie de base du build et grille de priorités">
+
+Les builds de Granblue Fantasy Relink sont plus faciles à gérer si vous traitez la progression comme une échelle. Au début, l’objectif est le confort et la vitesse de nettoyage. Le milieu de jeu consiste à définir les rôles. La fin de jeu est la phase où les plafonds de dégâts, les sigils premium et une identité d’équipe plus forte commencent à vraiment compter.
+
+<CardGrid cols={3}>
+  <Card title="Début de jeu">
+    - **Un personnage principal**
+    - Des armes simples
+    - Uniquement des sigils courants
+  </Card>
+  <Card title="Milieu de jeu">
+    - **Améliorations basées sur les rôles**
+    - Meilleur équilibre d’équipe
+    - Priorités de compétences plus claires
+  </Card>
+  <Card title="Fin de jeu">
+    - **Accent sur le Damage Cap**
+    - Recherche de sigils rares
+    - Nettoyages stables en haute difficulté
+  </Card>
+</CardGrid>
+
+| Phase | Objectif principal | Meilleur rendement | Plus grosse erreur |
+| --- | --- | --- | --- |
+| Début | Un personnage principal, armes de base, sigils sûrs | Des nettoyages plus rapides et un apprentissage plus fluide | Répartir les matériaux sur tout le roster |
+| Milieu | Améliorations par rôle et meilleur équilibre d’équipe | Des victoires de quête plus régulières | Chasser des traits rares trop tôt |
+| Fin | Damage Cap et sigils premium | De meilleurs dégâts réels | Accorder trop d’importance à l’attaque brute |
+| Endgame | Synthèse, traits maîtres, survie | Des clears stables des combats difficiles | Construire uniquement pour les captures d’écran |
+
+<Callout type="tip" title="Référez-vous d’abord">
+Consultez le [manuel officiel de construction des personnages](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building), la [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/), et le [site officiel](https://relink.granbluefantasy.jp/en/) pour vérifier les voies d’amélioration.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configuration du début de jeu : la façon la plus rapide de rester fort">
+
+L’ouverture la plus sûre consiste à choisir un personnage que vous appréciez et à le garder légèrement en avance sur le reste de l’équipe. La structure de groupe à quatre du jeu de base récompense la régularité bien plus qu’un échange aléatoire d’équipement.
+
+<Steps>
+  <Step num="1" title="Choisissez un personnage principal">
+    Choisissez un personnage au rythme agréable, puis gardez cette unité en avance en niveau d’arme, en compétences et en sigils.
+  </Step>
+  <Step num="2" title="Utilisez uniquement les améliorations évidentes">
+    Dépensez les matériaux du début de jeu sur des pics de puissance clairs : niveau d’arme, offensive de base, PV et statistiques de confort.
+  </Step>
+  <Step num="3" title="Laissez l’IA combler les lacunes">
+    Construisez votre équipe pour que les alliés IA couvrent la portée, la défense, les soins ou l’utilité que votre personnage principal n’a pas.
+  </Step>
+  <Step num="4" title="Apprenez la boucle de combat">
+    Concentrez-vous sur les esquives, le timing du garde, les fenêtres de compétence, les Link Attacks et les Chain Bursts avant de chercher une optimisation avancée.
+  </Step>
+  <Step num="5" title="Gardez les matériaux rares">
+    Conservez les ressources premium jusqu’à ce que vous sachiez quels personnages resteront dans votre roster à long terme.
+  </Step>
+</Steps>
+
+| Ressource | À dépenser sur | À conserver pour |
+| --- | --- | --- |
+| Armes | Votre équipe active | Les personnages en réserve |
+| Points de maîtrise | Dégâts et survie de base | Les petits nœuds de stats |
+| Sigils | Statistiques pratiques courantes | Les rolls parfaits de fin de jeu |
+| Matériaux rares | De vrais pics de puissance | Les builds de secours |
+
+<Callout type="warning" title="Erreur du début de jeu à éviter">
+N’investissez pas à fond dans chaque arme que vous débloquez. Cette habitude ralentit la progression et laisse votre meilleur personnage sous-équipé lorsque la difficulté des quêtes augmente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Armes, sigils et priorités du Damage Cap">
+
+La courbe de build dans Granblue Fantasy Relink dépend surtout du moment où vos statistiques cessent de se traduire en dégâts significatifs. C’est là que le **Damage Cap** et les sigils premium deviennent plus précieux que la simple augmentation de l’attaque brute.
+
+| Type de sigil | Meilleure utilisation | Priorité |
+| --- | --- | --- |
+| Damage Cap | Quand les coups commencent à plafonner | Très élevée |
+| War Elemental | Scaling premium de fin de jeu | Élevée |
+| Supplementary Damage | Pression de dégâts supplémentaire | Élevée |
+| Aide au cooldown | Plus d’uptime des compétences | Moyenne |
+| PV et défense | Apprentissage des boss difficiles | Moyenne |
+
+| Phase de l’arme | À améliorer | À arrêter de faire |
+| --- | --- | --- |
+| Histoire et premières quêtes | Niveau de base de l’arme et améliorations faciles | Chasser les traits parfaits |
+| Farm du milieu de jeu | Armes utilisées par votre équipe principale | Changer constamment d’équipement |
+| Fin de jeu | Voie d’arme principale et équipement de soutien | Ignorer les sigils |
+| Endgame | Ajustements fins pour la régularité | Considérer que l’attaque seule suffit |
+
+<Callout type="success" title="Règle de build qui tient la route">
+Si vos dégâts affichés sont bons mais que vos clears restent lents, le problème vient souvent de l’uptime, pas de l’attaque. Améliorez le timing des compétences, la survie et le Damage Cap avant de farmer davantage de puissance brute.
+</Callout>
+
+Les références de build officielles à garder ouvertes sont la [section du manuel sur la construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) et la [page des mises à jour du jeu](https://relink.granbluefantasy.jp/en/updates/).
+
+</Section>
+
+<Section icon={Shield} title="Rôles d’équipe et exemples de templates de build">
+
+Une bonne équipe n’a pas besoin de quatre dealers de dégâts identiques. Elle a besoin de couverture. Utilisez un personnage pour maintenir la pression sur les boss, un autre pour rester en sécurité à distance, un autre pour stabiliser l’équipe, et un dernier pour encaisser les erreurs lorsque les combats deviennent chaotiques.
+
+<CardGrid cols={4}>
+  <Card title="DPS de mêlée principal">
+    Lancelot, Narmaya, Percival  
+    **Orientation :** dégâts, uptime, mobilité
+  </Card>
+  <Card title="DPS à distance">
+    Eugen, Rackam, Tweyen  
+    **Orientation :** sécurité, pression constante
+  </Card>
+  <Card title="Support">
+    Cagliostro, Io, Rosetta  
+    **Orientation :** soins, buffs, utilité
+  </Card>
+  <Card title="Tank de première ligne">
+    Vane, Siegfried, Katalina  
+    **Orientation :** défense, sustain, outils de garde
+  </Card>
+</CardGrid>
+
+| Rôle | Personnages exemples | Orientation du build | Pourquoi ça marche |
+| --- | --- | --- | --- |
+| DPS de mêlée principal | Lancelot, Narmaya, Percival | Dégâts et mobilité | Maintient une pression constante sur les boss |
+| DPS à distance | Eugen, Rackam, Tweyen | Dégâts sûrs | Préserve l’uptime en situation dangereuse |
+| Support | Cagliostro, Io, Rosetta | Soins et buffs | Stabilise les quêtes les plus difficiles |
+| Tank de première ligne | Vane, Siegfried, Katalina | Défense et sustain | Gagne du temps pour les fenêtres de dégâts |
+
+<Callout type="info" title="Note de planification d’équipe">
+Quand vous testez un nouveau build, jugez-le sur la vitesse de clear et la régularité, pas sur une seule phase de burst chanceuse. Le meilleur équipement est celui qui permet d’enchaîner les quêtes avec moins de resets.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de fin de jeu, cibles de farm et FAQ">
+
+La fin de jeu est l’endroit où vos choix de build commencent à vraiment porter leurs fruits. C’est la phase des sigils plus puissants, des meilleures voies d’armes, des quêtes plus difficiles et des systèmes de l’ère extension comme les Master Traits et la Sigil Synthesis.
+
+<Checklist
+  id="endgame-build-goals"
+  title="Checklist de build endgame :"
+  items={[
+    "Gardez un personnage principal entièrement équipé pour vos quêtes les plus difficiles",
+    "Augmentez le Damage Cap une fois que l’attaque brute ne modifie plus les dégâts réels",
+    "Utilisez War Elemental ou Supplementary Damage lorsqu’ils s’intègrent à votre build",
+    "Équipez les coéquipiers IA pour qu’ils apportent une vraie valeur, et pas seulement des emplacements de remplissage",
+    "Conservez une configuration flexible pour le nouveau contenu des mises à jour et les patterns de boss plus difficiles"
+  ]}
+/>
+
+| Objectif de fin de jeu | À viser | Résultat |
+| --- | --- | --- |
+| Clears fiables | Un principal solide + des alliés IA équipés | Moins de risque de wipe |
+| Plafond de dégâts | Offensive de base + Damage Cap | De meilleurs chiffres réels |
+| Sécurité contre les combats difficiles | Sigils de survie et esquives plus propres | Plus de régularité |
+| Préparation à l’extension | Synthèse et Master Traits | Builds de fin de jeu plus puissants |
+
+<Callout type="warning" title="Piège de fin de jeu">
+Ne copiez pas un build haut de gamme avant que votre compte ne puisse le soutenir. Certaines configurations ne brillent qu’une fois les bons sigils, matériaux et déblocages déjà en place.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quand dois-je commencer à me concentrer sur le Damage Cap dans les builds de granblue fantasy relink ?",
+    answer: "Commencez lorsque vos attaques semblent fortes sur le papier mais cessent d’évoluer dans vos résultats réels en quête. C’est généralement à ce moment-là que le Damage Cap devient plus intéressant que l’attaque brute."
+  },
+  {
+    question: "Dois-je faire progresser tous les personnages de manière égale ?",
+    answer: "Non. Commencez par construire un personnage principal, puis amenez le reste de l’équipe à un niveau pratique. Un roster concentré nettoie plus vite qu’un roster trop dispersé."
+  },
+  {
+    question: "Quelle est la meilleure structure d’équipe pour la plupart des builds ?",
+    answer: "Utilisez un DPS principal, un attaquant à distance, une unité de support ou d’utilité, et une option de première ligne durable. Ce mélange maintient un uptime élevé et rend les erreurs plus gérables."
+  },
+  {
+    question: "Les systèmes d’extension changent-ils mes priorités de build ?",
+    answer: "Oui, mais ils ne remplacent pas les bases. Les armes, les sigils et la survie restent prioritaires, tandis que des systèmes comme les Master Traits et la Sigil Synthesis affinent un noyau solide."
+  }
+]} />
+
+</Section>

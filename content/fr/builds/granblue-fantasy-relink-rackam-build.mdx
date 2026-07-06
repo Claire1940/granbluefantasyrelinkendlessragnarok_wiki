@@ -1,0 +1,196 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build Rackam dans Granblue Fantasy Relink : meilleure configuration à distance",
+  description: "Construisez Rackam pour exercer une pression sûre à distance dans Granblue Fantasy Relink avec les priorités d'armes, les choix de sigils, l'ordre des compétences et des conseils de progression en fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Rackam+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du Wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Le build Rackam de Granblue Fantasy Relink** fonctionne mieux lorsque vous maintenez votre temps d'activité et attaquez depuis des angles sûrs.
+- **Début de partie** : empilez une offense simple et de la survie avant de courir après des sigils rares.
+- **Milieu de partie** : ajoutez des outils de réduction de recharge et de critique qui donnent de la valeur à chaque ouverture.
+- **Fin de jeu** : privilégiez Damage Cap, la couverture élémentaire et des fenêtres de burst propres.
+</Callout>
+
+<Section icon={Map} title="Bases du build Rackam dans Granblue Fantasy Relink">
+
+Rackam se construit le plus facilement comme un gunner à distance sûr qui gagne par sa régularité, et non par des échanges de burst risqués. Sa meilleure configuration le garde actif pendant les déplacements des boss, punit les ouvertures à distance et évite d’investir excessivement dans tout ce qui réduit son temps d’activité.
+
+<CardGrid cols={3}>
+  <Card title="Configuration solo sûre">
+    - **Temps d'activité élevé**
+    - Suivi simple du boss
+    - Survie plus facile
+  </Card>
+  <Card title="Configuration DPS en coop">
+    - **Dégâts fiables**
+    - Fortes punitions sur les ouvertures
+    - Moins de temps mort
+  </Card>
+  <Card title="Configuration de farm en fin de jeu">
+    - **Accent sur Damage Cap**
+    - Clears plus rapides
+    - Meilleure efficacité des récompenses
+  </Card>
+</CardGrid>
+
+| Type de build | Meilleure utilisation | Focus principal |
+|---|---|---|
+| Solo sûr | Apprendre les combats | Contrôle de la portée, confort d'esquive, dégâts stables |
+| DPS coop | Clears en groupe | Fenêtres de burst, temps d'activité sur le boss, exécution simple |
+| Farm fin de jeu | Quêtes de fin de partie | Damage Cap, dégâts élémentaires, cycle des compétences |
+| Build hybride | Jeu général | Offense équilibrée avec assez de sécurité pour rester actif |
+
+<Callout type="tip" title="Règle générale du build">
+Si un choix rend Rackam plus difficile à garder sur la cible, il est généralement moins bon qu’une option plus propre avec des statistiques légèrement inférieures sur le papier.
+</Callout>
+
+Pour les notes de patch et les détails de plateforme, gardez le [site officiel de Relink](https://relink.granbluefantasy.jp/en/) et la [page Steam](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/) en favori.
+
+</Section>
+
+<Section icon={Shield} title="Meilleures armes et priorités des sigils">
+
+Rackam évolue très bien lorsque vous gardez sa progression d’arme simple et vos sigils ciblés. Le but n’est pas de récupérer tous les bonus d’un coup. Le but est de construire une route d’armes qui soutient des dégâts constants et une configuration de sigils qui ne force pas un style de jeu maladroit.
+
+| Phase d'arme | Priorité | Pourquoi c'est important |
+|---|---|---|
+| Début de partie | Attaque de base la plus élevée | La puissance brute aide les quêtes à paraître plus fluides avant que l’optimisation ne compte vraiment |
+| Milieu de partie | Ligne d’effet utile | Plus de confort, une meilleure utilisation des compétences et moins de dégâts perdus |
+| Fin de partie | Chemin d’amélioration d’arme de fin de jeu | Des statistiques plus fortes et une meilleure synergie avec votre build final |
+| Objectif final | Meilleure arme de fin de jeu disponible | Maximise le plafond de dégâts à long terme de Rackam |
+
+| Phase de sigil | Meilleurs choix | Remarques |
+|---|---|---|
+| Début | Attaque, PV, confort d'esquive | Gardez un build stable pendant l’apprentissage des schémas ennemis |
+| Milieu | Taux de critique, aide à la recharge, utilité | Améliorez le temps d’activité et rendez les ouvertures plus rentables |
+| Fin | Damage Cap, dégâts élémentaires, soutien au burst | Passez de « plus d’attaque » à « plus de vrais dégâts » |
+| Fin de jeu | War Elemental, Supplementary Damage, Damage Cap | Configuration premium pour les clears de haut niveau |
+
+<Callout type="warning" title="Erreur à éviter">
+N’empilez pas trop tôt l’offense brute en négligeant la survie. Un build qui réduit le temps d’activité de Rackam peut perdre plus de dégâts qu’il n’en gagne.
+</Callout>
+
+Une approche pratique consiste à améliorer l’arme qui vous semble la meilleure dans votre palier actuel, puis à évoluer vers une arme dont les effets soutiennent votre rythme préféré. Une fois que vos dégâts commencent à atteindre un plafond, Damage Cap devient bien plus précieux qu’un simple surplus d’attaque de base.
+
+</Section>
+
+<Section icon={Swords} title="Configuration des compétences de Rackam et boucle de combat">
+
+Le plan de compétences de Rackam doit soutenir une boucle simple : tirer en sécurité, dépenser les compétences pendant les ouvertures, puis se replacer avant le prochain schéma du boss. Vous voulez une configuration capable de gérer les longs combats sans vous forcer à prendre des positions risquées.
+
+<Steps>
+  <Step num="1" title="Ouvrir à distance">
+    Commencez les combats à distance sûre, gardez la caméra stable et repérez des lignes de tir propres avant d’engager vos compétences.
+  </Step>
+  <Step num="2" title="Dépenser les compétences sur de vraies ouvertures">
+    Utilisez vos compétences les plus fortes lorsque le boss est bloqué dans une animation, en récupération, étourdi, ou regroupé avec des adds.
+  </Step>
+  <Step num="3" title="Convertir les fenêtres de burst">
+    Réservez vos outils les plus puissants pour les Link Attacks, les Chain Bursts et les autres moments où l’équipe peut amplifier les dégâts.
+  </Step>
+  <Step num="4" title="Se replacer rapidement">
+    Après le burst, bougez tôt. Rackam gagne en valeur lorsqu’il continue à attaquer au lieu de rester immobile et de se faire toucher.
+  </Step>
+</Steps>
+
+| Emplacement de compétence | Rôle optimal | Ce qu’elle doit faire |
+|---|---|---|
+| Emplacement 1 | Burst principal | Fournir votre pic de dégâts le plus fiable |
+| Emplacement 2 | Pression constante | Maintenir les dégâts pendant les ouvertures modérées |
+| Emplacement 3 | Mobilité ou sécurité | Vous aider à vous repositionner sans perdre le tempo |
+| Emplacement 4 | Utilité flexible | Couvrir les temps morts de recharge, le contrôle ou un burst supplémentaire |
+
+<Callout type="info" title="Conseil d’exécution">
+Si une compétence semble maladroite contre des boss mobiles, remplacez-la par une option plus propre. Rackam récompense la régularité plus que le risque spectaculaire.
+</Callout>
+
+Les meilleurs joueurs de Rackam ne paraissent pas constamment affairés. Ils restent calmes, gardent la distance et n’utilisent leurs ressources que lorsque le combat leur offre un vrai retour.
+
+</Section>
+
+<Section icon={Sparkles} title="Route de progression du scénario à la fin de jeu">
+
+Un bon build Rackam dans Granblue Fantasy Relink se construit par couches. Au début, gardez la configuration simple. Plus tard, ajoutez l’optimisation des dégâts seulement une fois que votre arme, vos sigils et votre connaissance des combats sont déjà stables.
+
+| Phase de jeu | Objectif principal | Priorité du build | À éviter |
+|---|---|---|---|
+| Scénario | Apprendre les bases | Améliorations d'arme, survie, compétences simples | Farmer excessivement et trop min-maxer |
+| Milieu de partie | Stabiliser les clears | Critique, recharge, meilleure utilité | Empiler des sigils au hasard |
+| Fin de partie | Augmenter les vrais dégâts | Damage Cap, valeur élémentaire, soutien au burst | Chasser uniquement l'attaque brute |
+| Fin de jeu | Optimiser les clears | Sigils premium, meilleurs effets, rotations plus propres | Choix lents, maladroits ou trop défensifs |
+
+<Checklist
+  id="rackam-progression"
+  title="Liste de vérification pour être prêt pour la fin de jeu :"
+  items={[
+    "Gardez une arme principale améliorée selon le calendrier",
+    "Utilisez au moins un sigil de confort ou de survie pendant l'apprentissage des boss difficiles",
+    "Entraînez-vous à la visée et au contrôle de la caméra jusqu'à ce que le déplacement devienne naturel",
+    "Passez à Damage Cap seulement une fois que vos dégâts commencent à plafonner",
+    "Testez le build complet contre des boss rapides avant de le considérer comme terminé"
+  ]}
+/>
+
+<Callout type="success" title="Conseil de progression">
+Une fois vos clears devenus réguliers, arrêtez de courir après de simples hausses de statistiques et commencez à améliorer le temps d’activité, le positionnement et le timing du burst.
+</Callout>
+
+Rackam n’a pas besoin d’un parcours compliqué pour devenir efficace. Il lui faut une progression sensée : d’abord survivre, ensuite stabiliser, puis spécialiser. Cet ordre évite que vos matériaux servent à produire des améliorations mortes.
+
+</Section>
+
+<Section icon={Target} title="Erreurs fréquentes et bonnes pratiques">
+
+Les plus grandes erreurs avec Rackam sont généralement simples. Les joueurs restent immobiles trop longtemps, dépensent des matériaux rares trop tôt, ou construisent trop d’offense avant que leur visée et leur déplacement soient prêts. Corrigez d’abord ces problèmes et le personnage devient beaucoup plus facile à piloter.
+
+- **Ne** considérez **pas** chaque long temps de recharge comme un bouton à utiliser immédiatement.
+- **Ne** négligez **pas** le timing d’esquive simplement parce que Rackam peut attaquer à distance.
+- **Ne** construisez **pas** un pur build dégâts si l’équipe ne peut pas le garder assez en sécurité pour tirer.
+- **Ne** dépensez **pas** de ressources premium avant que votre plan de fin de jeu soit clair.
+- **Faites** en sorte de garder une configuration équilibrée jusqu’à ce que vos clears de quêtes soient réguliers.
+
+<Callout type="tip" title="Bonne pratique">
+Rackam progresse le plus vite lorsque vous apprenez d’abord les schémas des boss et que vous optimisez les sigils ensuite. La connaissance du combat passe avant l’équipement parfait.
+</Callout>
+
+Si vous voulez un build final fiable, pensez en trois couches : confort, temps d’activité et plafond de dégâts. Quand ces trois couches s’alignent, Rackam est fluide en solo et efficace en coop.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Rackam est-il un bon personnage pour débuter dans Granblue Fantasy Relink ?",
+    answer: "Oui. Rackam est adapté aux débutants car son kit à distance vous permet de rester plus en sécurité tout en apprenant les schémas des boss. Un build simple avec une offense de base et des outils de confort fonctionne bien au début."
+  },
+  {
+    question: "Quelle est la meilleure priorité de sigils pour optimiser un build Rackam ?",
+    answer: "Commencez par le confort et les dégâts généraux, puis passez au critique et au soutien de recharge, et terminez avec Damage Cap, War Elemental et Supplementary Damage pour la fin de jeu."
+  },
+  {
+    question: "Devrais-je construire Rackam pour le solo ou la coop ?",
+    answer: "Les deux fonctionnent, mais le build peut évoluer. Le solo favorise le confort et la survie, tandis que la coop peut s’orienter davantage vers les dégâts et les fenêtres de burst, car les alliés couvrent davantage le terrain."
+  },
+  {
+    question: "Quand dois-je passer Rackam sur une configuration complète de fin de jeu ?",
+    answer: "Faites-le une fois que vos améliorations d’arme sont stables et que vos dégâts commencent à plafonner. C’est à ce moment que Damage Cap et les sigils premium offrent de meilleurs retours qu’un simple empilement de statistiques de base."
+  }
+]} />
+
+<Callout type="info" title="Conclusion finale">
+Rackam donne le meilleur de lui-même lorsque son build soutient une visée calme, un temps d’activité constant et une transition propre vers l’optimisation des sigils de fin de jeu.
+</Callout>
+
+</Section>

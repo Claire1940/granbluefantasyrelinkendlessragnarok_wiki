@@ -1,0 +1,190 @@
+import { Map, Target, Swords, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build Tweyen dans Granblue Fantasy Relink : Sigils et équipement",
+  description: "Construisez Tweyen dans Granblue Fantasy Relink avec les priorités de sigils, les améliorations d'arme, les rôles d'équipe, les objectifs de farm et les configurations de fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e2a44/fff?text=Tweyen+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink tweyen build** fonctionne mieux comme une configuration à distance axée sur l'uptime, avec un positionnement propre.
+- **Priorité initiale** : augmentez d'abord le niveau de l'arme, puis ajoutez des sigils simples d'attaque et de survie.
+- **Priorité finale** : poussez Damage Cap, les traits offensifs premium et un meilleur uptime sur les boss.
+- **Meilleur rôle** : utilisez Tweyen comme personnage principal, alliée IA ou source de dégâts arrière-ligne en coop.
+</Callout>
+
+<Section icon={Target} title="Bases du build Tweyen dans Granblue Fantasy Relink">
+
+Le build Tweyen de Granblue Fantasy Relink est le plus fort lorsque vous misez sur une pression à distance sûre plutôt que sur une charge au corps à corps forcée. Tweyen est un personnage ajouté dans la version 1.2.0, et sa valeur augmente dans les combats où rester en vie et maintenir des tirs réguliers compte plus que de prendre des risques spectaculaires. Cela en fait un excellent choix pour les joueurs qui veulent de la constance, un bon uptime sur les boss et un personnage qui évolue bien avec un meilleur équipement.
+
+Si vous voulez garder un point de référence officiel pendant que vous planifiez, laissez ouvertes la [page de la liste des personnages](https://relink.granbluefantasy.jp/en/characters/) et les [notes de mise à jour de la version 1.2.0](https://relink.granbluefantasy.jp/en/updates/). L’idée clé est simple : Tweyen doit infliger des dégâts tout en passant le moins de temps possible à se remettre d’un mauvais positionnement.
+
+<CardGrid cols={3}>
+  <Card title="Emplacement de dégâts principal">
+    - **Idéal pour** : les joueurs qui aiment le contrôle direct  
+    - **Atout** : un uptime à distance constant  
+    - **Priorité** : niveau d’arme, attaque de base, sécurité
+  </Card>
+  <Card title="Emplacement partenaire IA">
+    - **Idéal pour** : la régularité sans effort  
+    - **Atout** : une pression automatisée solide  
+    - **Priorité** : équipement fiable et valeur simple des traits
+  </Card>
+  <Card title="Emplacement coop">
+    - **Idéal pour** : un soutien sûr en arrière-ligne  
+    - **Atout** : production de dégâts à faible risque  
+    - **Priorité** : survivre et tirer pendant les fenêtres d’ouverture
+  </Card>
+</CardGrid>
+
+| Angle du build | Ce qu’il faut prioriser | Pourquoi ça marche |
+|---|---|---|
+| Tweyen principale | Niveau d’arme, attaque de base, sécurité | Permet d’apprendre son rythme tout en gardant des dégâts constants |
+| Tweyen IA | Traits de dégâts simples, survie, équilibre | L’IA profite d’une configuration claire et d’un bon uptime |
+| Tweyen en coop | Positionnement, régularité, fenêtres de dégâts | La pression à distance est précieuse quand les alliés occupent la ligne de front |
+| Tweyen fin de jeu | Damage Cap, offense premium, confort selon le boss | Les combats de fin de jeu récompensent plus l’uptime élevé que les bursts risqués |
+
+<Callout type="tip" title="Avis de la rédaction">
+Tweyen n’est pas un personnage à “tout construire d’un coup”. Elle performe mieux lorsque chaque amélioration renforce d’abord l’uptime, puis les dégâts, puis les traits de luxe.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mise en place du build Tweyen dans Granblue Fantasy Relink">
+
+Avant de chasser des sigils premium, configurez Tweyen de manière à rendre chaque quête plus stable. La meilleure approche suit la même logique que les systèmes de progression de Relink : commencez simplement, renforcez l’équipe active, puis affinezen une configuration de fin de jeu centrée sur le Damage Cap. Le [manuel de construction de personnage](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) soutient ce style de progression, et c’est la manière la plus sûre d’éviter de gaspiller des matériaux rares trop tôt.
+
+<Steps>
+  <Step num="1" title="Choisissez Tweyen comme carry à distance sûr">
+    Prenez Tweyen si vous voulez un personnage qui reste efficace tout en avançant moins agressivement dans le danger. Elle est particulièrement à l’aise si vous préférez l’espacement, le suivi des boss et une production constante plutôt que des enchaînements de mêlée très engagés.
+  </Step>
+  <Step num="2" title="Augmentez le niveau de l’arme avant de chasser les traits rares">
+    Le niveau de l’arme et les statistiques de base comptent davantage que l’optimisation rare au début de la progression. Si l’arme est en retard par rapport à la difficulté de vos quêtes, corrigez cela d’abord.
+  </Step>
+  <Step num="3" title="Ajoutez des sigils offensifs et défensifs simples">
+    Commencez par des valeurs évidentes : attaque, santé, aide au cooldown ou tout trait qui améliore réellement votre taux de réussite en quête.
+  </Step>
+  <Step num="4" title="Testez-la dans des quêtes actives">
+    Emmenez Tweyen dans des missions où les boss bougent souvent. Si vos dégâts chutent parce que vous passez trop de temps à vous repositionner, ajustez votre setup pour améliorer l’uptime.
+  </Step>
+  <Step num="5" title="Passez aux priorités de fin de jeu">
+    Une fois que vos coups commencent à plafonner, passez au Damage Cap et à la meilleure offensive premium à votre disposition.
+  </Step>
+</Steps>
+
+| Priorité de sigil | Phase idéale | Notes |
+|---|---|---|
+| Damage Cap | Fin de jeu | Devient important quand l’attaque brute n’augmente plus les dégâts réels |
+| Offense forte | Toutes les phases | Utilisez une valeur de dégâts fiable avant le min-max coûteux |
+| Outils de survie | Début à milieu de jeu | Aide Tweyen à continuer à tirer sans être expulsée des combats |
+| Aide au cooldown | Début à milieu de jeu | Favorise un rythme de combat plus fluide et une utilisation plus fréquente des compétences |
+| Traits premium | Fin de jeu | War Elemental et Supplementary Damage sont des améliorations à forte valeur |
+
+<Callout type="warning" title="Ne brûlez pas les matériaux rares trop vite">
+N’investissez pas de ressources premium dans Tweyen avant que son arme, son attaque de base et sa survie soient déjà stables. Un gaspillage précoce ralentit chaque amélioration future.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tableaux d’équipement pour le début, le milieu et la fin de jeu">
+
+Le meilleur équipement de Tweyen évolue avec la progression. Au début, votre mission est de rester en sécurité et d’enchaîner les quêtes. Le milieu de partie est l’étape où vous la façonnez en véritable spécialiste à distance. La fin de jeu est le moment où vous cessez de penser en termes de “suffisant” et commencez à penser plafonds de dégâts, patterns de boss et traits premium.
+
+| Phase | Priorité arme | Priorité sigils | Objectif |
+|---|---|---|---|
+| Début de jeu | Meilleur arc disponible, améliorations faciles | Offense simple, santé, utilité | Apprendre le timing et terminer les quêtes en sécurité |
+| Milieu de jeu | Progression d’arme régulière | Dégâts plus solides et traits de confort | Construire un rôle à distance stable |
+| Fin de jeu | Chemin d’arme principal, investissement plus lourd | Damage Cap, offense premium | Faire de vrais dégâts pendant les fenêtres du boss |
+| Fin de jeu avancée | Équipement entièrement engagé | Traits premium, survie optimisée | Transformer Tweyen en carry fiable de haut niveau |
+
+La planification de type “cards” aide ici parce que le rôle de Tweyen repose davantage sur la régularité que sur la nouveauté. Si vous l’utilisez en IA, votre setup doit rester simple. Si vous l’utilisez manuellement, donnez-vous assez de sécurité pour continuer à tirer pendant les longs patterns des boss sans devoir constamment réinitialiser votre positionnement.
+
+| Emplacement d’équipe | Type de partenaire conseillé | Pourquoi cela aide Tweyen |
+|---|---|---|
+| Avant-garde | Bruiser de mêlée robuste | Attire l’attention afin que Tweyen puisse continuer à tirer |
+| Soutien | Soigneur ou buffer | Prolonge son uptime dans les quêtes plus longues |
+| Second dealer de dégâts | Attaquant rapide | Ajoute de la pression pendant que Tweyen reste en sécurité |
+| Emplacement flexible | Un autre choix à distance ou de contrôle | Aide contre les ennemis mobiles et les fenêtres d’étourdissement |
+
+<Callout type="info" title="Rappel de rôle">
+Tweyen est un personnage de pression, pas un personnage de désespoir. Si votre équipe lui laisse de l’espace, elle transforme cet espace en dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Route de farm et planification d’équipe">
+
+La route la plus propre pour un build Tweyen suit la progression normale de Relink : d’abord l’histoire, puis le farm pratique, puis l’affinage ciblé de fin de jeu. Le même ordre apparaît dans la structure de build et de quêtes décrite dans les supports officiels de progression et le contenu de mise à jour. Si vous essayez de sauter directement à la configuration finale, vous finissez souvent avec un personnage qui a l’air fort sur le papier mais qui se sent faible en vraie quête.
+
+<Checklist
+  id="tweyen-build-goals"
+  title="Étapes clés du build Tweyen :"
+  items={[
+    "Augmentez l’arme de Tweyen avant de chercher la perfection des traits rares",
+    "Utilisez des sigils offensifs et défensifs de base pendant les premières quêtes",
+    "Testez-la dans des combats de boss mobiles pour vérifier le vrai uptime",
+    "Passez au Damage Cap une fois que les dégâts commencent à plafonner",
+    "Gardez au moins un allié solide en première ligne dans l’équipe"
+  ]}
+/>
+
+| Cible de farm | Ce que vous voulez | Pourquoi c’est important |
+|---|---|---|
+| Améliorations d’arme | Puissance de base et constance | C’est le gain de puissance le plus rapide au début |
+| Récompenses des quêtes normales | Sigils principaux et matériaux pratiques | Suffisant pour stabiliser son build |
+| Quêtes plus difficiles | Meilleurs matériaux d’amélioration | Nécessaires pour un investissement plus sérieux |
+| Farm de fin de jeu | Traits rares et pièces optimisées | L’étape où Tweyen devient réellement raffinée |
+| Contenu post-mise à jour | Nouvelles couches de progression | Utile si vous construisez autour des systèmes plus tardifs |
+
+Utilisez Tweyen avec une équipe capable d’encaisser la pression. En solo, cela signifie des alliés IA solides et une composition équilibrée. En coop, cela signifie laisser les autres joueurs faire le travail risqué au corps à corps pendant que vous restez bien placé pour des tirs propres. La [page du magasin Steam](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/) est aussi utile si vous voulez un rappel rapide de la structure coopérative du jeu pour 1 à 4 joueurs.
+
+<Callout type="success" title="La meilleure habitude de farm">
+Améliorez d’abord les éléments qui augmentent votre vitesse de nettoyage. Des clears plus rapides créent plus de matériaux d’amélioration, ce qui donne un meilleur build Tweyen, ce qui accélère les clears suivants.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ et vérifications finales">
+
+Un bon build Tweyen n’a pas besoin d’être compliqué. Il doit être stable, évolutif et facile à améliorer dans le bon ordre. Si vous ne savez pas où vous arrêter, revenez à cette règle simple : augmentez la puissance de l’arme, améliorez l’uptime réel en quête, puis allez chercher les traits premium de fin de jeu.
+
+| Erreur courante | Meilleure correction |
+|---|---|
+| Trop investir trop tôt | Dépensez d’abord sur le niveau de l’arme et le confort de base |
+| Ignorer la survie | Conservez assez de sécurité pour préserver l’uptime à distance |
+| Chasser les sigils premium trop tôt | Attendez que le build soit déjà stable |
+| Traiter Tweyen IA comme Tweyen manuelle | Gardez les setups IA plus simples et plus cohérents |
+
+<FAQ items={[
+  {
+    question: "Tweyen est-elle un bon choix pour un build dans Granblue Fantasy Relink ?",
+    answer: "Oui. Tweyen est un excellent choix à distance parce qu’elle maintient les dégâts sans forcer un uptime mêlée risqué, ce qui la rend utile en solo, en IA et en coop."
+  },
+  {
+    question: "Que dois-je prioriser en premier dans un build Tweyen ?",
+    answer: "Commencez par le niveau de l’arme, puis par l’attaque de base et la survie. Ensuite, passez à des traits de fin de jeu plus forts et au Damage Cap lorsque vos chiffres commencent à plafonner."
+  },
+  {
+    question: "Tweyen fonctionne-t-elle mieux comme alliée IA ou comme personnage contrôlé manuellement ?",
+    answer: "Elle fonctionne bien dans les deux rôles. Tweyen en IA est excellente pour une pression régulière, tandis que le contrôle manuel vous laisse plus de marge pour optimiser le positionnement et les fenêtres de boss."
+  },
+  {
+    question: "Quand dois-je commencer à chasser les sigils premium ?",
+    answer: "Seulement une fois que votre build termine déjà les quêtes confortablement. Les traits premium deviennent précieux quand la progression de l’arme principale et la survie de base sont déjà en place."
+  }
+]} />
+
+<Callout type="tip" title="Verdict final">
+Si vous voulez un personnage à distance sûr et évolutif, ce build Tweyen dans Granblue Fantasy Relink est l’une des façons les plus propres de jouer la liste de personnages de cette mise à jour.
+</Callout>
+
+</Section>

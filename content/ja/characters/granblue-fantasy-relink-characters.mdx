@@ -1,0 +1,273 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink キャラクター：ティア一覧と役割",
+  description: "この Granblue Fantasy Relink キャラクターガイドで、初期ロスター、無料アップデート追加組、Endless Ragnarok の参戦キャラ、役割、そして最初に選ぶべきおすすめを比較できます。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/123b6b/fff?text=Character+Tier+List",
+  date: "2026-07-06",
+  author: "granblue fantasy relink Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Granblue Fantasy Relink のキャラクター** は、基本ロスター、無料アップデート組、そして Endless Ragnarok 追加組にきれいに分かれています。
+- **最初に選ぶなら**、扱いやすい性能、安定した火力維持、AI 仲間としての有用性が高いキャラが有力です。
+- **テクニカルなキャラクター** は、単純なボタン連打よりも、タイミング、構え管理、間合い調整が重要です。
+- **拡張組の戦士たち** は終盤の新しい選択肢を増やしますが、武器とジーンへの十分な投資は引き続き必要です。
+</Callout>
+
+<Section icon={Map} title="入手元と役割別で見る Granblue Fantasy Relink キャラクター">
+
+Granblue Fantasy Relink のキャラクターは、どのタイミングでロスターに加わるかで分けて考えるのが最もわかりやすいです。基本ゲームには豊富な初期メンバーがいて、無料アップデートで後から人気キャラが追加され、Endless Ragnarok ではさらに6人のプレイアブル戦士が加わります。この構成は、解放の順番、最初のメイン、そして終盤のパーティ構成まで左右するため重要です。
+
+<Callout type="tip" title="編集方針">
+このガイドは公式の Cygames ティア表ではなく、実用重視のサイト独自評価です。初心者の扱いやすさ、AI の価値、協力プレイでの強さ、終盤での伸びしろを重視しています。
+</Callout>
+
+| ロスター区分 | 例 | 意味 |
+|---|---|---|
+| 基本ロスター | Captain, Katalina, Lancelot, Eugen, Narmaya | 本編で使え、序盤の習熟に最適 |
+| 無料アップデート組 | Seofon, Tweyen, Sandalphon | 後から追加され、終盤の伸びが強い |
+| Endless Ragnarok 組 | Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | 拡張版の戦力で、終盤に新たな価値を持つ |
+| ストーリー専用キャスト | Lyria, Vyrn, Rolan, Lilith | 物語上重要だが、通常のクエスト編成には入らない |
+
+| キャラクター | 役割 | 難易度 | 最適な用途 |
+|---|---|---|---|
+| Captain | バランス型剣士 | 易しい | 最初の育成対象として、柔軟なパーティの軸になる |
+| Lancelot | 高速近接アタッカー | 易しい | 攻めの継続力とシンプルな移動性能 |
+| Eugen | 遠距離ガンナー | 易しい | 安全なボス圧と AI の安定性 |
+| Cagliostro | 支援キャスター | 易しい | 回復、バフ、ユーティリティ |
+
+<Callout type="warning" title="ロスター管理">
+序盤から全員に資源をばらまかないでください。強いメイン1人と、十分に装備を整えた AI 仲間3人がいれば、中途半端に育てた控えメンバーより多くのコンテンツをクリアできます。
+</Callout>
+
+実用的な分け方は次のとおりです。
+
+- **始めやすいキャラクター**: Captain, Lancelot, Charlotta, Eugen, Cagliostro。
+- **強いがややテクニカル**: Narmaya, Percival, Siegfried, Zeta, Yodarha。
+- **拡張組から先に選びたい候補**: Sandalphon, Beatrix, Eustace, Fediel, Gallanza。
+- **支援寄りの候補**: Cagliostro, Katalina, Rosetta, Io。
+
+公式のロスター情報は、各波の追加内容を確認するのに最適です：[公式キャラクターロスター](https://relink.granbluefantasy.jp/en/characters/) と [Endless Ragnarok キャラクターページ](https://relink-ragnarok.granbluefantasy.com/en/characters/) を参照してください。
+
+</Section>
+
+<Section icon={Swords} title="新規・復帰勢におすすめのキャラクターアーキタイプ">
+
+Granblue Fantasy Relink の強いキャラクターが、必ずしも一番派手とは限りません。良いロスター選びは、まず自分の操作感に合うかを重視し、その次に火力上限を見ます。自然に扱えるキャラクターなら、回避もしやすく、火力維持もしやすく、理論上は強くてもよく理解していない性能より速くクエストを進められます。
+
+<CardGrid cols={4}>
+  <Card title="バランス型スターター">
+    - **Captain**
+    - 安定したスキル
+    - 装備を整えやすい
+    - ストーリー進行に最適
+  </Card>
+  <Card title="高速近接">
+    - **Lancelot**
+    - 高い継続火力
+    - シンプルな攻撃
+    - 優れた機動力
+  </Card>
+  <Card title="安全な遠距離">
+    - **Eugen**
+    - 安定したダメージ
+    - より安全な位置取り
+    - 強い AI 仲間性能
+  </Card>
+  <Card title="支援の核">
+    - **Cagliostro**
+    - 回復手段
+    - バフの価値
+    - 高いパーティ支援力
+  </Card>
+</CardGrid>
+
+| アーキタイプ | 最適例 | 強み | トレードオフ |
+|---|---|---|---|
+| バランス型 | Captain | 覚えやすく、どのパーティにも柔軟に対応 | 専門特化型よりピーク火力は低め |
+| 近接ラッシュダウン | Lancelot | 素早い攻撃、圧をかけやすい、機動力が高い | 深みを求めると単調に感じることがある |
+| 遠距離の安全性 | Eugen | 安全に殴り続けやすく、ボスに圧をかけやすい | 瞬間火力は近接バースト型より控えめ |
+| 支援ユーティリティ | Cagliostro | 回復とチームバフ | スキルの使いどころが重要 |
+
+<Callout type="success" title="実用的な最有力候補">
+負担の少ないスタートを望むなら、Captain、Lancelot、Eugen、Cagliostro を選びましょう。準備が最小限でも、幅広いクエストに対応できます。
+</Callout>
+
+ロスターの見方をシンプルにすると、次のようになります。
+
+- **Captain** は最も安全な万能型です。
+- **Lancelot** は最も勧めやすい高速アタッカーです。
+- **Eugen** は遠距離操作とボスへの安定した継続火力が好きなら最適です。
+- **Cagliostro** は「パーティ全体を強くする」タイプとして最も優秀です。
+- **Narmaya** と **Percival** は、タイミング重視の攻めに慣れるほど強くなります。
+
+| キャラクター | 初心者向け | 協力プレイ価値 | AI 価値 |
+|---|---|---|---|
+| Captain | 高い | 高い | 高い |
+| Lancelot | 高い | 高い | 高い |
+| Eugen | 高い | 高い | उत्कृष्ट |
+| Cagliostro | 高い | 高い | उत्कृष्ट |
+| Narmaya | 中 | 高い | 高い |
+| Percival | 中 | 高い | 中 |
+
+</Section>
+
+<Section icon={Target} title="最初のメインキャラの選び方">
+
+Granblue Fantasy Relink のキャラクターを選ぶときは、純粋な火力だけでなく、操作のしやすさを試すのが一番です。手に合うキャラクターは、ストーリー章、序盤クエスト、そして終盤の周回まで、より遠くまで連れて行ってくれます。
+
+<Steps>
+  <Step num="1" title="役割を1つ決める">
+    まずは役割を1つ選びます。近接火力、遠距離火力、支援、テクニカルバーストのどれかに絞ると、ロスターを一気に絞り込めます。
+  </Step>
+  <Step num="2" title="簡単な候補を2人試す">
+    2人の候補でシンプルなクエストを1回ずつ回し、回避のタイミング、スキルの流れ、どれだけ継続的に動けるかを比べます。
+  </Step>
+  <Step num="3" title="AI 支援を確認する">
+    選んだメインが、回復、遠距離火力、前線の安定を補える AI 仲間と相性が良いかを見ます。
+  </Step>
+  <Step num="4" title="1本の流れに投資する">
+    ロスター全体に材料をばらまく前に、1つの武器育成、1つのジーン構成、1つのマスタリー育成に集中します。
+  </Step>
+</Steps>
+
+| 好みがこれなら... | 最初の候補 | 合う理由 |
+|---|---|---|
+| 安全に覚えたい | Captain | バランスの良い性能と柔軟な強化 |
+| 高速な圧力が好き | Lancelot | シンプルなコンボフローと高い機動力 |
+| きれいな遠距離操作が好き | Eugen | 安全な距離からボスにダメージを入れやすい |
+| パーティ支援が好き | Cagliostro | 回復、バフ、安定した貢献 |
+| 高難度の近接をやりたい | Narmaya | タイミングが噛み合えば高い上限を発揮 |
+
+<Callout type="info" title="メインキャラの基本ルール">
+最初のメインは、キャラ選択画面で映えることより、より多くのクエストを安定してクリアできることが大切です。最初の大きな周回では、新鮮さより安定感が勝ちます。
+</Callout>
+
+良い最初のメイン用チェックリストはこちらです。
+
+<Checklist
+  id="main-character-checklist"
+  title="最初のメインキャラ チェックリスト"
+  items={[
+    "操作を意識せずに、回避と攻撃ができますか？",
+    "このキャラクターはソロでも協力プレイでも役立ちますか？",
+    "AI 仲間が回復や射程などの弱点を補ってくれますか？",
+    "レア素材を無駄にせずに育成できますか？",
+    "ストーリー終了後も使い心地は良さそうですか？"
+  ]}
+/>
+
+選ぶ間は、公式のキャラクター詳細と更新情報をブックマークしておくと便利です：[キャラクターページ](https://relink.granbluefantasy.jp/en/characters/) と [更新ページ](https://relink.granbluefantasy.jp/en/updates/) を確認しましょう。
+
+</Section>
+
+<Section icon={Shield} title="キャラクター育成、解放価値、そしてパーティバランス">
+
+ロスターは、育成の段階表として考えると最も機能します。序盤は安定性が重要で、後半になるほど専門性が重要になります。そのため、Granblue Fantasy Relink で本当に役立つキャラクターは、上位帯だけでなく、どの段階でも強さを保てるタイプであることが多いです。
+
+| 育成段階 | 最適なキャラタイプ | 重視すべき点 |
+|---|---|---|
+| ストーリー序盤 | Captain, Lancelot, Eugen | 扱いやすさと安定したクエストクリア |
+| 序盤のポストゲーム | Cagliostro, Charlotta, Katalina | パーティの安全性と柔軟な支援力 |
+| 中盤周回 | Narmaya, Percival, Siegfried | 操作を覚えた後の高火力 |
+| 終盤の周回 | Sandalphon, Beatrix, Fediel | 高い上限と育成の見返り |
+| 拡張コンテンツ攻略 | Gallanza, Maglielle, Eustace | エンドゲーム向けの新しい難度帯 |
+
+| キャラクター | 解放元 | 最適な用途 |
+|---|---|---|
+| Captain | 基本ストーリー | メインストーリーの軸 |
+| Seofon | 無料アップデート | ハイエンドな剣技 |
+| Tweyen | 無料アップデート | 安全な遠距離圧力 |
+| Sandalphon | 無料アップデート | 終盤向けの近接火力 |
+| Beatrix | Endless Ragnarok | 柔軟で攻撃的な立ち回り |
+| Fediel | Endless Ragnarok | 強力な拡張投資先 |
+
+<Callout type="tip" title="パーティバランスのコツ">
+強いパーティには、通常、メイン火力1人、打たれ強い前衛1人、遠距離アタッカー1人、そして支援寄りの枠1つが含まれます。その構成は、脆いアタッカーを4人並べるよりもクエストを安定させます。
+</Callout>
+
+パーティを評価するときは、次の点を確認してください。
+
+- **火力の継続性**: ボスが動いている間も攻撃し続けられますか？
+- **生存力**: ミスから立て直せる性能がありますか？
+- **AI の安定性**: ゲーム操作時でも役に立ち続けますか？
+- **資源効率**: 動かすだけでレア素材を大量に必要としますか？
+- **終盤価値**: ストーリー後も性能が活きますか？
+
+<Callout type="success" title="長期的に優秀な育成先">
+Captain, Eugen, Cagliostro, Lancelot, Sandalphon は、使いやすさと明確な成長ルートを両立しているため、長期的な価値が高いです。
+</Callout>
+
+最も効率の良い育成ルートを目指すなら、メイン1人、控えの近接1人、遠距離の仲間1人、支援枠1人に集中しましょう。この形なら、進行を煩雑にせずにアカウントの柔軟性を保てます。
+
+</Section>
+
+<Section icon={Sparkles} title="おすすめの育成方針と終盤優先度">
+
+終盤になると、強いかどうかだけでなく、フル育成する価値があるかが問われます。Granblue Fantasy Relink のキャラクターの中には幅広く使えるものもあれば、固有のメカニクスに慣れて初めて輝くものもあります。そこで最も重要になるのが、役割の明確さです。
+
+| 優先度 | キャラクタータイプ | 育成する最大の理由 |
+|---|---|---|
+| 最優先 | Captain, Eugen, Cagliostro | ほぼ全コンテンツで柔軟に活躍できる |
+| 高 | Lancelot, Sandalphon, Narmaya | 安定した出力を持つ高火力 |
+| 中 | Percival, Siegfried, Zeta | 高い上限を持つが、操作要求も高め |
+| 状況次第 | Ghandagoza, Vaseraga, Yodarha | 強いが、育成へのこだわりがやや必要 |
+
+| 育成目的 | 重視するポイント | キャラクター例 |
+|---|---|---|
+| ストーリー高速クリア | 扱いやすい性能 | Captain, Lancelot, Eugen |
+| チームの安全性 | 回復と安定性 | Cagliostro, Katalina, Rosetta |
+| 火力上限 | タイミング重視の攻め | Narmaya, Percival, Seofon |
+| 拡張コンテンツ周回 | 終盤で強い支援力 | Sandalphon, Beatrix, Fediel |
+| ボス戦の安定性 | 遠距離または機動圧力 | Eugen, Tweyen, Zeta |
+
+<Callout type="warning" title="このミスは避けてください">
+後から追加されたキャラクターだからといって、自動的に高難度クエストに対応できると思わないでください。強力な追加組でも、適切な武器、ジーン、マスタリーへの投資は必要です。
+</Callout>
+
+次の育成先を決めるときは、この実用ルールを使ってください。
+
+- まずは **誰にでも使いやすい1人** を育てる。
+- 本当に気に入った **扱いやすい1人** を追加する。
+- 高難度向けに **専門特化の1人** を加える。
+- **AI 仲間** は放置せず、装備を整えておく。
+- 大型アップデートや拡張解放の後に、ロスターを見直す。
+
+深い育成を考え始めたら、公式の拡張ロスターとシステムページが役立ちます：[Endless Ragnarok characters](https://relink-ragnarok.granbluefantasy.com/en/characters/) と [Endless Ragnarok systems](https://relink-ragnarok.granbluefantasy.com/en/systems/) を確認してください。
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "初心者に最適な Granblue Fantasy Relink のキャラクターはどれですか？",
+    answer: "Captain, Lancelot, Eugen, Cagliostro が最も扱いやすい強力候補です。操作が簡単で、パーティ貢献も高く、ソロでも協力プレイでも良い性能を発揮します。"
+  },
+  {
+    question: "無料アップデートのキャラクターは育成する価値がありますか？",
+    answer: "はい。Seofon, Tweyen, Sandalphon は、自分のプレイスタイルに合うなら長期的に強い投資先です。ほかのキャラクターと同様に、武器とジーンの育成はしっかり必要です。"
+  },
+  {
+    question: "テクニカルなキャラクターは序盤から育てるべきですか？",
+    answer: "すでにそのリズムを楽しめるなら問題ありません。Narmaya, Percival, Siegfried などのタイミング重視キャラは非常に強力ですが、投資量そのものよりも慣れが結果に直結します。"
+  },
+  {
+    question: "Granblue Fantasy Relink のキャラクターで最も安全なパーティ構成は？",
+    answer: "メイン火力1人、耐久または防御寄りのキャラ1人、遠距離アタッカー1人、支援寄りの枠1つを使う構成です。この形ならクエストが安定し、リトライのリスクも減ります。"
+  }
+]} />
+
+<Callout type="info" title="最終まとめ">
+最も優れたキャラクターとは、たいてい、操作しやすく、効率よく装備を整えられ、進行全体を通して活躍し続けるキャラクターです。
+</Callout>
+
+</Section>

@@ -1,0 +1,225 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Lancelot Build: Fast DPS Setup",
+  description: "Build Lancelot for fast melee uptime with the right weapons, sigils, skills, and party support in Granblue Fantasy Relink.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Lancelot+Build+Guide",
+  date: "2026-07-06",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Granblue Fantasy Relink Lancelot build** works best as a fast-uptime melee setup with safe repositioning.
+- **Prioritize damage cap, crit, and cooldown value** before chasing niche stat lines.
+- **Keep one survival layer** so you can stay aggressive through longer boss windows.
+- **Use flexible party support** to cover ranged damage, healing, and stun uptime.
+</Callout>
+
+<Section icon={Swords} title="Granblue Fantasy Relink Lancelot Build Overview">
+
+Lancelot is one of the cleanest fast-melee picks in **Granblue Fantasy Relink**, and the best build leans into constant pressure instead of slow, flashy burst windows. He performs well when you keep moving, keep attacking, and keep his downtime low.
+
+The official roster and battle systems are documented on the [character page](https://relink.granbluefantasy.jp/en/characters/) and [battle manual](https://relink.granbluefantasy.jp/en/manual/detail?s=battles). Those pages are the right place to confirm core mechanics before you lock in a full endgame setup.
+
+**Build snapshot:**
+
+<CardGrid cols={3}>
+  <Card title="Best role">
+    Fast melee DPS
+    <br />
+    Strong uptime
+    <br />
+    Good boss chasing
+  </Card>
+  <Card title="Best feel">
+    Aggressive
+    <br />
+    Mobile
+    <br />
+    Low downtime
+  </Card>
+  <Card title="Main goal">
+    Stay on target
+    <br />
+    Keep damage flowing
+    <br />
+    Avoid wasted animations
+  </Card>
+</CardGrid>
+
+**Role reference table**
+
+| Phase | What Lancelot wants | Why it matters |
+|---|---|---|
+| Early game | Simple attack power and comfort | Helps you learn spacing without overbuilding |
+| Mid game | Cooldowns, crit, and steady damage | Keeps his pressure consistent in longer fights |
+| Late game | Damage cap and premium offensive sigils | Lets his fast hits keep scaling |
+| Co-op | Survivability and uptime | More active time means more team value |
+
+<Callout type="tip" title="Best mindset">
+Lancelot rewards clean execution more than risky greed. If you can keep attacking without losing safety, the build starts feeling much stronger.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Weapons, Sigils, and Stat Priority">
+
+Lancelot does not need a complicated build tree to feel effective. He needs the right balance of attack scaling, hit consistency, and enough safety to stay in melee range. That makes weapon choice and sigil planning more important than overthinking niche bonuses too early.
+
+The official [character building manual](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) is a useful cross-check for upgrade systems, while the [Steam store page](https://store.steampowered.com/app/881020/Granblue_Fantasy_Relink/) is helpful for platform and version context.
+
+**Priority table**
+
+| Priority | Pick | Reason |
+|---|---|---|
+| 1 | Damage Cap | Fast melee hits need real scaling, not just bigger numbers on paper |
+| 2 | Crit and raw attack | Reliable general damage for story, postgame, and co-op |
+| 3 | Cooldown help | More skill usage keeps pressure stable |
+| 4 | Survival utility | Lets you stay close instead of backing off too often |
+
+**Sigil direction by stage**
+
+| Stage | What to stack | What to delay |
+|---|---|---|
+| Story and early quests | Attack, health, simple utility | Rare premium sigils |
+| Mid game | Crit, cooldown, better damage uptime | Perfect min-max rolls |
+| Late game | Damage Cap, strong offensive synergies | Weak filler stats |
+| Endgame farming | Premium damage pieces, survival insurance | Unfocused stat stacking |
+
+**Recommended build mix**
+
+| Slot type | Suggested focus | Notes |
+|---|---|---|
+| Weapon | Highest practical attack you can maintain | Keep it upgraded instead of hopping every drop |
+| Offense sigil | Damage Cap or crit support | Best long-term scaling |
+| Utility sigil | Cooldown or skill comfort | Helps the fast loop stay smooth |
+| Defense sigil | HP, mitigation, or revive comfort | Useful when learning hard bosses |
+
+<Callout type="warning" title="Avoid this trap">
+Do not chase pure attack stats while ignoring real scaling. Once your damage starts hitting ceilings, **Damage Cap** usually matters more than another small attack gain.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Set Up the Lancelot Loadout">
+
+A strong Lancelot setup should feel like a rhythm, not a spreadsheet. You want one reliable opener, one way to stay on target, and one safety valve for when bosses break your timing. That makes your loadout easier to use in every quest tier.
+
+<Steps>
+  <Step num="1" title="Pick the fastest weapon you can keep upgraded">
+    Start with the best weapon you can reasonably maintain, then raise it as your quest rewards improve. Lancelot benefits more from steady progression than from frequent swapping.
+  </Step>
+  <Step num="2" title="Assign your most reliable damage skills first">
+    Put your strongest consistent skills in the slots you use most often. Fast melee characters waste value when their best buttons sit unused.
+  </Step>
+  <Step num="3" title="Add one comfort or mobility option">
+    Keep at least one tool that helps you reposition, survive, or re-enter combat quickly. That keeps your uptime high in boss fights.
+  </Step>
+  <Step num="4" title="Test the loop in a real quest">
+    Run one normal quest, then adjust. If you are dodging too often or missing openings, trade some greed for more comfort.
+  </Step>
+</Steps>
+
+**Skill slot reference**
+
+| Slot type | What it should do | Ideal use case |
+|---|---|---|
+| Main damage skill | High uptime, reliable hit value | Boss openings and chain windows |
+| Gap closer | Re-enter melee range fast | Moving bosses and stagger recovery |
+| Safety skill | Avoid damage or reset positioning | Learning new encounters |
+| Flex slot | Damage, utility, or team support | Match the quest you are running |
+
+<Callout type="success" title="Simple rule">
+If a skill does not help you stay on target, hit harder, or survive longer, it is probably the wrong slot for your first serious Lancelot build.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Party Support and Farming Route">
+
+Lancelot gets better when the rest of the party covers what he does not want to spend time doing. He likes a stable frontline, a ranged teammate, and at least one support-leaning ally who helps keep quests moving. That is especially true when you start farming harder content.
+
+**Best party support pattern**
+
+| Party role | Good fit | Why it helps Lancelot |
+|---|---|---|
+| Frontline anchor | Vane, Siegfried | Holds space and stabilizes messy fights |
+| Ranged pressure | Eugen, Rackam | Keeps damage going when the boss moves |
+| Support utility | Cagliostro, Io | Adds safety and recovery |
+| Flexible slot | Captain, Charlotta | Covers whatever the quest needs |
+
+**Farming focus table**
+
+| Content type | What to farm | Why it matters |
+|---|---|---|
+| Story quests | Basic materials and weapon upgrades | Smooth early progression |
+| Postgame quests | Better sigils and core resources | Starts your real build tuning |
+| Harder boss runs | Damage-oriented upgrades | Pushes Lancelot’s scaling |
+| Co-op quests | Consistent clears and extra drops | Faster material flow |
+
+**Progress checklist**
+
+<Checklist
+  id="lancelot-farm-goals"
+  title="Weekly Lancelot Goals:"
+  items={[
+    "Upgrade the main weapon first",
+    "Replace weak filler sigils",
+    "Keep one survival option equipped",
+    "Run one quest for testing after each change",
+    "Save premium materials for long-term upgrades"
+  ]}
+/>
+
+If you want official system references while you farm, keep the [battle manual](https://relink.granbluefantasy.jp/en/manual/detail?s=battles) and [character building manual](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) open in another tab.
+
+<Callout type="info" title="Efficiency tip">
+The fastest way to improve a melee build is usually not a dramatic respec. It is a small chain of better weapons, better sigils, and cleaner quest execution.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quick Reference and FAQ">
+
+Use this section as your final check before you commit resources. If your setup is too fragile, too slow, or too hungry for rare materials, you should simplify it before pushing into harder content.
+
+**Quick reference table**
+
+| Question | Best answer |
+|---|---|
+| What is Lancelot best at? | Fast melee pressure and constant uptime |
+| What should come first? | Weapon upgrades and practical sigils |
+| What should come later? | Premium damage cap and endgame optimization |
+| What should you avoid? | Over-investing in weak filler gear |
+
+<Callout type="tip" title="Final build rule">
+A good **Granblue Fantasy Relink Lancelot build** should feel smooth before it feels perfect. If it is hard to play, it is probably too expensive for the value you are getting.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What makes Lancelot strong in Granblue Fantasy Relink?",
+    answer: "He stays on target well, attacks quickly, and converts good boss uptime into steady damage. That makes him easier to use than many slower melee characters."
+  },
+  {
+    question: "What stats matter most for a Lancelot build?",
+    answer: "Damage Cap, crit support, cooldown value, and enough survival to stay close. Raw attack matters early, but it should not be your only focus."
+  },
+  {
+    question: "Should I build Lancelot for pure damage?",
+    answer: "Not at first. A small amount of defense or comfort usually improves real quest clears because you spend more time attacking and less time recovering."
+  },
+  {
+    question: "Is Lancelot good for co-op?",
+    answer: "Yes. Fast melee uptime gives him strong co-op value, especially when the team also covers ranged pressure and support roles."
+  }
+]} />
+
+</Section>

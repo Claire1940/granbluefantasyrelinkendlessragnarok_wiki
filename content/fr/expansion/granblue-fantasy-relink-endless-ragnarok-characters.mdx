@@ -1,0 +1,244 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personnages de Granblue Fantasy Relink Endless Ragnarok : roster",
+  description: "Suivez le roster de base, les ajouts des mises à jour gratuites, les nouveaux venus d'Endless Ragnarok et les meilleurs choix de rôle pour progresser en solo ou en coopération avant le lancement de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Character+Roster",
+  date: "2026-07-06",
+  author: "Équipe du wiki granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **personnages de Granblue Fantasy Relink Endless Ragnarok** se répartissent entre le roster de base, les mises à jour gratuites et les exclusivités de l’extension.
+- Les **meilleurs choix pour débuter** privilégient la sécurité, la constance et une exécution simple, pas seulement les plafonds de dégâts spectaculaires.
+- **Endless Ragnarok** ajoute six nouveaux personnages jouables, ainsi que des quêtes plus exigeantes et la prise en charge du cross-play.
+- **Commencez par un seul main** ; puis développez les armes, sigils et alliés IA autour de ce choix.
+</Callout>
+
+<Section icon={Map} title="Aperçu du roster et séparation des sources">
+
+Utilisez le [roster officiel des personnages](https://relink.granbluefantasy.jp/en/characters/) et la [page des personnages d’Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/) comme points de référence les plus rapides. Le roster devient facile à comprendre une fois que vous séparez les personnages de lancement, les ajouts des mises à jour gratuites et les choix exclusifs à l’extension.
+
+<Callout type="tip" title="Règle du roster">
+Traitez chaque groupe de version comme une voie d’investissement différente. Les personnages de base sont votre fondation, les mises à jour ajoutent de la valeur en fin de jeu, et Endless Ragnarok élargit le pool de builds.
+</Callout>
+
+| Groupe du roster | Exemples | Accès | Meilleure utilisation |
+|---|---|---|---|
+| Roster de base | Captain, Katalina, Eugen, Lancelot, Cagliostro | Jeu de base | Apprentissage initial, progression du scénario, composition flexible |
+| Mises à jour gratuites | Seofon, Tweyen, Sandalphon | Contenu des mises à jour | Excellents choix après le scénario et variété en fin de jeu |
+| Endless Ragnarok | Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | Extension | Styles de jeu inédits et progression de quêtes plus difficile |
+
+<CardGrid cols={3}>
+  <Card title="Cœur du jeu de base">
+    - **Le plus accessible**
+    - Couverture des rôles équilibrée
+    - Idéal pour les premiers clears
+  </Card>
+  <Card title="Valeur des mises à jour gratuites">
+    - **Fort rendement en fin de jeu**
+    - Kits de spécialistes puissants
+    - Excellent pour faire grandir le roster
+  </Card>
+  <Card title="Ajouts de l’extension">
+    - **Nouvelles identités de combat**
+    - Plus d’options en coopération
+    - Davantage de variété en endgame
+  </Card>
+</CardGrid>
+
+Les pages officielles montrent aussi une chose clairement : le jeu repose toujours sur des combats en équipe de quatre, donc le choix d’un personnage dépend autant de la couverture des rôles que des dégâts bruts. Si votre composition manque de stabilité, vous le sentirez vite dans les quêtes les plus difficiles.
+
+</Section>
+
+<Section icon={Swords} title="Meilleurs personnages par rôle">
+
+Tous les personnages forts ne se ressentent pas de la même manière en main. Certains kits récompensent un timing parfait, tandis que d’autres gagnent parce qu’ils restent fiables minute après minute. C’est pourquoi le conseil le plus sûr pour le roster est de penser d’abord au rôle, pas au battage médiatique.
+
+<Callout type="warning" title="Choisissez pour la régularité">
+Un personnage avec un pic de dégâts légèrement inférieur peut tout de même surpasser un kit plus difficile si vous terminez les quêtes plus proprement et passez moins de temps à vous remettre sur pied.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Uptime de mêlée facile">
+    - Lancelot
+    - Charlotta
+    - Captain
+  </Card>
+  <Card title="Pression à distance sûre">
+    - Eugen
+    - Eustace
+    - Rackam
+  </Card>
+  <Card title="Utilité d’équipe">
+    - Cagliostro
+    - Vane
+    - Rosetta
+  </Card>
+</CardGrid>
+
+| Personnage | Meilleur rôle | Facilité | Pourquoi il se démarque |
+|---|---|---|---|
+| Lancelot | Mêlée rapide | Facile | Mobilité élevée, pression simple, investissement précoce fiable |
+| Charlotta | Mêlée mobile | Facile | Portée courte, mais excellente vitesse et uptime constant |
+| Eugen | Tireur à distance | Facile | Dégâts sûrs, excellente valeur pour l’IA, bon uptime contre les boss |
+| Cagliostro | Mage de soutien | Facile | Soins, buffs et pression à distance régulière |
+| Vane | Brute défensive | Facile | Frontliner solide avec une grande stabilité en coopération |
+| Narmaya | Katana à posture | Moyen | Très fort plafond pour les joueurs qui aiment le timing actif |
+| Percival | Mêlée chargée | Moyen | Gros fenêtres de burst lorsque les ouvertures du boss sont propres |
+| Sandalphon | Mêlée haut de gamme | Moyen | Excellent choix post-lancement avec un gros rendement en fin de jeu |
+| Beatrix | Attaquant technique | Moyen | Offense, défense et cycles de récupération flexibles |
+| Eustace | Tireur d’élite à distance | Moyen | Excellent contrôle de la distance et pression nette sur les boss |
+| Fediel | Attaquant obscur | Moyen | Bonne valeur en fin de jeu et forte identité d’extension |
+
+Ce qui compte ici, c’est l’adéquation au rythme. Si vous voulez une campagne sans stress, choisissez un personnage avec un uptime simple. Si vous voulez un main durable, choisissez un kit qui reste agréable même quand les combats deviennent chaotiques.
+
+</Section>
+
+<Section icon={Target} title="Comment choisir un main et construire autour">
+
+La progression la plus claire est simple : choisissez un personnage principal, gardez un backup pour certaines rencontres, et laissez les alliés IA couvrir le reste. Cette approche fonctionne mieux que de disperser les ressources sur tout le roster.
+
+<Callout type="info" title="Priorité de construction">
+L’équipement, les sigils et la maîtrise doivent d’abord soutenir votre personnage principal. Le style viendra ensuite ; les clears de quêtes passent d’abord.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Choisissez un main selon votre confort">
+    Commencez avec le personnage dont les déplacements, la portée et le timing vous paraissent naturels. Lancelot, Charlotta, Eugen et Captain sont des premiers choix sûrs.
+  </Step>
+  <Step num="2" title="Associez votre backup au problème">
+    Gardez un deuxième personnage pour les situations que votre main n’aime pas. Un backup à distance aide quand l’uptime de mêlée devient pénible.
+  </Step>
+  <Step num="3" title="Améliorez l’arme avant de viser la perfection">
+    Montez suffisamment l’arme principale pour suivre la difficulté des quêtes. La puissance brute de l’arme compte davantage qu’une optimisation sophistiquée au début.
+  </Step>
+  <Step num="4" title="Ajoutez des sigils pour des besoins réels">
+    Utilisez des sigils qui résolvent de vrais problèmes : dégâts, temps de recharge, santé, survie ou utilité spécifique au rôle. Ne forcez pas trop tôt une configuration de fin de jeu.
+  </Step>
+</Steps>
+
+| Priorité de progression | À améliorer en premier | Pourquoi c’est important |
+|---|---|---|
+| 1 | Arme principale | Gain de dégâts immédiat |
+| 2 | Compétences clés | Meilleur uptime et rotation plus fluide |
+| 3 | Sigils utiles | Comble les manques de survie ou de dégâts |
+| 4 | Alliés IA | Stabilise les clears en solo et en coopération |
+| 5 | Traits de fin de jeu | Intéressant à optimiser après les bases |
+
+<Checklist
+  id="roster-priority"
+  title="Objectifs du roster avant les quêtes difficiles :"
+  items={[
+    "Choisir un personnage avec lequel vous pouvez terminer confortablement les quêtes du scénario",
+    "Garder un backup à distance ou de soutien prêt",
+    "Améliorer l’arme principale avant de chasser des sigils rares",
+    "Donner aux alliés IA un équipement et des sigils utilisables",
+    "Tester votre kit dans une quête difficile avant d’aller plus loin"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Modèles d’équipe pour le solo et le coop">
+
+Une bonne équipe dans Granblue Fantasy Relink, ce n’est pas quatre dégâts similaires. Il vous faut un pilier, une source de dégâts sûre, un slot orienté soutien et un choix flexible pour combler les manques. Cette logique reste valable dans Endless Ragnarok.
+
+<Callout type="success" title="Règle d’équipe">
+Les meilleures équipes survivent généralement plus longtemps, maintiennent mieux l’uptime sur le boss et convertissent plus proprement en Chain Bursts.
+</Callout>
+
+| Mode | Meilleurs traits | Bons choix |
+|---|---|---|
+| Progression du scénario | Exécution facile, dégâts constants | Lancelot, Charlotta, Eugen |
+| Quêtes coop | Utilité d’équipe, sécurité, uptime | Cagliostro, Vane, Eustace |
+| Combats de boss difficiles | Fenêtres de burst, timing, survie | Percival, Narmaya, Sandalphon |
+| Endgame en solo | Autonomie, stabilité, récupération | Fediel, Beatrix, Id |
+
+Si vous jouez surtout en solo, privilégiez des personnages qui restent efficaces même lorsque l’IA n’agit pas parfaitement. Si vous jouez en coop, apportez un kit qui aide toute l’équipe au lieu de chercher systématiquement le plus gros chiffre personnel. Dans le contenu plus dur, un clear propre vaut souvent mieux qu’une grande capture d’écran.
+
+| Slot d’équipe | Meilleur rôle | Exemples |
+|---|---|---|
+| Slot principal | Votre damage dealer le plus confortable | Captain, Lancelot, Narmaya |
+| Slot sécurité | Stabiliser les erreurs et les mauvais pulls | Vane, Katalina, Cagliostro |
+| Slot distance | Maintenir la pression à distance | Eugen, Eustace, Rackam |
+| Slot flexible | S’adapter à la quête ou au boss | Percival, Sandalphon, Beatrix |
+
+C’est aussi là que l’extension 2026 prend de l’importance. Avec plus de personnages, vous avez davantage de façons de construire autour d’une quête au lieu d’imposer une seule équipe universelle à tous les combats.
+
+</Section>
+
+<Section icon={Sparkles} title="Comment Endless Ragnarok change le roster">
+
+Endless Ragnarok n’ajoute pas seulement de nouveaux noms à la liste. Il change la manière de penser le roster en ajoutant de nouveaux rôles, une pression de quête différente et davantage de raisons de se spécialiser. L’extension est conçue pour récompenser les personnages capables de rester efficaces quand les combats deviennent plus exigeants.
+
+<Callout type="warning" title="Débloquer ne veut pas dire prêt à construire">
+Obtenir un nouveau personnage n’est que la première étape. Il faut encore des armes, des sigils et de l’entraînement avant qu’il soit prêt pour les quêtes de haute difficulté.
+</Callout>
+
+| Source | Exemples | Accès | Note éditoriale |
+|---|---|---|---|
+| Roster de lancement | Captain, Katalina, Io, Eugen, Lancelot | Jeu de base | Meilleur point de départ pour les nouveaux joueurs |
+| Roster des mises à jour gratuites | Seofon, Tweyen, Sandalphon | Mises à jour gratuites | Excellentes options pour les joueurs de fin de jeu |
+| Roster de l’extension | Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | Endless Ragnarok | Kits inédits pour le contenu plus difficile |
+
+L’extension augmente aussi la valeur des personnages dotés d’outils solo propres, car des contenus comme les quêtes Chaos et Conflux poussent les joueurs vers des builds plus solides. Même en coop, ce changement compte. Un personnage qui gère bien la pression apporte généralement plus qu’un pick fragile qui s’écroule au premier faux pas.
+
+| Évolution de l’extension | Ce qui change pour la planification du roster |
+|---|---|
+| Quêtes plus difficiles | La survie compte davantage |
+| Nouveaux boss | Le timing et la connaissance des patterns comptent davantage |
+| Plus de personnages | Les rôles d’équipe peuvent être plus spécialisés |
+| Support cross-play | La coopération devient plus simple à organiser |
+
+Si vous voulez garder votre roster pertinent en 2026, concentrez-vous sur les personnages capables de gérer à la fois le farm classique et le contenu de défi haut niveau. Cette approche renforce votre compte sur l’ensemble du jeu, pas seulement dans un seul mode.
+
+</Section>
+
+<Section icon={Trophy} title="Checklist du roster et FAQ">
+
+Avant de vous lancer dans les quêtes plus difficiles, assurez-vous que votre roster fait réellement ce que vous attendez de lui. Le but n’est pas de posséder tous les personnages immédiatement. Le but est d’avoir les bons personnages et de bien les utiliser.
+
+<Callout type="info" title="Vérification finale du roster">
+Si votre main termine confortablement, votre backup gère les mauvais matchups et vos alliés IA restent utiles, votre roster est en bonne forme.
+</Callout>
+
+<Checklist
+  id="endgame-roster-check"
+  title="Préparation pour le endgame :"
+  items={[
+    "Un personnage principal est entièrement confortable en main",
+    "Un backup à distance ou de soutien est disponible",
+    "Les alliés IA ne sont pas sous-équipés",
+    "Vos sigils correspondent à votre rôle réel",
+    "Vous savez quelles pièces du roster viennent du jeu de base, des mises à jour ou d’Endless Ragnarok"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur personnage de départ dans la couverture des personnages de Granblue Fantasy Relink Endless Ragnarok ?",
+    answer: "Lancelot, Charlotta, Eugen et Captain sont les choix initiaux les plus sûrs, car ils offrent un uptime simple, des dégâts réguliers et une prise en main facile."
+  },
+  {
+    question: "Dois-je avoir Endless Ragnarok pour accéder à tous les nouveaux personnages ?",
+    answer: "Non. Le roster de base et les personnages des mises à jour gratuites sont distincts du roster de l’extension. Endless Ragnarok ajoute Gallanza, Maglielle, Beatrix, Eustace, Fraux et Fediel."
+  },
+  {
+    question: "Quels personnages sont les meilleurs en coop ?",
+    answer: "Cagliostro, Vane, Eugen, Eustace et Sandalphon sont d’excellents choix en coop parce qu’ils apportent de la stabilité, un bon uptime de dégâts ou de l’utilité d’équipe."
+  },
+  {
+    question: "Faut-il construire tous les personnages en même temps ?",
+    answer: "Non. Construisez d’abord un main, puis ajoutez un backup et un ou deux choix faciles à utiliser avec l’IA. Cela permet de concentrer les ressources et d’avancer plus vite."
+  }
+]} />
+
+</Section>

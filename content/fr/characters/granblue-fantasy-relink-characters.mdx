@@ -1,0 +1,273 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Personnages de Granblue Fantasy Relink : liste de niveaux et rôles",
+  description: "Utilisez ce guide des personnages de Granblue Fantasy Relink pour comparer le roster de lancement, les ajouts des mises à jour gratuites, les combattants d'Endless Ragnarok, leurs rôles et les meilleurs premiers choix.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/123b6b/fff?text=Character+Tier+List",
+  date: "2026-07-06",
+  author: "Équipe du Wiki de Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Les personnages de Granblue Fantasy Relink** se répartissent clairement entre le roster de base, les héros ajoutés par les mises à jour gratuites et les ajouts d'Endless Ragnarok.
+- **Les meilleurs premiers choix** privilégient généralement des kits simples, une bonne présence offensive sûre et une forte valeur en IA.
+- **Les personnages techniques** récompensent davantage le timing, la gestion des postures ou le placement que le simple bourrage de boutons.
+- **Les combattants de l'extension** ajoutent de nouvelles options de fin de jeu, mais ils nécessitent quand même un investissement complet en armes et en sigils.
+</Callout>
+
+<Section icon={Map} title="Personnages de Granblue Fantasy Relink par origine et rôle">
+
+Il est plus facile de comprendre les personnages de Granblue Fantasy Relink si vous les regroupez selon la manière dont ils rejoignent le roster. Le jeu de base vous donne une large sélection de départ, les mises à jour gratuites ajoutent des favoris post-lancement, et Endless Ragnarok élargit encore le roster avec six combattants jouables supplémentaires. Cette structure compte, car elle influence votre chemin de déblocage, votre premier personnage principal et la planification de votre équipe en fin de jeu.
+
+<Callout type="tip" title="Règle éditoriale">
+Ce guide utilise un classement pratique du site, et non un tier list officiel de Cygames. L’accent est mis sur le confort pour débutants, la valeur des IA, la puissance en coopération et le rendement en fin de partie.
+</Callout>
+
+| Groupe de roster | Exemples | Ce que cela signifie |
+|---|---|---|
+| Roster de base | Captain, Katalina, Lancelot, Eugen, Narmaya | Disponibles dans le jeu principal et idéaux pour l’apprentissage initial |
+| Roster des mises à jour gratuites | Seofon, Tweyen, Sandalphon | Ajoutés plus tard et conçus pour une progression post-game plus forte |
+| Roster d'Endless Ragnarok | Gallanza, Maglielle, Beatrix, Eustace, Fraux, Fediel | Combattants d'extension avec une nouvelle valeur en fin de jeu |
+| Casting réservé au scénario | Lyria, Vyrn, Rolan, Lilith | Importants pour l’histoire, mais pas des choix standards pour les missions |
+
+| Personnage | Rôle | Difficulté | Meilleure utilisation |
+|---|---|---|---|
+| Captain | Épéiste équilibré | Facile | Premier investissement et pivot d'équipe flexible |
+| Lancelot | Attaquant de mêlée rapide | Facile | Pression agressive et déplacements simples |
+| Eugen | Tireur à distance | Facile | Pression sûre sur les boss et régularité en IA |
+| Cagliostro | Lanceuse de soutien | Facile | Soins, buffs et utilité |
+
+<Callout type="warning" title="Planification du roster">
+Ne dispersez pas vos ressources sur tout le casting trop tôt. Un bon personnage principal accompagné de trois alliés IA bien équipés permet généralement de venir à bout de plus de contenu qu’un banc à moitié construit.
+</Callout>
+
+Voici la répartition pratique que je recommande :
+
+- **Personnages faciles pour démarrer** : Captain, Lancelot, Charlotta, Eugen et Cagliostro.
+- **Solides mais plus techniques** : Narmaya, Percival, Siegfried, Zeta et Yodarha.
+- **Choix à privilégier pour l'extension** : Sandalphon, Beatrix, Eustace, Fediel et Gallanza.
+- **Choix orientés soutien** : Cagliostro, Katalina, Rosetta et Io.
+
+Les pages officielles du roster sont le meilleur endroit pour vérifier à quelle vague de contenu appartient chaque personnage : [roster officiel des personnages](https://relink.granbluefantasy.jp/en/characters/) et [page des personnages d'Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/).
+
+</Section>
+
+<Section icon={Swords} title="Meilleurs archétypes de personnages pour les nouveaux joueurs et les joueurs de retour">
+
+Les personnages les plus puissants de Granblue Fantasy Relink ne sont pas toujours les plus spectaculaires. Un bon choix de roster doit d’abord correspondre à votre niveau de confort, puis à votre plafond de dégâts. Si un personnage vous semble naturel, vous esquiverez mieux, conserverez plus facilement votre présence offensive et terminerez les missions plus vite qu’avec un kit théoriquement plus fort que vous comprenez à peine.
+
+<CardGrid cols={4}>
+  <Card title="Départ équilibré">
+    - **Captain**
+    - Compétences fiables
+    - Facile à équiper
+    - Idéal pour le rythme du scénario
+  </Card>
+  <Card title="Mêlée rapide">
+    - **Lancelot**
+    - Forte présence
+    - Offensives simples
+    - Excellente mobilité
+  </Card>
+  <Card title="Distance sûre">
+    - **Eugen**
+    - Dégâts réguliers
+    - Positionnement plus sûr
+    - Excellent allié IA
+  </Card>
+  <Card title="Noyau de soutien">
+    - **Cagliostro**
+    - Outils de soin
+    - Valeur des buffs
+    - Forte utilité pour l'équipe
+  </Card>
+</CardGrid>
+
+| Archétype | Meilleur exemple | Point fort | Inconvénient |
+|---|---|---|---|
+| Équilibré | Captain | Facile à prendre en main, flexible dans n’importe quelle équipe | Plafond de dégâts plus bas que les spécialistes |
+| Rushdown mêlée | Lancelot | Attaques rapides, pression facile, forte mobilité | Peut sembler répétitif si vous cherchez de la profondeur |
+| Sécurité à distance | Eugen | Présence sûre et pression sur les boss | Moins explosif que les kits de mêlée burst |
+| Utilité de soutien | Cagliostro | Soins et buffs d’équipe | Demande un bon timing des compétences |
+
+<Callout type="success" title="Meilleurs choix pratiques">
+Si vous voulez un départ sans friction, choisissez Captain, Lancelot, Eugen ou Cagliostro. Ils couvrent le plus grand éventail de types de missions avec le moins de préparation.
+</Callout>
+
+Une façon simple de voir le roster :
+
+- **Captain** est le polyvalent le plus sûr.
+- **Lancelot** est l’attaquant rapide le plus facile à recommander.
+- **Eugen** est idéal si vous aimez le contrôle à distance et une présence propre sur les boss.
+- **Cagliostro** est le meilleur choix de style “améliore toute l’équipe”.
+- **Narmaya** et **Percival** deviennent plus forts une fois que vous appréciez les offensives basées sur le timing.
+
+| Personnage | Facilité pour débutant | Valeur en coopération | Valeur en IA |
+|---|---|---|---|
+| Captain | Élevée | Élevée | Élevée |
+| Lancelot | Élevée | Élevée | Élevée |
+| Eugen | Élevée | Élevée | Excellente |
+| Cagliostro | Élevée | Élevée | Excellente |
+| Narmaya | Moyenne | Élevée | Élevée |
+| Percival | Moyenne | Élevée | Moyenne |
+
+</Section>
+
+<Section icon={Target} title="Comment choisir votre premier personnage principal">
+
+La meilleure façon de choisir parmi les personnages de Granblue Fantasy Relink est de tester votre confort, et pas seulement les dégâts bruts. Un personnage qui s’adapte bien à vos mains vous mènera plus loin dans les chapitres du scénario, les premières missions et le farm de post-game.
+
+<Steps>
+  <Step num="1" title="Choisissez un rôle">
+    Commencez par choisir un rôle : dégâts de mêlée, dégâts à distance, soutien ou burst technique. Cela réduit rapidement le roster.
+  </Step>
+  <Step num="2" title="Essayez deux options faciles">
+    Lancez une mission simple avec deux candidats, puis comparez le timing d’esquive, la fluidité des compétences et votre capacité à rester actif.
+  </Step>
+  <Step num="3" title="Vérifiez le soutien IA">
+    Demandez-vous si votre personnage principal fonctionne bien avec des alliés IA capables de couvrir les soins, les dégâts à distance ou la stabilité en première ligne.
+  </Step>
+  <Step num="4" title="Investissez dans une seule voie">
+    Améliorez une voie d’arme, une configuration de sigils et une voie de maîtrise avant de disperser vos matériaux sur tout le roster.
+  </Step>
+</Steps>
+
+| Si vous aimez... | Commencez par | Pourquoi ça fonctionne |
+|---|---|---|
+| Apprentissage sûr | Captain | Kit équilibré et améliorations flexibles |
+| Pression rapide | Lancelot | Enchaînements simples et forte mobilité |
+| Jeu à distance propre | Eugen | Dégâts sur boss depuis une distance plus sûre |
+| Soutien d'équipe | Cagliostro | Soins, buffs et valeur constante |
+| Mêlée à haut niveau | Narmaya | Fort plafond une fois le timing maîtrisé |
+
+<Callout type="info" title="Règle du personnage principal">
+Votre premier personnage principal doit vous aider à terminer plus de missions, pas seulement à impressionner sur l’écran de sélection. La régularité vaut mieux que la nouveauté pendant le premier gros grind.
+</Callout>
+
+Une bonne checklist pour un premier main :
+
+<Checklist
+  id="main-character-checklist"
+  title="Checklist du premier personnage principal"
+  items={[
+    "Puis-je esquiver et attaquer sans lutter contre les commandes ?",
+    "Ce personnage reste-t-il utile en solo comme en coopération ?",
+    "Mes alliés IA couvrent-ils les faiblesses comme les soins ou la portée ?",
+    "Puis-je construire ce personnage sans gaspiller de matériaux rares ?",
+    "Ce personnage restera-t-il agréable après le scénario ?"
+  ]}
+/>
+
+Les détails officiels des personnages et les notes de mise à jour méritent d’être mis en favori pendant votre réflexion : [page des personnages](https://relink.granbluefantasy.jp/en/characters/) et [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/).
+
+</Section>
+
+<Section icon={Shield} title="Progression des personnages, valeur de déblocage et équilibre d'équipe">
+
+Le roster fonctionne mieux si vous le considérez comme une échelle de progression. Au début, vous voulez de la fiabilité. Plus tard, vous voulez de la spécialisation. C’est pourquoi les personnages les plus utiles de Granblue Fantasy Relink sont souvent ceux qui restent forts à chaque étape, et pas seulement au sommet.
+
+| Étape de progression | Meilleurs types de personnages | Ce qu’il faut prioriser |
+|---|---|---|
+| Début du scénario | Captain, Lancelot, Eugen | Exécution facile et missions régulières |
+| Début du post-game | Cagliostro, Charlotta, Katalina | Sécurité de l’équipe et utilité flexible |
+| Farm de milieu de jeu | Narmaya, Percival, Siegfried | Dégâts plus élevés une fois les mécaniques maîtrisées |
+| Grind de fin de jeu | Sandalphon, Beatrix, Fediel | Plafond plus élevé et meilleur rendement de build |
+| Poussée d'extension | Gallanza, Maglielle, Eustace | Contenu de fin de jeu et nouveaux paliers de missions |
+
+| Personnage | Source de déblocage | Meilleur cas d’utilisation |
+|---|---|---|
+| Captain | Scénario de base | Pilier du scénario principal |
+| Seofon | Mise à jour gratuite | Combat à l’épée de haut niveau |
+| Tweyen | Mise à jour gratuite | Pression sûre à distance |
+| Sandalphon | Mise à jour gratuite | Puissance de mêlée en fin de partie |
+| Beatrix | Endless Ragnarok | Jeu agressif flexible |
+| Fediel | Endless Ragnarok | Gros investissement pour l’extension |
+
+<Callout type="tip" title="Conseil d'équilibre d'équipe">
+Une bonne équipe comprend généralement un personnage principal orienté dégâts, un avant-ligne robuste, un attaquant à distance et un slot orienté soutien. Cette configuration rend les missions plus fluides que l’accumulation de quatre attaquants fragiles.
+</Callout>
+
+Lorsque vous évaluez une équipe, vérifiez ces points :
+
+- **Présence offensive** : le personnage peut-il continuer à frapper pendant les déplacements du boss ?
+- **Survivabilité** : le kit permet-il de corriger les erreurs ?
+- **Régularité de l’IA** : le personnage reste-t-il utile lorsqu’il est contrôlé par le jeu ?
+- **Efficacité des ressources** : le personnage a-t-il besoin de matériaux rares juste pour fonctionner ?
+- **Valeur en fin de jeu** : le kit restera-t-il pertinent après le scénario ?
+
+<Callout type="success" title="Meilleurs investissements à long terme">
+Captain, Eugen, Cagliostro, Lancelot et Sandalphon offrent tous une excellente valeur à long terme, car ils combinent utilité et chemin de progression clair.
+</Callout>
+
+Si vous voulez le chemin de build le plus efficace, concentrez-vous sur un main, un mêlée de secours, un allié à distance et un slot de soutien. Ce modèle garde votre compte flexible sans rendre la progression confuse.
+
+</Section>
+
+<Section icon={Sparkles} title="Parcours de personnages recommandés et priorités de fin de jeu">
+
+En fin de jeu, la question n’est plus seulement de savoir qui est fort, mais qui mérite un investissement complet. Certains personnages de Granblue Fantasy Relink sont idéaux pour une utilisation large, tandis que d’autres ne brillent qu’une fois leurs mécaniques spécifiques maîtrisées. C’est là que la clarté des rôles compte le plus.
+
+| Priorité | Type de personnage | Meilleure raison de le build |
+|---|---|---|
+| Très haute | Captain, Eugen, Cagliostro | Valeur flexible dans presque tout le contenu |
+| Haute | Lancelot, Sandalphon, Narmaya | Forte offensive avec un rendement fiable |
+| Moyenne | Percival, Siegfried, Zeta | Très bon plafond avec plus d’exigence d’exécution |
+| Situationnelle | Ghandagoza, Vaseraga, Yodarha | Solides, mais demandent davantage d’investissement |
+
+| Objectif de build | Priorité recommandée | Exemples de personnages |
+|---|---|---|
+| Vitesse de clear du scénario | Kits faciles | Captain, Lancelot, Eugen |
+| Sécurité de l'équipe | Soins et stabilité | Cagliostro, Katalina, Rosetta |
+| Plafond de dégâts | Offensives basées sur le timing | Narmaya, Percival, Seofon |
+| Farm de l'extension | Forte utilité en fin de jeu | Sandalphon, Beatrix, Fediel |
+| Régularité sur les boss | Pression à distance ou mobile | Eugen, Tweyen, Zeta |
+
+<Callout type="warning" title="Évitez cette erreur">
+Ne supposez pas qu’un personnage ajouté lors d’une mise à jour tardive est automatiquement prêt pour les missions difficiles. Même les ajouts les plus puissants ont encore besoin d’armes, de sigils et d’un investissement de maîtrise adaptés.
+</Callout>
+
+Utilisez cette règle pratique lorsque vous choisissez votre prochain investissement :
+
+- Construisez d’abord **un personnage utile dans toutes les situations**.
+- Ajoutez **un choix de confort** que vous aimez réellement jouer.
+- Ajoutez **un spécialiste** pour le contenu à haute difficulté.
+- Gardez les **alliés IA** équipés, ne les négligez pas.
+- Revenez sur votre roster après les grandes mises à jour ou les déblocages d’extension.
+
+Les pages officielles du roster et des systèmes de l’extension sont de bonnes références lorsque vous commencez à planifier des builds plus poussés : [personnages d'Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/characters/) et [systèmes d'Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/systems/).
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quels personnages de Granblue Fantasy Relink sont les meilleurs pour les débutants ?",
+    answer: "Captain, Lancelot, Eugen et Cagliostro sont les meilleurs choix faciles à prendre en main. Ils offrent une exécution simple, une bonne valeur pour l’équipe et de solides performances en solo comme en coopération."
+  },
+  {
+    question: "Les personnages ajoutés gratuitement par mise à jour valent-ils la peine d’être build ?",
+    answer: "Oui. Seofon, Tweyen et Sandalphon sont de solides investissements à long terme si vous aimez leur style de jeu. Ils demandent toujours une progression complète des armes et des sigils, comme n’importe quel autre personnage."
+  },
+  {
+    question: "Faut-il investir tôt dans les personnages techniques ?",
+    answer: "Seulement si vous appréciez déjà leur rythme. Narmaya, Percival, Siegfried et d’autres personnages basés sur le timing peuvent être excellents, mais ils récompensent davantage la familiarité que l’investissement brut."
+  },
+  {
+    question: "Quelle est la composition d’équipe la plus sûre pour les personnages de Granblue Fantasy Relink ?",
+    answer: "Utilisez un personnage principal orienté dégâts, un personnage robuste ou défensif, un attaquant à distance et un slot orienté soutien. Cette structure stabilise les missions et réduit le risque de devoir recommencer."
+  }
+]} />
+
+<Callout type="info" title="Conclusion">
+Le meilleur personnage est généralement celui que vous pouvez piloter proprement, équiper efficacement et garder performant sur toute l’échelle de progression.
+</Callout>
+
+</Section>

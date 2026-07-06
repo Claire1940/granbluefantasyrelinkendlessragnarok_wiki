@@ -1,0 +1,185 @@
+import { Map, Swords, Shield, Sparkles, Target, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "build Vane de Granblue Fantasy: Relink : configuration DPS tanky",
+  description: "Découvrez le meilleur build Vane dans Granblue Fantasy: Relink avec les sigils, les armes, les compétences, les rôles en équipe et des conseils de progression pour l’endgame.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Vane+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe Wiki de Granblue Fantasy: Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **build Vane de Granblue Fantasy: Relink** fonctionne mieux comme une configuration de front durable avec une présence constante.
+- **La survie d’abord** permet à Vane de rester sur le terrain assez longtemps pour transformer les ouvertures en vrais dégâts.
+- **Le Damage Cap plus tard** devient important une fois que la progression de base de l’arme et des sigils ne fait plus monter les dégâts réels.
+- **La valeur en coop** reste élevée, car Vane peut maintenir la pression pendant que ses alliés lancent librement leurs sorts et leurs burst.
+</Callout>
+
+<Section icon={Map} title="build Vane de Granblue Fantasy: Relink : pourquoi Vane fonctionne">
+
+Vane remplit un rôle simple mais très efficace dans **Granblue Fantasy: Relink** : il reste au contact, absorbe la pression et continue d’attaquer lorsque les autres personnages de mêlée doivent se replier. Le roster officiel des personnages et les notes sur le développement des personnages montrent une chose clairement : Relink récompense la synergie d’équipe, la présence sur le terrain et une gestion sensée des ressources. C’est précisément là que Vane excelle.
+
+Si vous voulez un main mêlée plus sûr, commencez par considérer Vane comme un bruiser de première ligne plutôt que comme un pur sprint vers les dégâts. Son build doit protéger votre rotation, réduire les temps morts et faire compter chaque fenêtre d’ouverture du boss.
+
+**Points forts de la vidéo :**
+- N/A : aucune source vidéo pertinente n’a été fournie
+- Concentrez-vous sur **la présence en première ligne** plutôt que sur une planification fragile des burst
+- Priorisez **la stabilité de l’équipe** avant de courir après des chiffres de dégâts parfaits
+- Utilisez Vane pour créer des fenêtres sûres pour le reste de l’équipe
+
+<Callout type="tip" title="Philosophie du build">
+Vane devient plus précieux lorsque le reste du groupe reste en vie et actif. Construisez-le pour rester près du boss, encaisser les erreurs et maintenir la pression sur la cible.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Meilleur rôle">
+    - **Bruiser de première ligne**
+    - Grande sécurité
+    - Solide pilier en coop
+  </Card>
+  <Card title="Meilleure force">
+    - **Endurance**
+    - Présence mêlée fiable
+    - Valeur facile dans les quêtes difficiles
+  </Card>
+  <Card title="Meilleur état d’esprit">
+    - **Défense d’abord**
+    - Dégâts ensuite
+    - Clears réguliers plutôt que clips spectaculaires
+  </Card>
+</CardGrid>
+
+| Priorité du build | Recommandation | Pourquoi c’est important |
+|---|---|---|
+| Rôle principal | **Pression de première ligne** | Vane reste proche des boss et transforme les ouvertures sûres en dégâts réguliers. |
+| Survie | **Priorité élevée** | Plus de temps en action signifie plus de dégâts, plus de réanimations et moins d’échecs. |
+| Valeur d’équipe | **Excellente en coop** | Il aide à stabiliser les groupes qui veulent un ancrage mêlée fiable. |
+| Progression de l’équipement | **Simple au début, plus précise à la fin** | Les builds du début doivent être tolérants ; ceux de fin de jeu peuvent davantage miser sur les dégâts et l’utilité. |
+
+La base la plus propre est simple : utilisez la [page officielle des personnages](https://relink.granbluefantasy.jp/en/characters/) pour confirmer le rôle de Vane, puis alignez votre configuration sur le [manuel de développement des personnages](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building). Cette combinaison garde le build ancré dans les systèmes réels du jeu plutôt que dans un min-max théorique fantaisiste.
+
+</Section>
+
+<Section icon={Shield} title="Meilleures compétences, armes et sigils">
+
+Le meilleur build Vane ne consiste pas à imposer trop tôt une seule réponse « best-in-slot ». Il s’agit de choisir des outils qui le gardent collé au combat, réduisent les dégâts subis et permettent à ses attaques de passer pendant les vraies fenêtres du boss. Cela signifie que la progression de l’arme, le choix des compétences et la priorité des sigils doivent tous aller dans la même direction.
+
+<Callout type="warning" title="Avertissement sur les matériaux du début de jeu">
+Ne dépensez pas vos matériaux rares d’amélioration dans chaque arme brillante ou chaque sigil de niche. Vane progresse le plus vite lorsque vous améliorez l’équipement que vous utilisez réellement dans les quêtes en cours.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Verrouillez une voie d’arme durable">
+    Utilisez la meilleure arme actuelle de Vane et gardez-la suffisamment améliorée pour votre niveau de quêtes. Au début, la fiabilité brute compte plus qu’une optimisation parfaite.
+  </Step>
+  <Step num="2" title="Choisissez des compétences qui préservent la présence">
+    Privilégiez les compétences qui aident Vane à rester à portée de mêlée, à survivre à la pression des boss ou à convertir les ouvertures en fenêtres de dégâts plus longues.
+  </Step>
+  <Step num="3" title="Ajoutez des sigils qui résolvent de vrais problèmes">
+    Commencez avec la santé, l’offensive, un peu de réduction de temps de recharge et toute utilité qui vous garde actif. Plus tard, orientez-vous vers des traits offensifs plus puissants.
+  </Step>
+  <Step num="4" title="Testez le build dans de vraies quêtes">
+    Si la configuration semble sûre mais lente, retirez un peu de défense excessive. Si elle paraît fragile, rétablissez la survie avant de chercher plus de dégâts.
+  </Step>
+</Steps>
+
+| Priorité des compétences | À rechercher | Pourquoi cela aide |
+|---|---|---|
+| Priorité 1 | **Outils de sécurité** | Maintient Vane en vie lorsque les boss enchaînent la pression ou déséquilibrent l’équipe. |
+| Priorité 2 | **Outils de rapprochement** | Aide Vane à rester au corps à corps et à ne pas perdre de temps de dégâts. |
+| Priorité 3 | **Fenêtres de burst** | Permet de punir les ouvertures au lieu de les gaspiller en déplacement. |
+| Priorité 4 | **Slot flexible** | Utilisez un slot pour le confort, l’utilité en coop ou les besoins spécifiques du combat. |
+
+| Étape des sigils | Meilleurs choix | Objectif du build |
+|---|---|---|
+| Début de partie | **HP, Attaque, aide au cooldown** | Clears stables et apprentissage plus facile. |
+| Milieu de partie | **Stun, survie, offensive équilibrée** | Meilleur contrôle des boss et moins d’échecs. |
+| Fin de partie | **Damage Cap, traits offensifs forts** | Convertir la présence de Vane en dégâts réels d’endgame. |
+| Options premium | **War Elemental, Supplementary Damage** | À utiliser une fois le reste du build déjà stabilisé. |
+
+Pour la plupart des joueurs, l’ordre des sigils doit d’abord sembler un peu ennuyeux, puis devenir plus fort plus tard. C’est une bonne conception, pas un défaut. Les systèmes de progression du jeu, notamment les améliorations d’armes et le développement des personnages, récompensent la régularité avant le luxe.
+
+</Section>
+
+<Section icon={Target} title="Plan de progression pour l’histoire, le coop et l’endgame">
+
+Vane progresse bien sur toute la durée du jeu, car sa valeur est facile à comprendre à chaque étape. Dans les quêtes de l’histoire, il stabilise votre groupe. Dans le post-game, il rend les combats difficiles plus indulgents. En coop, il offre à l’équipe une présence mêlée fiable qui ne s’effondre pas au moindre éternuement du boss.
+
+<Callout type="success" title="Règle de progression">
+Si votre build Vane termine les quêtes proprement, vous êtes déjà sur la bonne voie. N’affinez les dégâts qu’une fois que le build semble stable.
+</Callout>
+
+| Étape | Quoi améliorer en premier | Objectif principal |
+|---|---|---|
+| Histoire | **Niveau de l’arme, sigils basiques, compétences simples** | Apprendre le rythme de Vane et rester en vie. |
+| Début du post-game | **Offensive de base, HP, confort de cooldown** | Terminer les quêtes plus vite sans perdre en régularité. |
+| Milieu du post-game | **Mise en place du Damage Cap, traits plus forts** | Transformer une présence sûre en dégâts significatifs. |
+| Endgame | **Sigils finement réglés, remplacements spécifiques au combat** | Aborder les quêtes les plus difficiles avec moins de points faibles. |
+
+| Slot d’équipe | Meilleur type de partenaire | Pourquoi ça fonctionne |
+|---|---|---|
+| Slot 1 | **DPS à distance** | Couvre les cibles que Vane ne peut pas atteindre instantanément. |
+| Slot 2 | **Support ou soigneur** | Maintient l’équipe stable pendant les longs combats. |
+| Slot 3 | **Attaquant à burst élevé** | Transforme la stabilité de groupe de Vane en clears plus rapides. |
+| Slot 4 | **Slot flexible IA ou coop** | S’adapte à la quête au lieu d’imposer une seule configuration. |
+
+<Checklist
+  id="vane-progression-goals"
+  title="Étapes clés du build Vane :"
+  items={[
+    "Gardez l’arme de Vane améliorée pour correspondre à votre niveau de quête actuel",
+    "Utilisez des sigils qui améliorent la survie avant de courir après des dégâts premium",
+    "Testez votre sélection de compétences dans quelques quêtes difficiles avant de la verrouiller",
+    "Remplacez par Damage Cap une fois que l’offensive brute n’augmente plus la vitesse de clear",
+    "Jouez en coop ou avec un support IA qui complète le rôle de première ligne de Vane"
+  ]}
+/>
+
+La page Steam officielle confirme la structure d’équipe à quatre et la prise en charge du coop en ligne, donc le rôle de Vane est naturellement plus fort lorsque le reste de l’équipe peut continuer à attaquer pendant qu’il tient l’espace. Profitez-en plutôt que d’essayer d’en faire un duelliste fragile.
+
+</Section>
+
+<Section icon={Trophy} title="Erreurs courantes et FAQ">
+
+Les erreurs les plus fréquentes avec Vane viennent toutes du fait qu’on ignore sa vraie valeur. Il n’est pas censé gagner chaque combat uniquement grâce à un burst brut. Il est censé rendre les combats plus faciles, plus sûrs et plus réguliers. Une fois cela accepté, le build devient beaucoup plus simple à ajuster.
+
+<Callout type="info" title="Note finale d’optimisation">
+Si un changement rend Vane plus sûr mais seulement un peu plus lent, c’est souvent un bon compromis. Ses meilleurs builds préservent le temps d’action, pas seulement les statistiques du menu.
+</Callout>
+
+| Erreur | Problème | Meilleure solution |
+|---|---|---|
+| Trop investir dans l’offensive trop tôt | Vous obtenez des chiffres spectaculaires mais perdez en régularité de clear | Ajoutez d’abord du HP, du confort de cooldown et de l’utilité pratique |
+| Ignorer le Damage Cap plus tard | L’attaque brute cesse de se transformer en vrais dégâts | Orientez les slots de fin de jeu vers le Damage Cap et des traits plus forts |
+| Traiter Vane comme un pur DPS | Vous gaspillez son meilleur rôle, celui d’ancre stable | Construisez autour de la présence constante et du contrôle du boss |
+| Copier l’équipement d’endgame trop tôt | Les matériaux manquants rendent le build faible ou incomplet | Progressez par étapes et améliorez ce que vous utilisez réellement |
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur build granblue fantasy relink vane pour la plupart des joueurs ?",
+    answer: "Une configuration de première ligne équilibrée est généralement la meilleure : progression durable de l’arme, sigils axés d’abord sur la survie et compétences qui maintiennent Vane au corps à corps sans le faire surinvestir."
+  },
+  {
+    question: "Vane doit-il d’abord se concentrer sur les dégâts ou la défense ?",
+    answer: "La défense et la présence d’abord. Une fois qu’il survit confortablement et termine les quêtes de manière fiable, vous pouvez basculer plus fortement vers le Damage Cap et les traits offensifs."
+  },
+  {
+    question: "Vane est-il meilleur en solo ou en coop ?",
+    answer: "Il est solide dans les deux cas, mais le coop met vraiment en valeur sa valeur, car il peut maintenir la pression pendant que les autres joueurs ou les alliés IA attaquent librement."
+  },
+  {
+    question: "Que dois-je remplacer en premier quand mon build semble faible ?",
+    answer: "Remplacez les sigils de début de partie à faible valeur, puis améliorez la voie d’arme que vous utilisez réellement. Si le build paraît encore fragile, restaurez la survie avant d’ajouter davantage de dégâts."
+  }
+]} />
+
+Pour aller plus loin, gardez à portée de main le [roster officiel des personnages](https://relink.granbluefantasy.jp/en/characters/) et les [pages du manuel liées au build](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building) pendant que vous ajustez votre configuration. Ainsi, chaque changement sert la boucle de jeu réelle plutôt qu’un fantasme de théoriecrafting.
+
+</Section>

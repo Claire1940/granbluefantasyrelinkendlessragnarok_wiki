@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink berserker echo : guide du meilleur build",
+  description: "Créez une configuration Berserker Echo plus puissante dans Granblue Fantasy Relink grâce aux priorités d'armes, aux sigils, aux rôles d'équipe, à l'ordre des quêtes et aux conseils de fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Berserker+Echo+Guide",
+  date: "2026-07-06",
+  author: "Équipe Wiki de granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink berserker echo** fonctionne mieux comme une configuration de mêlée rapide centrée sur les fenêtres de dégâts.
+- **Damage Cap** et **War Elemental** comptent davantage que l'attaque brute une fois que vos chiffres commencent à plafonner.
+- **Percival, Siegfried et Narmaya** sont les choix les plus naturels ; **Vaseraga** convient davantage à un style plus lent et plus lourd.
+- **Commencez par l'histoire, puis farmez** pour garder vos ressources efficaces et éviter les améliorations sans issue.
+</Callout>
+
+<Section icon={Map} title="Bases du Berserker Echo dans Granblue Fantasy Relink">
+
+granblue fantasy relink berserker echo est préférable d'être considéré comme un style de build, et non comme un nom de classe officiel. L'idée est simple : maximiser le temps d'activité offensif, punir les ouvertures des boss et garder votre boucle de dégâts suffisamment serrée pour que chaque compétence compte. Cette approche s'adapte particulièrement bien au combat d'équipe en temps réel de Relink, car le jeu récompense les Link Attacks, les Skybound Arts et un bon timing de burst.
+
+Si vous voulez des références système à jour, le site officiel de base, la liste des personnages et les pages de build sont les meilleurs points de départ : [site officiel](https://relink.granbluefantasy.jp/en/), [personnages](https://relink.granbluefantasy.jp/en/characters/) et [manuel de construction des personnages](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building).
+
+<Callout type="info" title="Ce que signifie Berserker Echo">
+Ce guide utilise « Echo » comme raccourci pour désigner des fenêtres de dégâts répétées et une pression de suivi. C'est une étiquette de build, pas une classe en jeu.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Objectif principal">
+    - **Rester à l'offensive**
+    - Convertir les ouvertures des boss en dégâts explosifs
+    - Réduire au maximum les temps morts
+  </Card>
+  <Card title="À éviter">
+    - Investir excessivement trop tôt dans la rareté
+    - Chercher des sigils parfaits trop vite
+    - Construire uniquement pour le confort
+  </Card>
+  <Card title="À apprendre d'abord">
+    - Le timing d'esquive
+    - La rotation des compétences
+    - Le rythme des Link Attacks
+  </Card>
+</CardGrid>
+
+| Priorité | Cible | Pourquoi c'est important |
+|---|---|---|
+| Fenêtres de dégâts | Compétences, Link Attacks, Chain Bursts | Le build ne paraît vraiment puissant que lorsque vous convertissez les ouvertures en vrai burst. |
+| Temps d'activité | Déplacement, espacement, pression sans stamina | Une configuration de type berserker perd de sa valeur si vous passez trop de temps à vous replacer. |
+| Survie | PV, timing de garde, soutien sûr de l'IA | Rester en vie maintient votre moteur de dégâts en marche. |
+| Scaling | Damage Cap, sigils premium | L'attaque brute finit par ralentir, mais les éléments de scaling continuent de rapporter. |
+
+<Callout type="tip" title="Règle de l'éditeur">
+Si votre configuration n'a l'air forte que sur le papier, elle n'est pas prête. Un bon build Berserker Echo doit être fluide en vraie quête, pas seulement dans les menus.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleurs personnages pour une configuration Berserker Echo">
+
+Pour ce style de jeu, les meilleurs choix sont les personnages capables de maintenir la pression sur un boss sans s'effondrer dans les combats à forte mobilité. Le roster de base propose déjà plusieurs options solides, et Endless Ragnarok ajoute d'autres choix de fin de jeu via la voie d'extension 2026. Vous n'avez pas besoin du personnage le plus spectaculaire ; il vous faut un personnage capable de convertir les ouvertures en dégâts répétables.
+
+Les choix offensifs les plus propres sont généralement Percival, Siegfried, Narmaya et Vaseraga. Si vous voulez un peu plus de flexibilité, Beatrix, issue d'Endless Ragnarok, s'inscrit aussi dans ce même rythme de pression élevée. Pour avoir une vue plus large du roster, les pages officielles des personnages et des mises à jour sont les meilleures références : [liste des personnages](https://relink.granbluefantasy.jp/en/characters/) et [mises à jour](https://relink.granbluefantasy.jp/en/updates/).
+
+<Callout type="warning" title="Ne forcez pas le build">
+Un lanceur à distance ou un personnage purement soutien gaspille généralement l'intérêt du Berserker Echo. Cette configuration demande de l'engagement, pas un jeu passif en arrière-ligne.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Percival">
+    - Burst puissant
+    - Timing de charge propre
+    - Excellent pour les fenêtres de punition
+  </Card>
+  <Card title="Siegfried">
+    - Rythme de mêlée lourd
+    - Sensation de robustesse
+    - Très bonne valeur en fin de jeu
+  </Card>
+  <Card title="Narmaya">
+    - Très haut plafond
+    - Flux rapide des postures
+    - Forte expression de compétence
+  </Card>
+  <Card title="Vaseraga">
+    - Lent mais punitif
+    - Gros engagement sur les coups
+    - Idéal pour les joueurs patients
+  </Card>
+</CardGrid>
+
+| Personnage | Facilité | Burst | Sécurité | Meilleure utilisation |
+|---|---|---|---|---|
+| Percival | Moyen | Excellent | Moyen | Fenêtres de punition sur boss axées burst |
+| Siegfried | Moyen | Élevé | Élevée | Pression de mêlée stable avec une forte durabilité |
+| Narmaya | Moyen | Excellent | Moyen | Jeu offensif à forte maîtrise |
+| Vaseraga | Faible | Élevé | Moyen | Dégâts lents, lourds et basés sur l'engagement |
+| Beatrix | Moyen | Élevé | Élevée | Choix offensif flexible de l'ère de l'extension |
+
+Une composition pratique est simple : un attaquant principal agressif, un dealer de dégâts à distance, un slot orienté soutien et un frontliner résistant. Eugen et Cagliostro sont particulièrement utiles comme partenaires IA, car ils maintiennent la pression sans voler tout le tempo du combat.
+
+<Callout type="success" title="Meilleur schéma d'équipe">
+Associez votre attaquant principal agressif à des alliés IA stables. Cela vous laisse plus de marge pour exploiter les ouvertures sans transformer chaque erreur en wipe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Priorités en armes, sigils et maîtrise">
+
+La manière la plus rapide d'améliorer une configuration Berserker Echo consiste à cesser de penser en améliorations isolées. Les armes, les sigils, la maîtrise et les systèmes ultérieurs alimentent tous la même boucle de dégâts. Le manuel de build officiel et les pages de mise à jour le montrent clairement en reliant la progression des personnages à l'évolution des armes, aux choix de sigils et aux systèmes plus avancés comme Sigil Synthesis et Master Traits.
+
+La plus grosse erreur consiste à surestimer l'attaque trop tôt. Une fois vos chiffres à plateau, le build a besoin d'un scaling plus efficace. C'est là que Damage Cap, les bonus élémentaires et les sigils offensifs premium deviennent plus importants qu'un simple petit gain de statistiques.
+
+| Sigil | Meilleure utilisation | Quand l'équiper | Notes |
+|---|---|---|---|
+| Damage Cap | Principal élément de scaling | Milieu de jeu à fin de jeu | Devient essentiel lorsque l'attaque brute ne fait plus assez monter les chiffres |
+| War Elemental | Bonus de dégâts premium | Fin de jeu | Excellent lorsque vous disposez déjà d'un noyau de build stable |
+| Supplementary Damage | Valeur de dégâts supplémentaires | Fin de jeu | Très fort sur les personnages offensifs à fort temps d'activité |
+| Skill Cooldown | Plus de cycles de burst | Début à fin de jeu | Aide le build à paraître plus fluide et plus actif |
+| HP/Defense | Assurance de survie | Début à fin de jeu | Utile lorsque les patterns des boss punissent les jeux trop gourmands |
+
+| Étape de l'arme | Priorité | Dépenser ou économiser |
+|---|---|---|
+| Phase scénario | Améliorations de base, progression régulière | Dépensez librement sur l'arme principale active |
+| Milieu de jeu | Progression d'armes selon le rôle | Gardez les matériaux rares pour votre personnage préféré |
+| Après l'histoire | Scaling efficace | Investissez davantage uniquement sur votre équipe principale |
+| Endless Ragnarok | Master Traits, meilleur modelage de fin de jeu | Dépensez sur des pièces solides à long terme, pas sur du remplissage |
+
+<Steps>
+  <Step num="1" title="Choisissez une voie d'arme principale">
+    Sélectionnez l'arme de votre personnage principal Berserker Echo et gardez-la au-dessus du reste de l'équipe.
+  </Step>
+  <Step num="2" title="Ajoutez d'abord les sigils essentiels">
+    Équipez Damage Cap, du soutien à la survie et un ou deux sigils de confort avant de viser des pièces de luxe rares.
+  </Step>
+  <Step num="3" title="Testez en vraies quêtes">
+    Enchaînez quelques combats normaux et difficiles. Si votre burst semble maladroit, ajustez le cooldown ou la défense avant de faire du min-maxing.
+  </Step>
+  <Step num="4" title="Affinez avec les systèmes 2026">
+    Utilisez Sigil Synthesis et Master Traits pour combler les écarts une fois que votre compte dispose de suffisamment de bonnes pièces.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Ordre de priorité">
+La stabilité de l'arme d'abord, les sigils de base ensuite, et le scaling premium en dernier. Cet ordre maintient le build solide à chaque étape de progression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ordre des quêtes et route de farm">
+
+Une route de farm disciplinée compte davantage que le temps de grind brut. Granblue Fantasy Relink propose déjà plus de 100 quêtes, et la voie d'extension officielle 2026 ajoute encore plus de points de pression via les combats de mise à jour, le contenu Chaos et Conflux. Cela signifie que votre route doit toujours correspondre à votre équipement, et non à votre impatience.
+
+La progression propre est la suivante : histoire, puis farm après l'histoire, puis quêtes de défi, puis contenu d'extension. Si vous sautez directement dans les niveaux les plus difficiles, vous passez généralement plus de temps à réparer un build faible qu'à l'améliorer. Pour les notes actuelles du jeu de base et de l'extension, le [site de base](https://relink.granbluefantasy.jp/en/) officiel et la [page système Endless Ragnarok](https://relink-ragnarok.granbluefantasy.com/en/systems/) sont les références les plus utiles.
+
+| Étape | Quoi farmer | Objectif |
+|---|---|---|
+| Histoire | Armes de début de jeu, sigils de base, Mastery | Débloquer les systèmes et apprendre votre personnage principal |
+| Après l'histoire | Meilleur équipement, sigils plus forts, matériaux de quête | Construire une équipe stable de quatre personnages |
+| The Final Vision | Matériaux de préparation pour Lucilius | Vérifier si votre build peut survivre à la pression de fin de jeu |
+| Quêtes de mise à jour | Nouveaux personnages, récompenses de défi | Élargir votre roster et affiner votre configuration |
+| Endless Ragnarok | Chaos, Conflux, Master Traits | Pousser vers la progression haut de gamme de fin de jeu |
+
+<Checklist
+  id="berserker-echo-route"
+  title="Paliers de farm :"
+  items={[
+    "Terminez l'histoire avant de farmer sérieusement",
+    "Gardez un personnage principal devant le reste de l'équipe",
+    "Améliorez Damage Cap seulement une fois votre build stabilisé",
+    "Ajoutez au moins une couche défensive",
+    "Utilisez le contenu d'extension pour le scaling à long terme"
+  ]}
+/>
+
+<Callout type="success" title="Discipline de route">
+Utilisez chaque palier de farm pour débloquer le suivant. N'essayez pas de perfectionner votre build final alors que vous avez encore besoin de valider les quêtes de base.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Réponses rapides">
+Les meilleurs builds Berserker Echo sont généralement ceux qui restent agressifs sans devenir fragiles. Gardez les questions ci-dessous en tête lorsque vous ajustez votre configuration.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Que signifie granblue fantasy relink berserker echo ?",
+    answer: "C'est un concept de build pour un jeu agressif avec bursts répétés. Dans ce guide, Echo désigne des fenêtres de dégâts répétées, et non une classe ou un mode officiel."
+  },
+  {
+    question: "Quel personnage est le meilleur pour ce build ?",
+    answer: "Percival, Siegfried et Narmaya sont les points de départ les plus sûrs. Vaseraga fonctionne aussi si vous préférez un style plus lent et plus engagé."
+  },
+  {
+    question: "Dois-je utiliser Damage Cap tout de suite ?",
+    answer: "Pas immédiatement. Construisez d'abord une arme stable et une base de sigils correcte, puis passez à Damage Cap lorsque vos chiffres n'augmentent plus suffisamment avec la seule attaque brute."
+  },
+  {
+    question: "Les mises à jour Endless Ragnarok changent-elles le build ?",
+    answer: "Oui. Le contenu d'extension 2026 ajoute de nouveaux personnages, des quêtes Chaos, Conflux, Master Traits et Sigil Synthesis, ce qui améliore tout l'ajustement de fin de jeu."
+  }
+]} />
+
+<Callout type="tip" title="Dernière note de l'éditeur">
+Si vous ne retenez qu'une seule règle, retenez celle-ci : un build Berserker Echo doit être reproductible en combat réel, pas seulement impressionnant dans un menu.
+</Callout>
+
+</Section>

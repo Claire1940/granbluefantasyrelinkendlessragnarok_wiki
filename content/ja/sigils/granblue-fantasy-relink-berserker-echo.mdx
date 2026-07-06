@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink berserker echo: 最強装備ガイド",
+  description: "Granblue Fantasy Relink で Berserker Echo を強化するためのガイド。武器優先度、シジル、パーティ役割、クエスト順、エンドゲームのコツをまとめています。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Berserker+Echo+Guide",
+  date: "2026-07-06",
+  author: "granblue fantasy relink Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **granblue fantasy relink berserker echo** は、ダメージを出せる時間帯を軸にした高速近接ビルドとして運用するのが最適です。
+- 数値が伸び悩み始めたら、**Damage Cap** と **War Elemental** は素の攻撃力より重要になります。
+- **Percival、Siegfried、Narmaya** が最も扱いやすく、**Vaseraga** はよりゆっくりした重厚な立ち回りに向いています。
+- **まずストーリー、その後に周回** という順番なら素材効率が良く、行き止まりの強化を避けやすくなります。
+</Callout>
+
+<Section icon={Map} title="Granblue Fantasy Relink Berserker Echo の基本">
+
+granblue fantasy relink berserker echo は、公式のクラス名ではなくビルドスタイルとして捉えるのが最適です。考え方はシンプルで、積極的に殴り続ける時間を増やし、ボスの隙にしっかり差し込み、スキルを撃つたびに意味が出るようにダメージ循環を引き締めることです。このアプローチは、Link Attack、Skybound Arts、そして綺麗なバーストタイミングが報われる Relink のリアルタイムパーティ戦闘と特に相性が良いです。
+
+最新のシステム情報を確認するなら、公式サイト、キャラクター一覧、ビルド案内が最も安全な起点です: [公式サイト](https://relink.granbluefantasy.jp/en/)、[characters](https://relink.granbluefantasy.jp/en/characters/)、[character building manual](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building)。
+
+<Callout type="info" title="Berserker Echo の意味">
+このガイドでは “Echo” を、繰り返し訪れるダメージウィンドウと追撃圧力の略称として使っています。これはゲーム内のクラスではなく、ビルドの呼び名です。
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="基本目標">
+    - **攻勢を維持する**
+    - ボスの隙をバーストダメージに変える
+    - できるだけダウンタイムを減らす
+  </Card>
+  <Card title="避けるべきこと">
+    - 序盤のレア度に投資しすぎる
+    - 早すぎる段階で完璧なシジルを追う
+    - 快適さだけを重視して組む
+  </Card>
+  <Card title="最初に学ぶこと">
+    - 回避のタイミング
+    - スキルの回し方
+    - Link Attack のリズム
+  </Card>
+</CardGrid>
+
+| 優先度 | 対象 | 重要な理由 |
+|---|---|---|
+| ダメージウィンドウ | スキル、Link Attack、Chain Burst | 隙を実際のバーストに変えられて初めて、このビルドは強く感じられます。 |
+| 稼働率 | 移動、間合い調整、スタミナ消費のない圧力 | 再調整に時間をかけすぎると、バーサーカー型の価値は下がります。 |
+| 生存力 | HP、ガードタイミング、安全なAIサポート | 生き残ることが、ダメージエンジンを回し続ける前提です。 |
+| 伸びしろ | Damage Cap、高性能シジル | 素の攻撃力はやがて伸びが鈍りますが、伸びしろの要素は投資し続ける価値があります。 |
+
+<Callout type="tip" title="編集者ルール">
+紙の上で強そうなだけなら、まだ完成ではありません。良い Berserker Echo ビルドは、メニュー画面だけでなく実戦でも滑らかに感じられます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Berserker Echo 向けの最適キャラクター">
+
+このプレイスタイルでは、動きの多い戦闘でも崩れずにボスへ圧力をかけ続けられるキャラクターが最適です。ベースロスターだけでも十分に強力な選択肢があり、Endless Ragnarok は 2026 年の拡張ルートを通じて、さらに終盤向けの選択肢を追加します。必要なのは派手さではなく、隙を再現可能なダメージに変えられることです。
+
+特に相性が良いのは、Percival、Siegfried、Narmaya、Vaseraga です。もう少し柔軟性が欲しいなら、Endless Ragnarok の Beatrix も同じ高圧力のリズムに合います。ロスター全体を確認するなら、公式キャラクターページと更新ページが最も参考になります: [characters roster](https://relink.granbluefantasy.jp/en/characters/) と [updates](https://relink.granbluefantasy.jp/en/updates/)。
+
+<Callout type="warning" title="無理に押しつけない">
+遠距離キャスターや純サポート系のキャラクターは、Berserker Echo の良さを活かしにくいです。この構成に必要なのは受け身ではなく、踏み込む覚悟です。
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Percival">
+    - 強力なバースト
+    - 綺麗なチャージタイミング
+    - 反撃の隙に最適
+  </Card>
+  <Card title="Siegfried">
+    - 重厚な近接リズム
+    - 安定感のある手触り
+    - 終盤で特に強い
+  </Card>
+  <Card title="Narmaya">
+    - 高い上限
+    - 素早い構え移行
+    - 高い操作表現力
+  </Card>
+  <Card title="Vaseraga">
+    - 遅いが重い
+    - 一撃ごとの覚悟が必要
+    - 我慢強いプレイヤー向け
+  </Card>
+</CardGrid>
+
+| キャラクター | 扱いやすさ | バースト | 安定性 | 最適用途 |
+|---|---|---|---|---|
+| Percival | 中 | 非常に高い | 中 | バースト重視のボス反撃タイミング |
+| Siegfried | 中 | 高い | 高い | 耐久力のある安定した近接圧力 |
+| Narmaya | 中 | 非常に高い | 中 | 高い技量が求められる攻撃的な立ち回り |
+| Vaseraga | 低 | 高い | 中 | 遅く重い、コミット型のダメージ |
+| Beatrix | 中 | 高い | 高い | 拡張期向けの攻撃的な柔軟枠 |
+
+実用的なチーム構成はシンプルです。攻撃的な主軸を1人、遠距離火力を1人、サポート寄りの枠を1人、そして耐久力のある前衛を1人置きます。Eugen と Cagliostro は、戦闘のテンポを奪わずに圧力を維持してくれるため、AIパートナーとして特に優秀です。
+
+<Callout type="success" title="最適なチームパターン">
+攻撃的な主軸に安定したAI仲間を組み合わせましょう。そうすることで、ミスのたびに壊滅することなく、隙を狙う余裕が生まれます。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="武器、シジル、マスタリーの優先度">
+
+Berserker Echo の装備を最速で強化するコツは、個別の強化を切り離して考えないことです。武器、シジル、マスタリー、そして後半システムはすべて、同じダメージ循環に繋がっています。公式のビルドマニュアルや更新ページでも、キャラクターの成長が武器の進行、シジルの選択、さらに Sigil Synthesis や Master Traits のような後半システムと結びついていることが示されています。
+
+最大の失敗は、序盤に攻撃力を過大評価しすぎることです。数値の伸びが頭打ちになってきたら、このビルドにはより効率の良い伸びしろが必要になります。そこで、Damage Cap、属性強化、そして高性能な攻撃系シジルが、わずかなステータス上昇より重要になります。
+
+| シジル | 最適用途 | 装備時期 | 補足 |
+|---|---|---|---|
+| Damage Cap | 主要な伸びしろ | 中盤〜終盤 | 素の攻撃力だけでは数値が伸びにくくなったら必須になります |
+| War Elemental | 高性能なダメージ強化 | エンドゲーム | すでに安定した核となるビルドがある場合に非常に強力です |
+| Supplementary Damage | 追加のヒット価値 | エンドゲーム | 稼働率の高い攻撃的キャラと相性が良いです |
+| Skill Cooldown | バースト回数を増やす | 序盤〜終盤 | ビルドの手触りをより滑らかで活動的にします |
+| HP/Defense | 生存保険 | 序盤〜終盤 | ボスの行動が強くなり、欲張った立ち回りが罰せられ始めた時に役立ちます |
+
+| 武器段階 | 重点 | 使う / 温存する |
+|---|---|---|
+| ストーリー期 | 基本強化、安定した進行 | 主力武器に遠慮なく使う |
+| 中盤 | 役割に応じた武器育成 | 使うキャラ用に希少素材を温存する |
+| ストーリー後 | 効率重視の伸長 | 主力メンバーに集中投資する |
+| Endless Ragnarok | Master Traits、終盤向けの調整 | つなぎではなく、長く使う強力なパーツに投資する |
+
+<Steps>
+  <Step num="1" title="主力武器の方針を1つ決める">
+    Berserker Echo の主軸キャラに持たせる武器を選び、他のメンバーより先行して育てます。
+  </Step>
+  <Step num="2" title="まずは核となるシジルを入れる">
+    希少な贅沢品を追う前に、Damage Cap、生存補助、そして快適性を上げるシジルを1〜2個入れましょう。
+  </Step>
+  <Step num="3" title="実戦クエストで試す">
+    通常戦と高難度戦をいくつか回します。バーストの感触が悪ければ、最適化の前にクールダウンか防御を調整してください。
+  </Step>
+  <Step num="4" title="2026 システムで仕上げる">
+    手持ちに十分な強力パーツが揃ったら、Sigil Synthesis と Master Traits で不足を埋めていきます。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="優先順位">
+まず武器の安定性、次に核となるシジル、最後に高性能な伸びしろです。この順番なら、進行のどの段階でもビルドを強く保てます。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="クエスト順と周回ルート">
+
+規律ある周回ルートは、単純な周回時間より重要です。Granblue Fantasy Relink にはすでに 100 を超えるクエストがあり、公式の 2026 拡張ルートでは、更新戦、Chaos コンテンツ、Conflux などによって、さらに多くの難所が追加されます。つまり、ルートは焦りではなく、装備状況に合わせる必要があります。
+
+理想的な流れは、ストーリー、ストーリー後の周回、チャレンジクエスト、そして拡張コンテンツです。いきなり最難関帯に飛び込むと、強化よりも弱いビルドの立て直しに時間を使いがちです。現在のベース版と拡張の情報を確認するなら、公式の [base site](https://relink.granbluefantasy.jp/en/) と [Endless Ragnarok system page](https://relink-ragnarok.granbluefantasy.com/en/systems/) が最も有用です。
+
+| 段階 | 周回対象 | 目的 |
+|---|---|---|
+| ストーリー | 序盤武器、基本シジル、マスタリー | システムを解放し、メインキャラを覚える |
+| ストーリー後 | より良い装備、強いシジル、クエスト素材 | 安定した4人パーティを作る |
+| The Final Vision | Lucilius 対策素材 | ビルドが終盤の圧力に耐えられるか試す |
+| 更新クエスト | 新キャラ、チャレンジ報酬 | ロスターを広げ、構成を洗練する |
+| Endless Ragnarok | Chaos、Conflux、Master Traits | ハイエンドのエンドゲーム進行を進める |
+
+<Checklist
+  id="berserker-echo-route"
+  title="周回の到達目標:"
+  items={[
+    "本格的な周回の前にストーリーを終える",
+    "主力キャラをパーティより一歩先行させる",
+    "Damage Cap の強化はビルドが安定してから行う",
+    "少なくとも1つは防御手段を追加する",
+    "長期的な伸びしろには拡張コンテンツを活用する"
+  ]}
+/>
+
+<Callout type="success" title="ルートの規律">
+各段階の周回は、次の段階を解放するために使いましょう。基本クエストのクリアがまだ安定していないうちに、最終形の完成を狙うべきではありません。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="クイック回答">
+最良の Berserker Echo ビルドは、脆くならずに攻撃性を維持できるものです。装備を調整する際は、以下の質問を意識してください。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "granblue fantasy relink berserker echo とは何ですか？",
+    answer: "攻撃的に、繰り返しバーストを狙うためのビルド概念です。このガイドでは、Echo は繰り返し訪れるダメージウィンドウを意味し、公式のクラスやモードではありません。"
+  },
+  {
+    question: "このビルドに最適なキャラクターは？",
+    answer: "Percival、Siegfried、Narmaya が最も始めやすい選択肢です。より遅く重いコミット型が好みなら Vaseraga も合います。"
+  },
+  {
+    question: "Damage Cap はすぐ使うべき？",
+    answer: "すぐではありません。まずは安定した武器と基本的なシジル構成を整え、その後、素の攻撃力だけでは伸びなくなった時に Damage Cap へ移行しましょう。"
+  },
+  {
+    question: "Endless Ragnarok の更新でビルドは変わりますか？",
+    answer: "はい。2026 年の拡張コンテンツでは、新キャラクター、Chaos クエスト、Conflux、Master Traits、Sigil Synthesis が追加され、終盤調整がさらにしやすくなります。"
+  }
+]} />
+
+<Callout type="tip" title="最後の編集メモ">
+1つだけ覚えるなら、このルールです。Berserker Echo ビルドは、メニュー上で派手に見えるだけでなく、実戦で繰り返し使えることが大切です。
+</Callout>
+
+</Section>

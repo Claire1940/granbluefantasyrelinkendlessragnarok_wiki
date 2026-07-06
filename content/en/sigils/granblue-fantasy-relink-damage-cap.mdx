@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink damage cap: Late-Game Build Guide",
+  description: "Learn when Damage Cap matters, which sigils and weapons to prioritize, and how to build a safer late-game setup for Relink boss farming.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1E2A44/fff?text=Damage+Cap+Build+Guide",
+  date: "2026-07-06",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **granblue fantasy relink damage cap** matters once raw attack stops raising real hit numbers.
+- **Weapon upgrades first** keep your party stable before you chase premium sigils.
+- **Late-game builds** should stack Damage Cap, then damage uptime and survival.
+- **Official manuals** and update notes are the safest baseline for build decisions.
+</Callout>
+
+<Section icon={Map} title="granblue fantasy relink damage cap Breakpoints">
+
+granblue fantasy relink damage cap becomes relevant when your attacks start landing near their practical ceiling. At that point, more raw Attack often gives smaller returns than better sigils, cleaner uptime, or stronger party tools. The official character-building manual is the best place to anchor your build logic, because it keeps the focus on weapon growth, mastery, and quest-ready setups.
+
+<CardGrid cols={3}>
+  <Card title="Early Game">
+    - **Priority:** weapon level, mastery, survival
+    - **Goal:** clear quests smoothly
+    - **Avoid:** over-investing in rare sigils
+  </Card>
+  <Card title="Mid Game">
+    - **Priority:** role-based sigils
+    - **Goal:** stay consistent in boss fights
+    - **Avoid:** chasing perfect rolls too soon
+  </Card>
+  <Card title="Late Game">
+    - **Priority:** Damage Cap, premium utility
+    - **Goal:** improve real damage uptime
+    - **Avoid:** stacking raw stats blindly
+  </Card>
+</CardGrid>
+
+| Stage | What to focus on | Why it works |
+|---|---|---|
+| Story and early quests | Weapon level, basic offense, defense | Easy gains beat expensive optimization |
+| First postgame farms | Role sigils, mastery, party balance | Stability matters more than perfect numbers |
+| High-end quests | Damage Cap, uptime, premium traits | Real damage plateaus without cap support |
+
+<Callout type="tip" title="Build Rule">
+If your normal attacks already feel strong but boss clears are still slow, the issue is often uptime, cooldowns, or cap pressure, not base Attack.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Raise Damage Cap Efficiently">
+
+The cleanest way to improve damage is to stack useful power in the right order. Start with your main weapon, then support it with mastery and sigils that fit your character’s actual rotation. The official update notes and the build manual both point players toward character growth systems first, which is why Damage Cap should sit inside a broader build plan instead of replacing it.
+
+<Steps>
+  <Step num="1" title="Check your current ceiling">
+    Fight a stable boss or quest target and watch whether bigger Attack values still change your real damage much.
+  </Step>
+  <Step num="2" title="Upgrade the core weapon">
+    Keep your main weapon ahead of the rest of the build so your baseline damage, stats, and comfort stay strong.
+  </Step>
+  <Step num="3" title="Add cap-aware sigils">
+    Add Damage Cap once your build is already hitting a respectable baseline and needs stronger real output.
+  </Step>
+  <Step num="4" title="Test the rotation again">
+    Re-run the same quest target so you can see whether the new setup improves clear speed, not just menu numbers.
+  </Step>
+</Steps>
+
+| Source of value | Best use | Notes |
+|---|---|---|
+| Damage Cap | Late-game damage scaling | Best when attacks already hit hard |
+| War Elemental | Premium elemental pressure | Strong endgame pickup when available |
+| Supplementary Damage | Extra hit value | Works well in focused damage builds |
+| Sigil Synthesis | Trait refinement | Useful after your base build is stable |
+
+<Callout type="warning" title="Common Mistake">
+Do not rush premium pieces before your weapon, mastery, and party basics are solid. A capped build with weak uptime still clears slower than a simpler build that keeps attacking.
+</Callout>
+
+| Priority | Safe choice | Riskier choice |
+|---|---|---|
+| First upgrades | Weapon level, mastery, survivability | Rare damage-only sigils |
+| Second upgrades | Cooldowns, utility, role fit | Over-specialized glass-cannon stats |
+| Third upgrades | Damage Cap, premium synergies | Random mixed traits |
+
+</Section>
+
+<Section icon={Shield} title="Best Sigils, Weapons, and Party Slots">
+
+For most players, the best damage-cap setup is not a single item. It is a stack of pieces that keep your character attacking, surviving, and landing full strings during boss openings. The official build pages and update coverage support that approach, especially once Sigil Synthesis and post-launch systems enter the picture.
+
+<CardGrid cols={3}>
+  <Card title="Damage Cap">
+    - **Best for:** late-game hitters
+    - **Use when:** attacks already land near their limit
+    - **Value:** high
+  </Card>
+  <Card title="War Elemental">
+    - **Best for:** premium builds
+    - **Use when:** you want stronger matchup pressure
+    - **Value:** very high
+  </Card>
+  <Card title="Supplementary Damage">
+    - **Best for:** burst and multi-hit builds
+    - **Use when:** your core rotation is already stable
+    - **Value:** high
+  </Card>
+</CardGrid>
+
+| Slot | Recommended role | Why it matters |
+|---|---|---|
+| Main weapon | Highest consistent damage | Sets the floor for every quest |
+| Secondary gear | Utility and survivability | Helps you stay active longer |
+| Sigil slot 1 | Damage Cap | Improves late-game returns |
+| Sigil slot 2 | Uptime or cooldown help | More real attacks, fewer dead windows |
+
+<Checklist
+  id="damage-cap-priority-list"
+  title="Build Checklist:"
+  items={[
+    "Keep one main weapon clearly ahead of the rest",
+    "Use sigils that match your character's rotation",
+    "Add Damage Cap after your baseline feels strong",
+    "Preserve enough survivability to keep attacking",
+    "Test the same quest before and after each change"
+  ]}
+/>
+
+<Callout type="success" title="Best Practice">
+A good damage-cap build usually feels smoother, not just bigger. If the setup is fragile, the build is probably too greedy for the content you are running.
+</Callout>
+
+| Build style | Strength | Weakness |
+|---|---|---|
+| Balanced | Stable clears | Lower peak damage |
+| Cap-focused | Better late-game returns | Needs stronger base gear |
+| Burst-focused | Fast openings | Can feel inconsistent |
+
+</Section>
+
+<Section icon={Trophy} title="Farming Route and Quest Order">
+
+The fastest route is to farm in a progression order that matches your account strength. Start where your current gear can clear consistently, then move into harder content only after your baseline build feels reliable. That logic matches the structure of the official quest and update systems, including postgame content and expansion-layer challenges.
+
+| Progression step | Best farm target | Why it is efficient |
+|---|---|---|
+| Story and early quests | Basic materials, weapon growth | Fast clears and easy upgrades |
+| First postgame loop | Sigils and mastery materials | Good balance of speed and value |
+| Harder quest tiers | Better rolls and stronger pieces | Higher payoff once your team stabilizes |
+| Expansion content | Advanced rewards and special systems | Strongest long-term progression |
+
+<Steps>
+  <Step num="1" title="Farm the easiest reliable quest">
+    Pick a quest you can clear quickly and repeatedly, even if the rewards are not glamorous.
+  </Step>
+  <Step num="2" title="Upgrade the core loadout">
+    Spend materials on the character and weapon you actually bring into most fights.
+  </Step>
+  <Step num="3" title="Move up one tier at a time">
+    Do not jump straight to the hardest content if your clears become messy or slow.
+  </Step>
+  <Step num="4" title="Rebuild after each milestone">
+    Re-check sigils, weapon growth, and party roles whenever a new system opens up.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Official Reference Points">
+Use the [Character Building Manual](https://relink.granbluefantasy.jp/en/manual/detail?s=character_building), [Update Notes](https://relink.granbluefantasy.jp/en/updates/), and [Endless Ragnarok Systems](https://relink-ragnarok.granbluefantasy.com/en/systems/) pages as your main reference stack.
+</Callout>
+
+| Milestone | What to do next | Expected result |
+|---|---|---|
+| Stable story clears | Start light farming | Faster progression |
+| Solid postgame team | Add cap-aware pieces | Better real damage |
+| Strong late-game loadout | Refine traits and utility | Cleaner boss kills |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ and Fast Answers">
+
+<Callout type="tip" title="Fast Rule">
+If a build already survives and clears comfortably, the next upgrade should usually improve real damage uptime before it chases flashy stat gains.
+</Callout>
+
+| Question | Short answer |
+|---|---|
+| When does Damage Cap matter most? | In late-game setups where raw Attack no longer moves your real damage much. |
+| Should I build around it early? | Not usually; early resources are better spent on weapon growth and stability. |
+| What pairs well with it? | Premium sigils, good uptime, and a weapon that is already well developed. |
+| Is one capped stat enough? | Usually no; strong clears come from a full setup, not one isolated upgrade. |
+
+<FAQ items={[
+  {
+    question: "What is the main job of granblue fantasy relink damage cap?",
+    answer: "It helps stop your damage from stalling once your build reaches a practical ceiling, which makes late-game upgrades matter more."
+  },
+  {
+    question: "Should I prioritize Damage Cap before weapon upgrades?",
+    answer: "No. A stronger weapon and stable mastery growth usually give better returns first, especially during story and early postgame."
+  },
+  {
+    question: "What pairs best with Damage Cap in a build?",
+    answer: "Look for uptime tools, survival, and premium damage support such as War Elemental or Supplementary Damage when the rest of the build is ready."
+  },
+  {
+    question: "How do I know my build is ready for cap-focused gear?",
+    answer: "If your clears are consistent, your weapon is developed, and your rotation stays active in boss windows, then cap-focused gear becomes more valuable."
+  }
+]} />
+
+</Section>

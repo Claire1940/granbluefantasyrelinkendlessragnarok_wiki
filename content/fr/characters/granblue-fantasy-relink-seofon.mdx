@@ -1,0 +1,283 @@
+import { Map, Swords, Sparkles, Shield, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "granblue fantasy relink seofon : guide de build et conseils",
+  description: "Apprenez à construire Seofon dans Granblue Fantasy Relink avec les priorités de sigils, le déroulé des combos, le choix des armes, les routes de farm et la préparation des quêtes de fin de jeu pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1D4ED8/fff?text=Seofon+Build+Guide",
+  date: "2026-07-06",
+  author: "Équipe du wiki granblue fantasy relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **granblue fantasy relink seofon** récompense davantage le timing, le placement et les fenêtres de burst qu’une agressivité inconsidérée.
+- **Le niveau de l’arme et l’offensive de base** doivent passer avant la chasse aux sigils rares au début du jeu.
+- **Le Damage Cap, l’uptime des compétences et la survie** sont les priorités centrales de la fin de jeu.
+- **Les clears en coop deviennent plus fluides** lorsque le burst de Seofon est synchronisé avec les Link Attacks et les Skybound Arts.
+- **Farm par étapes** pour que votre build reste stable au lieu de changer à chaque quête.
+</Callout>
+
+<Section icon={Swords} title="granblue fantasy relink seofon : rôle et points forts">
+
+granblue fantasy relink seofon est un choix post-lancement centré sur l’épée, pensé pour les joueurs qui aiment le rythme, le placement et les dégâts de burst. Il est à son meilleur quand vous jouez avec patience, puis que vous exploitez une ouverture nette avec une forte chaîne d’attaques et un déversement de compétences.
+
+Si vous voulez un personnage qui donne une sensation d’agressivité sans être automatique, Seofon s’inscrit très bien dans cette idée. Il demande de la discipline, mais il vous rend aussi énormément lorsque vous maîtrisez le timing.
+
+**Note vidéo :** aucune vidéo pertinente n’est disponible ici, donc ce guide reste centré sur le texte et la construction du build.
+
+<CardGrid cols={3}>
+  <Card title="Profil idéal">
+    - **Joueurs qui aiment les épées**
+    - Fenêtres de burst puissantes
+    - À l’aise avec le timing
+  </Card>
+  <Card title="Point fort principal">
+    - **Forte pression de dégâts**
+    - Bonne valeur en coop
+    - Bonne montée en puissance en fin de jeu
+  </Card>
+  <Card title="Risque principal">
+    - **Sur-engagement**
+    - Fenêtres sûres manquées
+    - Mauvais choix de build au début
+  </Card>
+</CardGrid>
+
+| Trait | Profil de Seofon |
+|---|---|
+| Rôle | DPS épée avec pression orientée burst |
+| Courbe d’apprentissage | Moyenne |
+| Valeur pour l’équipe | Élevée en solo et en coop |
+| Meilleur usage | Punir les ouvertures et maintenir l’uptime |
+| Point faible | Engagements trop gourmands pendant les phases dangereuses du boss |
+
+<Callout type="tip" title="Comment bien lire Seofon">
+Voyez-le comme un personnage de tempo. Si vous respectez les patterns des boss et gardez votre burst pour les fenêtres sûres, sa valeur grimpe rapidement.
+</Callout>
+
+Pour le contexte officiel du roster, les références les plus fiables sont la [page des personnages](https://relink.granbluefantasy.jp/en/characters/) et la [page des mises à jour](https://relink.granbluefantasy.jp/en/updates/).
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleures priorités de build pour Seofon">
+
+La manière la plus sûre de build Seofon est de commencer simplement, puis d’ajouter des pièces de dégâts premium une fois que votre équipe peut déjà clear confortablement. Au début, l’attaque brute et la constance comptent plus que la recherche d’une mathématique de fin de jeu parfaite.
+
+<Callout type="warning" title="Avertissement sur les priorités du build">
+N’investissez pas en premier des matériaux rares dans un équipement temporaire. Seofon est plus agréable quand tout votre setup progresse ensemble, pas quand un slot est surinvesti pendant que le reste est faible.
+</Callout>
+
+| Étape | Objectif principal | Priorités | À éviter |
+|---|---|---|---|
+| Début de jeu | Apprendre le rythme | Niveau de l’arme, offensive de base, PV, utilité simple | Min-max de sigils rares |
+| Milieu de jeu | Stabiliser les dégâts | Uptime des compétences, constance du critique, survie | Changer de loadout en permanence |
+| Fin de jeu | Maximiser la valeur du burst | Damage Cap, pièces de dégâts premium, synergie des traits | Offensif pur sans sécurité |
+| Farm de fin de jeu | Garder un bon uptime | Constance adaptée aux boss, stabilité en coop, bons traits | Builds de verre trop gourmands |
+
+| Priorité | Type de sigil | Pourquoi c’est important |
+|---|---|---|
+| S | Damage Cap | Transforme des coups plus forts en vrais dégâts |
+| A | Supplementary Damage / War Elemental | Très rentable une fois le build établi |
+| A | Crit et offensive brute | Aide la constance au début et au milieu du jeu |
+| B | Recharge ou uptime des compétences | Maintient Seofon actif pendant les fenêtres de burst |
+| B | PV ou survie | Réduit les wipes et les runs perdus |
+
+<CardGrid cols={4}>
+  <Card title="Arme d’abord">
+    - **À améliorer tôt**
+    - Gain de puissance facile
+    - Toujours utile
+  </Card>
+  <Card title="Damage Cap">
+    - **Base de fin de jeu**
+    - Augmente les dégâts réels
+    - Meilleur après les fondamentaux
+  </Card>
+  <Card title="Utilité">
+    - **Aide au cooldown**
+    - Rotations plus sûres
+    - Meilleur déroulé des quêtes
+  </Card>
+  <Card title="Défense">
+    - **PV et sécurité**
+    - Moins d’erreurs
+    - Meilleure constance en coop
+  </Card>
+</CardGrid>
+
+| Phase de build | Priorité pratique | Résultat attendu |
+|---|---|---|
+| Premières heures | Apprendre les chaînes et les esquives | Habitudes de combat plus propres |
+| Première vague d’amélioration | Arme et sigils simples | Clears plus rapides |
+| Premières quêtes difficiles | Équilibre dégâts/sécurité | Moins de morts |
+| Vrai endgame | Damage Cap + traits premium | Meilleure conversion du burst |
+
+<Callout type="info" title="Philosophie du build">
+Seofon n’a pas besoin d’un setup compliqué pour être efficace. Un build propre et stable surpasse souvent un build spectaculaire qui s’effondre sous la pression.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Boucle de combat et fenêtres de burst">
+
+Seofon est au meilleur de sa forme lorsque vous suivez une boucle répétable : construire l’élan, dépenser vos ressources au bon moment, puis réinitialiser avant que le boss ne vous punisse. Cela semble basique, mais c’est justement l’exécution des bases qui le maintient fort.
+
+<Callout type="success" title="Idée centrale du combat">
+Utilisez une pression normale pour créer des ouvertures, puis dépensez vos compétences lorsque l’ennemi est immobilisé, étourdi ou occupé à terminer une longue animation.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Commencez avec une pression sûre">
+    Démarrez avec votre chaîne d’attaques la plus fiable et observez le boss. Le but est d’établir l’élan sans forcer un mauvais échange.
+  </Step>
+  <Step num="2" title="Gardez les outils coûteux">
+    Réservez vos compétences les plus fortes pour les ouvertures. Seofon tire plus de valeur d’un seul burst sûr que de trois boutons de panique.
+  </Step>
+  <Step num="3" title="Convertissez l’étourdissement en dégâts">
+    Quand le boss est stun ou bloqué, dépensez immédiatement vos outils de burst. C’est là que votre build rapporte vraiment.
+  </Step>
+  <Step num="4" title="Réinitialisez avant le retour du danger">
+    Si le pattern devient instable, désengagez-vous, esquivez et revenez sur un tempo plus propre. Survivre au cycle compte plus que forcer les dégâts.
+  </Step>
+</Steps>
+
+| Situation | Meilleure action | Résultat |
+|---|---|---|
+| Ouverture du boss | Utiliser d’abord une chaîne sûre | Construire la pression sans risque |
+| Fenêtre de stagger | Dépenser compétences et burst | Meilleure conversion des dégâts |
+| Phase erratique | Se repositionner et attendre | Éviter de gaspiller des PV |
+| Burst de l’équipe | Synchroniser avec les attaques du groupe | Meilleure sortie en coop |
+
+| Erreur | Pourquoi c’est mauvais | Meilleure habitude |
+|---|---|---|
+| Spam des compétences dès le cooldown | Gâche des dégâts dans des frames dangereuses | Garder les compétences pour les ouvertures |
+| Courir après chaque coup | Provoque des dégâts évitables | Réinitialiser et revenir proprement |
+| Ignorer les outils de burst de l’équipe | Réduit les dégâts totaux du groupe | S’aligner avec les Link Attacks |
+| Trop investir dans l’offensif trop tôt | Laisse une survie trop faible | Équilibrer puissance et sécurité |
+
+<Callout type="tip" title="Conseil pratique de rotation">
+Si un combat vous paraît chaotique, ralentissez votre rythme. Seofon est plus fort quand le joueur reste calme, pas quand l’écran devient bruyant.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Route de farm, rythme de déblocage et ordre d’amélioration">
+
+Une bonne route pour Seofon est ennuyeuse dans le bon sens du terme. Faites le contenu dans l’ordre, améliorez ce qui compte, et ne chassez les cibles rares du farm qu’une fois que le reste du build est déjà stable.
+
+<Callout type="info" title="Note de progression">
+Au 2026-07-06, le roster officiel et les pages de mise à jour sont les meilleurs endroits pour vérifier le contexte des déblocages et des mises à jour liés à Seofon.
+</Callout>
+
+| Priorité | Action | Pourquoi c’est important |
+|---|---|---|
+| 1 | Terminer l’histoire de base | Débloque des systèmes plus larges et l’accès aux quêtes |
+| 2 | Augmenter le niveau de l’arme | Puissance immédiate avec peu de friction |
+| 3 | Construire un set de sigils stable | Rend les clears plus réguliers |
+| 4 | Farmer les quêtes difficiles | Meilleurs matériaux et meilleurs drops |
+| 5 | Affiner les traits de fin de jeu | Améliore l’efficacité de Seofon en endgame |
+
+<Checklist
+  id="seofon-progress"
+  title="Checklist de progression de Seofon"
+  items={[
+    "Terminez l’histoire avant de trop farm des pièces rares.",
+    "Améliorez l’arme avant de chercher une page de sigils parfaite.",
+    "Gardez une option défensive si vous jouez des quêtes longues.",
+    "Utilisez la coop pour lisser les runs de farm difficiles.",
+    "Revérifiez votre build après chaque grand palier de quêtes."
+  ]}
+/>
+
+| Cible de farm | Meilleure utilisation | Bon moment pour farmer |
+|---|---|---|
+| Matériaux d’amélioration de base | Puissance de début de jeu | Premier passage de progression |
+| Soutien des compétences et de la maîtrise | Stabilité du build | Milieu de jeu |
+| Pièces de sigils haut de gamme | Gains de dégâts réels | Fin de jeu |
+| Clears adaptés à la coop | Farm plus sûr | Paliers de quêtes difficiles |
+| Matériaux spécifiques aux boss | Améliorations ciblées | Quand un slot est clairement à la traîne |
+
+<Callout type="warning" title="Ne farmez pas trop tôt et trop longtemps">
+Si votre build actuel échoue encore aux quêtes de base, la solution n’est généralement pas une heure de farm en plus. Commencez par resserrer le build, puis farmez avec un objectif clair.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleur soutien d’équipe et choix de loadout">
+
+Seofon devient meilleur quand le reste de l’équipe compense ses moments faibles. Cela signifie que votre loadout doit soutenir les fenêtres de burst, la récupération et la constance, au lieu d’essayer de tout lui faire faire en même temps.
+
+| Emplacement d’équipe | Bon choix | Pourquoi cela aide Seofon |
+|---|---|---|
+| Soutien de première ligne | Allié mêlée résistant | Crée des ouvertures plus sûres |
+| Pression à distance | DPS constant et sûr | Maintient les dégâts pendant les combats avec beaucoup de mouvement |
+| Soutien utilitaire | Soin, buff ou contrôle | Réduit le temps mort |
+| Votre slot principal | Seofon | Convertit les ouvertures en dégâts de burst |
+
+<CardGrid cols={3}>
+  <Card title="Jeu solo">
+    - **Build axé sécurité**
+    - Meilleure récupération
+    - Moins de resets
+  </Card>
+  <Card title="Jeu coop">
+    - **Build axé uptime**
+    - Synergie de burst d’équipe
+    - Contrôle du boss plus facile
+  </Card>
+  <Card title="Farm">
+    - **Build axé constance**
+    - Clears stables
+    - Moins de temps perdu
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Meilleure idée de loadout global">
+Utilisez un setup orienté dégâts et un setup de repli plus sûr. Cela vous donne de la flexibilité sans devoir reconstruire votre build de zéro à chaque changement de quête.
+</Callout>
+
+| Type de loadout | But principal | Quand l’utiliser |
+|---|---|---|
+| Build dégâts | Conversion maximale du burst | Combats familiers |
+| Build sûr | Meilleure survie | Rencontres nouvelles ou risquées |
+| Build farm | Clears réguliers | Quêtes répétées |
+| Build coop | Résultat adapté à l’équipe | Sessions de groupe |
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<Callout type="info" title="Questions fréquentes">
+Utilisez ces réponses comme référence rapide quand vous décidez jusqu’où investir dans Seofon et quoi farmer ensuite.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "granblue fantasy relink seofon est-il bon pour les nouveaux joueurs ?",
+    answer: "Oui, mais il récompense la patience. Les nouveaux joueurs peuvent bien l’utiliser s’ils se concentrent sur des chaînes sûres, les esquives et les fenêtres de burst plutôt que d’essayer de forcer une agressivité constante."
+  },
+  {
+    question: "Que dois-je améliorer en premier sur Seofon ?",
+    answer: "Commencez par le niveau de l’arme et les statistiques offensives de base. Ensuite, ajoutez le Damage Cap et des sigils de dégâts premium une fois que vos clears de quêtes sont stables."
+  },
+  {
+    question: "Seofon fonctionne-t-il bien en coop ?",
+    answer: "Oui. Seofon est fort en coop parce que ses coéquipiers peuvent créer des ouvertures plus sûres, ce qui lui permet de dépenser ses outils de burst plus efficacement."
+  },
+  {
+    question: "Dois-je farm les sigils rares tout de suite ?",
+    answer: "Pas généralement. Construisez d’abord un setup stable, puis farmez les pièces rares lorsqu’elles améliorent clairement les dégâts, l’uptime ou la survie."
+  }
+]} />
+
+<Callout type="tip" title="Recommandation finale">
+Si vous aimez les personnages à l’épée avec un timing précis et des fenêtres de burst nettes, Seofon vaut l’investissement. Gardez le build propre et laissez le rythme du combat faire le travail.
+</Callout>
+
+</Section>

@@ -1,0 +1,240 @@
+import { Map, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "グランブルーファンタジー リリンク キャラクターtierリスト: 2026年ランキング",
+  description: "実用性に基づく2026年の役割別ランキングで、どのグランブルーファンタジー リリンクのキャラクターに最初の強化、AI枠、協力プレイの時間を割くべきかを確認しよう。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e2a44/fff?text=Character+Tier+List",
+  date: "2026-07-06",
+  author: "グランブルーファンタジー リリンク Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **granblue fantasy relink character tier list** は、瞬間火力だけでなく実戦での価値を評価する。
+- **S-tierの候補** は、火力・安全性・AIの安定性のバランスが最も優れている。
+- まずは**1人の主力**を育て、その後で武器とシジルをその核に集中させよう。
+- 難しいクエストでは、無謀な近接よりも**協力プレイでの継続火力**が重要。
+- **追加キャラクター** は強力な選択肢を増やすが、最終的には基礎力がクリアを左右する。
+</Callout>
+
+<Section icon={Map} title="granblue fantasy relink character tier list の評価基準">
+
+この granblue fantasy relink character tier list では、ストーリー進行、AI編成枠、協力プレイ、エンドゲーム周回でキャラクターが実際にどう機能するかを重視しています。公式のキャラクターページやアップデートノートでロスター追加は確認できますが、ランキング自体は編集方針に基づくものです。つまり、一貫性、扱いやすさ、そして序盤を過ぎてもどれだけ長く使えるかを評価しています。
+
+<Callout type="tip" title="ランキングの見方">
+上のティアだからといって、下のティアが弱いわけではありません。上位キャラは、育成しやすく、操作時のリスクが低く、より多くのクエストで安定して活躍しやすい、という意味です。
+</Callout>
+
+| Criteria | 重視する点 | 重要な理由 |
+|---|---|---|
+| 初心者向けの扱いやすさ | シンプルな入力、許容の広いタイミング | 資源を無駄にせず学びやすい |
+| AI性能 | 高い火力維持、安定した挙動 | ソロではAI仲間が重要 |
+| 協力プレイでの価値 | 安全なダメージ、支援、バーストの合わせやすさ | マルチでは安定性が報われる |
+| 末期コンテンツでの上限 | 高い伸びしろとボスへの圧力 | 終盤クエストは低出力を許さない |
+| 生存力 | ガード、機動力、回復、安全補助 | 生き残るほど火力維持につながる |
+
+<CardGrid cols={4}>
+  <Card title="初心者向けの扱いやすさ">
+    - **覚えやすい**
+    - 低い操作負荷
+    - 序盤の進行が速い
+  </Card>
+  <Card title="AIの安定性">
+    - **画面外でも安定した火力**
+    - 自動操作との相性が良い
+    - ソロでの支援力が高い
+  </Card>
+  <Card title="協力プレイでの有用性">
+    - **安全にボスへ圧をかけられる**
+    - パーティーに組み込みやすい
+    - 継続的に働ける
+  </Card>
+  <Card title="終盤での上限">
+    - **投資の見返りが大きい**
+    - 高い伸びしろ
+    - 後半ほど強い価値を持つ
+  </Card>
+</CardGrid>
+
+公式ロスターやアップデートの流れを確認したいなら、[character roster](https://relink.granbluefantasy.jp/en/characters/)、[update notes](https://relink.granbluefantasy.jp/en/updates/)、[Endless Ragnarok character page](https://relink-ragnarok.granbluefantasy.com/en/characters/) を手元に置いておくと便利です。
+
+</Section>
+
+<Section icon={Trophy} title="キャラクターtierリストと育成優先度の全体像">
+
+<Callout type="warning" title="編集上のランキング基準">
+Cygames は公式の強さ順を公表していません。各ティアは絶対的な強さを断定するものではなく、誰を最初に育てるべきかの実用的な提案として受け取ってください。
+</Callout>
+
+このリストを使うときは、育成優先度として考えるのが最も安全です。S-tier のキャラクターは最優先で資源を投じる価値があり、A-tier は優秀な特化役、B-tier はプレイスタイルが合うなら十分に機能し、C-tier は愛着やニッチな熟練向けです。
+
+| Tier | キャラクター | この位置の理由 | 育成優先度 |
+|---|---|---|---|
+| S | Cagliostro, Eugen, Lancelot, Charlotta, Narmaya, Sandalphon | 高火力、高い継続性、そして安定したパーティー貢献 | **最優先** |
+| A | Vane, Percival, Zeta, Siegfried, Id, Seofon, Tweyen, Beatrix, Eustace, Captain | 上限が高く、得意分野が明確な優秀な特化型 | **非常に強い** |
+| B | Katalina, Io, Rackam, Ferry, Rosetta, Vaseraga, Yodarha, Maglielle, Fraux, Fediel, Gallanza | 使えるが、より多くの準備や精密な操作を求める | **状況次第** |
+| C | Ghandagoza | うまく扱えば強いが、やや遅く要求値が高い | **ニッチ** |
+
+| Tier | 最適な使い方 | 選ぶ主な理由 |
+|---|---|---|
+| S | メインキャラ、AIの主力、協力プレイの中核 | 総合効率が最良 |
+| A | セカンドメイン、ボス特化 | 練習で大きな成果が出る |
+| B | 使い心地重視、好みのプレイスタイル | 使えるが汎用性はやや低い |
+| C | チャレンジ枠、個人的なお気に入り | 習熟すれば機能する |
+
+**上位ティアが目立つ理由:**
+- **Cagliostro** は、ソロでもマルチでも価値が落ちにくい支援性能を持つ。
+- **Eugen** は、安全な遠距離圧力とAIでの安定した挙動が魅力。
+- **Lancelot** と **Charlotta** は、序盤の進行を非常にスムーズにしてくれる。
+- **Narmaya** は、アクティブな近接操作が好きなら伸びしろが大きい。
+- **Sandalphon** は、リリース後追加の中でも終盤で強い価値を持つ上位候補。
+
+**A-tier が依然として優秀な理由:**
+- **Vane** は耐久力とパーティーの安定性を高める。
+- **Percival** は、狙った隙に差し込む立ち回りが報われる。
+- **Seofon**、**Tweyen**、**Beatrix**、**Eustace** は、いずれも拡張後の環境で強い存在感を持つ。
+- **Captain** は、信頼できる柔軟なスターターとして今も優秀。
+
+</Section>
+
+<Section icon={Target} title="役割とプレイスタイル別のおすすめキャラ">
+
+<Callout type="info" title="役割から選ぶ">
+ティア名を気にせず、最も楽にクリアしたいなら、まず役割から選びましょう。最適なキャラクターとは、あなたの操作レベルとチーム方針に合うキャラクターです。
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="序盤向け近接の最有力">
+    - **Lancelot**
+    - 素早い移動
+    - 圧をかけやすい
+    - 最初の主力に最適
+  </Card>
+  <Card title="遠距離の最有力">
+    - **Eugen**
+    - 安全な継続火力
+    - AIとの相性が良い
+    - ボス戦向きの射程
+  </Card>
+  <Card title="支援役の最有力">
+    - **Cagliostro**
+    - 便利さと回復
+    - パーティー向けの構成
+    - いつでも役立つ
+  </Card>
+  <Card title="終盤向け近接の最有力">
+    - **Narmaya**
+    - 高い上限
+    - 大きなリターン
+    - 熟練で伸びる
+  </Card>
+</CardGrid>
+
+| Role | 最有力 | 合う理由 | 注意点 |
+|---|---|---|---|
+| 扱いやすい主力 | Lancelot | 速い、機動力が高い、許容範囲が広い | ボスのAOEに突っ込みすぎない |
+| 安全な遠距離 | Eugen | 距離を取って安定してダメージを出せる | 受け身になりすぎず動き続ける |
+| ユーティリティ支援 | Cagliostro | 回復とチーム貢献が強い | スキルの使いどころが重要 |
+| バースト近接 | Narmaya | 終盤で高い上限を持つ | リズムと操作精度が必要 |
+| 耐久型前衛 | Vane | 頑丈で安定している | ダメージが主目的ではない |
+| 精密キャスター | Io | 強い詠唱タイミングがある | ボスの移動で中断されやすい |
+
+| プレイスタイル | 最有力 | 第二候補 | メモ |
+|---|---|---|---|
+| ソロのストーリー進行 | Captain | Lancelot | バランスが良く、扱いやすい |
+| 協力プレイでの安全重視 | Eugen | Cagliostro | 火力を安定して維持しやすい |
+| 攻め重視の近接 | Narmaya | Percival | 練習すると伸びる |
+| 追加コンテンツ対策 | Sandalphon | Seofon | リリース後の伸びが強い |
+
+公式のキャラクターページやアップデート内容もこの構図を後押ししています。ベースロスターは安定したスターターを提供し、無料アップデートではより強力な特化キャラが加わり、Endless Ragnarok では新たなボスやプレイアブルキャラクターによって上位帯がさらに広がります。
+
+</Section>
+
+<Section icon={Shield} title="tierリストを軸にした育成の組み方">
+
+<Callout type="success" title="効率的な強化ルート">
+最初の本格的な資源は、S-tier か扱いやすい A-tier の主力1人に集中させ、そのほかのメンバーで穴を埋めましょう。そうすることで、あまり多くのキャラクターに資材を分散するよりも強くクリアできます。
+</Callout>
+
+<Steps>
+  <Step num="1" title="主力を1人決める">
+    実戦で使っていて楽しいキャラクターを1人選びましょう。Lancelot、Eugen、Cagliostro、Captain、Narmaya は、あなたの慣れに応じてどれも有力です。
+  </Step>
+  <Step num="2" title="パーティーを主力に合わせる">
+    苦手を補える仲間を加えましょう。遠距離枠、耐久枠、支援枠を入れると、4人編成のバランスが整います。
+  </Step>
+  <Step num="3" title="まず武器を強化する">
+    理想のシジルを追う前に、まずは実戦メンバーの武器を最新の状態に保ちましょう。序盤は、凝った終盤装備よりも純粋な火力と生存力が重要です。
+  </Step>
+  <Step num="4" title="シジルは機能重視で使う">
+    火力、クールダウン、生存力、ボス戦での継続性など、実際の問題を解決するシジルを付けましょう。最適化は後回しで構いません。
+  </Step>
+  <Step num="5" title="予備の1人を育てる">
+    主力が安定したら、別タイプのクエストやマルチ需要に備えて予備の候補を1人育てましょう。
+  </Step>
+</Steps>
+
+<Checklist
+  id="tier-list-setup"
+  title="初期パーティーのチェックリスト:"
+  items={[
+    "ストレスなく使える主力を1人選ぶ",
+    "武器強化をクエスト難度より先行させる",
+    "遠距離か支援の仲間を1人入れる",
+    "希少素材を全員にばらまかない",
+    "追加キャラを解放したらtierリストを見直す"
+  ]}
+/>
+
+| Slot | 推奨タイプ | 例 | 役割 |
+|---|---|---|---|
+| Main | S-tier の近接または遠距離 | Lancelot, Eugen, Narmaya | ダメージを稼ぐ |
+| Safety | 耐久型ファイター | Vane, Captain | 圧力を受け止める |
+| Range | 安定した攻撃役 | Eugen, Tweyen, Eustace | 継続火力を維持する |
+| Support | ユーティリティまたは回復 | Cagliostro, Rosetta, Io | 進行を安定させる |
+
+ベースゲームのロスターも、その後の追加キャラも、この方針を同じように報いてくれます。強いキャラクターであっても、難しいクエストで十分に活躍するには、適切な武器、シジル、そしてチーム構成が必要です。
+
+</Section>
+
+<Section icon={Sparkles} title="キャラクターtierリストのFAQ">
+
+<Callout type="tip" title="FAQの補足">
+ここでの回答は理論値ではなく、実際の育成順を重視しています。使っていてしっくりきて、安定してコンテンツをクリアできるなら、それは完璧なラベルを追うことよりも大切です。
+</Callout>
+
+<FAQ items={[
+  {
+    question: "この granblue fantasy relink character tier list での総合最有力は誰ですか？",
+    answer: "Cagliostro、Eugen、Lancelot、Charlotta、Narmaya、Sandalphon はそれぞれ違う強みで上位ですが、多くのプレイヤーにとって最初の投資先として最も手堅いのは Eugen と Lancelot です。"
+  },
+  {
+    question: "Captain は序盤から育てる価値がありますか？",
+    answer: "あります。Captain は構成の自由度が高く、習得のハードルも高すぎず、ロスター全体を把握していく途中でも長く役立つ、信頼できる序盤の主力です。"
+  },
+  {
+    question: "B-tier のキャラは無視していいですか？",
+    answer: "いいえ。B-tier でも、自分のリズムに合うなら十分にゲームをクリアできます。ただし上位勢よりも、準備・精密さ・チーム支援をより必要とします。"
+  },
+  {
+    question: "追加キャラや Endless Ragnarok のキャラはベースロスターを置き換えますか？",
+    answer: "完全には置き換えません。ロスターを強力な特化キャラで広げますが、ベースゲームの主力たちも、序盤の攻略、AI編成、協力プレイの安定性では今なお優秀です。"
+  }
+]} />
+
+| 質問 | 短い答え | 最重要ポイント |
+|---|---|---|
+| 最初の主力は？ | Lancelot か Eugen | 序盤進行がスムーズ |
+| 最強の支援役は？ | Cagliostro | パーティー貢献が高い |
+| 終盤向け近接は？ | Narmaya | 高い上限 |
+| 安定重視のおすすめは？ | Captain | バランスが良く信頼できる |
+
+まだ迷っているなら、まずは一番使っていて楽しいキャラクターから始め、その次の育成先を tier リストで決めましょう。そのやり方は、紙の上で最強の名前を追うよりも、たいてい良い結果につながります。
+
+</Section>

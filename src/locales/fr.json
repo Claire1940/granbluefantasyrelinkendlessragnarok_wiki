@@ -1,1 +1,1554 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki Granblue Fantasy Relink Endless Ragnarok - Personnages, Builds & Quêtes",
+      "description": "Explorez les guides de Granblue Fantasy Relink pour les personnages, builds, armes, sigils, quêtes, boss, astuces coop et la couverture des mises à jour d'Endless Ragnarok.",
+      "keywords": "Granblue Fantasy Relink, Steam, PS5, PS4, builds, personnages, quêtes, sigils, boss",
+      "ogTitle": "Wiki Granblue Fantasy Relink Endless Ragnarok - Personnages, Builds & Quêtes",
+      "ogDescription": "Explorez les guides de Granblue Fantasy Relink pour les personnages, builds, armes, sigils, quêtes, boss, astuces coop et la couverture des mises à jour d'Endless Ragnarok.",
+      "twitterTitle": "Wiki Granblue Fantasy Relink Endless Ragnarok - Personnages, Builds & Quêtes",
+      "twitterDescription": "Explorez les guides de Granblue Fantasy Relink pour les personnages, builds, armes, sigils, quêtes, boss, astuces coop et la couverture des mises à jour d'Endless Ragnarok."
+    }
+  },
+  "nav": {
+    "expansion": "Extension",
+    "characters": "Personnages",
+    "tier": "Tier List",
+    "builds": "Builds",
+    "sigils": "Sigils"
+  },
+  "common": {
+    "home": "Accueil",
+    "more": "Plus",
+    "playNow": "Jouer sur Steam",
+    "switchLanguage": "Changer de langue",
+    "switchTheme": "Changer de thème",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "notFound": "Page non trouvée",
+    "notFoundDescription": "La page que vous recherchez n'existe pas.",
+    "backToHome": "Retour à l'accueil",
+    "relatedArticles": "Articles connexes",
+    "readMore": "Lire la suite",
+    "articlesComingSoon": "Articles à venir"
+  },
+  "hero": {
+    "badge": "Action-RPG anime au rythme effréné",
+    "title": "Wiki Granblue Fantasy Relink Endless Ragnarok",
+    "description": "Maîtrisez un action-RPG Skyfaring avec des combats en équipe de quatre personnes, des Link Attacks, des Chain Bursts, des quêtes en solo et en coop, le farming d'armes, des builds de sigils, des guides de boss et les mises à jour d'Endless Ragnarok.",
+    "getFreeCodesCTA": "Voir les guides",
+    "playOnSteamCTA": "Jouer sur Steam",
+    "stats": {
+      "stat1": {
+        "value": "52K+",
+        "label": "Évaluations Steam"
+      },
+      "stat2": {
+        "value": "100+",
+        "label": "Quêtes"
+      },
+      "stat3": {
+        "value": "1-4",
+        "label": "Joueurs en coop"
+      },
+      "stat4": {
+        "value": "Feb 1, 2024",
+        "label": "Date de sortie"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Granblue Fantasy Relink Endless Ragnarok",
+    "description": "Maîtrisez les combats en équipe de quatre personnes, les Link Attacks, les Chain Bursts, les builds de sigils et le contenu de l'extension Endless Ragnarok sur PS5, PS4, Steam et Nintendo Switch 2."
+  },
+  "tools": {
+    "title": "Granblue Fantasy Relink",
+    "titleHighlight": "Guides",
+    "subtitle": "Tout ce dont vous avez besoin pour Granblue Fantasy Relink Endless Ragnarok : codes, tier list, conseils pour débutants et couverture de l'extension.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Codes & Récompenses",
+        "description": "Codes de série officiels, Relink Pack, bonus de précommande et règles d'activation"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List",
+        "description": "Classement des personnages selon la facilité de prise en main pour les débutants, l'utilité des coéquipiers IA, le mode coop et les dégâts en fin de partie"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guide du débutant",
+        "description": "Débuter par l'histoire, bases du combat, composition de l'équipe et améliorations stratégiques"
+      },
+      {
+        "icon": "Swords",
+        "title": "Endless Ragnarok",
+        "description": "Sortie de l'extension, éditions, démo, nouveaux personnages, quêtes Chaos et crossplay"
+      },
+      {
+        "icon": "Users",
+        "title": "Personnages",
+        "description": "Tous les personnages jouables de la liste de base, des mises à jour gratuites et d'Endless Ragnarok"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Builds, armes & Sigils",
+        "description": "Progression du début de partie jusqu'au Damage Cap, War Elemental, Sigil Synthesis et Master Traits"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Quêtes & Boss",
+        "description": "Ordre des quêtes, Lucilius, difficulté Chaos, invocations et progression en solo de Conflux"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Plateformes & Crossplay",
+        "description": "Compatibilité PS5, PS4, Steam et Switch 2, multijoueur, crossplay et configurations requises pour PC"
+      }
+    ]
+  },
+  "modules": {
+    "granblueRelinkCodes": {
+      "title": "Codes Granblue Fantasy: Relink, Relink Pack et règles d'activation",
+      "eyebrow": "Codes officiels & Récompenses",
+      "subtitle": "Utilisez ce guide pour distinguer les véritables récompenses officielles des fausses listes de codes, et pour comprendre les différences entre les bonus PlayStation, Steam et Endless Ragnarok.",
+      "intro": "Granblue Fantasy: Relink n'utilise pas de codes cadeaux universels publics. Les véritables récompenses liées à des codes proviennent d'achats officiels, de bons de réduction de plateforme, de copies physiques éligibles, d'éditions numériques éligibles ou d'extensions officielles. La restriction la plus importante concerne la plateforme : le code de série bonus du Relink Pack d'origine est réservé aux versions PlayStation et n'est pas inclus dans les versions Steam.",
+      "displayType": "codeCards",
+      "items": [
+        {
+          "title": "Set d'objets spéciaux Granblue : Relink Pack",
+          "type": "official-serial-code",
+          "status": "Récompense officielle",
+          "appliesTo": [
+            "Exemplaires physiques éligibles de Granblue Fantasy: Relink sur PlayStation",
+            "Achats numériques éligibles sur PlayStation effectués pendant la période d'inclusion officielle"
+          ],
+          "notIncludedOn": [
+            "Versions Steam de Granblue Fantasy: Relink",
+            "Achats numériques sur PlayStation effectués après la fin de la période d'inclusion d'origine"
+          ],
+          "rewardSummary": "Un bonus pour le jeu sur navigateur et mobile Granblue Fantasy, et non un pack d'objets à utiliser directement dans Relink.",
+          "includedRewards": [
+            "Tenue du personnage principal : Rebelwear",
+            "Choix d'un ensemble de progression : Eternals' Transcendence Set ou Evokers' Domain Set"
+          ],
+          "eligibilityNotes": [
+            "Un compte de jeu mobile ou par navigateur Granblue Fantasy est requis.",
+            "Chaque Relink Pack ne peut être activé qu'une seule fois sur un compte Granblue Fantasy unique.",
+            "Pour les achats numériques PlayStation, le Relink Pack est lié au compte PlayStation Network acheteur au lieu d'être fourni sous forme de code imprimé séparé.",
+            "Cygames a prolongé la date limite d'activation du Relink Pack au-delà de la date initiale du December 31, 2024."
+          ]
+        },
+        {
+          "title": "Comment récupérer le Relink Pack",
+          "type": "redemption-flow",
+          "status": "Processus d'activation officiel",
+          "steps": [
+            "Sur PlayStation, connectez-vous au compte PlayStation Network possédant l'exemplaire éligible ou le code.",
+            "Pour un code imprimé, ouvrez le PlayStation Store et utilisez Saisir un code pour entrer le code PlayStation à 12 chiffres.",
+            "Lancez Granblue Fantasy: Relink et ouvrez Serial Code depuis l'écran titre ou depuis le Bazar de Siero.",
+            "Sélectionnez Show Serial Code pour afficher le code de série pour Granblue Fantasy.",
+            "Ouvrez Granblue Fantasy dans un navigateur ou un environnement mobile pris en charge et saisissez le code de série sur l'écran Codes de série du jeu.",
+            "Récupérez les objets livrés dans la Caisse de Granblue Fantasy."
+          ],
+          "platformRules": [
+            "Les codes de téléchargement du PlayStation Store sont limités par région et par compte.",
+            "Les codes sont à usage unique et ne peuvent pas être transférés après activation.",
+            "Le code de série du Relink Pack ne peut pas être saisi sur la version iOS de Granblue Fantasy ; utilisez plutôt un navigateur.",
+            "Les codes de série perdus ne seront pas réémis."
+          ]
+        },
+        {
+          "title": "Bonus de précommande originaux de Relink",
+          "type": "official-purchase-bonus",
+          "status": "Bonus d'achat terminé",
+          "includedRewards": [
+            "Sigil Endurance III",
+            "Sigil Courroux III",
+            "Accès anticipé sur les éditions PlayStation éligibles"
+          ],
+          "availability": "La période de bonus de précommande originale pour Granblue Fantasy: Relink est terminée.",
+          "platformRules": [
+            "L'accès anticipé n'était pas inclus dans la version Steam.",
+            "Les contenus téléchargeables et objets bonus sont récupérés dans Relink via le Bazar de Siero sous Claim Add-Ons."
+          ]
+        },
+        {
+          "title": "Bonus d'achat d'Endless Ragnarok",
+          "type": "official-purchase-bonus",
+          "status": "Bonus d'extension officiel",
+          "appliesTo": [
+            "Éditions complètes de Granblue Fantasy: Relink - Endless Ragnarok",
+            "Éditions du Upgrade Kit de Granblue Fantasy: Relink - Endless Ragnarok"
+          ],
+          "includedRewards": [
+            "Éditions complètes d'Endless Ragnarok : Ensemble de Sigil Guts III et Autorevive III",
+            "Éditions Upgrade Kit d'Endless Ragnarok : Ensemble de Sigil Supplementary Damage V et War Elemental"
+          ],
+          "platformRules": [
+            "L'Upgrade Kit nécessite de posséder le jeu de base sur la même plateforme.",
+            "L'éligibilité aux bonus d'achat sur Nintendo Switch 2, PlayStation 5 et PlayStation 4 s'étend jusqu'au July 8, 2026 à 23 h 59, heure locale.",
+            "L'éligibilité aux bonus d'achat sur Steam s'étend jusqu'au August 31, 2026 à 23 h 59, heure locale.",
+            "Chaque bonus d'achat anticipé ne peut être récupéré qu'une seule fois par compte utilisateur."
+          ]
+        },
+        {
+          "title": "Fausses listes de codes-cadeaux en ligne",
+          "type": "fake-code-warning",
+          "status": "Non officiel",
+          "whatToIgnore": [
+            "Listes publiques prétendant offrir des cristaux gratuits, des rupis, des tickets SSR, des packs d'armes ou des codes cadeaux Relink universels",
+            "Générateurs de codes",
+            "Sondages ou pages de connexion demandant les identifiants de compte PlayStation Network, Steam, Nintendo, Cygames ou Granblue Fantasy"
+          ],
+          "safeRule": "Utilisez uniquement les codes et bonus distribués via les pages officielles des produits, les boutiques officielles, les boutiques de plateforme ou les annonces officielles de Cygames."
+        },
+        {
+          "title": "Achat et vente de codes de série tiers",
+          "type": "risk-warning",
+          "status": "Activité présentant un risque d'infraction aux règles",
+          "officialRule": "Cygames stipule que le commerce, la revente ou l'échange de codes de série de packs Relink via des enchères ou des services tiers est strictement interdit.",
+          "practicalRisks": [
+            "Un code peut déjà avoir été utilisé avant la livraison.",
+            "Un code peut être verrouillé par région ou lié à un compte de plateforme différent.",
+            "Un code acheté peut enfreindre les règles officielles relatives aux codes de série.",
+            "L'assistance ne réémettra pas les codes tiers perdus ou invalides."
+          ],
+          "safeRule": "Achetez des éditions ou des extensions éligibles dans les boutiques officielles plutôt que chez des vendeurs de codes de série tiers."
+        }
+      ]
+    },
+    "granblueRelinkTierList": {
+      "title": "Tier List des personnages de Granblue Fantasy: Relink",
+      "eyebrow": "Classement éditorial du site",
+      "subtitle": "Une tier list pratique basée sur les rôles, conçue autour du confort pour les débutants, de la valeur des coéquipiers IA, de l'utilité en coop, des dégâts en fin de jeu et de la survie.",
+      "intro": "Cygames publie les profils des personnages, les systèmes de combat, les mises à jour et le contenu des extensions, mais ne publie pas de classement officiel de puissance. Cette tier list est un classement éditorial du site conçu pour aider les joueurs à choisir qui développer en priorité, qui assigner comme coéquipiers IA et qui emmener dans les quêtes en coop ou de fin de jeu.",
+      "displayType": "tierGrid",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Meilleurs choix polyvalents",
+          "summary": "D'excellents choix pour un investissement à long terme, car ils combinent des dégâts fiables, une grande valeur pour l'équipe, une bonne survie ou une excellente régularité de l'IA.",
+          "characters": [
+            {
+              "name": "Cagliostro",
+              "release": "Roster de base",
+              "role": "Mage de soutien et infligeant des dégâts d'alchimie",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Excellent",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Un choix de soutien flexible avec des soins, des améliorations et une pression constante à distance, ce qui la rend précieuse dans les équipes solo et le jeu en ligne."
+            },
+            {
+              "name": "Eugen",
+              "release": "Roster de base",
+              "role": "Tireur à distance",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Excellent",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Un attaquant à distance sûr qui est très performant en tant que coéquipier IA et aide à maintenir des dégâts constants sur les boss mobiles."
+            },
+            {
+              "name": "Lancelot",
+              "release": "Effectif de base",
+              "role": "Attaquant de mêlée rapide",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Des attaques rapides, des déplacements aisés et des dégâts constants en font l'un des personnages de mêlée les plus confortables pour les joueurs débutants et expérimentés."
+            },
+            {
+              "name": "Charlotta",
+              "release": "Effectif de base",
+              "role": "Attaquant de mêlée mobile",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Sa courte portée est compensée par une excellente mobilité, une pression constante et une exécution simple."
+            },
+            {
+              "name": "Sandalphon",
+              "release": "Mise à jour Version 1.3.0",
+              "role": "Spécialiste des dégâts de mêlée de haut niveau",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "Excellent",
+              "survivability": "Élevé",
+              "note": "Un puissant personnage post-lancement très gratifiant une fois ses mécaniques maîtrisées."
+            },
+            {
+              "name": "Narmaya",
+              "release": "Effectif de base",
+              "role": "Attaquant au katana avec changement de posture",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Excellent",
+              "survivability": "Moyen",
+              "note": "Un excellent plafond de dégâts grâce à la gestion des postures ; idéal pour les joueurs qui apprécient un timing actif en mêlée."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Spécialistes très puissants",
+          "summary": "D'excellents personnages qui sont les plus performants lorsque leur timing, leur portée ou leurs mécaniques spécifiques sont utilisés correctement.",
+          "characters": [
+            {
+              "name": "Vane",
+              "release": "Effectif de base",
+              "role": "Combattant robuste défensif",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "Moyen",
+              "survivability": "Excellent",
+              "note": "Un combattant de première ligne robuste dont les outils défensifs sont particulièrement utiles dans les quêtes en coop difficiles."
+            },
+            {
+              "name": "Percival",
+              "release": "Effectif de base",
+              "role": "Attaquant de mêlée à charges",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Excellent",
+              "survivability": "Moyen",
+              "note": "Dégâts de burst élevés avec un timing de charge précis ; récompense les joueurs qui connaissent les ouvertures des boss."
+            },
+            {
+              "name": "Zeta",
+              "release": "Effectif de base",
+              "role": "Attaquante à la lance aérienne",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "Excellente pression aérienne et fenêtres de timing satisfaisantes, avec une exigence d'exécution plus élevée que les choix de mêlée plus simples."
+            },
+            {
+              "name": "Siegfried",
+              "release": "Effectif de base",
+              "role": "Attaquant à l'espadon avec timing",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Résistant et puissant lorsque le timing des attaques est maintenu, mais moins indulgent que les personnages plus rapides."
+            },
+            {
+              "name": "Id",
+              "release": "Effectif de base",
+              "role": "Attaquant de mêlée à transformations",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "---",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Élevé"
+            },
+            {
+              "name": "Un personnage fort de l'histoire avec un concept de puissance clair et des performances solides une fois son kit pleinement accessible.",
+              "release": "Seofon",
+              "role": "Version 1.2.0 update",
+              "beginnerEase": "Attaquant aux avatars d'épée",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Excellent",
+              "note": "Moyen"
+            },
+            {
+              "name": "Un personnage de l'ère DLC à haut potentiel axé sur la pression à l'épée et une forte rentabilité offensive.",
+              "release": "Tweyen",
+              "role": "Version 1.2.0 update",
+              "beginnerEase": "Archer à distance",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Moyen"
+            },
+            {
+              "name": "Une Éternelle à distance offrant une excellente couverture et un temps de présence sûr une fois débloquée ou achetée.",
+              "release": "Beatrix",
+              "role": "Endless Ragnarok",
+              "beginnerEase": "Attaquant de mêlée technique",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Élevé"
+            },
+            {
+              "name": "Alterne entre des auto-bonus offensifs, défensifs et de récupération, lui offrant une grande flexibilité dans le contenu de l'extension.",
+              "release": "Eustace",
+              "role": "Endless Ragnarok",
+              "beginnerEase": "Tireur d'élite de la Société",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Un personnage d'extension à distance adapté aux joueurs qui préfèrent un contrôle constant de la distance."
+            },
+            {
+              "name": "Capitaine",
+              "release": "Effectif de base",
+              "role": "Épéiste équilibré et soutien",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Élevé",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Moyen",
+              "survivability": "Élevé",
+              "note": "Un premier investissement fiable avec des compétences simples, une utilité pour l'équipe et une disponibilité dans l'histoire dès le début."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Bon mais plus situationnel",
+          "summary": "Des personnages utiles avec des forces évidentes, mais qui nécessitent plus de préparation, un jeu plus prudent ou une équipe qui soutient leur schéma de combat préféré.",
+          "characters": [
+            {
+              "name": "Katalina",
+              "release": "Effectif de base",
+              "role": "Épéiste défensive",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Moyen",
+              "survivability": "Élevé",
+              "note": "Un choix sûr en début de jeu avec une valeur défensive, bien que son rendement global soit moins explosif que les meilleurs choix de mêlée."
+            },
+            {
+              "name": "Io",
+              "release": "Effectif de base",
+              "role": "Lanceuse de sorts à charge",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "De puissants dégâts magiques lorsque les fenêtres de charge sont respectées, mais les mouvements du boss peuvent interrompre son meilleur rythme."
+            },
+            {
+              "name": "Rackam",
+              "release": "Effectif de base",
+              "role": "Tireur à distance",
+              "beginnerEase": "Élevé",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Moyen",
+              "survivability": "Moyen",
+              "note": "Facile à utiliser et sûr à distance, mais généralement moins précieux que les options à distance les plus performantes."
+            },
+            {
+              "name": "Ferry",
+              "release": "Effectif de base",
+              "role": "Attaquante à mi-distance avec fouet et invocations",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Moyen",
+              "survivability": "Moyen",
+              "note": "Excellent contrôle et bonne allonge, avec un style de jeu qui dépend de la gestion de la distance et des familiers invoqués."
+            },
+            {
+              "name": "Rosetta",
+              "release": "Effectif de base",
+              "role": "Soutien avec contrôle de zone",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Élevé",
+              "lateGameDamage": "Moyen",
+              "survivability": "Moyen",
+              "note": "Excellente pour les joueurs qui comprennent le placement, mais moins intuitive dans les combats très mobiles."
+            },
+            {
+              "name": "Vaseraga",
+              "release": "Effectif de base",
+              "role": "Attaquant lourd à la faux",
+              "beginnerEase": "Faible",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Résistant et puissant, mais ses animations lentes le rendent moins accessible aux débutants."
+            },
+            {
+              "name": "Yodarha",
+              "release": "Effectif de base",
+              "role": "Épéiste technique et rapide",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "Efficace entre des mains expertes, mais moins universel que les choix de mêlée de haut niveau les plus simples."
+            },
+            {
+              "name": "Maglielle",
+              "release": "Endless Ragnarok",
+              "role": "Attaquante à la lame magique",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "Un personnage d'extension avec une pression élégante basée sur la lame et une courbe d'apprentissage plus spécialisée."
+            },
+            {
+              "name": "Fraux",
+              "release": "Endless Ragnarok",
+              "role": "Attaquant lié par pacte au Diable",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "Un choix d'extension puissant pour les joueurs qui souhaitent un style de jeu plus spécifique au personnage."
+            },
+            {
+              "name": "Fediel",
+              "release": "Endless Ragnarok",
+              "role": "Attaquant sur le thème des ténèbres",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Un personnage des Six Dragons avec un thème fort et un potentiel en fin de partie, à traiter de préférence comme un investissement ciblé."
+            },
+            {
+              "name": "Gallanza",
+              "release": "Endless Ragnarok",
+              "role": "Bruiser lourd à la lance-hache",
+              "beginnerEase": "Moyen",
+              "aiTeammate": "Moyen",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Élevé",
+              "note": "Un monstre de puissance avec une large portée d'attaque, adapté aux joueurs qui aiment s'engager pleinement au corps à corps."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Investissement de niche",
+          "summary": "Jouable et utilisable, mais moins efficace en tant que premier investissement majeur par rapport à des personnages plus faciles d'accès ou plus polyvalents.",
+          "characters": [
+            {
+              "name": "Ghandagoza",
+              "release": "Roster de base",
+              "role": "Attaquant lourd aux poings",
+              "beginnerEase": "Faible",
+              "aiTeammate": "Faible",
+              "coOpValue": "Moyen",
+              "lateGameDamage": "Élevé",
+              "survivability": "Moyen",
+              "note": "Peut frapper fort, mais son style lent et très contraignant est exigeant face aux boss mobiles."
+            }
+          ]
+        }
+      ]
+    },
+    "granblueRelinkBeginnerGuide": {
+      "title": "Guide du débutant Granblue Fantasy: Relink",
+      "eyebrow": "Guide du débutant",
+      "subtitle": "Un parcours de départ propre pour les nouveaux joueurs : l'histoire d'abord, des habitudes de combat simples, des améliorations judicieuses et pas de panique liée aux ressources en début de jeu.",
+      "intro": "Relink est articulé autour d'une équipe de quatre personnages, de combats d'action en temps réel, de chapitres d'histoire et de quêtes répétables. Le départ le plus fluide consiste à maîtriser un personnage principal, à laisser les coéquipiers IA s'occuper du soutien et des dégâts à distance, et à éviter de gaspiller des matériaux rares dans chaque arme rutilante comme si le Sky Realm menait une expérience d'éducation financière.",
+      "displayType": "stepByStep",
+      "items": [
+        {
+          "step": 1,
+          "title": "Commencez par l'histoire et apprenez les menus principaux",
+          "goal": "Débloquez les systèmes de base avant de vous soucier des builds.",
+          "actions": [
+            "Jouez les premiers chapitres de l'histoire au lieu de farmer immédiatement.",
+            "Utilisez le menu principal pour examiner les personnages, les armes, les compétences, les Sigils et les quêtes.",
+            "Lisez les messages de tutoriel lorsque de nouveaux systèmes de combat se débloquent."
+          ],
+          "avoid": [
+            "Ne jugez pas un personnage avant que ses compétences de base et ses améliorations d'armes soient disponibles.",
+            "Ne dépensez pas de matériaux rares simplement parce qu'un menu affiche un bouton d'amélioration."
+          ],
+          "whyItMatters": "La progression dans l'histoire débloque plus de personnages, de systèmes, de quêtes, de services en ville et de meilleures options d'amélioration."
+        },
+        {
+          "step": 2,
+          "title": "Choisissez d'abord un personnage principal confortable",
+          "goal": "Développez votre mémoire musculaire au lieu de disperser vos ressources sur l'ensemble de l'effectif.",
+          "actions": [
+            "Utilisez le Captain, Lancelot, Charlotta, Eugen ou Katalina pour une courbe d'apprentissage initiale facile.",
+            "Testez les personnages dans des quêtes avant de consacrer des matériaux importants.",
+            "Gardez un personnage principal légèrement en avance en termes de niveau d'arme, de compétences et de Sigils."
+          ],
+          "avoid": [
+            "N'essayez pas de maîtriser tout l'effectif au cours des premières heures.",
+            "Ne forcez pas l'utilisation d'un personnage technique si l'esquive de base, la garde et le timing des compétences vous semblent encore laborieux."
+          ],
+          "whyItMatters": "Un personnage principal bien ciblé termine l'histoire et les premières quêtes plus rapidement, ce qui débloque de meilleures récompenses pour le reste de l'équipe."
+        },
+        {
+          "step": 3,
+          "title": "Apprenez la boucle de combat de base",
+          "goal": "Comprenez le fonctionnement des phases de dégâts avant de chercher des builds avancés.",
+          "actions": [
+            "Utilisez les attaques normales pour mettre de la pression et créer des ouvertures.",
+            "Utilisez les compétences de personnage lorsque le boss est immobile, étourdi ou bloqué dans une longue animation.",
+            "Surveillez la jauge de choc et déclenchez des Link Attacks dès qu'elles sont disponibles.",
+            "Enchaînez les Skybound Arts avec vos coéquipiers pour créer des Chain Bursts.",
+            "Gardez ou esquivez au lieu d'attaquer à travers chaque animation de boss."
+          ],
+          "avoid": [
+            "Ne dépensez pas chaque compétence dès qu'elle est rechargée.",
+            "N'ignorez pas les Link Attacks et les Skybound Arts ; ce sont des outils essentiels pour les dégâts d'équipe."
+          ],
+          "whyItMatters": "Relink récompense la présence continue, le timing et les enchaînements d'équipe plutôt que le martèlement de touches."
+        },
+        {
+          "step": 4,
+          "title": "Constituez une équipe de quatre personnes équilibrée",
+          "goal": "Laissez vos coéquipiers IA s'occuper des tâches que votre personnage principal ne gère pas bien.",
+          "actions": [
+            "Jouez avec un attaquant principal contrôlé par vous-même.",
+            "Ajoutez un personnage de mêlée résistant ou défensif pour la stabilité.",
+            "Ajoutez un attaquant à distance pour des dégâts constants sur le boss.",
+            "Ajoutez un personnage orienté soutien avec des soins, des bonus ou des outils de protection."
+          ],
+          "avoid": [
+            "Ne composez pas une première équipe de quatre attaquants de mêlée fragiles.",
+            "Ne laissez pas vos coéquipiers IA à un niveau trop bas tout en n'améliorant que votre personnage principal."
+          ],
+          "whyItMatters": "Les alliés IA peuvent infliger de lourds dégâts, réanimer, effectuer des Link Attacks et des Arts célestes s'ils sont correctement équipés."
+        },
+        {
+          "step": 5,
+          "title": "Dépensez vos premiers Mastery Points pour obtenir des améliorations simples",
+          "goal": "Achetez des améliorations qui vous aident immédiatement dans chaque quête.",
+          "actions": [
+            "Donnez la priorité à l'attaque de base, aux PV, à l'accès aux compétences et à une survivabilité pratique.",
+            "Débloquez des compétences de personnage utiles avant de peaufiner les petits nœuds de statistiques.",
+            "Maintenez la progression de Mastery de votre équipe principale relativement équilibrée."
+          ],
+          "avoid": [
+            "N'optimisez pas à l'excès les petits chemins de statistiques pendant l'histoire.",
+            "N'ignorez pas les améliorations défensives si les boss mettent vos personnages à terre à plusieurs reprises."
+          ],
+          "whyItMatters": "Vos premiers choix de Mastery doivent rendre les combats plus sûrs et plus rapides, et non transformer votre première partie en un tableur avec des bruits d'épée."
+        },
+        {
+          "step": 6,
+          "title": "Améliorez vos armes et vos Sigils avec modération",
+          "goal": "Restez assez fort pour les quêtes en cours tout en économisant les matériaux rares pour un meilleur équipement.",
+          "actions": [
+            "Gardez les armes équipées de votre équipe active suffisamment améliorées pour faire face à la difficulté des quêtes.",
+            "Utilisez des Sigils qui correspondent clairement à vos besoins : attaque, PV, réduction du temps de recharge, étourdissement, survie ou bonus spécifique à un personnage.",
+            "Remplacez les Sigils de début de jeu faibles à mesure que des versions plus puissantes sont obtenues dans les quêtes."
+          ],
+          "avoid": [
+            "N'investissez pas pleinement dans chaque arme dès qu'elle apparaît.",
+            "N'accumulez pas vos ressources au point que votre équipe ne puisse plus répondre aux exigences de base des quêtes."
+          ],
+          "whyItMatters": "Relink offre de nombreuses voies d'amélioration, et dépenser prudemment évite les pénuries de matériaux au début."
+        },
+        {
+          "step": 7,
+          "title": "Utilisez les services de la ville entre les quêtes",
+          "goal": "Transformez les récompenses de quête en une progression constante.",
+          "actions": [
+            "Visitez le Bazar de Siero pour récupérer des add-ons, échanger des objets et gérer des services utiles.",
+            "Vérifiez les récompenses de quête avant de farmer afin de savoir ce qu'une mission rapporte réellement.",
+            "Améliorez, équipez et passez en revue les membres de l'équipe après les moments clés de l'histoire."
+          ],
+          "avoid": [
+            "Ne laissez pas les objets bonus non récupérés si vous possédez des add-ons éligibles.",
+            "Ne farmez pas des quêtes au hasard sans vérifier si elles rapportent le matériau dont vous avez besoin."
+          ],
+          "whyItMatters": "C'est en ville que se fait la majeure partie de la progression des personnages entre les combats."
+        },
+        {
+          "step": 8,
+          "title": "Après l'histoire, progressez graduellement dans les rangs de quête",
+          "goal": "Passez de la simple complétion à la préparation du endgame.",
+          "actions": [
+            "Terminez les niveaux de quête disponibles dans l'ordre au lieu de vous lancer directement dans les missions les plus difficiles.",
+            "Renforcez votre équipe principale avant de chercher à obtenir les Sigils parfaits de fin de jeu.",
+            "Utilisez la coop lorsqu'une quête est trop lente ou laborieuse avec des coéquipiers IA.",
+            "Apprenez les patterns des boss car les rangs de quête plus élevés punissent les réanimations imprudentes et les fenêtres de dégâts manquées."
+          ],
+          "avoid": [
+            "Ne copiez pas un build endgame avant d'avoir débloqué les systèmes et les matériaux qui le rendent efficace.",
+            "Ne considérez pas l'échec d'une quête de haut rang comme un problème de personnage ; il s'agit souvent d'un problème d'équipement, de timing ou de connaissance des patterns."
+          ],
+          "whyItMatters": "Le contenu post-histoire s'articule autour de quêtes répétables, d'un équipement plus puissant, d'une exécution plus précise et d'une meilleure préparation d'équipe."
+        }
+      ]
+    },
+    "granblueRelinkEndlessRagnarok": {
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok",
+      "eyebrow": "Guide de l'extension",
+      "subtitle": "Un guide complet sur la sortie de l'extension, ses éditions, ses kits de mise à niveau, sa démo, ses bonus, son nouveau scénario, ses personnages, ses quêtes du Chaos, le Conflux, ses invocations et le crossplay.",
+      "intro": "---",
+      "displayType": "Endless Ragnarok est l'extension majeure pour Granblue Fantasy: Relink. Elle ajoute un nouveau chapitre de l'histoire, six personnages jouables, de nouveaux systèmes, des quêtes plus difficiles, du contenu de fin de jeu en solo et le jeu en ligne multiplateforme sur Nintendo Switch 2, PlayStation et Steam.",
+      "items": [
+        {
+          "title": "cardList",
+          "category": "Date de sortie et plateformes",
+          "details": [
+            "release-info",
+            "Granblue Fantasy: Relink - Endless Ragnarok sortira le July 9, 2026 selon l'annonce officielle de Cygames.",
+            "L'extension prend en charge la Nintendo Switch 2, la PlayStation 5, la PlayStation 4 et Steam.",
+            "La page produit Steam indique la date de sortie de l'Upgrade Kit comme étant le July 8, 2026, reflétant l'heure de la boutique Steam."
+          ]
+        },
+        {
+          "title": "Le jeu prend en charge 1 joueur hors ligne et 1 to 4 joueurs en ligne.",
+          "category": "Quelle édition acheter",
+          "details": [
+            "buying-guide",
+            "Les nouveaux joueurs peuvent acheter Granblue Fantasy: Relink - Endless Ragnarok sous forme de jeu complet.",
+            "Les propriétaires actuels du jeu de base peuvent acheter l'Endless Ragnarok Upgrade Kit.",
+            "L'Upgrade Kit nécessite le jeu de base sur la même plateforme."
+          ],
+          "editionPrices": [
+            {
+              "edition": "Des versions Standard et Spéciale sont disponibles selon la plateforme et le format.",
+              "format": "Édition Standard complète",
+              "price": "Physique ou numérique"
+            },
+            {
+              "edition": "$59.99 / €59.99",
+              "format": "Édition Spéciale complète",
+              "price": "Numérique"
+            },
+            {
+              "edition": "$79.99 / €79.99",
+              "format": "Upgrade Kit Édition Standard",
+              "price": "Numérique"
+            },
+            {
+              "edition": "$29.99 / €29.99",
+              "format": "Upgrade Kit Édition Spéciale",
+              "price": "Numérique"
+            }
+          ]
+        },
+        {
+          "title": "$54.99 / €54.99",
+          "category": "Contenu des éditions Standard vs Spéciale",
+          "details": [
+            "edition-differences",
+            "Les éditions complètes Standard incluent le jeu de base et le contenu d'Endless Ragnarok.",
+            "Les éditions Upgrade Kit Standard ajoutent le contenu d'Endless Ragnarok pour les joueurs qui possèdent déjà le jeu de base.",
+            "Les éditions complètes Spéciales incluent l'Endless Ragnarok Special Pack."
+          ]
+        },
+        {
+          "title": "Les éditions complètes Spéciales et les éditions Upgrade Kit Spéciales incluent la DLC Collection.",
+          "category": "Bonus de précommande et d'achat anticipé",
+          "details": [
+            "purchase-bonuses",
+            "Les éditions complètes d'Endless Ragnarok incluent le set de Sigils Guts III et Autorevive III comme bonus d'achat.",
+            "Les éditions Upgrade Kit d'Endless Ragnarok incluent le set de Sigils Supplementary Damage V et War Elemental comme bonus d'achat.",
+            "Les bonus pour Nintendo Switch 2, PlayStation 5 et PlayStation 4 sont disponibles pour les achats effectués jusqu'au July 8, 2026 à 11:59 p.m. heure locale.",
+            "Les bonus Steam sont disponibles pour les achats effectués jusqu'au August 31, 2026 à 11:59 p.m. heure locale."
+          ]
+        },
+        {
+          "title": "Chaque bonus ne peut être réclamé qu'une seule fois par compte d'utilisateur.",
+          "category": "demo",
+          "details": [
+            "La démo d'Endless Ragnarok est devenue disponible le June 18, 2026.",
+            "La démo PlayStation inclut le Mode Histoire, le Mode Quête et le Mode Tutoriel.",
+            "Le Mode Quête inclut quatre quêtes au total.",
+            "Terminer les trois premières quêtes de la démo débloque Sephira's Sanguine Glimmer, une quête qui permet d'accéder aux Invocations.",
+            "Chaque quête de la démo accorde des récompenses qui peuvent être récupérées dans le jeu complet après sa sortie.",
+            "Les données de sauvegarde de la démo ne sont pas transférables vers la version complète."
+          ]
+        },
+        {
+          "title": "Nouvelle histoire, nouveaux boss et quêtes Chaos",
+          "category": "new-content",
+          "details": [
+            "Endless Ragnarok ajoute un nouvel arc narratif après l'aventure de base de Relink.",
+            "L'extension introduit de nouvelles menaces célestes, notamment Beelzebub et The World.",
+            "Chaos est un nouveau niveau de difficulté de quête conçu comme le défi le plus exigeant de l'extension.",
+            "Les quêtes Chaos proposent des ragnalia et de nouvelles mécaniques de boss, incluant les attaques EX Burst."
+          ]
+        },
+        {
+          "title": "Six nouveaux personnages jouables",
+          "category": "characters",
+          "details": [
+            "Gallanza rejoint les rangs en tant que colosse à la hache-lance lourde avec une large portée d'attaque.",
+            "Maglielle rejoint les rangs en tant qu'utilisatrice de lames magiques et meneuse de la Sword Veil Fellowship.",
+            "Beatrix rejoint les rangs en tant que combattante de la Society alternant entre des bonus personnels offensifs, défensifs et de récupération.",
+            "Eustace rejoint les rangs en tant que tireur d'élite de la Society maniant l'arme scellée Flamek Thunder.",
+            "Fraux rejoint les rangs en tant que liée par pacte à The Devil.",
+            "Fediel rejoint les rangs en tant que l'un des Six Dragons avec une domination sur les ténèbres."
+          ],
+          "characters": [
+            "Gallanza",
+            "Maglielle",
+            "Beatrix",
+            "Eustace",
+            "Fraux",
+            "Fediel"
+          ]
+        },
+        {
+          "title": "Invocations et Primal Bursts",
+          "category": "battle-systems",
+          "details": [
+            "Endless Ragnarok ajoute les Invocations comme nouvelle mécanique de combat.",
+            "Les Invocations peuvent être appelées pendant le combat et possèdent des compétences d'attaque ainsi que des capacités de soutien.",
+            "Le joueur devient invincible lorsqu'il contrôle directement une invocation.",
+            "Proto Bahamut et Excavallion peuvent déclencher des Primal Bursts une fois que des conditions de combat spécifiques sont remplies et que les quatre membres de l'équipe utilisent des Skybound Arts."
+          ]
+        },
+        {
+          "title": "Le mode solo Conflux",
+          "category": "solo-endgame",
+          "details": [
+            "Conflux est un mode exclusivement solo articulé autour de zones séquentielles, d'objectifs de combat et d'atouts temporaires.",
+            "Les joueurs choisissent l'un des trois atouts temporaires au cours d'une session.",
+            "Les objectifs de Conflux et les choix d'atouts varient d'une session à l'autre.",
+            "Les récompenses incluent des matériaux et de l'équipement de haut niveau pour l'amélioration des personnages et des armes."
+          ]
+        },
+        {
+          "title": "Crossplay et Jeu en local",
+          "category": "multijoueur",
+          "details": [
+            "Endless Ragnarok ajoute le jeu en ligne cross-play entre la Nintendo Switch 2, la PlayStation 5, la PlayStation 4 et Steam.",
+            "La Nintendo Switch 2 prend en charge la communication locale jusqu'à quatre joueurs.",
+            "Le jeu en ligne peut nécessiter l'abonnement au service en ligne de la plateforme correspondante.",
+            "Le Partage de jeu n'est pas disponible lors de la communication locale sur Nintendo Switch 2."
+          ]
+        }
+      ]
+    },
+    "granblueRelinkCharacters": {
+      "title": "Personnages de Granblue Fantasy Relink",
+      "eyebrow": "Personnages",
+      "subtitle": "Tous les personnages jouables, des mises à jour et d'Endless Ragnarok présentés dans une liste complète.",
+      "intro": "Parcourez l'effectif de départ, les personnages des mises à jour gratuites et les nouveaux personnages jouables ajoutés avec Endless Ragnarok. Chaque fiche détaille le rôle, l'origine, le statut jouable et à qui ils s'adressent en priorité.",
+      "displayType": "cardList",
+      "items": [
+        {
+          "name": "Personnage principal (Gran / Djeeta)",
+          "group": "Effectif de base",
+          "role": "Épéiste polyvalent et pilier du groupe",
+          "source": "Équipage de l'histoire principale",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible en tant que personnage du joueur, avec Gran ou Djeeta sélectionné comme Capitaine.",
+          "bestFor": "Les joueurs qui recherchent un personnage de départ équilibré, un accès facile au groupe et un arbre de progression flexible."
+        },
+        {
+          "name": "Katalina",
+          "group": "Effectif de base",
+          "role": "Manieuse de sabre avec des capacités défensives et de soutien",
+          "source": "Équipage du Grandcypher",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible via l'effectif de l'histoire de base.",
+          "bestFor": "Les joueurs qui veulent un personnage de mêlée stable avec de la protection, de la régénération et des outils utiles pour l'équipe."
+        },
+        {
+          "name": "Rackam",
+          "group": "Effectif de base",
+          "role": "Tireur à distance",
+          "source": "Équipage du Grandcypher",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible via l'effectif de l'histoire de base.",
+          "bestFor": "Les joueurs qui préfèrent la pression à distance, un positionnement plus sûr et des dégâts constants."
+        },
+        {
+          "name": "Io",
+          "group": "Effectif de base",
+          "role": "Mage avec des sorts chargés et du soutien de soin",
+          "source": "Équipage du Grandcypher",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible via l'effectif de l'histoire de base.",
+          "bestFor": "Les joueurs qui aiment lancer des sorts, les phases de burst et aider le groupe à récupérer."
+        },
+        {
+          "name": "Eugen",
+          "group": "Effectif de base",
+          "role": "Spécialiste des armes à feu à longue portée",
+          "source": "Équipage du Grandcypher",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible via la sélection de l'histoire de base.",
+          "bestFor": "Les joueurs qui veulent cibler les points faibles à distance et contrôler l'espace sans être constamment sous un boss."
+        },
+        {
+          "name": "Rosetta",
+          "group": "Sélection de base",
+          "role": "Soutien en contrôle de zone avec des attaques à base de roses",
+          "source": "Équipage du Grandcypher",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible via la sélection de l'histoire de base.",
+          "bestFor": "Les joueurs qui apprécient les outils de positionnement, le contrôle de zone et les modèles de dégâts de soutien."
+        },
+        {
+          "name": "Lancelot",
+          "group": "Sélection de base",
+          "role": "Attaquant rapide à deux lames",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux personnages de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui aiment les combos rapides, le jeu évasif et la pression agressive au corps à corps."
+        },
+        {
+          "name": "Vane",
+          "group": "Sélection de base",
+          "role": "Utilisateur de hache résistant et protecteur",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux personnages de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui veulent un combattant de première ligne robuste avec une valeur défensive capable de sauver le groupe."
+        },
+        {
+          "name": "Percival",
+          "group": "Sélection de base",
+          "role": "Attaquant à l'épée d'affinité feu avec des frappes chargées",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux personnages de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui apprécient le timing calculé au corps à corps, la confirmation de coups puissants et les dégâts explosifs stylés."
+        },
+        {
+          "name": "Siegfried",
+          "group": "Sélection de base",
+          "role": "Combattant à l'épée lourde basé sur le timing",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux personnages de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui veulent de puissants enchaînements au corps à corps et qui sont à l'aise avec l'apprentissage de commandes basées sur le rythme."
+        },
+        {
+          "name": "Charlotta",
+          "group": "Effectif de base",
+          "role": "Attaquante de mêlée compacte avec des combos rapides à l'épée",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux membres de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui aiment les attaques rapides, la pression à courte portée et un profil de cible petit et mobile."
+        },
+        {
+          "name": "Yodarha",
+          "group": "Effectif de base",
+          "role": "Duelliste technique au katana",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux membres de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui apprécient les contres, un timing précis et l'expression de compétences de mêlée compactes."
+        },
+        {
+          "name": "Narmaya",
+          "group": "Effectif de base",
+          "role": "Attaquante au katana basée sur les postures",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux membres de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui recherchent un personnage de mêlée à fort potentiel avec une fluidité des postures et un potentiel de burst."
+        },
+        {
+          "name": "Zeta",
+          "group": "Effectif de base",
+          "role": "Attaquante à la lance avec des enchaînements aériens",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux membres de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui aiment l'offensive basée sur les sauts, les combos à la lance et rester actifs au-dessus des menaces au sol."
+        },
+        {
+          "name": "Vaseraga",
+          "group": "Effectif de base",
+          "role": "Attaquant lourd à la faux",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès aux membres de l'équipage dans le jeu de base.",
+          "bestFor": "Les joueurs qui préfèrent les coups lents et lourds, l'engagement de type armure et un énorme impact en mêlée."
+        },
+        {
+          "name": "Ferry",
+          "group": "Effectif de base",
+          "role": "Utilisatrice de fouet avec des compagnons spectraux",
+          "source": "Personnage de l'équipage",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès coéquipier dans le jeu de base.",
+          "bestFor": "Les joueurs qui veulent un contrôle à mi-distance, une pression de type invocation et un rythme différent des utilisateurs d'épée standards."
+        },
+        {
+          "name": "Ghandagoza",
+          "group": "Effectif de base",
+          "role": "Adepte des arts martiaux et combattant à mains nues",
+          "source": "Personnage coéquipier",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès coéquipier dans le jeu de base.",
+          "bestFor": "Les joueurs qui aiment le combat rapproché, les coups de poing puissants et les attaques d'apparence simple avec un timing rigoureux."
+        },
+        {
+          "name": "Cagliostro",
+          "group": "Effectif de base",
+          "role": "Alchimiste avec dégâts, soins et utilité",
+          "source": "Personnage coéquipier",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Débloqué via l'accès coéquipier dans le jeu de base.",
+          "bestFor": "Les joueurs qui veulent un hybride lanceur de sorts et soutien flexible avec une grande utilité pour l'équipe."
+        },
+        {
+          "name": "Id",
+          "group": "Effectif de base",
+          "role": "Attaquant au corps à corps sur le thème du dragon",
+          "source": "Personnage de l'histoire du jeu de base",
+          "playableStatus": "Jouable dans le jeu de base",
+          "unlockOrAccess": "Disponible après avoir progressé dans l'histoire du jeu de base.",
+          "bestFor": "Les joueurs qui veulent un set de combat au corps à corps dramatique étroitement lié à l'histoire principale de Relink."
+        },
+        {
+          "name": "Seofon",
+          "group": "Effectif de la mise à jour gratuite",
+          "role": "Spécialiste de l'épée et chef des Éternels",
+          "source": "Version 1.2.0 free update",
+          "playableStatus": "Jouable après l'accès à la mise à jour",
+          "unlockOrAccess": "Débloqué sans frais supplémentaires en remplissant les conditions en jeu, ou débloqué immédiatement via un set de déblocage de personnage payant.",
+          "bestFor": "Les joueurs qui veulent un personnage à l'épée de fin de jeu et aiment débloquer de puissants ajouts à l'effectif via du contenu de défi."
+        },
+        {
+          "name": "Tweyen",
+          "group": "Effectif de la mise à jour gratuite",
+          "role": "Maître de l'arc et attaquant à longue portée",
+          "source": "Version 1.2.0 free update",
+          "playableStatus": "Jouable après l'accès à la mise à jour",
+          "unlockOrAccess": "Débloqué sans frais supplémentaires en remplissant les conditions en jeu, ou débloqué immédiatement via un set de déblocage de personnage payant.",
+          "bestFor": "Les joueurs qui veulent un personnage à distance de précision avec une progression de déblocage de type fin de jeu."
+        },
+        {
+          "name": "Sandalphon",
+          "group": "Effectif de la mise à jour gratuite",
+          "role": "Combattant à l'épée ailé avec une importance cruciale dans l'histoire de fin de jeu",
+          "source": "Mise à jour gratuite version 1.3.0",
+          "playableStatus": "Jouable après accès à la mise à jour",
+          "unlockOrAccess": "Ajouté en tant que personnage jouable dans la Version 1.3.0, avec un accès lié au contenu de la mise à jour et aux objets de déblocage associés.",
+          "bestFor": "Les joueurs qui veulent un personnage majeur de Granblue ajouté après le lancement et qui sont prêts pour du contenu de fin de jeu de plus haut niveau."
+        },
+        {
+          "name": "Gallanza",
+          "group": "Effectif d'Endless Ragnarok",
+          "role": "Colosse à la lourde hache-lance avec une grande portée d'attaque",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui veulent de larges balayages au corps à corps, une sensation de poids lourd et un ancien commandant d'Avia à leurs côtés."
+        },
+        {
+          "name": "Maglielle",
+          "group": "Effectif d'Endless Ragnarok",
+          "role": "Maître des lames magiques",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui aiment le contrôle élégant des lames à distance et au corps à corps, les attaques spectaculaires et un boss stylé devenu un personnage jouable."
+        },
+        {
+          "name": "Beatrix",
+          "group": "Effectif d'Endless Ragnarok",
+          "role": "Attaquante de la Société avec des cycles d'amélioration d'attaque, de défense et de récupération",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui veulent un personnage à l'épée agressif avec une gestion d'améliorations semblable à des postures et un style de combat très dynamique."
+        },
+        {
+          "name": "Eustace",
+          "group": "Effectif d'Endless Ragnarok",
+          "role": "Tireur d'élite de la Société et spécialiste des armes à feu",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui préfèrent un combat à distance posé, un positionnement tactique et un arsenal basé sur les armes à feu."
+        },
+        {
+          "name": "Fraux",
+          "group": "Effectif d'Endless Ragnarok",
+          "role": "Contractante de The Devil dotée d'une grande puissance de frappe",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui veulent un personnage de style Evoker avec une forte identité de combat au corps à corps."
+        },
+        {
+          "name": "Fediel",
+          "group": "Roster d'Endless Ragnarok",
+          "role": "Dragon lié aux Ténèbres des Six Dragons",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Jouable avec Endless Ragnarok",
+          "unlockOrAccess": "Ajouté comme l'un des six personnages jouables dans la mise à niveau Endless Ragnarok.",
+          "bestFor": "Les joueurs qui veulent une fantasy de l'élément ténèbres puissante, de l'histoire sur les dragons et un personnage d'extension marquant."
+        },
+        {
+          "name": "Lyria",
+          "group": "Personnages de l'histoire",
+          "role": "Compagne de l'histoire liée à une créature primordiale",
+          "source": "Histoire du jeu de base",
+          "playableStatus": "Personnage de l'histoire",
+          "unlockOrAccess": "Apparaît tout au long de l'histoire du jeu de base plutôt que comme un choix de roster standard pour les quêtes.",
+          "bestFor": "Les joueurs qui suivent l'histoire principale et le lore de Granblue."
+        },
+        {
+          "name": "Vyrn",
+          "group": "Personnages de l'histoire",
+          "role": "Compagnon mascotte et membre de l'équipage",
+          "source": "Histoire du jeu de base",
+          "playableStatus": "Personnage de l'histoire",
+          "unlockOrAccess": "Apparaît tout au long de l'histoire du jeu de base.",
+          "bestFor": "Les joueurs qui suivent l'équipage du Grandcypher et les dialogues de l'histoire."
+        },
+        {
+          "name": "Rolan",
+          "group": "Personnages de l'histoire",
+          "role": "Allié clé de l'histoire de Relink",
+          "source": "Histoire du jeu de base",
+          "playableStatus": "Personnage de l'histoire",
+          "unlockOrAccess": "Apparaît comme un personnage centré sur l'histoire dans le jeu de base.",
+          "bestFor": "Les joueurs qui s'intéressent à l'arc narratif original de Relink."
+        },
+        {
+          "name": "Lilith",
+          "group": "Personnages de l'histoire",
+          "role": "Leader des Pèlerins d'Avia",
+          "source": "Histoire du jeu de base",
+          "playableStatus": "Boss et personnage de l'histoire",
+          "unlockOrAccess": "Rencontré à travers le récit du jeu de base.",
+          "bestFor": "Les joueurs qui suivent le conflit d'Avia et les boss de la campagne."
+        },
+        {
+          "name": "Lucilius",
+          "group": "Boss de la mise à jour gratuite",
+          "role": "Boss de difficulté élevée connu sous le nom de Progéniteur primordial",
+          "source": "Mise à jour gratuite Version 1.1.0",
+          "playableStatus": "Personnage de type boss",
+          "unlockOrAccess": "Combattu dans la quête post-histoire The Final Vision et le contenu de haute difficulté associé.",
+          "bestFor": "Les joueurs à la recherche du défi emblématique de type raid de fin de jeu."
+        },
+        {
+          "name": "Beelzebub",
+          "group": "Boss d'Endless Ragnarok",
+          "role": "Boss d'extension majeure connu sous le nom d'Eternity Ender",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Personnage de boss",
+          "unlockOrAccess": "Apparaît dans le cadre du contenu de l'extension Endless Ragnarok.",
+          "bestFor": "Les joueurs à la recherche d'affrontements de boss de l'ère de l'extension et d'une progression post-jeu plus difficile."
+        },
+        {
+          "name": "The World",
+          "group": "Boss d'Endless Ragnarok",
+          "role": "Boss lié à l'Arcarum connu sous le nom d'Inchoate World",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Personnage de boss",
+          "unlockOrAccess": "Apparaît dans le cadre du contenu de l'extension Endless Ragnarok.",
+          "bestFor": "Les joueurs intéressés par les menaces sur le thème de l'Arcarum de l'extension et la liste des boss."
+        }
+      ]
+    },
+    "granblueRelinkBuildsWeaponsSigils": {
+      "title": "Builds, armes et Sigils de Granblue Fantasy Relink",
+      "eyebrow": "Builds",
+      "subtitle": "Builds, armes, sigils, Damage Cap et progression d'Endless Ragnarok dans un seul tableau.",
+      "intro": "Utilisez ce tableau de progression pour comprendre quoi fabriquer en premier, quand les sigils commencent à avoir de l'importance, et comment les systèmes de fin de jeu tels que la Sigil Synthesis et les Master Traits se connectent à la croissance des personnages.",
+      "displayType": "tableau",
+      "items": [
+        {
+          "stage": "Histoire principale et premières quêtes",
+          "buildGoal": "Apprenez à jouer un personnage, gardez l'équipe en vie et améliorez régulièrement les armes au lieu de chercher des sigils parfaits dès le départ.",
+          "weapons": "Utilisez la meilleure arme disponible pour votre personnage actuel et améliorez-la lorsque les matériaux sont faciles à obtenir. L'attaque de base et le niveau de l'arme importent plus qu'une optimisation rare à ce stade.",
+          "sigils": "Équipez des sigils simples d'attaque, de PV, de défense, de temps de recharge et d'utilité qui correspondent à votre façon de jouer. Ne gaspillez pas de matériaux rares en essayant de forcer un build final avant la fin du jeu.",
+          "keyTerms": "Niveau du personnage, Mastery, niveau de l'arme, compétences, sigils de base",
+          "playerTip": "Choisissez un personnage principal et trois membres d'équipe contrôlés par l'IA que vous appréciez. Répartir chaque amélioration sur l'ensemble des personnages trop tôt ralentit la progression."
+        },
+        {
+          "stage": "Milieu de jeu et premier farming post-histoire",
+          "buildGoal": "Commencez à façonner les personnages par rôle : donneur de dégâts, attaquant à distance, soutien, première ligne robuste ou choix utilitaire.",
+          "weapons": "Continuez à renforcer les armes utilisées par votre équipe active. Adaptez les améliorations aux personnages que vous emmenez réellement en quête.",
+          "sigils": "Commencez à remplacer les sigils de remplissage par des choix plus forts de dégâts, de survivabilité, de temps de recharge et adaptés aux personnages. Conservez des sigils défensifs pratiques lorsque vous apprenez des combats plus difficiles.",
+          "keyTerms": "Comptoir des quêtes, builds de rôle, configurations de compétences, équilibre de l'équipe",
+          "playerTip": "Gardez suffisamment de survivabilité pour maintenir votre temps de présence offensif et réussir les quêtes de manière constante."
+        },
+        {
+          "stage": "Fin de jeu avant l'optimisation intensive",
+          "buildGoal": "Passez d'une puissance générale à un temps de présence offensif ciblé, au contrôle des boss et à des réussites stables.",
+          "weapons": "Investissez plus massivement dans les armes de votre équipe principale et commencez à planifier la croissance des armes de fin de jeu au lieu de changer constamment de favoris.",
+          "sigils": "Commencez à donner la priorité au Damage Cap lorsque vos attaques commencent à atteindre le plafond de dégâts du jeu. Combinez-le avec des sigils offensifs, des traits utilitaires utiles et des outils de survie pour les quêtes difficiles.",
+          "keyTerms": "Damage Cap, temps de présence sur le boss, Link Attacks, Skybound Arts, Chain Bursts",
+          "playerTip": "Lorsque plus d'attaque brute cesse d'augmenter les dégâts réels, le Damage Cap devient un élément de build central plutôt qu'un luxe."
+        },
+        {
+          "stage": "Proud, Lucilius et farming de fin de jeu",
+          "buildGoal": "Concevez vos builds pour des victoires stables en haute difficulté, et non juste pour des écrans de statistiques attrayants.",
+          "weapons": "Développez activement la voie de votre arme principale, puis soutenez-la avec des Sigil qui vous permettent de rester actif face aux patterns dangereux des boss.",
+          "sigils": "Damage Cap, War Elemental, Supplementary Damage, outils de recharge, accès rapide aux compétences et assurance défensive deviennent des priorités de haute valeur pour les builds prêts pour l'endgame.",
+          "keyTerms": "Élément de guerre, Dégâts supplémentaires V, Limite de dégâts, Lucilius, La vision finale",
+          "playerTip": "War Elemental et Supplementary Damage sont des Sigil premium de type endgame. Considérez-les comme des accélérateurs de build, et non comme une raison d'ignorer la progression de base des armes et de la Mastery."
+        },
+        {
+          "stage": "Version 1.3 Sigil Synthesis",
+          "buildGoal": "Peaufinez vos builds endgame en combinant des Sigil et des traits une fois que votre compte possède suffisamment de puissants Sigil légendaires.",
+          "weapons": "Continuez à améliorer vos armes tout en utilisant la synthèse pour réduire les lacunes de traits gênantes dans votre build.",
+          "sigils": "La Sigil Synthesis permet aux joueurs de combiner des Sigil et des traits, incluant les Sigil légendaires éligibles et les Sigil marqués pour la synthèse, afin de créer des pièces de build plus puissantes.",
+          "keyTerms": "Sigil Synthesis, Sigil légendaires, traits, Version 1.3.0",
+          "playerTip": "Utilisez la synthèse pour combler des lacunes de traits spécifiques et améliorer les builds endgame établis."
+        },
+        {
+          "stage": "Extension de personnages par mise à jour gratuite",
+          "buildGoal": "Développez Seofon, Tweyen et Sandalphon après les avoir débloqués via le contenu de mise à jour ou des objets de déblocage.",
+          "weapons": "Considérez chaque personnage de mise à jour comme un projet de build sérieux avec ses propres besoins en armes, Mastery, compétences et Sigil.",
+          "sigils": "Utilisez la même logique de progression : une configuration initiale sûre, des dégâts et de l'utilité ciblés plus tard, puis des traits endgame et Damage Cap quand leurs statistiques le justifient.",
+          "keyTerms": "Seofon, Tweyen, Sandalphon, sets de déblocage de personnage, quêtes de mise à jour",
+          "playerTip": "Les nouveaux personnages nécessitent toujours un investissement complet. Les débloquer ne revient pas à les préparer pour les quêtes de haute difficulté."
+        },
+        {
+          "stage": "Progression de Endless Ragnarok",
+          "buildGoal": "Utilisez les Master Traits, les invocations, les nouveaux paliers coop et la difficulté Chaos pour pousser les builds au-delà du post-jeu de base.",
+          "weapons": "Continuez à améliorer les personnages et les armes avec les matériaux obtenus dans les quêtes d'extension et les runs de Conflux.",
+          "sigils": "Conservez les Sigil endgame de base tout en utilisant les Master Traits et les récompenses d'extension pour spécialiser davantage les personnages.",
+          "keyTerms": "Master Traits, invocations, difficulté Chaos, Ragnalia, Beelzebub, The World",
+          "playerTip": "Les Master Traits sont un système de progression propre à l'extension. Développez-les en parallèle des Sigil au lieu de les considérer comme des remplaçants."
+        },
+        {
+          "stage": "Endgame solo du Conflux",
+          "buildGoal": "Créez des builds autonomes capables de terminer des zones solo séquentielles et de s'adapter aux bonus temporaires.",
+          "weapons": "Utilisez des personnages avec des armes améliorées et des dégâts personnels fiables, car la progression dans le Conflux dépend de votre exécution en solo.",
+          "sigils": "Privilégiez les dégâts constants, la survie et l'utilité. Les bonus temporaires peuvent améliorer un run, mais le build de base doit rester solide par lui-même.",
+          "keyTerms": "Conflux, bonus temporaires, matériaux rares, équipement de haut niveau, mode solo",
+          "playerTip": "Le Conflux récompense les builds flexibles. Les configurations sur-spécialisées peuvent s'effondrer lorsqu'un run impose des objectifs que votre build ne peut pas gérer."
+        }
+      ]
+    },
+    "granblueRelinkQuestsBosses": {
+      "title": "Quêtes et boss de Granblue Fantasy Relink",
+      "eyebrow": "Quêtes",
+      "subtitle": "Ordre des quêtes, boss de mise à jour, difficulté Chaos et progression du Conflux sur une seule voie.",
+      "intro": "Suivez le chemin du contenu depuis les quêtes de l'histoire principale jusqu'au post-jeu, Lucilius, les quêtes de mise à jour gratuites, la difficulté Chaos de Endless Ragnarok et le mode solo Conflux.",
+      "displayType": "accordéon",
+      "items": [
+        {
+          "title": "Histoire principale et Comptoir de quêtes standard",
+          "tag": "Jeu de base",
+          "summary": "Commencez par la progression de la campagne, l'accès aux personnages, la formation d'équipe de base et les missions régulières du Comptoir de quêtes.",
+          "content": "Le jeu de base enseigne les systèmes de combat fondamentaux tels que les attaques normales, les compétences, les Link Attacks, les Skybound Arts, les Chain Bursts, les esquives, la garde et le jeu en équipe de quatre personnages. Après que l'histoire ouvre davantage l'accès aux quêtes, le Comptoir de quêtes devient le lieu principal pour farmer des matériaux, faire progresser les personnages et se préparer au contenu post-jeu plus difficile.",
+          "bossesOrTargets": "Boss de campagne, cibles standard du Comptoir de quêtes, quêtes de matériaux",
+          "recommendedOrder": "À jouer avant tout contenu de mise à jour et d'extension."
+        },
+        {
+          "title": "Post-histoire et préparation au mode Proud",
+          "tag": "Post-game de base",
+          "summary": "Récoltez des matériaux, renforcez vos armes, fabriquez des Sigils et préparez votre équipe principale pour les quêtes les plus difficiles du jeu de base.",
+          "content": "La progression après l'histoire passe de la simple complétion de quêtes à la fiabilisation de votre équipe principale. Concentrez-vous sur les améliorations d'armes, la Mastery, les Sigils utiles, les ensembles de compétences et l'équilibre du groupe. C'est l'étape où les mécaniques des boss ont plus d'importance et où les builds incomplets commencent à être punis.",
+          "bossesOrTargets": "Affrontements de difficulté supérieure au Comptoir des quêtes et objectifs de préparation pour le niveau Proud",
+          "recommendedOrder": "À terminer après l'histoire et avant Lucilius ou les niveaux de défi de l'ère de l'extension."
+        },
+        {
+          "title": "The Final Vision et Lucilius",
+          "tag": "Mise à jour gratuite 1.1.0",
+          "summary": "La version 1.1.0 ajoute The Final Vision, une quête post-histoire mettant en vedette Lucilius.",
+          "content": "The Final Vision devient disponible après avoir terminé un segment de l'histoire à Seedhollow. Elle est conçue comme une quête de mise à jour de haute difficulté et sert de test majeur de boss de fin de jeu avant la progression des mises à jour ultérieures et de l'extension.",
+          "bossesOrTargets": "Lucilius",
+          "recommendedOrder": "À tenter une fois que votre groupe dispose d'armes puissantes, de Sigils pratiques et d'une survie fiable."
+        },
+        {
+          "title": "Quêtes de déblocage de Seofon et Tweyen",
+          "tag": "Mise à jour gratuite 1.2.0",
+          "summary": "La version 1.2.0 ajoute Seofon et Tweyen en tant que personnages jouables et ajoute des quêtes liées au contenu de leur mise à jour.",
+          "content": "La mise à jour introduit les quêtes Lock Horns et Gulp... So These Are the Rumored Monsters, aux côtés de Seofon et Tweyen comme ajouts à la liste des personnages jouables. Les deux personnages peuvent être débloqués sans frais supplémentaires en remplissant les conditions en jeu, avec des ensembles de déblocage payants disponibles pour un accès immédiat.",
+          "bossesOrTargets": "Croiser le fer, Gloups... Ce sont donc les monstres de la rumeur",
+          "recommendedOrder": "À terminer après avoir formé une équipe de post-game stable, puis investissez dans les nouveaux personnages si vous souhaitez en faire vos personnages principaux."
+        },
+        {
+          "title": "Sandalphon, Zero et les quêtes de défi de la version 1.3",
+          "tag": "Mise à jour gratuite 1.3.0",
+          "summary": "La version 1.3.0 ajoute Sandalphon, de nouvelles quêtes, le mode Photo, la synthèse de Sigils et des systèmes de fin de jeu supplémentaires.",
+          "content": "La mise à jour ajoute Sandalphon en tant que personnage jouable et introduit Pageant of Might and Magic, Zathba's Volunteers, Dark Swordsman's Nightmare et Zero. Elle ajoute également la synthèse de Sigils, offrant aux joueurs en fin de jeu un moyen plus approfondi de combiner les Sigils et les traits.",
+          "bossesOrTargets": "Spectacle de puissance et de magie, Volontaires de Zathba, Cauchemar de l'épéiste noir, Zéro",
+          "recommendedOrder": "À jouer après le contenu de la version 1.1 et de la version 1.2, lorsque votre équipe est prête pour une optimisation plus poussée en post-game."
+        },
+        {
+          "title": "Histoire d'Endless Ragnarok et quêtes Chaos",
+          "tag": "Extension",
+          "summary": "Endless Ragnarok ajoute un nouvel arc narratif, de nouveaux niveaux de quêtes en coopération, la difficulté Chaos, les Master Traits, des invocations et des boss majeurs.",
+          "content": "Endless Ragnarok enrichit le jeu avec de nouvelles histoires et de nouveaux modes de jeu, incluant le domaine de Ragnalia, les portails, Beelzebub, de nouveaux niveaux de quêtes en coopération, le déblocage d'invocations et les Master Traits. La difficulté Chaos est présentée comme le niveau de quête le plus exigeant de l'extension, avec des boss gagnant des attaques EX Burst.",
+          "bossesOrTargets": "Ragnalia, Beelzebub, The World, boss de niveau Chaos",
+          "recommendedOrder": "À commencer après avoir terminé le jeu de base et formé au moins une équipe sérieuse pour la fin de jeu."
+        },
+        {
+          "title": "Invocations et Primal Bursts",
+          "tag": "Système de l'extension",
+          "summary": "Endless Ragnarok ajoute des invocations qui fournissent des compétences d'attaque, des capacités de soutien et des enchaînements de Primal Burst.",
+          "content": "Les invocations peuvent être équipées sur les personnages et utilisées au combat pour leur valeur offensive, de soutien ou de contrôle de foule. Certaines invocations peuvent être invoquées et contrôlées pendant une courte période, et certaines conditions permettent de déclencher des Primal Bursts à partir de puissances telles que Proto Bahamut et Excavallion.",
+          "bossesOrTargets": "Quêtes de déblocage d'invocations, affrontements permettant les Primal Bursts",
+          "recommendedOrder": "À utiliser tout au long de la progression d'Endless Ragnarok une fois l'accès aux invocations débloqué."
+        },
+        {
+          "title": "Le mode solo de fin de jeu The Conflux",
+          "tag": "Mode de l'extension",
+          "summary": "The Conflux est un mode solo avec des zones séquentielles, des objectifs, des batailles, des atouts temporaires et des récompenses de haut niveau.",
+          "content": "Les parties de Conflux envoient un personnage à travers plusieurs zones avec des énigmes, des batailles et des traits ou améliorations spéciaux. Chaque zone peut offrir des choix d'atouts temporaires, tandis que les récompenses incluent des trésors utilisés pour améliorer les personnages et les armes, des matériaux rares et de l'équipement de haut niveau.",
+          "bossesOrTargets": "Objectifs solo de Conflux, boss de zone, rencontres de récompense",
+          "recommendedOrder": "Entrez une fois que vous avez un personnage prêt pour l'extension avec des armes améliorées, des Sigils pratiques et une forte capacité de survie personnelle."
+        }
+      ]
+    },
+    "granblueRelinkPlatformsCrossplay": {
+      "title": "Plateformes et crossplay de Granblue Fantasy Relink",
+      "eyebrow": "Plateformes",
+      "subtitle": "Comparaison des plateformes, du multijoueur, du crossplay, de la Switch 2 et de la configuration requise sur PC.",
+      "intro": "Comparez la prise en charge sur PlayStation, Steam et Nintendo Switch 2 avant d'acheter le jeu de base ou Endless Ragnarok. Ce tableau sépare les règles de plateforme du jeu de base de la prise en charge du crossplay multiplateforme de l'extension.",
+      "displayType": "tableau",
+      "items": [
+        {
+          "topic": "PlayStation 4",
+          "platform": "PS4",
+          "version": "Prise en charge du jeu de base et d'Endless Ragnarok",
+          "players": "1 joueur hors ligne ; la coop en ligne prend en charge 1-4 joueurs.",
+          "crossplay": "Le jeu interplateforme du jeu de base est pris en charge entre la PS4 et la PS5. Endless Ragnarok prend en charge le crossplay avec la Nintendo Switch 2, la PS5, la PS4 et Steam.",
+          "requirementsOrNotes": "La version PS4 peut être mise à niveau vers la version PS5 numérique sans frais supplémentaires. Le jeu en ligne nécessite le service en ligne de la plateforme correspondante.",
+          "bestFor": "Les joueurs restant dans l'écosystème PlayStation ou passant de la PS4 à la PS5."
+        },
+        {
+          "topic": "PlayStation 5",
+          "platform": "PS5",
+          "version": "Prise en charge du jeu de base et d'Endless Ragnarok",
+          "players": "1 joueur hors ligne ; la coop en ligne prend en charge 1-4 joueurs.",
+          "crossplay": "Le jeu interplateforme du jeu de base est pris en charge entre la PS5 et la PS4. Endless Ragnarok prend en charge le crossplay avec la Nintendo Switch 2, la PS5, la PS4 et Steam.",
+          "requirementsOrNotes": "La PlayStation 5 est l'une des plateformes de lancement officielles pour le jeu de base et l'une des plateformes prises en charge pour Endless Ragnarok.",
+          "bestFor": "Les joueurs qui souhaitent jouer sur console, profiter de la coop cross-génération PlayStation et du crossplay de l'extension."
+        },
+        {
+          "topic": "Jeu de base sur Steam",
+          "platform": "PC / Steam",
+          "version": "Jeu de base Granblue Fantasy Relink",
+          "players": "Solo et coop en ligne jusqu'à quatre joueurs.",
+          "crossplay": "Le jeu de base ne prend pas en charge le jeu interplateforme avec PlayStation. Le jeu interplateforme du jeu de base n'est indiqué que pour la PS4 et la PS5.",
+          "requirementsOrNotes": "Le jeu de base sur Steam est requis avant d'acheter et d'utiliser le contenu de mise à niveau Endless Ragnarok sur Steam.",
+          "bestFor": "Les joueurs PC qui souhaitent la flexibilité du clavier et de la manette ainsi que le multijoueur Steam."
+        },
+        {
+          "topic": "Kit de mise à niveau Endless Ragnarok sur Steam",
+          "platform": "PC / Steam",
+          "version": "Kit de mise à niveau Édition Standard ou Édition Spéciale",
+          "players": "La coop en ligne prend en charge jusqu'à quatre joueurs dans les quêtes de l'extension compatibles.",
+          "crossplay": "Endless Ragnarok prend en charge le crossplay en coop en ligne à quatre joueurs sur Nintendo Switch 2, PS5, PS4 et Steam.",
+          "requirementsOrNotes": "Le kit de mise à niveau nécessite le jeu de base sur la même plateforme. L'Édition Spéciale comprend des packs de couleurs supplémentaires, des packs d'objets utiles et des objets liés au déblocage de personnages pour Seofon, Tweyen et Sandalphon.",
+          "bestFor": "Les joueurs possédant déjà le jeu sur Steam qui souhaitent l'histoire de l'extension, les quêtes du Chaos, le Conflux, les invocations, les Traits de Maître et de nouveaux personnages jouables."
+        },
+        {
+          "topic": "Nintendo Switch 2",
+          "platform": "Nintendo Switch 2",
+          "version": "Granblue Fantasy Relink Endless Ragnarok",
+          "players": "Prend en charge les modes portable, sur table et téléviseur. Le jeu en ligne est pris en charge, et la communication locale prend en charge la coop jusqu'à quatre joueurs.",
+          "crossplay": "Endless Ragnarok prend en charge le crossplay avec la Nintendo Switch 2, la PS5, la PS4 et Steam.",
+          "requirementsOrNotes": "Nintendo indique la date de sortie au July 9, 2026, une taille de téléchargement de 38.7 GB, et les langues prises en charge incluant le japonais, l'anglais, l'espagnol, le français, l'allemand, l'italien, le portugais, le coréen et le chinois. La sauvegarde Save Data Cloud est indiquée comme non prise en charge.",
+          "bestFor": "Joueurs qui souhaitent un jeu portable, de la coop locale sur Switch 2 ou du crossplay d'extension sur toutes les plateformes."
+        },
+        {
+          "topic": "Règle de crossplay",
+          "platform": "Toutes les plateformes",
+          "version": "Jeu de base contre Endless Ragnarok",
+          "players": "La coop en ligne prend en charge jusqu'à quatre joueurs là où le jeu en ligne est disponible.",
+          "crossplay": "Jeu de base : crossplay PS4 et PS5 uniquement. Endless Ragnarok : crossplay Nintendo Switch 2, PS5, PS4 et Steam.",
+          "requirementsOrNotes": "Des abonnements aux plateformes ou des exigences de service en ligne peuvent s'appliquer. GameShare n'est pas disponible lors des sessions de communication locale sur Nintendo Switch 2.",
+          "bestFor": "Joueurs achetant le jeu principalement pour jouer en coop avec des amis sur différentes plateformes."
+        },
+        {
+          "topic": "Configuration minimale requise sur Steam",
+          "platform": "PC / Steam",
+          "version": "Profil de configuration PC pour le jeu de base et Endless Ragnarok",
+          "players": "La prise en charge de la coop en ligne dépend de Steam et de l'accès au réseau.",
+          "crossplay": "La version Steam de base ne propose pas de crossplay avec PlayStation ; Endless Ragnarok prend en charge le crossplay d'extension sur toutes les plateformes répertoriées.",
+          "requirementsOrNotes": "Minimum : Windows 11 64-bit, Intel Core i3-9100 ou AMD Ryzen 3 3200G, 16 GB RAM, NVIDIA GeForce GTX 1060 6 GB ou AMD Radeon RX 580 8 GB, DirectX 11, 90 GB d'espace de stockage disponible, SSD recommandé, profil cible 1080p et 30 FPS avec les paramètres Standard.",
+          "bestFor": "Joueurs PC vérifiant si leur système peut faire tourner le jeu avant de l'acheter."
+        },
+        {
+          "topic": "Configuration recommandée sur Steam",
+          "platform": "PC / Steam",
+          "version": "Profil de configuration PC pour le jeu de base et Endless Ragnarok",
+          "players": "La prise en charge de la coop en ligne dépend de Steam et de l'accès au réseau.",
+          "crossplay": "La version Steam de base ne propose pas de crossplay avec PlayStation ; Endless Ragnarok prend en charge le crossplay d'extension sur toutes les plateformes répertoriées.",
+          "requirementsOrNotes": "Recommandée : Windows 11 64-bit, Intel Core i7-8700 ou AMD Ryzen 5 3600, 16 GB RAM, NVIDIA GeForce RTX 2080 8 GB ou AMD Radeon RX 6700 XT 12 GB, DirectX 11, 90 GB d'espace de stockage disponible, SSD recommandé, profil cible 1080p et 60 FPS avec les paramètres Ultra.",
+          "bestFor": "Joueurs PC qui souhaitent un gameplay plus fluide avec des paramètres élevés et une configuration plus sûre pour la coop de l'extension."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Granblue Fantasy Relink",
+    "titleHighlight": "FAQ",
+    "subtitle": "Questions clés sur Granblue Fantasy Relink Endless Ragnarok avant de jouer.",
+    "questions": [
+      {
+        "question": "Qu'est-ce que Granblue Fantasy Relink Endless Ragnarok ?",
+        "answer": "Granblue Fantasy Relink Endless Ragnarok est l'extension majeure de Granblue Fantasy: Relink. Elle ajoute un nouveau chapitre de l'histoire, six personnages jouables, des quêtes du Chaos, le mode solo Conflux, des Invocations, ainsi que le jeu en ligne multiplateforme sur Nintendo Switch 2, PlayStation 5, PlayStation 4 et Steam."
+      },
+      {
+        "question": "Quand sortira Granblue Fantasy Relink Endless Ragnarok ?",
+        "answer": "Granblue Fantasy Relink Endless Ragnarok sortira le July 9, 2026 selon Cygames. La démo d'Endless Ragnarok est devenue disponible le June 18, 2026 sur PlayStation avant la sortie complète."
+      },
+      {
+        "question": "Est-ce que Granblue Fantasy Relink utilise des codes cadeaux ?",
+        "answer": "Granblue Fantasy Relink n'utilise pas de codes cadeaux universels publics. Les véritables récompenses proviennent du Relink Pack pour les copies PlayStation éligibles, des bonus officiels de précommande et d'achat anticipé, ainsi que des bonus de l'édition Endless Ragnarok. Évitez les listes de codes tierces et les générateurs de codes qui demandent les détails de votre compte."
+      },
+      {
+        "question": "Sur quelles plateformes Granblue Fantasy Relink est-il disponible ?",
+        "answer": "Granblue Fantasy Relink est disponible sur PlayStation 5, PlayStation 4 et Steam. L'extension Endless Ragnarok ajoute également la Nintendo Switch 2, avec un jeu en ligne multiplateforme sur toutes les plateformes prises en charge pour 1 à 4 joueurs."
+      },
+      {
+        "question": "Ai-je besoin du jeu de base pour jouer à Granblue Fantasy Relink Endless Ragnarok ?",
+        "answer": "Les propriétaires actuels de Granblue Fantasy Relink peuvent acheter le kit de mise à niveau Endless Ragnarok, qui nécessite le jeu de base sur la même plateforme. Les nouveaux joueurs peuvent acheter une édition complète de Granblue Fantasy Relink Endless Ragnarok qui inclut le jeu de base et l'extension."
+      },
+      {
+        "question": "Est-ce que Granblue Fantasy Relink se joue en solo ou en coop ?",
+        "answer": "Granblue Fantasy Relink prend en charge 1 joueur hors ligne et 1 à 4 joueurs en ligne. Vous pouvez jouer à l'intégralité de l'histoire et des quêtes en solo avec des coéquipiers contrôlés par l'IA, ou rejoindre la coop en ligne avec d'autres joueurs, et Endless Ragnarok ajoute le crossplay pour que les utilisateurs de PlayStation, Steam et Nintendo Switch 2 puissent jouer ensemble."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à jouer à Granblue Fantasy: Relink ?",
+    "description": "Rejoignez la communauté Granblue Fantasy: Relink sur Discord et les canaux officiels pour obtenir des guides, des builds et des mises à jour sur Endless Ragnarok !",
+    "joinCommunity": "Rejoindre Discord",
+    "joinGame": "Jouer sur Steam"
+  },
+  "footer": {
+    "title": "Wiki Granblue Fantasy Relink Endless Ragnarok",
+    "description": "Votre centre de ressources complet pour les personnages, builds, armes, sigils, quêtes, boss et mises à jour Endless Ragnarok de Granblue Fantasy: Relink.",
+    "resources": "Ressources",
+    "community": "Communauté",
+    "legal": "Mentions légales",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "Site officiel",
+    "steamStore": "Boutique Steam",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Granblue Fantasy Relink Endless Ragnarok Wiki. Non affilié à Cygames.",
+    "disclaimer": "Site de ressources non officiel créé par des fans."
+  },
+  "pages": {
+    "expansion": {
+      "title": "Extension Granblue Fantasy Relink Endless Ragnarok",
+      "description": "Date de sortie, éditions, Upgrade Kit, démo, nouveaux personnages, quêtes Chaos, Conflux, invocations et crossplay pour l'extension Endless Ragnarok.",
+      "metaTitle": "Extension Granblue Fantasy Relink Endless Ragnarok - Sortie, Éditions & Démo",
+      "metaDescription": "Tout sur l'extension Granblue Fantasy Relink Endless Ragnarok : date de sortie, éditions, Upgrade Kit, démo, nouveaux personnages, quêtes Chaos et crossplay.",
+      "categoryLabel": "EXTENSION",
+      "whatIs": "Qu'est-ce qu'Endless Ragnarok ?",
+      "whatIsDescription": "Endless Ragnarok est l'extension majeure de Granblue Fantasy: Relink. Elle ajoute un nouveau chapitre d'histoire, six personnages jouables, le mode solo Conflux, des Invocations, des Master Traits, la difficulté Chaos et le jeu en ligne cross-platform sur Nintendo Switch 2, PlayStation 5, PlayStation 4 et Steam.",
+      "why": "Pourquoi utiliser ce guide d'extension ?",
+      "whySteps": {
+        "step1Title": "Choisir la bonne édition",
+        "step1Description": "Comparez les éditions complètes, l'Upgrade Kit et les packs Standard versus Special avant d'acheter.",
+        "step2Title": "Planifier autour de la sortie",
+        "step2Description": "Vérifiez la date de lancement, les récompenses de la démo et les fenêtres de bonus d'achat anticipé pour votre plateforme.",
+        "step3Title": "Se préparer au nouveau contenu",
+        "step3Description": "Préparez-vous pour les nouveaux personnages, les quêtes Chaos, le Conflux, les invocations et le crossplay toutes plateformes."
+      },
+      "featured": "Guides d'extension à la une",
+      "all": "Tous les guides d'extension"
+    },
+    "characters": {
+      "title": "Personnages de Granblue Fantasy Relink",
+      "description": "Chaque personnage jouable de Granblue Fantasy Relink, du roster de base aux mises à jour gratuites et à l'extension Endless Ragnarok.",
+      "metaTitle": "Personnages de Granblue Fantasy Relink - Roster de base, Mises à jour & Extension",
+      "metaDescription": "Parcourez tous les personnages de Granblue Fantasy Relink, y compris le roster de base, les ajouts des mises à jour gratuites et les nouveaux venus d'Endless Ragnarok avec leurs rôles et notes de déblocage.",
+      "categoryLabel": "PERSONNAGES",
+      "whatIs": "Quel est le roster des personnages ?",
+      "whatIsDescription": "Granblue Fantasy Relink propose un large effectif de personnages jouables issu du jeu de base, des mises à jour gratuites après le lancement et des six nouveaux venus ajoutés dans Endless Ragnarok. Chaque personnage dispose d'une arme, d'un rôle et d'un chemin de déblocage distincts.",
+      "why": "Pourquoi utiliser ce guide de l'effectif ?",
+      "whySteps": {
+        "step1Title": "Trouvez votre personnage principal",
+        "step1Description": "Comparez les rôles, les armes et les styles de jeu pour choisir le personnage à développer en priorité.",
+        "step2Title": "Suivez les méthodes de déblocage",
+        "step2Description": "Découvrez quels personnages proviennent de l'histoire, des mises à jour gratuites ou de l'extension Endless Ragnarok.",
+        "step3Title": "Planifiez votre équipe",
+        "step3Description": "Associez un personnage de dégâts principal à des coéquipiers à distance, défensifs et de soutien pour n'importe quelle quête."
+      },
+      "featured": "Guides de personnages à la une",
+      "all": "Tous les guides de personnages"
+    },
+    "tier": {
+      "title": "Tier List de Granblue Fantasy Relink",
+      "description": "Une tier list pratique des personnages de Granblue Fantasy Relink, couvrant la facilité de prise en main pour les débutants, l'efficacité des coéquipiers IA, l'utilité en coop, les dégâts en fin de jeu et la survie.",
+      "metaTitle": "Tier List de Granblue Fantasy Relink - Les meilleurs personnages pour 2026",
+      "metaDescription": "Classez chaque personnage de Granblue Fantasy Relink selon sa facilité de prise en main, son efficacité avec l'IA, son utilité en coop, ses dégâts en fin de jeu et sa survie dans cette tier list 2026.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "Qu'est-ce que cette tier list ?",
+      "whatIsDescription": "Cygames ne publie pas de classement officiel de puissance. La tier list éditoriale de ce site classe les personnages de Granblue Fantasy Relink selon le confort pour les débutants, l'efficacité des coéquipiers IA, l'utilité en coop, les dégâts en fin de jeu et la survie, afin que vous puissiez choisir qui développer en premier.",
+      "why": "Pourquoi utiliser cette tier list ?",
+      "whySteps": {
+        "step1Title": "Développez des valeurs sûres dès le départ",
+        "step1Description": "Choisissez des personnages de rang S qui restent utiles de l'histoire jusqu'au contenu de fin de jeu.",
+        "step2Title": "Choisissez vos coéquipiers IA",
+        "step2Description": "Découvrez quels personnages sont les plus performants et fiables lorsqu'ils sont contrôlés par l'IA en mode solo.",
+        "step3Title": "Choisissez des spécialistes de la coop",
+        "step3Description": "Trouvez les personnages qui brillent dans les quêtes en ligne et le contenu de haute difficulté de l'extension."
+      },
+      "featured": "Guides de tier lists à la une",
+      "all": "Tous les guides de tier lists"
+    },
+    "builds": {
+      "title": "Builds de Granblue Fantasy Relink",
+      "description": "Builds, armes, Sigils, compositions d'équipe et progression pour Granblue Fantasy Relink, de l'histoire jusqu'au contenu de fin de jeu avec Damage Cap, War Elemental et Endless Ragnarok.",
+      "metaTitle": "Builds de Granblue Fantasy Relink - Armes, Sigils & Meilleure équipe",
+      "metaDescription": "BUILDS",
+      "categoryLabel": "Qu'est-ce qu'un build ?",
+      "whatIs": "Les builds dans Granblue Fantasy Relink combinent les armes, les arbres de Mastery, les compétences et les Sigils dans un équipement ciblé pour chaque personnage. Un bon build équilibre les dégâts, la survie, les temps de recharge et la synergie d'équipe, de l'histoire jusqu'au contenu de fin de jeu.",
+      "whatIsDescription": "Pourquoi utiliser ces guides de builds ?",
+      "why": "Progressez dans le bon ordre",
+      "whySteps": {
+        "step1Title": "Passez des simples améliorations de début de partie aux configurations axées sur les dégâts de fin de jeu et le Damage Cap.",
+        "step1Description": "Dépensez vos matériaux judicieusement",
+        "step2Title": "Évitez de gaspiller des matériaux rares sur toutes les armes et donnez la priorité à votre équipe principale.",
+        "step2Description": "Atteignez le contenu de fin de jeu",
+        "step3Title": "Utilisez War Elemental, Supplementary Damage, la Sigil Synthesis et les Master Traits pour le contenu de l'extension.",
+        "step3Description": "Utilisez Élément de guerre, Dégâts supplémentaires, la synthèse de Sigil et les traits de Mastery pour le contenu de l'extension."
+      },
+      "featured": "Guides de builds mis en avant",
+      "all": "Tous les guides de builds"
+    },
+    "sigils": {
+      "title": "Sigils de Granblue Fantasy Relink",
+      "description": "Le système de sigils de Granblue Fantasy Relink expliqué : types, Plafond de dégâts, Élément de guerre, Dégâts supplémentaires, Synthèse de Sigils et Traits de maître.",
+      "metaTitle": "Sigils de Granblue Fantasy Relink - Plafond de dégâts, Élément de guerre et Synthèse",
+      "metaDescription": "Maîtrisez les sigils de Granblue Fantasy Relink, y compris Plafond de dégâts, Élément de guerre, Dégâts supplémentaires, Synthèse de Sigils et Traits de maître pour les builds de fin de jeu.",
+      "categoryLabel": "SIGILS",
+      "whatIs": "Que sont les sigils ?",
+      "whatIsDescription": "Les sigils sont le système de personnalisation principal de Granblue Fantasy Relink. Chaque personnage s'équipe de sigils qui façonnent l'attaque, la défense, l'utilitaire, les temps de recharge et les traits spécifiques au personnage. Les sigils de fin de jeu tels que Plafond de dégâts, Élément de guerre et Dégâts supplémentaires définissent les builds de fin de jeu.",
+      "why": "Pourquoi utiliser ces guides de sigils ?",
+      "whySteps": {
+        "step1Title": "Comprendre les bases des sigils",
+        "step1Description": "Apprenez comment fonctionnent les emplacements, les niveaux et les traits des sigils avant d'investir des matériaux rares.",
+        "step2Title": "Prioriser les sigils de fin de jeu",
+        "step2Description": "Trouvez Plafond de dégâts, Élément de guerre et Dégâts supplémentaires pour maximiser vos dégâts réels.",
+        "step3Title": "Utiliser la Synthèse de Sigils",
+        "step3Description": "Combinez les sigils et les traits pour combler les lacunes des builds de fin de jeu établis."
+      },
+      "featured": "Guides de Sigils mis en avant",
+      "all": "Tous les guides de Sigils"
+    }
+  }
+}

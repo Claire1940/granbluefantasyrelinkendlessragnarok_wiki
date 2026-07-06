@@ -1,1 +1,1554 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "グランブルーファンタジー リリンク Endless Ragnarok Wiki - キャラクター、ビルド & クエスト",
+      "description": "グランブルーファンタジー リリンクのキャラクター、ビルド、武器、Sigil、クエスト、ボス、マルチプレイのコツ、Endless Ragnarokのアップデート情報を網羅したガイドをチェック。",
+      "keywords": "グランブルーファンタジー リリンク, Steam, PS5, PS4, ビルド, キャラクター, クエスト, Sigil, ボス",
+      "ogTitle": "グランブルーファンタジー リリンク Endless Ragnarok Wiki - キャラクター、ビルド & クエスト",
+      "ogDescription": "グランブルーファンタジー リリンクのキャラクター、ビルド、武器、Sigil、クエスト、ボス、マルチプレイのコツ、Endless Ragnarokのアップデート情報を網羅したガイドをチェック。",
+      "twitterTitle": "グランブルーファンタジー リリンク Endless Ragnarok Wiki - キャラクター、ビルド & クエスト",
+      "twitterDescription": "グランブルーファンタジー リリンクのキャラクター、ビルド、武器、Sigil、クエスト、ボス、マルチプレイのコツ、Endless Ragnarokのアップデート情報を網羅したガイドをチェック。"
+    }
+  },
+  "nav": {
+    "expansion": "拡張コンテンツ",
+    "characters": "キャラクター",
+    "tier": "ティアリスト",
+    "builds": "ビルド",
+    "sigils": "Sigil"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "詳しく見る",
+    "articlesComingSoon": "記事準備中"
+  },
+  "hero": {
+    "badge": "スピーディーなアニメアクションRPG",
+    "title": "グランブルーファンタジー リリンク Endless Ragnarok Wiki",
+    "description": "4人パーティバトル、Link Attack、Chain Burst、ソロ＆マルチクエスト、武器収集、Sigilビルド、ボス攻略、Endless Ragnarokアップデートを網羅したSkyfaringアクションRPGを極めよう。",
+    "getFreeCodesCTA": "ガイドを見る",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "52K+",
+        "label": "Steamレビュー"
+      },
+      "stat2": {
+        "value": "100+",
+        "label": "クエスト"
+      },
+      "stat3": {
+        "value": "1-4",
+        "label": "マルチプレイ人数"
+      },
+      "stat4": {
+        "value": "Feb 1, 2024",
+        "label": "発売日"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "グランブルーファンタジー リリンク Endless Ragnarok ゲームプレイ",
+    "description": "PS5、PS4、Steam、Nintendo Switch 2で、4人パーティバトル、Link Attack、Chain Burst、Sigilビルド、Endless Ragnarok拡張コンテンツをマスターしよう。"
+  },
+  "tools": {
+    "title": "グランブルーファンタジー リリンク",
+    "titleHighlight": "ガイド",
+    "subtitle": "グランブルーファンタジー リリンク Endless Ragnarokに必要なすべて：コード、ティアリスト、初心者向けヒント、拡張コンテンツ情報。",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "コード＆報酬",
+        "description": "公式シリアルコード、Relink Pack、予約特典、および受け取りルール"
+      },
+      {
+        "icon": "Trophy",
+        "title": "ティアリスト",
+        "description": "初心者向けの使いやすさ、AI仲間の評価、マルチプレイ、終盤のダメージ量によるキャラクターランキング"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "初心者ガイド",
+        "description": "ストーリー優先の進め方、戦闘の基本、パーティ編成、効率的な強化"
+      },
+      {
+        "icon": "Swords",
+        "title": "Endless Ragnarok",
+        "description": "拡張版のリリース、エディション、体験版、新キャラクター、Chaosクエスト、クロスプレイ"
+      },
+      {
+        "icon": "Users",
+        "title": "キャラクター",
+        "description": "初期プレイアブルキャラクター、無料アップデート、Endless Ragnarokの全キャラクター"
+      },
+      {
+        "icon": "Hammer",
+        "title": "ビルド、武器＆Sigil",
+        "description": "序盤からダメージ上限、War Elemental、Sigil合成、Master Traitsへの進行"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "クエスト＆ボス",
+        "description": "クエスト順序、Lucilius、Chaos難易度、召喚獣、Confluxソロ進行"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "プラットフォーム＆クロスプレイ",
+        "description": "PS5、PS4、Steam、Switch 2の対応、マルチプレイ、クロスプレイ、PC動作環境"
+      }
+    ]
+  },
+  "modules": {
+    "granblueRelinkCodes": {
+      "title": "グランブルーファンタジー リリンク コード、Relink Pack、および受け取りルール",
+      "eyebrow": "公式コード＆報酬",
+      "subtitle": "このガイドを参考に、本物の公式特典と偽のコード一覧を区別し、PlayStation、Steam、Endless Ragnarokの特典の違いを理解しましょう。",
+      "intro": "グランブルーファンタジー リリンクでは、全員が使える共通のギフトコードは配布されていません。本物のコード関連特典は、公式の購入、プラットフォームのバウチャー、対象となるパッケージ版、対象となるダウンロード版、または公式追加コンテンツから入手できます。最も重要な制限はプラットフォームによるものです。オリジナルのRelink Packシリアルコード特典はPlayStation版向けであり、Steam版には付属していません。",
+      "displayType": "codeCards",
+      "items": [
+        {
+          "title": "『グランブルーファンタジー』スペシャルアイテムセット・Relinkパック",
+          "type": "official-serial-code",
+          "status": "公式特典",
+          "appliesTo": [
+            "グランブルーファンタジー リリンクの対象となるPlayStationパッケージ版",
+            "公式対象期間中に行われたPlayStationダウンロード版の購入"
+          ],
+          "notIncludedOn": [
+            "グランブルーファンタジー リリンクのSteam版",
+            "オリジナルの対象期間終了後に行われたPlayStationダウンロード版の購入"
+          ],
+          "rewardSummary": "ブラウザ・モバイル版『グランブルーファンタジー』用の特典であり、Relink内で直接使用するアイテムパックではありません。",
+          "includedRewards": [
+            "主人公衣装：Rebelwear",
+            "育成セットの選択：Eternals' Transcendence Set または Evokers' Domain Set"
+          ],
+          "eligibilityNotes": [
+            "Granblue Fantasy のブラウザ版またはモバイル版のアカウントが必要です。",
+            "各 Relink Pack は、1つの Granblue Fantasy アカウントにつき1回のみ受け取り可能です。",
+            "PlayStation のダウンロード版を購入した場合、Relink Pack は印刷されたプロダクトコードとして発行されるのではなく、購入した PlayStation Network アカウントに紐付けられます。",
+            "Cygames は Relink Pack の受取期限を、当初の December 31, 2024 から延長しました。"
+          ]
+        },
+        {
+          "title": "Relink Pack の受け取り方法",
+          "type": "redemption-flow",
+          "status": "公式の受け取り手順",
+          "steps": [
+            "PlayStation では、対象のソフトまたはプロダクトコードを所有している PlayStation Network アカウントにサインインします。",
+            "印刷されたプロダクトコードの場合は、PlayStation Store を開き、「コード番号の入力」から12桁の PlayStation プロダクトコードを入力します。",
+            "グランブルーファンタジー リリンクを起動し、タイトル画面またはシェロのよろず屋から「シリアルコード」を開きます。",
+            "「シリアルコード表示」を選択し、Granblue Fantasy 用のシリアルコードを表示します。",
+            "ブラウザまたは対応するモバイル環境で Granblue Fantasy を開き、ゲーム内のシリアルコード入力画面でコードを入力します。",
+            "Granblue Fantasy のプレゼントボックスから届いたアイテムを受け取ります。"
+          ],
+          "platformRules": [
+            "PlayStation Store のプロダクトコードは、地域およびアカウントに紐付けられています。",
+            "プロダクトコードは1回のみ使用可能で、使用後の譲渡はできません。",
+            "Relink Pack のシリアルコードは iOS 版の Granblue Fantasy からは入力できません。代わりにブラウザを使用してください。",
+            "紛失したシリアルコードは再発行されません。"
+          ]
+        },
+        {
+          "title": "オリジナルの Relink 予約特典",
+          "type": "official-purchase-bonus",
+          "status": "終了した購入特典",
+          "includedRewards": [
+            "Stamina III Sigil",
+            "Enmity III Sigil",
+            "対象の PlayStation 版でのアーリーアクセス"
+          ],
+          "availability": "グランブルーファンタジー リリンク のオリジナルの予約特典期間は終了しました。",
+          "platformRules": [
+            "Steam 版にはアーリーアクセスは含まれていませんでした。",
+            "追加コンテンツや特典アイテムは、Relink 内のシェロのよろず屋にある「追加コンテンツ受け取り」から受け取ることができます。"
+          ]
+        },
+        {
+          "title": "Endless Ragnarok 購入特典",
+          "type": "official-purchase-bonus",
+          "status": "公式追加コンテンツ特典",
+          "appliesTo": [
+            "グランブルーファンタジー リリンク - Endless Ragnarok フルエディション",
+            "グランブルーファンタジー リリンク - Endless Ragnarok Upgrade Kit エディション"
+          ],
+          "includedRewards": [
+            "Endless Ragnarok フルエディション：Guts III および Autorevive III Sigil セット",
+            "Endless Ragnarok Upgrade Kit エディション：Supplementary Damage V および War Elemental Sigil セット"
+          ],
+          "platformRules": [
+            "Upgrade Kit を使用するには、同一プラットフォーム上でゲーム本編を所有している必要があります。",
+            "Nintendo Switch 2、PlayStation 5、PlayStation 4 の購入特典の対象期間は現地時間の July 8, 2026 at 11:59 p.m. までとなります。",
+            "Steam の購入特典の対象期間は現地時間の August 31, 2026 at 11:59 p.m. までとなります。",
+            "各早期購入特典は、1ユーザーアカウントにつき1回のみ受け取り可能です。"
+          ]
+        },
+        {
+          "title": "偽のオンラインギフトコードリスト",
+          "type": "fake-code-warning",
+          "status": "非公式",
+          "whatToIgnore": [
+            "無料の宝晶石、ルピ、SSRチケット、武器パック、または汎用Relinkギフトコードの提供を謳う公開リスト",
+            "コードジェネレーター",
+            "PlayStation Network、Steam、Nintendo、Cygames、またはGranblue Fantasyのアカウント情報を要求するアンケートやログインページ"
+          ],
+          "safeRule": "公式製品ページ、公式ストア、プラットフォームストア、またはCygamesの公式発表を通じて配布されるコードや特典のみを使用してください。"
+        },
+        {
+          "title": "サードパーティによるシリアルコードの売買",
+          "type": "risk-warning",
+          "status": "規約違反リスクのある行為",
+          "officialRule": "Cygamesは、オークションやサードパーティサービスを通じたRelinkパックのシリアルコードの取引、転売、または交換は固く禁止されていると表明しています。",
+          "practicalRisks": [
+            "コードが引き渡し前にすでに使用されている可能性があります。",
+            "コードがリージョンロックされているか、異なるプラットフォームのアカウントに紐付けられている可能性があります。",
+            "購入したコードが公式のシリアルコード規約に違反している可能性があります。",
+            "サポートは、紛失した、または無効なサードパーティ製コードの再発行を行いません。"
+          ],
+          "safeRule": "サードパーティのシリアルコード販売者からではなく、公式ストアから対象のエディションや追加コンテンツを購入してください。"
+        }
+      ]
+    },
+    "granblueRelinkTierList": {
+      "title": "グランブルーファンタジー リリンク キャラクターティアリスト",
+      "eyebrow": "サイト編集部ランキング",
+      "subtitle": "初心者にとっての使いやすさ、AI仲間の価値、マルチプレイでの有用性、終盤のダメージ、そして生存能力に基づいて構築された、実用的な役割別のティアリスト。",
+      "intro": "Cygamesはキャラクターのプロフィール、戦闘システム、アップデート、拡張コンテンツを公開していますが、公式の強さランキングは公開していません。このティアリストは、最初に誰を育成するか、誰をAI仲間に設定するか、そしてマルチプレイやゲーム終盤のクエストに誰を連れて行くかを選ぶプレイヤー向けに作成された、サイト編集部独自のランキングです。",
+      "displayType": "tierGrid",
+      "items": [
+        {
+          "tier": "S",
+          "label": "トップクラスの万能キャラクター",
+          "summary": "安定したダメージ、高いチーム貢献度、生存能力、または優れたAIの安定性を兼ね備えているため、長期的な育成に強く推奨される選択肢です。",
+          "characters": [
+            {
+              "name": "Cagliostro",
+              "release": "初期キャラクター",
+              "role": "サポートキャスター兼錬金術アタッカー",
+              "beginnerEase": "高",
+              "aiTeammate": "極めて優秀",
+              "coOpValue": "極めて優秀",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "回復、バフ、そして安定した遠距離からの圧力を併せ持つ柔軟なサポートの選択肢であり、ソロパーティーやオンラインプレイで重宝されます。"
+            },
+            {
+              "name": "Eugen",
+              "release": "初期キャラクター",
+              "role": "遠距離ガンナー",
+              "beginnerEase": "高",
+              "aiTeammate": "極めて優秀",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "AIの仲間としても優秀で、動き回るボスに対してもダメージ効率を維持しやすい安全な遠距離アタッカー。"
+            },
+            {
+              "name": "Lancelot",
+              "release": "初期キャラクター",
+              "role": "素早い近接アタッカー",
+              "beginnerEase": "高",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "素早い攻撃、快適な移動、そして高い手数の維持力により、初心者から上級者まで最も扱いやすい近接キャラクターの一人。"
+            },
+            {
+              "name": "Charlotta",
+              "release": "初期キャラクター",
+              "role": "機動力の高い近接アタッカー",
+              "beginnerEase": "高",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "リーチの短さは、優れた機動力、絶え間ない攻勢、そしてシンプルな操作性によって補われている。"
+            },
+            {
+              "name": "Sandalphon",
+              "release": "Version 1.3.0 アップデート",
+              "role": "最高峰の近接ダメージディーラー",
+              "beginnerEase": "中",
+              "aiTeammate": "高",
+              "coOpValue": "極めて優秀",
+              "lateGameDamage": "極めて優秀",
+              "survivability": "高",
+              "note": "独自のメカニクスを理解すれば絶大なリターンを得られる、強力な追加キャラクター。"
+            },
+            {
+              "name": "Narmaya",
+              "release": "初期キャラクター",
+              "role": "構えを切り替えて戦う刀アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "極めて優秀",
+              "survivability": "中",
+              "note": "構えの管理による極めて高いダメージ上限が特徴で、スピーディーな近接攻撃のタイミング合わせを楽しみたいプレイヤーに最適。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "非常に強力なスペシャリスト",
+          "summary": "タイミング、間合い、またはキャラクター固有のメカニクスを適切に活かすことで、最高のパフォーマンスを発揮する優秀なキャラクターたち。",
+          "characters": [
+            {
+              "name": "Vane",
+              "release": "初期キャラクター",
+              "role": "防御型アタッカー",
+              "beginnerEase": "高",
+              "aiTeammate": "高",
+              "coOpValue": "極めて優秀",
+              "lateGameDamage": "中",
+              "survivability": "極めて優秀",
+              "note": "高い耐久力を持ち、高難度のCO-OPクエストで防御スキルが特に役立つ頑丈な前衛。"
+            },
+            {
+              "name": "Percival",
+              "release": "初期キャラクター",
+              "role": "チャージ近接アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "極めて優秀",
+              "survivability": "中",
+              "note": "適切なチャージタイミングによる強力な瞬間火力を持ち、ボスの隙を熟知しているプレイヤーほど真価を発揮できる。"
+            },
+            {
+              "name": "Zeta",
+              "release": "初期キャラクター",
+              "role": "空中槍アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "優れた空中戦でのプレッシャーとタイミング操作が魅力だが、シンプルな近接アタッカーよりも高い操作精度が求められる。"
+            },
+            {
+              "name": "Siegfried",
+              "release": "初期キャラクター",
+              "role": "タイミング入力型大剣アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "攻撃タイミングを維持できればタフで強力だが、攻撃速度の速いキャラクターに比べるとミスが許されにくい。"
+            },
+            {
+              "name": "Id",
+              "release": "初期キャラクター",
+              "role": "変身型近接アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "キットが解放された後は、明確なパワーファンタジーと堅実な性能を発揮する強力なストーリーキャラクター。"
+            },
+            {
+              "name": "シエテ",
+              "release": "Version 1.2.0 アップデート",
+              "role": "剣の化身アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "優秀",
+              "survivability": "中",
+              "note": "剣気によるプレッシャーと強力な攻撃リターンを中心に構築された、ポテンシャルの高いDLC世代のキャラクター。"
+            },
+            {
+              "name": "ソーン",
+              "release": "Version 1.2.0 アップデート",
+              "role": "遠距離アーチャー",
+              "beginnerEase": "中",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "解放または購入することで、強力なカバー範囲と安全な攻撃時間を確保できる遠距離タイプの十天衆。"
+            },
+            {
+              "name": "ベアトリクス",
+              "release": "Endless Ragnarok",
+              "role": "テクニカル近接アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "攻撃、防御、回復の自己バフを循環させ、拡張コンテンツにおいて高い柔軟性を発揮する。"
+            },
+            {
+              "name": "ユーステス",
+              "release": "Endless Ragnarok",
+              "role": "組織の狙撃手",
+              "beginnerEase": "中",
+              "aiTeammate": "高",
+              "coOpValue": "高",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "---"
+            },
+            {
+              "name": "Captain",
+              "release": "Base roster",
+              "role": "安定した距離調整を好むプレイヤーに適した、遠距離タイプの追加キャラクター。",
+              "beginnerEase": "High",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "Medium",
+              "survivability": "High",
+              "note": "バランスの取れた剣士兼サポート"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "シンプルなスキル、パーティへの貢献度、そして序盤からストーリーで使用可能な、最初に育成すべき信頼できるキャラクター。",
+          "summary": "優秀だが、より状況を選ぶ",
+          "characters": [
+            {
+              "name": "Katalina",
+              "release": "Base roster",
+              "role": "明確な強みを持つ有用なキャラクターだが、より多くの準備や慎重な立ち回り、あるいは特定の戦闘スタイルを支えるチーム編成を必要とする。",
+              "beginnerEase": "High",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "Medium",
+              "survivability": "High",
+              "note": "防御型の剣士"
+            },
+            {
+              "name": "Io",
+              "release": "Base roster",
+              "role": "Charge caster",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "防御面で価値のある序盤の安全な選択肢だが、総合的な火力はトップクラスの近接アタッカーほど爆発的ではない。"
+            },
+            {
+              "name": "Rackam",
+              "release": "Base roster",
+              "role": "Ranged gunner",
+              "beginnerEase": "High",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "Medium",
+              "survivability": "Medium",
+              "note": "チャージのタイミングを見極めれば強力な魔法ダメージを出せるが、ボスの動きによって最適なリズムが乱されやすい。"
+            },
+            {
+              "name": "Ferry",
+              "release": "初期キャラクター",
+              "role": "中距離鞭・召喚アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "中",
+              "survivability": "中",
+              "note": "強力なコントロール性能とリーチを誇り、間合いの管理と召喚ペットの運用に依存するプレイスタイル。"
+            },
+            {
+              "name": "Rosetta",
+              "release": "初期キャラクター",
+              "role": "エリアコントロール型サポート",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "高",
+              "lateGameDamage": "中",
+              "survivability": "中",
+              "note": "配置を理解しているプレイヤーには優秀だが、動きの激しい戦闘では扱いがやや難しくなる。"
+            },
+            {
+              "name": "Vaseraga",
+              "release": "初期キャラクター",
+              "role": "重量級大鎌アタッカー",
+              "beginnerEase": "低",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "高耐久かつ高火力だが、モーションが遅いため初心者にはやや扱いづらい。"
+            },
+            {
+              "name": "Yodarha",
+              "release": "初期キャラクター",
+              "role": "高速テクニカル剣士",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "熟練者が使えば強力だが、操作が容易な上位の近接キャラクターほど汎用性は高くない。"
+            },
+            {
+              "name": "Maglielle",
+              "release": "使いやすく遠距離から安全に戦えるが、最高性能の遠距離キャラクターに比べると全体的な評価は一歩譲る。",
+              "role": "魔法剣アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "スタイリッシュな刀剣によるプレッシャーと、やや独特な操作の習得が必要な追加キャラクター。"
+            },
+            {
+              "name": "フラウ",
+              "release": "Endless Ragnarok",
+              "role": "「デビル」の契約者アタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "キャラクター独自のプレイスタイルを求めるプレイヤーにとって、強力な追加キャラクターの選択肢。"
+            },
+            {
+              "name": "フェディエル",
+              "release": "Endless Ragnarok",
+              "role": "闇属性をテーマにしたアタッカー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "独特なテーマ性とゲーム終盤での高いポテンシャルを持ち、集中して育成する価値のある「六竜」キャラクター。"
+            },
+            {
+              "name": "ガランザ",
+              "release": "Endless Ragnarok",
+              "role": "重厚な槍斧を操るブルーザー",
+              "beginnerEase": "中",
+              "aiTeammate": "中",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "高",
+              "note": "攻撃範囲が広く、一撃の重い近接戦闘を好むプレイヤーに適したパワータイプ。"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "ニッチな投資対象",
+          "summary": "十分に活躍可能だが、より扱いやすく汎用性の高いキャラクターと比較すると、最初の本格的な育成対象としての効率は劣る。",
+          "characters": [
+            {
+              "name": "ガンダゴウザ",
+              "release": "初期キャラクター",
+              "role": "重量級の格闘アタッカー",
+              "beginnerEase": "低",
+              "aiTeammate": "低",
+              "coOpValue": "中",
+              "lateGameDamage": "高",
+              "survivability": "中",
+              "note": "高い火力を出せるが、動作が遅く隙が大きいため、動き回るボスに対してはプレイヤースキルが求められる。"
+            }
+          ]
+        }
+      ]
+    },
+    "granblueRelinkBeginnerGuide": {
+      "title": "グランブルーファンタジー リリンク 初心者ガイド",
+      "eyebrow": "初心者ガイド",
+      "subtitle": "新規プレイヤー向けの明快なスタートダッシュ指南：まずはストーリーを進め、シンプルな戦闘のコツを掴み、適切な強化を行い、序盤のリソース不足に慌てないこと。",
+      "intro": "Relinkは4人パーティー、リアルタイムのアクション戦闘、ストーリーチャプター、そして周回クエストを中心に構成されています。最もスムーズに始めるには、1人のメインキャラクターの操作に慣れ、サポートや遠距離攻撃はAIの仲間に任せ、まるでSky Realmでマネーリテラシーの実験が行われているかのように、光る武器すべてに貴重な素材を注ぎ込むのを避けることです。",
+      "displayType": "stepByStep",
+      "items": [
+        {
+          "step": 1,
+          "title": "まずはストーリーを進めて基本メニューを覚えよう",
+          "goal": "ビルドを気にする前に、基本システムを解放しよう。",
+          "actions": [
+            "すぐに素材集めをするのではなく、まずは序盤のストーリーチャプターを進めよう。",
+            "メインメニューを使って、キャラクター、武器、スキル、Sigil、クエストを確認しよう。",
+            "新しい戦闘システムが解放されたら、チュートリアルの指示を読もう。"
+          ],
+          "avoid": [
+            "主要なスキルや武器の強化が解放される前に、そのキャラクターの評価を決めつけないこと。",
+            "メニューに強化ボタンが表示されているからといって、貴重な素材を無駄遣いしないこと。"
+          ],
+          "whyItMatters": "ストーリーを進めることで、より多くのキャラクター、システム、クエスト、街の施設、そしてより効率的な強化ルートが解放されます。"
+        },
+        {
+          "step": 2,
+          "title": "まずは使いやすいメインキャラクターを1人選ぼう",
+          "goal": "全キャラクターにリソースを分散させるのではなく、操作に慣れることを優先しよう。",
+          "actions": [
+            "最初は操作が簡単なCaptain、Lancelot、Charlotta、Eugen、またはKatalinaを使うのがおすすめです。",
+            "貴重な素材を投入する前に、クエストでキャラクターの使用感を試してみよう。",
+            "メインキャラクター1人の武器レベル、スキル、Sigilを他のキャラクターより少し高めに維持しておこう。"
+          ],
+          "avoid": [
+            "最初の数時間で全キャラクターを使いこなそうとしないこと。",
+            "基本的な回避、ガード、スキルのタイミングがまだおぼつかないうちは、操作の難しいテクニカルなキャラクターを無理に使わないこと。"
+          ],
+          "whyItMatters": "メインキャラクターを集中して育てることで、ストーリーや序盤のクエストを素早くクリアでき、結果としてパーティーの他のメンバーに使えるより良い報酬が解放されます。"
+        },
+        {
+          "step": 3,
+          "title": "基本的な戦闘の流れを覚えよう",
+          "goal": "高度なビルドを追い求める前に、ダメージを与えられるタイミングを理解しよう。",
+          "actions": [
+            "通常攻撃を使って敵にプレッシャーを与え、隙を作ろう。",
+            "ボスが静止している時、スタンしている時、または長いモーションで拘束されている時にキャラクタースキルを使おう。",
+            "スタンゲージに注意し、発動可能になったらLink Attackを繰り出そう。",
+            "仲間とSkybound Artsを連携させてChain Burstを発動させよう。",
+            "ボスのあらゆる攻撃モーションに対してゴリ押しするのではなく、ガードや回避を使おう。"
+          ],
+          "avoid": [
+            "クールダウンが明けた瞬間にすべてのスキルを使い切ってしまわないこと。",
+            "Link AttackやSkybound Artsを無視しないこと。これらはパーティーの主要なダメージソースです。"
+          ],
+          "whyItMatters": "Relinkでは、ボタン連打よりも攻撃し続ける時間、タイミング、そしてパーティーの連携が重視されます。"
+        },
+        {
+          "step": 4,
+          "title": "バランスの良い4人パーティーを編成しよう",
+          "goal": "メインキャラクターが苦手とする役割は、AIの仲間にカバーさせよう。",
+          "actions": [
+            "自分が操作するメインのアタッカーを1人編成しよう。",
+            "安定性を高めるために、耐久力のある近接キャラクターまたは防御寄りのキャラクターを1人加えよう。",
+            "ボスに絶え間なく攻撃し続けられるよう、遠距離アタッカーを1人加えよう。",
+            "---"
+          ],
+          "avoid": [
+            "回復、バフ、または安全確保の手段を持つ、サポート寄りのキャラクターを1人追加しましょう。",
+            "最初のパーティとして、耐久力の低い近接アタッカー4人で編成しないようにしましょう。"
+          ],
+          "whyItMatters": "メインキャラクターだけを強化して、AIのチームメイトを低レベルのまま放置しないようにしましょう。"
+        },
+        {
+          "step": 5,
+          "title": "適切な装備を整えれば、AIの仲間は強力なダメージ、蘇生、Link Attack、Skybound Artsで貢献できます。",
+          "goal": "序盤のMasteryポイントは、シンプルな価値を持つものに使いましょう。",
+          "actions": [
+            "すべてのクエストで即座に役立つ強化要素を購入しましょう。",
+            "基本的な攻撃力、HP、スキルの解放、そして実用的な生存能力を優先しましょう。",
+            "細かなステータスノードを強化する前に、有用なキャラクターのスキルを解放しましょう。"
+          ],
+          "avoid": [
+            "メインパーティのMasteryの成長度は、ある程度均等に保ちましょう。",
+            "ストーリー攻略中に、細かなステータスルートを最適化しすぎないようにしましょう。"
+          ],
+          "whyItMatters": "ボスによってキャラクターが何度も倒される場合は、防御面の強化を無視しないようにしましょう。"
+        },
+        {
+          "step": 6,
+          "title": "序盤のMasteryの選択は、戦闘をより安全かつ迅速にするためのものであるべきで、1周目のプレイを剣の音が鳴るだけのスプレッドシートにしてしまわないようにしましょう。",
+          "goal": "武器やSigilの強化は控えめに行いましょう。",
+          "actions": [
+            "より良い装備のために希少な素材を温存しつつ、現在のクエストに十分対応できる強さを維持しましょう。",
+            "クエストの難易度に対応できるよう、アクティブパーティの装備武器を十分に強化しておきましょう。",
+            "攻撃、HP、クールダウン短縮、スタン、生存、またはキャラクター固有の効果など、ニーズに明確に合ったSigilを使用しましょう。"
+          ],
+          "avoid": [
+            "クエストからより強力なバージョンがドロップしたら、序盤の弱いSigilと入れ替えましょう。",
+            "新しい武器が登場するたびに、そのすべてに限界まで投資しないようにしましょう。"
+          ],
+          "whyItMatters": "素材をため込みすぎて、パーティの実力が基本的なクエストの要求水準を下回らないようにしましょう。"
+        },
+        {
+          "step": 7,
+          "title": "Relinkには多くの強化ルートが用意されており、計画的に消費することで序盤の素材不足を防ぐことができます。",
+          "goal": "クエストの合間に街の施設を利用しましょう。",
+          "actions": [
+            "クエストの報酬を確実な成長へと繋げましょう。",
+            "Siero's Knickknack Shackを訪れて、追加コンテンツの受け取り、アイテムの交換、便利なサービスを利用しましょう。",
+            "周回を始める前にクエスト報酬を確認し、そのミッションで実際に何がドロップするかを把握しておきましょう。"
+          ],
+          "avoid": [
+            "ストーリーの大きな区切りごとに、パーティメンバーの強化、装備、見直しを行いましょう。",
+            "対象となる追加コンテンツを所持している場合は、特典アイテムを受け取らずに放置しないようにしましょう。"
+          ],
+          "whyItMatters": "必要な素材がドロップするかどうかを確認せずに、ランダムなクエストを周回しないようにしましょう。"
+        },
+        {
+          "step": 8,
+          "title": "街での準備や管理こそが、戦闘の合間にキャラクターが最も成長する場所です。",
+          "goal": "ストーリークリア後は、クエストランクを徐々に上げていきましょう。",
+          "actions": [
+            "カジュアルなクリアから、エンドゲームへの準備へと移行しましょう。",
+            "最難関のミッションにいきなり飛び込むのではなく、解放されているクエストのティアを順番にクリアしていきましょう。",
+            "ゲーム終盤の完璧なSigilを追い求める前に、まずはメインパーティを強化しましょう。",
+            "AIの仲間との攻略が遅かったり安定しない場合は、co-opを利用しましょう。"
+          ],
+          "avoid": [
+            "高いクエストランクでは、不注意な蘇生やダメージチャンスの逸失が命取りになるため、ボスの行動パターンを学習しましょう。",
+            "そのビルドを機能させるためのシステムや素材を解放する前に、エンドゲーム用のビルドを真似しないようにしましょう。"
+          ],
+          "whyItMatters": "高難度クエストで一度失敗したからといって、それをキャラクターのせいにするのはやめましょう。多くの場合、装備、タイミング、またはボスのパターン知識の不足が原因です。"
+        }
+      ]
+    },
+    "granblueRelinkEndlessRagnarok": {
+      "title": "ストーリー後のゲームは、周回可能なクエスト、より強力な装備、より精密な立ち回り、およびより優れたパーティ編成を中心に構築されています。",
+      "eyebrow": "グランブルーファンタジー リリンク - Endless Ragnarok",
+      "subtitle": "拡張コンテンツガイド",
+      "intro": "Endless Ragnarokは、グランブルーファンタジー リリンクの大型拡張コンテンツです。新たなストーリーチャプター、6人のプレイアブルキャラクター、新システム、より高難度のクエスト、ソロ向けエンドコンテンツ、そしてNintendo Switch 2、PlayStation、Steam間でのクロスプラットフォームオンラインプレイが追加されます。",
+      "displayType": "cardList",
+      "items": [
+        {
+          "title": "発売日と対応プラットフォーム",
+          "category": "release-info",
+          "details": [
+            "Cygamesの公式発表によると、グランブルーファンタジー リリンク - Endless RagnarokはJuly 9, 2026に発売されます。",
+            "本拡張コンテンツは、Nintendo Switch 2、PlayStation 5、PlayStation 4、Steamに対応しています。",
+            "Steamの製品ページでは、Steamストアの配信タイミングを反映し、Upgrade Kitの発売日がJuly 8, 2026と記載されています。",
+            "本作はオフラインで1人、オンラインで1 to 4人プレイに対応しています。"
+          ]
+        },
+        {
+          "title": "どのエディションを購入すべきか",
+          "category": "buying-guide",
+          "details": [
+            "新規プレイヤーは、グランブルーファンタジー リリンク - Endless Ragnarokをゲーム本編パッケージとして購入できます。",
+            "すでにゲーム本編をお持ちの方は、Endless Ragnarok Upgrade Kitを購入できます。",
+            "Upgrade Kitの利用には、同一プラットフォームのゲーム本編が必要です。",
+            "プラットフォームや販売形式に応じて、StandardおよびSpecialバージョンが用意されています。"
+          ],
+          "editionPrices": [
+            {
+              "edition": "Endless Ragnarok",
+              "format": "パッケージ版またはダウンロード版",
+              "price": "$59.99 / €59.99"
+            },
+            {
+              "edition": "フル・スタンダードエディション",
+              "format": "ダウンロード版",
+              "price": "$79.99 / €79.99"
+            },
+            {
+              "edition": "フル・スペシャルエディション",
+              "format": "ダウンロード版",
+              "price": "$29.99 / €29.99"
+            },
+            {
+              "edition": "アップグレードキット・スタンダードエディション",
+              "format": "ダウンロード版",
+              "price": "$54.99 / €54.99"
+            }
+          ]
+        },
+        {
+          "title": "StandardとSpecialエディションの収録内容比較",
+          "category": "edition-differences",
+          "details": [
+            "Standardのフルエディションには、ゲーム本編とEndless Ragnarokのコンテンツが含まれています。",
+            "StandardのUpgrade Kitエディションは、すでにゲーム本編をお持ちのプレイヤー向けにEndless Ragnarokのコンテンツを追加します。",
+            "Specialのフルエディションには、Endless Ragnarok Special Packが含まれています。",
+            "SpecialのフルエディションおよびSpecialのUpgrade Kitエディションには、DLC Collectionが含まれています。"
+          ]
+        },
+        {
+          "title": "予約特典および早期購入特典",
+          "category": "purchase-bonuses",
+          "details": [
+            "Endless Ragnarokのフルエディションには、購入特典としてGuts IIIおよびAutorevive IIIのSigil Setが付属します。",
+            "Endless Ragnarok Upgrade Kitエディションには、購入特典としてSupplementary Damage VおよびWar ElementalのSigil Setが付属します。",
+            "Nintendo Switch 2、PlayStation 5、PlayStation 4の特典は、現地時間のJuly 8, 2026 at 11:59 p.m.までの購入が対象となります。",
+            "Steamの特典は、現地時間のAugust 31, 2026 at 11:59 p.m.までの購入が対象となります。",
+            "各特典は、ユーザーアカウント1つにつき1回のみ受け取ることができます。"
+          ]
+        },
+        {
+          "title": "体験版コンテンツ",
+          "category": "demo",
+          "details": [
+            "Endless Ragnarokの体験版はJune 18, 2026に配信開始されました。",
+            "PlayStationの体験版には、ストーリーモード、クエストモード、チュートリアルモードが収録されています。",
+            "クエストモードには合計4つのクエストが収録されています。",
+            "最初の3つの体験版クエストをクリアすると、召喚獣を呼び出せるようになるクエスト「Sephira's Sanguine Glimmer」が解放されます。",
+            "各体験版クエストでは、発売後の製品版で受け取れる報酬を獲得できます。",
+            "体験版のセーブデータは製品版に引き継ぐことはできません。"
+          ]
+        },
+        {
+          "title": "新規ストーリー、ボス、そしてChaosクエスト",
+          "category": "new-content",
+          "details": [
+            "Endless Ragnarokでは、Relink本編の冒険の後に続く新たなストーリーが追加されます。",
+            "この拡張コンテンツでは、ベルゼバブやザ・ワールドといった空の新たな脅威が登場します。",
+            "Chaosは、本拡張コンテンツで最も過酷な挑戦として設計された、新たな高難易度クエストの難易度帯です。",
+            "Chaosクエストには、ragnaliaや、EX Burst攻撃を含む新たなボスギミックが登場します。"
+          ]
+        },
+        {
+          "title": "6人の新たなプレイアブルキャラクター",
+          "category": "characters",
+          "details": [
+            "ガランツァは、広い攻撃範囲を持つ重厚な槍斧使いのパワーキャラクターとして参戦します。",
+            "マギリェは、魔剣の使い手であり「Sword Veil Fellowship」のリーダーとして参戦します。",
+            "ベアトリクスは、攻撃、防御、回復の自己バフを循環させて戦う「組織」の戦士として参戦します。",
+            "ユーステスは、封印武器「フレイメク・サンダー」を操る「組織」の狙撃手として参戦します。",
+            "フラウは、「ザ・デビル」の契約者として参戦します。",
+            "フェディエルは、闇を司る六竜の一柱として参戦します。"
+          ],
+          "characters": [
+            "ガランツァ",
+            "マギリェ",
+            "ベアトリクス",
+            "ユーステス",
+            "フラウ",
+            "フェディエル"
+          ]
+        },
+        {
+          "title": "召喚獣とプライマルバースト",
+          "category": "battle-systems",
+          "details": [
+            "Endless Ragnarokでは、新たなバトルシステムとして「召喚獣」が追加されます。",
+            "召喚獣はバトル中に召喚することができ、攻撃スキルやサポートアビリティを所持しています。",
+            "プレイヤーは召喚獣を直接操作している間、無敵状態になります。",
+            "プロトバハムートとエクスカリオンは、特定の戦闘条件を満たし、パーティメンバー4人全員が奥義を使用することで、プライマルバーストを放つことができます。"
+          ]
+        },
+        {
+          "title": "ソロモード「Conflux」",
+          "category": "solo-endgame",
+          "details": [
+            "Confluxは、連続するエリア、戦闘目標、一時的なバフを中心に構成されたソロ専用モードです。",
+            "プレイヤーは挑戦中に3つの一時的なバフから1つを選択します。",
+            "Confluxの目標やバフの選択肢は、挑戦ごとに変化します。",
+            "報酬には、キャラクターや武器の強化に使用する素材や高レアリティの装備が含まれます。"
+          ]
+        },
+        {
+          "title": "クロスプレイとローカルプレイ",
+          "category": "マルチプレイ",
+          "details": [
+            "Endless Ragnarokにより、Nintendo Switch 2、PlayStation 5、PlayStation 4、Steam間でのクロスプラットフォームオンラインプレイが追加されます。",
+            "Nintendo Switch 2は、最大4人でのローカル通信に対応しています。",
+            "オンラインプレイには、各プラットフォームのオンラインメンバーシップサービス（有料）が必要な場合があります。",
+            "Nintendo Switch 2のローカル通信中は、ゲームシェアリング機能を使用できません。"
+          ]
+        }
+      ]
+    },
+    "granblueRelinkCharacters": {
+      "title": "グランブルーファンタジー リリンク キャラクター",
+      "eyebrow": "キャラクター",
+      "subtitle": "すべてのプレイアブルキャラクター、アップデート追加キャラクター、そしてEndless Ragnarokのキャラクターを網羅した一覧。",
+      "intro": "ゲーム本編の初期キャラクター、無料アップデートキャラクター、そしてEndless Ragnarokで追加された新たなプレイアブルキャラクターを紹介。各カードでは、役割、加入方法、プレイアブル状況、そしてどのようなプレイヤーに向いているかを解説します。",
+      "displayType": "cardList",
+      "items": [
+        {
+          "name": "主人公 (Gran / Djeeta)",
+          "group": "初期キャラクター",
+          "role": "柔軟な剣技とパーティの要となる万能アタッカー",
+          "source": "メインストーリーの仲間",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "主人公として選択可能で、GranまたはDjeetaを団長として選ぶことができます。",
+          "bestFor": "バランスの取れた初期キャラクター、編成のしやすさ、そして柔軟な育成ルートを求めるプレイヤー。"
+        },
+        {
+          "name": "Katalina",
+          "group": "初期キャラクター",
+          "role": "防御と支援に優れた魔導剣士",
+          "source": "グランドサイファーの仲間",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "メインストーリー進行により加入します。",
+          "bestFor": "高い生存力、回復力、そして味方を守るサポート能力を持つ安定した近接アタッカーを求めるプレイヤー。"
+        },
+        {
+          "name": "Rackam",
+          "group": "初期キャラクター",
+          "role": "遠距離銃撃手",
+          "source": "グランドサイファーの仲間",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "メインストーリー進行により加入します。",
+          "bestFor": "遠距離からの牽制、安全な立ち回り、そして絶え間ないダメージ出力を好むプレイヤー。"
+        },
+        {
+          "name": "Io",
+          "group": "初期キャラクター",
+          "role": "チャージ魔法と回復支援を操る魔導士",
+          "source": "グランドサイファーの仲間",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "メインストーリー進行により加入します。",
+          "bestFor": "魔法の詠唱、瞬間火力の爆発、そしてパーティの立て直しを好むプレイヤー。"
+        },
+        {
+          "name": "Eugen",
+          "group": "初期キャラクター",
+          "role": "遠距離射撃のスペシャリスト",
+          "source": "グランサイファーの団員",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "メインストーリー進行で加入。",
+          "bestFor": "ボスの足元に張り付くことなく、遠距離から弱点を狙い、間合いを支配したいプレイヤー向け。"
+        },
+        {
+          "name": "Rosetta",
+          "group": "基本キャラクター",
+          "role": "薔薇を用いた攻撃によるエリア支配型サポート",
+          "source": "グランサイファーの団員",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "メインストーリー進行で加入。",
+          "bestFor": "位置取りの工夫やエリア支配、サポートを兼ねた攻撃パターンを好むプレイヤー向け。"
+        },
+        {
+          "name": "Lancelot",
+          "group": "基本キャラクター",
+          "role": "高速の双剣アタッカー",
+          "source": "仲間キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編で「キャラクター加入チケット」を使用して解放。",
+          "bestFor": "素早いコンボ、回避主体の立ち回り、アグレッシブな近接攻撃を好むプレイヤー向け。"
+        },
+        {
+          "name": "Vane",
+          "group": "基本キャラクター",
+          "role": "高い耐久力を持つ斧使いの守護者",
+          "source": "仲間キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編で「キャラクター加入チケット」を使用して解放。",
+          "bestFor": "パーティを救う防御性能を備えた、頑強な前衛ファイターを求めるプレイヤー向け。"
+        },
+        {
+          "name": "Percival",
+          "group": "基本キャラクター",
+          "role": "溜め攻撃を持つ火属性の剣アタッカー",
+          "source": "仲間キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編で「キャラクター加入チケット」を使用して解放。",
+          "bestFor": "慎重な近接攻撃のタイミング、確実なヒット確認、そしてスタイリッシュなバーストダメージを好むプレイヤー向け。"
+        },
+        {
+          "name": "Siegfried",
+          "group": "基本キャラクター",
+          "role": "タイミングを重視した大剣ファイター",
+          "source": "仲間キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編で「キャラクター加入チケット」を使用して解放。",
+          "bestFor": "強力な近接コンボを繰り出し、リズムに合わせた入力の習得を楽しめるプレイヤー向け。"
+        },
+        {
+          "name": "シャルロッテ",
+          "group": "初期ロースター",
+          "role": "怒涛の剣コンボを繰り出す小柄な近接アタッカー",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編でキャラクター解放チケットにより解放。",
+          "bestFor": "素早い攻撃、近接でのプレッシャー、そして小柄で機動性が高く被弾しにくい特性を好むプレイヤー向け。"
+        },
+        {
+          "name": "ヨダルラーハ",
+          "group": "初期ロースター",
+          "role": "テクニカルな刀の使い手",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編でキャラクター解放チケットにより解放。",
+          "bestFor": "カウンター、シビアなタイミング、そして無駄のない近接スキルの発揮を楽しむプレイヤー向け。"
+        },
+        {
+          "name": "ナルメア",
+          "group": "初期ロースター",
+          "role": "構えを切り替えて戦う刀アタッカー",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編でキャラクター解放チケットにより解放。",
+          "bestFor": "構えの移行と高いバースト火力を備えた、ポテンシャルの高い近接キャラクターを求めるプレイヤー向け。"
+        },
+        {
+          "name": "ゼタ",
+          "group": "初期ロースター",
+          "role": "空中ループコンボを操る槍アタッカー",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編でキャラクター解放チケットにより解放。",
+          "bestFor": "ジャンプを駆使した攻撃、槍のコンボ、そして地上の脅威を避けて空中で立ち回ることを好むプレイヤー向け。"
+        },
+        {
+          "name": "バザラガ",
+          "group": "初期ロースター",
+          "role": "重厚な大鎌アタッカー",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編でキャラクター解放チケットにより解放。",
+          "bestFor": "遅くて重い一撃、アーマーを活かした強気な立ち回り、そして絶大な近接ダメージを好むプレイヤー向け。"
+        },
+        {
+          "name": "フェリ",
+          "group": "初期ロースター",
+          "role": "幽霊のペットたちを使役する鞭使い",
+          "source": "騎空団員キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編のキャラクター加入チケットで解放。",
+          "bestFor": "中距離のコントロール、召喚物のようなプレッシャー、そして一般的な剣士とは異なるリズムを求めるプレイヤー向け。"
+        },
+        {
+          "name": "Ghandagoza",
+          "group": "初期キャラクター",
+          "role": "武術家および格闘家",
+          "source": "加入キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編のキャラクター加入チケットで解放。",
+          "bestFor": "近接格闘、強力なパンチ、およびシビアなタイミングを要求される一見シンプルに見える攻撃を楽しみたいプレイヤー向け。"
+        },
+        {
+          "name": "Cagliostro",
+          "group": "初期キャラクター",
+          "role": "ダメージ、回復、ユーティリティを兼ね備えた錬金術師",
+          "source": "加入キャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編のキャラクター加入チケットで解放。",
+          "bestFor": "高いチーム貢献度を持つ、柔軟なキャスターとサポートのハイブリッドを求めるプレイヤー向け。"
+        },
+        {
+          "name": "Id",
+          "group": "初期キャラクター",
+          "role": "竜をテーマにした近接アタッカー",
+          "source": "ゲーム本編のストーリーキャラクター",
+          "playableStatus": "ゲーム本編でプレイ可能",
+          "unlockOrAccess": "ゲーム本編のストーリーを進行させることで利用可能。",
+          "bestFor": "Relinkのメインストーリーと深く結びついた、ドラマチックな近接戦闘スタイルを求めるプレイヤー向け。"
+        },
+        {
+          "name": "Seofon",
+          "group": "無料アップデートキャラクター",
+          "role": "剣の専門家であり十天衆のリーダー",
+          "source": "Version 1.2.0 無料アップデート",
+          "playableStatus": "アップデート適用後にプレイ可能",
+          "unlockOrAccess": "ゲーム内の条件を満たすことで追加費用なしで解放、または有料のキャラクター解放セットによって即座に解放。",
+          "bestFor": "ゲーム終盤の剣キャラクターを求め、チャレンジコンテンツを通じて強力なキャラクターを解放することを楽しみたいプレイヤー向け。"
+        },
+        {
+          "name": "Tweyen",
+          "group": "無料アップデートキャラクター",
+          "role": "弓の使い手であり遠距離アタッカー",
+          "source": "Version 1.2.0 無料アップデート",
+          "playableStatus": "アップデート適用後にプレイ可能",
+          "unlockOrAccess": "ゲーム内の条件を満たすことで追加費用なしで解放、または有料のキャラクター解放セットによって即座に解放。",
+          "bestFor": "エンドゲームスタイルの解放プロセスを持つ、精密な遠距離キャラクターを求めるプレイヤー向け。"
+        },
+        {
+          "name": "Sandalphon",
+          "group": "無料アップデートキャラクター",
+          "role": "ゲーム終盤のストーリーで重要な役割を持つ、翼を持つ剣士",
+          "source": "Version 1.3.0 無料アップデート",
+          "playableStatus": "アップデート適用後にプレイ可能",
+          "unlockOrAccess": "Version 1.3.0でプレイアブルキャラクターとして追加。アップデートコンテンツや関連する解放アイテムで使用可能になります。",
+          "bestFor": "発売後に追加された主要なGranblueキャラクターを望み、より高難度のエンドコンテンツに挑む準備ができているプレイヤー向け。"
+        },
+        {
+          "name": "ガランツァ",
+          "group": "Endless Ragnarok参戦キャラクター",
+          "role": "広い攻撃範囲を持つ、重厚な槍斧のパワーハウス",
+          "source": "アップグレードキット・スペシャルエディション",
+          "playableStatus": "Endless Ragnarokでプレイ可能",
+          "unlockOrAccess": "Endless Ragnarokアップデートで追加される6人のプレイアブルキャラクターの1人。",
+          "bestFor": "広範囲の近接攻撃、重量感のある操作性、そして元アヴィアの指揮官を仲間にしたいプレイヤー向け。"
+        },
+        {
+          "name": "マギリェル",
+          "group": "Endless Ragnarok参戦キャラクター",
+          "role": "魔剣を操るマスター",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Endless Ragnarokでプレイ可能",
+          "unlockOrAccess": "Endless Ragnarokアップデートで追加される6人のプレイアブルキャラクターの1人。",
+          "bestFor": "優雅な遠近両用の剣技、派手な攻撃、そしてボスからプレイアブルになったスタイリッシュなキャラクターが好きなプレイヤー向け。"
+        },
+        {
+          "name": "ベアトリクス",
+          "group": "Endless Ragnarok参戦キャラクター",
+          "role": "攻防と回復のバフサイクルを持つ「組織」のアタッカー",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Endless Ragnarokでプレイ可能",
+          "unlockOrAccess": "Endless Ragnarokアップデートで追加される6人のプレイアブルキャラクターの1人。",
+          "bestFor": "スタンスのようなバフ管理と、エネルギッシュな戦闘スタイルを持つ攻撃的な剣士キャラクターを求めるプレイヤー向け。"
+        },
+        {
+          "name": "ユーステス",
+          "group": "Endless Ragnarok参戦キャラクター",
+          "role": "銃器のスペシャリストである「組織」の狙撃手",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Endless Ragnarokでプレイ可能",
+          "unlockOrAccess": "Endless Ragnarokアップデートで追加される6人のプレイアブルキャラクターの1人。",
+          "bestFor": "落ち着いた遠距離戦闘、戦術的な間合い取り、そして銃器ベースのスキル構成を好むプレイヤー向け。"
+        },
+        {
+          "name": "フラウ",
+          "group": "Endless Ragnarok参戦キャラクター",
+          "role": "打撃力を持つ「ザ・デビル」の契約者",
+          "source": "Endless Ragnarok",
+          "playableStatus": "Endless Ragnarokでプレイ可能",
+          "unlockOrAccess": "Endless Ragnarokアップデートで追加される6人のプレイアブルキャラクターの1人。",
+          "bestFor": "力強い近接戦闘の個性を備えた、十賢者スタイルのキャラクターを求めるプレイヤー向け。"
+        },
+        {
+          "name": "フェディエル",
+          "group": "Endless Ragnarok",
+          "role": "Endless Ragnarok 参戦キャラクター",
+          "source": "六竜の「闇」を司る竜",
+          "playableStatus": "Endless Ragnarok",
+          "unlockOrAccess": "Endless Ragnarok でプレイ可能",
+          "bestFor": "Endless Ragnarok アップグレードで追加される6人のプレイアブルキャラクターの1人。"
+        },
+        {
+          "name": "Lyria",
+          "group": "Story cast",
+          "role": "強力な闇属性のファンタジー、竜の伝承、そして際立った追加キャラクターを求めるプレイヤー向け。",
+          "source": "星晶獣と縁のある物語の同行者",
+          "playableStatus": "本編ストーリー",
+          "unlockOrAccess": "ストーリーキャラクター",
+          "bestFor": "通常のクエスト用キャラクターではなく、本編ストーリーを通じて登場する。"
+        },
+        {
+          "name": "Vyrn",
+          "group": "Story cast",
+          "role": "メインストーリーやグラブルの伝承を追うプレイヤー向け。",
+          "source": "マスコット的な相棒であり騎空団の一員",
+          "playableStatus": "本編ストーリー",
+          "unlockOrAccess": "ストーリーキャラクター",
+          "bestFor": "本編ストーリーを通じて登場する。"
+        },
+        {
+          "name": "Rolan",
+          "group": "Story cast",
+          "role": "グランサイファーの仲間たちやストーリーの会話を楽しみたいプレイヤー向け。",
+          "source": "リリンクの物語における重要な協力者",
+          "playableStatus": "ストーリーキャラクター",
+          "unlockOrAccess": "ゲーム本編でストーリー中心のキャラクターとして登場する。",
+          "bestFor": "リリンクのオリジナルストーリーに関心があるプレイヤー。"
+        },
+        {
+          "name": "Lilith",
+          "group": "Story cast",
+          "role": "アヴィア教団の指導者",
+          "source": "ゲーム本編のストーリー",
+          "playableStatus": "ボスおよびストーリーキャラクター",
+          "unlockOrAccess": "ゲーム本編の物語を通じて遭遇する。",
+          "bestFor": "アヴィアとの対立やキャンペーンのボスを追うプレイヤー。"
+        },
+        {
+          "name": "Lucilius",
+          "group": "無料アップデートのボス",
+          "role": "Primal Progenitorとして知られる高難易度ボス",
+          "source": "Version 1.1.0 free update",
+          "playableStatus": "Boss character",
+          "unlockOrAccess": "クリア後のクエスト「終末のヴィジョン」や関連する高難易度コンテンツで戦う。",
+          "bestFor": "エンドゲームならではのレイドスタイルの挑戦を求めるプレイヤー。"
+        },
+        {
+          "name": "ベルゼバブ",
+          "group": "Endless Ragnarokのボス",
+          "role": "「Eternity Ender」として知られる大型拡張コンテンツのボス",
+          "source": "Endless Ragnarok",
+          "playableStatus": "ボスキャラクター",
+          "unlockOrAccess": "Endless Ragnarok拡張コンテンツの一部として登場。",
+          "bestFor": "拡張コンテンツのボス戦や、より困難なクリア後のやり込み要素の進行を求めるプレイヤー。"
+        },
+        {
+          "name": "ザ・ワールド",
+          "group": "Endless Ragnarokのボス",
+          "role": "「Inchoate World」として知られるアーカルム関連のボス",
+          "source": "Endless Ragnarok",
+          "playableStatus": "ボスキャラクター",
+          "unlockOrAccess": "Endless Ragnarok拡張コンテンツの一部として登場。",
+          "bestFor": "拡張コンテンツのアーカルムをテーマにした脅威やボス陣に興味があるプレイヤー。"
+        }
+      ]
+    },
+    "granblueRelinkBuildsWeaponsSigils": {
+      "title": "グランブルーファンタジー リリンクのビルド、武器、Sigil",
+      "eyebrow": "ビルド",
+      "subtitle": "ビルド、武器、Sigil、ダメージ上限、そしてEndless Ragnarokの進行状況を1つの表に。",
+      "intro": "この進行表を使用して、最初に何を作成すべきか、いつSigilが重要になり始めるか、そしてSigil SynthesisやMaster Traitsなどのエンドゲームシステムがどのようにキャラクターの成長に結びついているかを理解しましょう。",
+      "displayType": "table",
+      "items": [
+        {
+          "stage": "メインストーリーと序盤のクエスト",
+          "buildGoal": "序盤から完璧なSigilを追い求めるのではなく、1人のキャラクターの操作を学び、パーティを生存させ、着実に武器を強化しましょう。",
+          "weapons": "現在使用しているキャラクターで利用可能な最善の武器を使用し、素材に余裕がある時に強化しましょう。この段階では、稀少な最適化よりも基本攻撃力と武器レベルの方が重要です。",
+          "sigils": "実際のプレイスタイルに合った、シンプルな攻撃、HP、防御、クールダウン、ユーティリティなどのSigilを装備しましょう。エンドゲーム前に最終ビルドを無理に作ろうとして、貴重な素材を無駄にしないでください。",
+          "keyTerms": "キャラクターレベル、Mastery、武器レベル、スキル、基本的なSigil",
+          "playerTip": "メインキャラクター1人と、好みのAIパーティメンバー3人を選びましょう。早い段階で全キャラクターに満遍なく強化を分散させると、進行が遅くなります。"
+        },
+        {
+          "stage": "中盤およびストーリークリア後の最初の周回",
+          "buildGoal": "アタッカー、遠距離アタッカー、サポート、高耐久の前衛、またはユーティリティ枠など、役割ごとにキャラクターを形成し始めましょう。",
+          "weapons": "使用しているパーティが装備している武器の強化を続けましょう。実際にクエストに連れて行くキャラクターに合わせて強化を行います。",
+          "sigils": "繋ぎのSigilを、より強力なダメージ、生存性、クールダウン、そしてキャラクターに合った選択肢へと入れ替え始めましょう。より難しい戦闘を学ぶ際は、実用的な防御系Sigilを残しておきます。",
+          "keyTerms": "クエストカウンター、役割ビルド、スキル構成、パーティバランス",
+          "playerTip": "ダメージを与え続けられる時間を維持し、安定してクエストをクリアするために、十分な生存性を確保しましょう。"
+        },
+        {
+          "stage": "本格的なやり込み前の終盤",
+          "buildGoal": "大まかな強さから、的を絞ったダメージ効率の維持、ボスのコントロール、安定したクリアへと移行しましょう。",
+          "weapons": "メインパーティの武器により深く投資し、頻繁にお気に入りを入れ替えるのではなく、エンドゲームの武器育成を見据えた計画を立て始めましょう。",
+          "sigils": "攻撃がゲームのダメージ上限に達し始めたら、ダメージ上限の優先順位を上げ始めましょう。高難度クエストに備えて、攻撃系Sigil、有用なユーティリティ特性、生存ツールと組み合わせます。",
+          "keyTerms": "ダメージ上限、ボスへの攻撃維持、Link Attack、奥義、Chain Burst",
+          "playerTip": "生の攻撃力をいくら上げても実際の与ダメージ数値が上がらなくなったら、ダメージ上限は贅沢品ではなく、ビルドの核心的な要素になります。"
+        },
+        {
+          "stage": "PROUD、ルシファー、そしてエンドゲームの周回",
+          "buildGoal": "見栄えの良いステータス画面だけでなく、高難度クエストの安定したクリアを中心にビルドを構築しましょう。",
+          "weapons": "メイン武器の強化を徹底的に進め、危険なボスの攻撃パターン中でも動き続けられるようにジーンでサポートしましょう。",
+          "sigils": "ダメージ上限、有利属性変換、追撃、アビリティクールタイム短縮系、クイックアビリティ、および生存用の保険となるジーンは、エンドゲーム向けビルドにおいて非常に優先度の高い要素となります。",
+          "keyTerms": "有利属性変換、追撃V、ダメージ上限、ルシファー、終末のヴィジョン",
+          "playerTip": "有利属性変換と追撃は、エンドゲーム向けの貴重なジーンです。これらはビルドを加速させるためのものとして扱い、武器の強化やマスタリーの成長といった核心的な育成を怠る理由にしないでください。"
+        },
+        {
+          "stage": "Version 1.3 ジーン合成",
+          "buildGoal": "強力なレジェンダリージーンが十分に集まったら、ジーンとスキルを組み合わせてエンドゲームビルドを洗練させましょう。",
+          "weapons": "武器の強化を進めつつ、ジーン合成を利用してビルド内の微妙なスキル構成の隙間を埋めていきましょう。",
+          "sigils": "ジーン合成では、対象となるレジェンダリージーンや合成用ジーンを含む、ジーンとスキルを組み合わせることで、より強力なビルドパーツを作成することができます。",
+          "keyTerms": "ジーン合成、レジェンダリージーン、スキル、Version 1.3.0",
+          "playerTip": "合成を利用して特定のスキル不足を解消し、完成しつつあるエンドゲームビルドをさらに向上させましょう。"
+        },
+        {
+          "stage": "無料アップデートによる追加キャラクター",
+          "buildGoal": "アップデートコンテンツや解放アイテムで解放した後は、シエテ、ソーン、サンダルフォンを育成しましょう。",
+          "weapons": "各追加キャラクターは、それぞれ専用の武器、マスタリー、アビリティ、ジーンが必要となるため、本格的な育成プロジェクトとして取り組みましょう。",
+          "sigils": "同様の育成手順を踏みましょう。最初は生存重視のセットアップから始め、徐々に火力と実用性を高め、効果が見合うようになったらエンドゲーム向けスキルやダメージ上限を組み込みます。",
+          "keyTerms": "シエテ、ソーン、サンダルフォン、キャラクター解放セット、アップデートクエスト",
+          "playerTip": "新キャラクターも完全に育成する必要があります。解放しただけでは、高難易度クエストに挑戦する準備が整ったとは言えません。"
+        },
+        {
+          "stage": "Endless Ragnarokの進行",
+          "buildGoal": "マスタートレイト、召喚石、新たな共闘ティア、および難易度「Chaos」を活用し、クリア後の基本段階を超えてビルドをさらに強化しましょう。",
+          "weapons": "拡張クエストやConfluxの周回で獲得した素材を使用して、キャラクターと武器の強化を続けましょう。",
+          "sigils": "中核となるエンドゲーム用ジーンは維持しつつ、マスタートレイトや拡張コンテンツの報酬を利用して、キャラクターの専門性をさらに高めましょう。",
+          "keyTerms": "マスタートレイト、召喚石、難易度「Chaos」、Ragnalia、ベルゼバブ、ザ・ワールド",
+          "playerTip": "マスタートレイトは拡張要素となる育成システムです。ジーンの代わりとして扱うのではなく、ジーンと並行して強化を進めましょう。"
+        },
+        {
+          "stage": "Conflux ソロ向けエンドゲーム",
+          "buildGoal": "連続するソロエリアをクリアでき、一時的なバフにも適応できる、自己完結型のビルドを作成しましょう。",
+          "weapons": "Confluxの進行はソロでの立ち回りに依存するため、しっかりと強化された武器と安定した単体火力を備えたキャラクターを連れていきましょう。",
+          "sigils": "安定したダメージ、生存力、およびユーティリティを重視しましょう。一時的なバフは攻略を有利にしますが、基本となるビルド自体が自立している必要があります。",
+          "keyTerms": "Conflux、一時的なバフ、希少な素材、高ティア装備、ソロモード",
+          "playerTip": "Confluxでは柔軟なビルドが有利になります。特化しすぎたセットアップは、ビルドで対応できない目標を要求された際に崩壊するおそれがあります。"
+        }
+      ]
+    },
+    "granblueRelinkQuestsBosses": {
+      "title": "グランブルーファンタジー リリンクのクエストとボス",
+      "eyebrow": "クエスト",
+      "subtitle": "クエストの順序、アップデートボス、難易度「Chaos」、およびConfluxの進行を一本のルートに。",
+      "intro": "メインストーリーのクエストから始まり、クリア後要素、ルシファー、無料アップデートクエスト、Endless Ragnarokの難易度「Chaos」、そしてConfluxのソロモードへと続くコンテンツルートを進みましょう。",
+      "displayType": "アコーディオン",
+      "items": [
+        {
+          "title": "メインストーリーと通常のクエストカウンター",
+          "tag": "ゲーム本編",
+          "summary": "まずはストーリーの進行、キャラクターの解放、基本的なパーティー編成、および通常のクエストカウンターのミッションから始めましょう。",
+          "content": "ゲーム本編では、通常攻撃、アビリティ、リンクアタック、奥義、チェインバースト、回避、ガード、4人パーティーでのプレイといった根幹となる戦闘システムを学びます。ストーリー進行によって挑戦できるクエストが増えた後は、クエストカウンターが素材集め、キャラクター育成、そしてより困難なクリア後コンテンツへの準備を行う主要な場所となります。",
+          "bossesOrTargets": "ストーリーボス、通常のクエストカウンターの標的、素材クエスト",
+          "recommendedOrder": "すべてのアップデートおよび拡張コンテンツの前にプレイしてください。"
+        },
+        {
+          "title": "ストーリークリア後およびPROUDへの準備",
+          "tag": "本編クリア後",
+          "summary": "素材を集め、武器を強化し、ジーン構成を整えて、本編最高難易度のクエストに向けて主力パーティを準備しましょう。",
+          "content": "ストーリークリア後の進行は、単にクエストをクリアすることから、メインチームの安定性を高めることへと移行します。武器の強化、マスタリー、有用なジーン、アビリティ構成、およびパーティのバランスに焦点を当てましょう。この段階からはボスのギミックがより重要になり、不完全なビルドは通用しなくなってきます。",
+          "bossesOrTargets": "高難易度のクエストカウンター戦、およびProud難易度に向けた準備目標",
+          "recommendedOrder": "ストーリークリア後、ルシファー戦や拡張版の挑戦コンテンツに挑む前にクリアしましょう。"
+        },
+        {
+          "title": "「終末のヴィジョン」とルシファー",
+          "tag": "無料アップデート 1.1.0",
+          "summary": "バージョン 1.1.0 では、ルシファーが登場するストーリークリア後のクエスト「終末のヴィジョン」が追加されます。",
+          "content": "「終末のヴィジョン」は、花都シードホルムでのストーリーセグメントを完了した後に解放されます。このクエストは高難易度アップデートクエストとして設計されており、その後のアップデートや拡張版へと進む前の、ゲーム終盤における重要なボスチェックの一つとして機能します。",
+          "bossesOrTargets": "ルシファー",
+          "recommendedOrder": "パーティが強力な武器、実用的なジーン、および安定した生存能力を備えてから挑戦しましょう。"
+        },
+        {
+          "title": "シエテとソーンの解放クエスト",
+          "tag": "無料アップデート 1.2.0",
+          "summary": "バージョン 1.2.0 では、プレイアブルキャラクターとしてシエテとソーンが追加され、彼らのアップデートコンテンツに関連するクエストが追加されます。",
+          "content": "このアップデートでは、プレイアブルキャラクターへのシエテとソーンの追加に加え、クエスト「狂える凶角」および「ゴクリ…これが噂の魔物か」が登場します。両キャラクターとも、ゲーム内の条件を満たすことで追加費用なしで解放できますが、すぐに使用したい方向けに有料の解放セットも用意されています。",
+          "bossesOrTargets": "狂える凶角、ゴクリ…これが噂の魔物か",
+          "recommendedOrder": "クリア後の安定したチームを構築した後にクリアし、新キャラクターをメインとして使いたい場合は彼らにリソースを投資しましょう。"
+        },
+        {
+          "title": "サンダルフォン、ゼロ、およびバージョン 1.3 の挑戦クエスト",
+          "tag": "無料アップデート 1.3.0",
+          "summary": "バージョン 1.3.0 では、サンダルフォン、新規クエスト、フォトモード、ジーン錬成、および追加のエンドゲームシステムが追加されます。",
+          "content": "このアップデートでは、プレイアブルキャラクターとしてサンダルフォンが追加され、「絢爛たる武闘と魔導の祭典」、「ザスバの協力者たち」、「闇の剣士の悪夢」、および「ゼロ」が導入されます。また、ジーン錬成も追加され、エンドゲームプレイヤーにジーンとスキルを組み合わせるより深い方法を提供します。",
+          "bossesOrTargets": "絢爛たる武闘と魔導の祭典、ザスバの協力者たち、闇の剣士の悪夢、ゼロ",
+          "recommendedOrder": "バージョン 1.1 およびバージョン 1.2 のコンテンツを終え、チームがより深いクリア後の最適化を行う準備ができた後にプレイしてください。"
+        },
+        {
+          "title": "Endless RagnarokのストーリーとChaosクエスト",
+          "tag": "拡張コンテンツ",
+          "summary": "Endless Ragnarokでは、新たなストーリーアーク、新しいマルチプレイ用クエストクラス、難易度「Chaos」、マスタートレイト、召喚獣、および強力なボスが追加されます。",
+          "content": "Endless Ragnarokは、ラグナリアの領地、ゲートウェイ、ベルゼバブ、新しいマルチプレイ用クエストクラス、召喚獣の解放、およびマスタートレイトを含む、新しいストーリーとゲームモードでゲームを拡張します。難易度「Chaos」は本拡張コンテンツにおける最高難易度のクエストクラスとして登場し、ボスはEXバースト攻撃を使用するようになります。",
+          "bossesOrTargets": "ラグナリア、ベルゼバブ、ザ・ワールド、難易度Chaosのボス",
+          "recommendedOrder": "本編をクリアし、少なくとも1つの本格的なエンドゲーム用パーティを構築した後に開始してください。"
+        },
+        {
+          "title": "召喚獣とプライマルバースト",
+          "tag": "拡張システム",
+          "summary": "Endless Ragnarokでは、攻撃スキル、サポート能力、およびプライマルバーストによる追撃を提供する召喚獣が追加されます。",
+          "content": "召喚獣はキャラクターに装備して戦闘中に使用でき、攻撃、サポート、または敵の妨害に役立ちます。一部の召喚獣は召喚して短時間操作することが可能で、特定の条件下ではプロトバハムートやエクスカリオンなどの力によるプライマルバーストを発動できます。",
+          "bossesOrTargets": "召喚獣解放クエスト、プライマルバースト対応バトル",
+          "recommendedOrder": "召喚獣の使用が可能になったら、Endless Ragnarokの攻略を通じて活用しましょう。"
+        },
+        {
+          "title": "ソロ向けエンドコンテンツ「コンフラックス」",
+          "tag": "拡張モード",
+          "summary": "「コンフラックス」は、連続するエリア、目標、バトル、一時的な強化効果、および高ランクの報酬が用意されたソロモードです。",
+          "content": "コンフラックスの挑戦では、1人のキャラクターがパズル、バトル、特別な特性やバフが存在する複数のエリアを攻略していきます。各エリアでは一時的な強化効果の選択肢が提供され、報酬にはキャラクターや武器の強化に使用する宝物、希少な素材、高ランクの装備などが含まれます。",
+          "bossesOrTargets": "ソロ用コンフラックスの目標、エリアボス、報酬バトル",
+          "recommendedOrder": "強化された武器、実用的なジーン、そして高い自己生存能力を備え、拡張版に向けた準備が整ったキャラクターを用意してから参加してください。"
+        }
+      ]
+    },
+    "granblueRelinkPlatformsCrossplay": {
+      "title": "グランブルーファンタジー リリンクのプラットフォームとクロスプレイ",
+      "eyebrow": "プラットフォーム",
+      "subtitle": "プラットフォーム、マルチプレイ、クロスプレイ、Switch 2、PCの動作環境の比較。",
+      "intro": "ゲーム本編またはEndless Ragnarokを購入する前に、PlayStation、Steam、Nintendo Switch 2の対応状況を比較してください。この表では、ゲーム本編のプラットフォームの仕様と、拡張版の全プラットフォーム対応のクロスプレイの仕様を分けて記載しています。",
+      "displayType": "table",
+      "items": [
+        {
+          "topic": "PlayStation 4",
+          "platform": "PS4",
+          "version": "ゲーム本編およびEndless Ragnarokの対応状況",
+          "players": "オフライン1人。オンラインマルチプレイは1-4人に対応。",
+          "crossplay": "ゲーム本編のクロスプラットフォームプレイはPS4とPS5間で対応しています。Endless RagnarokはNintendo Switch 2、PS5、PS4、Steamとのクロスプレイに対応しています。",
+          "requirementsOrNotes": "PS4版は追加費用なしでPS5ダウンロード版にアップグレードできます。オンラインプレイには、各プラットフォームのオンラインサービスへの加入が必要です。",
+          "bestFor": "PlayStationのエコシステムにとどまるプレイヤー、またはPS4からPS5へアップグレードするプレイヤー向け。"
+        },
+        {
+          "topic": "PlayStation 5",
+          "platform": "PS5",
+          "version": "ゲーム本編およびEndless Ragnarokの対応状況",
+          "players": "オフライン1人。オンラインマルチプレイは1-4人に対応。",
+          "crossplay": "ゲーム本編のクロスプラットフォームプレイはPS5とPS4間で対応しています。Endless RagnarokはNintendo Switch 2、PS5、PS4、Steamとのクロスプレイに対応しています。",
+          "requirementsOrNotes": "PlayStation 5は、ゲーム本編の公式ローンチプラットフォームの1つであり、Endless Ragnarokの対応プラットフォームの1つです。",
+          "bestFor": "コンソールでのプレイ、PlayStationの世代間マルチプレイ、および拡張版のクロスプレイを希望するプレイヤー向け。"
+        },
+        {
+          "topic": "Steam版ゲーム本編",
+          "platform": "PC / Steam",
+          "version": "グランブルーファンタジー リリンク ゲーム本編",
+          "players": "シングルプレイおよび最大4人までのオンラインマルチプレイに対応。",
+          "crossplay": "ゲーム本編はPlayStationとのクロスプラットフォームプレイには対応していません。ゲーム本編のクロスプラットフォームプレイはPS4とPS5間のみ対応と記載されています。",
+          "requirementsOrNotes": "SteamでEndless Ragnarokのアップグレードコンテンツを購入および使用するには、Steam版のゲーム本編が必要です。",
+          "bestFor": "キーボードとコントローラーの柔軟性、およびSteamでのマルチプレイを希望するPCプレイヤー向け。"
+        },
+        {
+          "topic": "Steam版 Endless Ragnarok アップグレードキット",
+          "platform": "PC / Steam",
+          "version": "スタンダードエディションまたはスペシャルエディションのアップグレードキット",
+          "players": "対応する拡張版のクエストでは、最大4人までのオンラインマルチプレイに対応しています。",
+          "crossplay": "Endless Ragnarokは、Nintendo Switch 2、PS5、PS4、Steam間での4人オンラインマルチプレイのクロスプレイに対応しています。",
+          "requirementsOrNotes": "アップグレードキットを使用するには、同じプラットフォームのゲーム本編が必要です。スペシャルエディションには、追加カラーパック、お役立ちアイテムパック、およびシエテ、ソーン、サンダルフォンのキャラクター解放関連アイテムが含まれています。",
+          "bestFor": "拡張版のストーリー、カオスクエスト、コンフラックス、召喚、マスタートレイト、新しいプレイアブルキャラクターを求める既存のSteam版所有者向け。"
+        },
+        {
+          "topic": "Nintendo Switch 2",
+          "platform": "Nintendo Switch 2",
+          "version": "グランブルーファンタジー リリンク Endless Ragnarok",
+          "players": "携帯モード、テーブルモード、TVモードに対応。オンラインプレイに対応し、ローカル通信では最大4人でのマルチプレイに対応しています。",
+          "crossplay": "Endless Ragnarokは、Nintendo Switch 2、PS5、PS4、Steamとのクロスプレイに対応しています。",
+          "requirementsOrNotes": "任天堂は発売日をJuly 9, 2026、ダウンロード容量を38.7 GBと記載しており、対応言語には日本語、英語、スペイン語、フランス語、ドイツ語、イタリア語、ポルトガル語、韓国語、中国語が含まれます。セーブデータお預かり機能は非対応と記載されています。",
+          "bestFor": "携帯プレイ、Switch 2のローカル通信協力プレイ、または全プラットフォーム対応の拡張版クロスプレイを望むプレイヤー。"
+        },
+        {
+          "topic": "Crossplay rule",
+          "platform": "All platforms",
+          "version": "ゲーム本編とEndless Ragnarokの比較",
+          "players": "オンラインプレイが可能な環境では、最大4人でのオンライン協力プレイに対応している。",
+          "crossplay": "ゲーム本編：PS4とPS5のクロスプレイのみ。Endless Ragnarok：Nintendo Switch 2、PS5、PS4、Steamのクロスプレイ。",
+          "requirementsOrNotes": "プラットフォームのメンバーシップやオンラインサービスの要件が適用される場合がある。Nintendo Switch 2のローカル通信中はGameShareを利用できない。",
+          "bestFor": "主に異なるプラットフォームのフレンドと協力プレイをするためにゲームを購入するプレイヤー。"
+        },
+        {
+          "topic": "Steam版の最低動作環境",
+          "platform": "PC / Steam",
+          "version": "ゲーム本編およびEndless RagnarokのPC動作環境プロファイル",
+          "players": "オンライン協力プレイの対応は、Steamおよびネットワーク接続環境に依存する。",
+          "crossplay": "ゲーム本編のSteam版はPlayStationとのクロスプレイ非対応。Endless Ragnarokは記載されている全プラットフォーム間の拡張クロスプレイに対応している。",
+          "requirementsOrNotes": "最低動作環境：Windows 11 64-bit、Intel Core i3-9100 または AMD Ryzen 3 3200G、16 GB RAM、NVIDIA GeForce GTX 1060 6 GB または AMD Radeon RX 580 8 GB、DirectX 11、90 GB の空き容量、SSD推奨、ターゲットプロファイルは標準設定で1080pおよび30 FPS。",
+          "bestFor": "購入前に自分のシステムでゲームが動くか確認しているPCプレイヤー。"
+        },
+        {
+          "topic": "Steam版の推奨動作環境",
+          "platform": "PC / Steam",
+          "version": "ゲーム本編およびEndless RagnarokのPC動作環境プロファイル",
+          "players": "オンライン協力プレイの対応は、Steamおよびネットワーク接続環境に依存する。",
+          "crossplay": "ゲーム本編のSteam版はPlayStationとのクロスプレイ非対応。Endless Ragnarokは記載されている全プラットフォーム間の拡張クロスプレイに対応している。",
+          "requirementsOrNotes": "推奨動作環境：Windows 11 64-bit、Intel Core i7-8700 または AMD Ryzen 5 3600、16 GB RAM、NVIDIA GeForce RTX 2080 8 GB または AMD Radeon RX 6700 XT 12 GB、DirectX 11、90 GB の空き容量、SSD推奨、ターゲットプロファイルは最高設定で1080pおよび60 FPS。",
+          "bestFor": "よりスムーズな高設定でのゲームプレイや、拡張版の協力プレイに向けたより安全な環境構築を求めるPCプレイヤー。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "グランブルーファンタジー リリンク",
+    "titleHighlight": "FAQ",
+    "subtitle": "プレイする前に知っておきたいグランブルーファンタジー リリンク Endless Ragnarokに関する重要な質問。",
+    "questions": [
+      {
+        "question": "グランブルーファンタジー リリンク Endless Ragnarokとは何ですか？",
+        "answer": "グランブルーファンタジー リリンク Endless Ragnarokは、グランブルーファンタジー リリンクの大型拡張コンテンツです。新たなストーリーチャプター、6人のプレイアブルキャラクター、カオスクエスト、ソロモード「コンフラックス」、召喚石が追加され、Nintendo Switch 2、PlayStation 5、PlayStation 4、Steam間のクロスプラットフォームなオンラインプレイに対応しています。"
+      },
+      {
+        "question": "グランブルーファンタジー リリンク Endless Ragnarokの発売日はいつですか？",
+        "answer": "Cygamesによると、グランブルーファンタジー リリンク Endless RagnarokはJuly 9, 2026に発売されます。製品版に先立ち、Endless Ragnarokの体験版がJune 18, 2026よりPlayStationで配信開始されました。"
+      },
+      {
+        "question": "グランブルーファンタジー リリンクにギフトコードはありますか？",
+        "answer": "グランブルーファンタジー リリンクでは、一般に公開されている共通のギフトコードは使用されていません。実際の報酬は、対象となるPlayStation版の「Relink Pack」、公式の予約特典や早期購入特典、そしてEndless Ragnarokエディションの特典から入手できます。アカウント情報の入力を求めるサードパーティのコード一覧やコード生成ツールには注意してください。"
+      },
+      {
+        "question": "グランブルーファンタジー リリンクはどのプラットフォームでプレイできますか？",
+        "answer": "グランブルーファンタジー リリンクはPlayStation 5、PlayStation 4、Steamでプレイ可能です。拡張コンテンツのEndless RagnarokではNintendo Switch 2も追加され、対応する全プラットフォーム間で1〜4人でのクロスプレイによるオンラインマルチプレイが可能です。"
+      },
+      {
+        "question": "グランブルーファンタジー リリンク Endless Ragnarokをプレイするにはゲーム本編が必要ですか？",
+        "answer": "すでにグランブルーファンタジー リリンクをお持ちの方は「Endless Ragnarok Upgrade Kit」を購入できますが、これには同じプラットフォームのゲーム本編が必要です。新規プレイヤーは、ゲーム本編と拡張コンテンツがセットになった「グランブルーファンタジー リリンク Endless Ragnarok」完全版を購入できます。"
+      },
+      {
+        "question": "グランブルーファンタジー リリンクはシングルプレイですか、それとも協力プレイですか？",
+        "answer": "グランブルーファンタジー リリンクはオフラインで1人、オンラインで1〜4人のプレイに対応しています。すべてのストーリーとクエストをAIの仲間と一緒にソロでプレイすることも、他のプレイヤーとオンライン協力プレイを楽しむこともできます。さらにEndless Ragnarokではクロスプレイが追加され、PlayStation、Steam、Nintendo Switch 2のユーザーが一緒にプレイできるようになります。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "グランブルーファンタジー リリンクをプレイする準備はできましたか？",
+    "description": "Discordや公式チャンネルのグランブルーファンタジー リリンクのコミュニティに参加して、ガイド、ビルド、Endless Ragnarokの最新情報を手に入れましょう！",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Steamでプレイ"
+  },
+  "footer": {
+    "title": "グランブルーファンタジー リリンク Endless Ragnarok Wiki",
+    "description": "グランブルーファンタジー リリンクのキャラクター、ビルド、武器、Sigil、クエスト、ボス、そしてEndless Ragnarokの最新情報を網羅した総合リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "officialSite": "公式サイト",
+    "steamStore": "Steamストア",
+    "about": "当サイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 グランブルーファンタジー リリンク Endless Ragnarok Wiki. Cygamesとは提携していません。",
+    "disclaimer": "非公式のファンメイドリソースサイトです。"
+  },
+  "pages": {
+    "expansion": {
+      "title": "グランブルーファンタジー リリンク Endless Ragnarok 拡張版",
+      "description": "Endless Ragnarok拡張版の発売日、エディション、アップグレードキット、体験版、新キャラクター、Chaosクエスト、Conflux、召喚、クロスプレイについて。",
+      "metaTitle": "グランブルーファンタジー リリンク Endless Ragnarok 拡張版 - 発売日、エディション、体験版",
+      "metaDescription": "グランブルーファンタジー リリンク Endless Ragnarok拡張版のすべて：発売日、エディション、アップグレードキット、体験版、新キャラクター、Chaosクエスト、クロスプレイ。",
+      "categoryLabel": "拡張版",
+      "whatIs": "Endless Ragnarokとは？",
+      "whatIsDescription": "Endless Ragnarokは、グランブルーファンタジー リリンクの大型拡張版です。新たなストーリーチャプター、6人のプレイアブルキャラクター、ソロモードのConflux、召喚、Master Traits、Chaos難易度、そしてNintendo Switch 2、PlayStation 5、PlayStation 4、Steam間のクロスプラットフォームオンラインプレイが追加されます。",
+      "why": "この拡張版ガイドを利用する理由",
+      "whySteps": {
+        "step1Title": "適切なエディションを選択する",
+        "step1Description": "購入前に、フルエディション、アップグレードキット、およびスタンダードパックとスペシャルパックを比較しましょう。",
+        "step2Title": "リリースに向けた計画を立てる",
+        "step2Description": "ご利用のプラットフォームの発売日、体験版の報酬、早期購入特典の期間を確認しましょう。",
+        "step3Title": "新コンテンツに備える",
+        "step3Description": "新キャラクター、Chaosクエスト、Conflux、召喚、および全プラットフォーム対応のクロスプレイの準備をしましょう。"
+      },
+      "featured": "おすすめの拡張版ガイド",
+      "all": "すべての拡張版ガイド"
+    },
+    "characters": {
+      "title": "グランブルーファンタジー リリンクのキャラクター",
+      "description": "初期ロースター、無料アップデート、Endless Ragnarok拡張版を含む、グランブルーファンタジー リリンクのすべてのプレイアブルキャラクター。",
+      "metaTitle": "グランブルーファンタジー リリンクのキャラクター - 初期ロースター、アップデート、拡張版",
+      "metaDescription": "初期ロースター、無料アップデートでの追加、Endless Ragnarokでの新キャラクターを含む、すべてのグランブルーファンタジー リリンクのキャラクターを、役割や解放条件とともに閲覧できます。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "キャラクターロースターとは？",
+      "whatIsDescription": "グランブルーファンタジー リリンクには、ゲーム本編、リリース後の無料アップデート、そしてEndless Ragnarokで追加された6人の新キャラクターからなる、プレイ可能な大規模なロースターが用意されています。各キャラクターには固有の武器、役割、そして解放ルートがあります。",
+      "why": "このロースターガイドを利用する理由",
+      "whySteps": {
+        "step1Title": "Find your main",
+        "step1Description": "役割、武器、プレイスタイルを比較して、最初に育成すべきキャラクターを選びましょう。",
+        "step2Title": "解放条件の確認",
+        "step2Description": "どのキャラクターがストーリー、無料アップデート、または拡張コンテンツ「Endless Ragnarok」で追加されるのかを確認できます。",
+        "step3Title": "パーティの編成",
+        "step3Description": "メインのアタッカーに、遠距離、防御、サポート役の仲間を組み合わせて、あらゆるクエストに対応しましょう。"
+      },
+      "featured": "おすすめのキャラクターガイド",
+      "all": "すべてのキャラクターガイド"
+    },
+    "tier": {
+      "title": "グランブルーファンタジー リリンク ティアリスト",
+      "description": "初心者の扱いやすさ、AI操作時の有用性、協力プレイでの活躍度、終盤のダメージ量、生存能力を網羅した、実用的なグランブルーファンタジー リリンクのキャラクターティアリストです。",
+      "metaTitle": "グランブルーファンタジー リリンク ティアリスト - 2026年の最強キャラクター",
+      "metaDescription": "この2026年版ティアリストでは、初心者の扱いやすさ、AIの有用性、協力プレイでの実用性、終盤のダメージ量、生存能力に基づいて、グランブルーファンタジー リリンクの全キャラクターをランク付けしています。",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "このティアリストについて",
+      "whatIsDescription": "Cygamesは公式の強さランキングを公開していません。当サイト独自のこのティアリストでは、初心者の扱いやすさ、AI操作時の有用性、協力プレイでの活躍度、終盤のダメージ量、生存能力によってグランブルーファンタジー リリンクのキャラクターをランク付けしており、最初に育成すべきキャラクターを選ぶ際の参考にできます。",
+      "why": "このティアリストを利用する理由",
+      "whySteps": {
+        "step1Title": "序盤から活躍できるキャラクターの育成",
+        "step1Description": "ストーリーからエンドコンテンツまで一貫して活躍するSティアのキャラクターを選びましょう。",
+        "step2Title": "AIの仲間を選択",
+        "step2Description": "ソロプレイにおいて、AI操作でも安定した活躍を見せるキャラクターを確認できます。",
+        "step3Title": "協力プレイのスペシャリストを選択",
+        "step3Description": "オンラインクエストや高難易度の拡張コンテンツで輝くキャラクターを見つけましょう。"
+      },
+      "featured": "おすすめのティアリストガイド",
+      "all": "すべてのティアリストガイド"
+    },
+    "builds": {
+      "title": "グランブルーファンタジー リリンク ビルド",
+      "description": "グランブルーファンタジー リリンクのビルド、武器、ジーン、チーム編成、そしてストーリーからダメージ上限、有利属性変換、Endless Ragnarokのエンドコンテンツに至るまでの進行ガイドです。",
+      "metaTitle": "グランブルーファンタジー リリンク ビルド - 武器、ジーン、最強チーム",
+      "metaDescription": "武器、ジーン、ダメージ上限、有利属性変換、そしてEndless Ragnarokの進行ガイドを活用して、グランブルーファンタジー リリンクのキャラクターとチームを構築しましょう。",
+      "categoryLabel": "BUILDS",
+      "whatIs": "ビルドとは？",
+      "whatIsDescription": "グランブルーファンタジー リリンクのビルドは、武器、マスタリーツリー、アビリティ、ジーンを組み合わせて、各キャラクターに特化したロードアウトを作成するものです。強力なビルドは、ストーリーからエンドコンテンツに至るまで、ダメージ、生存能力、クールダウン、パーティのシナジーをバランス良く備えています。",
+      "why": "これらのビルドガイドを利用する理由",
+      "whySteps": {
+        "step1Title": "正しい順序で進めましょう",
+        "step1Description": "序盤の簡単な強化から、ゲーム終盤のダメージ特化やDamage Cap構成へと移行しましょう。",
+        "step2Title": "素材は計画的に使いましょう",
+        "step2Description": "すべての武器に貴重な素材を浪費するのを避け、まずはメインパーティーを優先しましょう。",
+        "step3Title": "エンドゲームに到達しましょう",
+        "step3Description": "追加コンテンツに向けて、War Elemental、Supplementary Damage、Sigil Synthesis、Master Traitsを活用しましょう。"
+      },
+      "featured": "注目のビルドガイド",
+      "all": "すべてのビルドガイド"
+    },
+    "sigils": {
+      "title": "グランブルーファンタジー リリンク ジーン",
+      "description": "グランブルーファンタジー リリンクのジーンシステム解説：種類、ダメージ上限、有利属性変換、追撃、ジーン合成、マスター特性。",
+      "metaTitle": "グランブルーファンタジー リリンク ジーン - ダメージ上限、有利属性変換、ジーン合成",
+      "metaDescription": "エンドゲームのビルドに向けて、ダメージ上限、有利属性変換、追撃、ジーン合成、マスター特性など、『グランブルーファンタジー リリンク』のジーンをマスターしましょう。",
+      "categoryLabel": "ジーン",
+      "whatIs": "ジーンとは？",
+      "whatIsDescription": "ジーンは『グランブルーファンタジー リリンク』におけるカスタマイズの核となるシステムです。各キャラクターはジーンを装備することで、攻撃、防御、ユーティリティ、クールダウン、キャラクター固有の特性を調整します。ダメージ上限、有利属性変換、追撃といった終盤のジーンがエンドゲームのビルドを決定づけます。",
+      "why": "これらのジーンガイドを利用する理由",
+      "whySteps": {
+        "step1Title": "ジーンの基本を理解する",
+        "step1Description": "貴重な素材を投資する前に、ジーンのスロット、レベル、特性の仕組みを学びましょう。",
+        "step2Title": "エンドゲーム用ジーンを優先する",
+        "step2Description": "ダメージ上限、有利属性変換、追撃を見つけて、実際のダメージ数値を引き上げましょう。",
+        "step3Title": "ジーン合成を活用する",
+        "step3Description": "ジーンと特性を組み合わせて、確立されたエンドゲームビルドの隙間を埋めましょう。"
+      },
+      "featured": "注目のジーンガイド",
+      "all": "すべてのジーンガイド"
+    }
+  }
+}

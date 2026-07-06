@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Granblue Fantasy Relink Endless Ragnarok Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
+      "description": "Eksiksiz Granblue Fantasy: Relink kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
+      "keywords": "Granblue Fantasy Relink Endless Ragnarok Wiki, Granblue Fantasy: Relink, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
+      "ogTitle": "Granblue Fantasy Relink Endless Ragnarok Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
+      "ogDescription": "Eksiksiz Granblue Fantasy: Relink kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
+      "twitterTitle": "Granblue Fantasy Relink Endless Ragnarok Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
+      "twitterDescription": "Eksiksiz Granblue Fantasy: Relink kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
+    "badge": "Hız temelli anime aksiyon RPG",
+    "title": "Granblue Fantasy: Relink wiki",
+    "description": "Granblue Fantasy: Relink için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
     "getFreeCodesCTA": "Demo İndir",
     "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "52K+",
+        "label": "Steam yorumları"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "100+",
+        "label": "Görevler"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "1-4",
+        "label": "Kooperatif oyuncuları"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "1 Şub 2024",
+        "label": "Çıkış tarihi"
       }
     }
   },
@@ -820,13 +820,13 @@
   },
   "cta": {
     "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
+    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Granblue Fantasy: Relink topluluğuna katılın!",
     "joinCommunity": "Discord'a Katıl",
     "joinGame": "Steam'de Demo Al"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Granblue Fantasy Relink Endless Ragnarok Wiki",
+    "description": "Granblue Fantasy: Relink gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
@@ -838,7 +838,7 @@
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
+    "copyright": "© 2026 Granblue Fantasy Relink Endless Ragnarok Wiki. Granblue Fantasy: Relink geliştiricileriyle bağlantılı değildir.",
     "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
   },
   "pages": {

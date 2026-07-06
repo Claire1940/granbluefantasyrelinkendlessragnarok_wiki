@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Вики Granblue Fantasy: Relink — крафт, биомы и достижения",
+      "description": "Вики Granblue Fantasy: Relink содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
+      "keywords": "Granblue Fantasy: Relink, вики Granblue Fantasy: Relink, крафт, биомы, достижения, выживание, Steam",
+      "ogTitle": "Вики Granblue Fantasy: Relink — крафт, биомы и достижения",
+      "ogDescription": "Вики Granblue Fantasy: Relink содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
+      "twitterTitle": "Вики Granblue Fantasy: Relink — крафт, биомы и достижения",
+      "twitterDescription": "Вики Granblue Fantasy: Relink содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
     }
   },
   "nav": {
@@ -34,26 +34,26 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
+    "badge": "Быстрый аниме-экшен RPG",
+    "title": "Granblue Fantasy: Relink Вики",
     "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
     "getFreeCodesCTA": "Изучить руководство по крафту",
     "playOnSteamCTA": "Играть на Steam",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "52K+",
+        "label": "Отзывы в Steam"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "100+",
+        "label": "Задания"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "1-4",
+        "label": "Кооператив"
       },
       "stat4": {
-        "value": "12 марта 2026",
+        "value": "1 фев 2024",
         "label": "Дата выхода"
       }
     }
@@ -181,14 +181,14 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
+    "title": "Готовы исследовать Granblue Fantasy: Relink?",
+    "description": "Присоединяйтесь к сообществу Granblue Fantasy: Relink в Discord, где вас ждут руководства, обновления и обсуждения!",
     "joinCommunity": "Присоединиться к Discord",
     "joinGame": "Играть на Steam"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Вики Granblue Fantasy: Relink",
+    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Granblue Fantasy: Relink.",
     "resources": "Ресурсы",
     "community": "Сообщество",
     "legal": "Юридическая информация",
@@ -200,7 +200,7 @@
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
     "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
+    "copyright": "© 2026 Вики Granblue Fantasy: Relink. Не связано с разработчиками Granblue Fantasy: Relink.",
     "disclaimer": "Неофициальный фанатский ресурс."
   },
   "pages": {

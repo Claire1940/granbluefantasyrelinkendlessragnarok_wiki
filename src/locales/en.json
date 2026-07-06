@@ -52,728 +52,798 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Granblue Fantasy Relink Endless Ragnarok Gameplay",
+    "description": "Master four-person party combat, Link Attacks, Chain Bursts, sigil builds, and Endless Ragnarok expansion content across PS5, PS4, Steam, and Nintendo Switch 2."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Granblue Fantasy Relink",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need for Granblue Fantasy Relink Endless Ragnarok: codes, tier list, beginner tips, and expansion coverage.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "Gift",
+        "title": "Codes & Rewards",
+        "description": "Official serial codes, Relink Pack, pre-order bonuses, and redemption rules"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List",
+        "description": "Character ranking by beginner ease, AI teammate value, co-op, and late-game damage"
+      },
+      {
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Story-first start, combat basics, party building, and smart upgrades"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Swords",
+        "title": "Endless Ragnarok",
+        "description": "Expansion release, editions, demo, new characters, Chaos quests, and crossplay"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "granblueRelinkCodes": {
+      "title": "Granblue Fantasy: Relink Codes, Relink Pack, and Redemption Rules",
+      "eyebrow": "Official Codes & Rewards",
+      "subtitle": "Use this guide to separate real official rewards from fake code lists, and to understand how PlayStation, Steam, and Endless Ragnarok bonuses differ.",
+      "intro": "Granblue Fantasy: Relink does not use public universal gift codes. Real code-related rewards come from official purchases, platform vouchers, eligible physical copies, eligible digital editions, or official add-ons. The most important restriction is platform-based: the original Relink Pack serial-code bonus is for PlayStation versions and is not included with Steam versions.",
+      "displayType": "codeCards",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "title": "Granblue Special Item Set: Relink Pack",
+          "type": "official-serial-code",
+          "status": "Official reward",
+          "appliesTo": [
+            "Eligible physical PlayStation copies of Granblue Fantasy: Relink",
+            "Eligible PlayStation digital purchases made during the official inclusion period"
+          ],
+          "notIncludedOn": [
+            "Steam versions of Granblue Fantasy: Relink",
+            "PlayStation digital purchases made after the original inclusion period ended"
+          ],
+          "rewardSummary": "A bonus for the browser and mobile game Granblue Fantasy, not an item pack used directly inside Relink.",
+          "includedRewards": [
+            "Main Character Outfit: Rebelwear",
+            "Choice of one progression set: Eternals' Transcendence Set or Evokers' Domain Set"
+          ],
+          "eligibilityNotes": [
+            "A Granblue Fantasy browser or mobile game account is required.",
+            "Each Relink Pack can be redeemed once on a single Granblue Fantasy account.",
+            "For PlayStation digital purchases, the Relink Pack is tied to the purchasing PlayStation Network account instead of being issued as a separate printed voucher.",
+            "Cygames extended the Relink Pack redemption deadline beyond the original December 31, 2024 date."
+          ]
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "title": "How to Redeem the Relink Pack",
+          "type": "redemption-flow",
+          "status": "Official redemption process",
+          "steps": [
+            "On PlayStation, sign in to the PlayStation Network account that owns the eligible copy or voucher.",
+            "For a printed voucher, open PlayStation Store and use Redeem Code to enter the 12-digit PlayStation voucher code.",
+            "Launch Granblue Fantasy: Relink and open Serial Code from the title screen or from Siero's Knickknack Shack.",
+            "Select Show Serial Code to display the serial code for Granblue Fantasy.",
+            "Open Granblue Fantasy in a browser or supported mobile environment and enter the serial code on the in-game Serial Codes screen.",
+            "Claim the delivered items from the Crate in Granblue Fantasy."
+          ],
+          "platformRules": [
+            "PlayStation Store voucher codes are region and account bound.",
+            "Voucher codes are one-time-use and cannot be transferred after redemption.",
+            "The Relink Pack serial code cannot be entered through the iOS version of Granblue Fantasy; use a browser instead.",
+            "Lost serial codes are not reissued."
+          ]
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "title": "Original Relink Pre-Order Bonuses",
+          "type": "official-purchase-bonus",
+          "status": "Ended purchase bonus",
+          "includedRewards": [
+            "Stamina III Sigil",
+            "Enmity III Sigil",
+            "Early Access on eligible PlayStation editions"
+          ],
+          "availability": "The original pre-order bonus period for Granblue Fantasy: Relink has ended.",
+          "platformRules": [
+            "Early Access was not included with the Steam version.",
+            "Add-on and bonus items are claimed in Relink through Siero's Knickknack Shack under Claim Add-Ons."
+          ]
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "title": "Endless Ragnarok Purchase Bonuses",
+          "type": "official-purchase-bonus",
+          "status": "Official expansion bonus",
+          "appliesTo": [
+            "Granblue Fantasy: Relink - Endless Ragnarok full editions",
+            "Granblue Fantasy: Relink - Endless Ragnarok Upgrade Kit editions"
+          ],
+          "includedRewards": [
+            "Full Endless Ragnarok editions: Guts III and Autorevive III Sigil Set",
+            "Endless Ragnarok Upgrade Kit editions: Supplementary Damage V and War Elemental Sigil Set"
+          ],
+          "platformRules": [
+            "The Upgrade Kit requires ownership of the base game on the same platform.",
+            "Nintendo Switch 2, PlayStation 5, and PlayStation 4 purchase-bonus eligibility runs through July 8, 2026 at 11:59 p.m. local time.",
+            "Steam purchase-bonus eligibility runs through August 31, 2026 at 11:59 p.m. local time.",
+            "Each early purchase bonus can be claimed once per user account."
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "title": "Fake Online Gift-Code Lists",
+          "type": "fake-code-warning",
+          "status": "Not official",
+          "whatToIgnore": [
+            "Public lists claiming to offer free crystals, rupies, SSR tickets, weapon packs, or universal Relink gift codes",
+            "Code generators",
+            "Surveys or login pages that ask for PlayStation Network, Steam, Nintendo, Cygames, or Granblue Fantasy account credentials"
+          ],
+          "safeRule": "Use only codes and bonuses distributed through official product pages, official stores, platform stores, or official Cygames announcements."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "title": "Third-Party Serial-Code Buying and Selling",
+          "type": "risk-warning",
+          "status": "Rule-risk activity",
+          "officialRule": "Cygames states that Relink Pack serial-code trading, resale, or exchange through auctions or third-party services is strictly prohibited.",
+          "practicalRisks": [
+            "A code can already be used before delivery.",
+            "A code can be region-locked or tied to a different platform account.",
+            "A purchased code can violate official serial-code rules.",
+            "Support will not reissue lost or invalid third-party codes."
+          ],
+          "safeRule": "Buy eligible editions or add-ons from official stores instead of third-party serial-code sellers."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "granblueRelinkTierList": {
+      "title": "Granblue Fantasy: Relink Character Tier List",
+      "eyebrow": "Site Editorial Ranking",
+      "subtitle": "A practical role-based tier list built around beginner comfort, AI teammate value, co-op usefulness, late-game damage, and survivability.",
+      "intro": "Cygames publishes character profiles, combat systems, updates, and expansion content, but it does not publish an official strength ranking. This tier list is a site editorial ranking designed for players choosing who to build first, who to assign as AI teammates, and who to bring into co-op or late-game quests.",
+      "displayType": "tierGrid",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S",
+          "label": "Top all-around picks",
+          "summary": "Strong choices for long-term investment because they combine reliable damage, strong team value, survivability, or excellent AI consistency.",
+          "characters": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Cagliostro",
+              "release": "Base roster",
+              "role": "Support caster and alchemy damage dealer",
+              "beginnerEase": "High",
+              "aiTeammate": "Excellent",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "A flexible support pick with healing, buffs, and steady ranged pressure, making her valuable in solo parties and online play."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "Eugen",
+              "release": "Base roster",
+              "role": "Ranged gunner",
+              "beginnerEase": "High",
+              "aiTeammate": "Excellent",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "A safe ranged attacker who performs well as an AI teammate and helps keep damage uptime against mobile bosses."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "name": "Lancelot",
+              "release": "Base roster",
+              "role": "Fast melee attacker",
+              "beginnerEase": "High",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "Fast attacks, easy movement, and strong uptime make him one of the most comfortable melee characters for new and experienced players."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Charlotta",
+              "release": "Base roster",
+              "role": "Mobile melee attacker",
+              "beginnerEase": "High",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "Short reach is balanced by excellent mobility, constant pressure, and simple execution."
+            },
+            {
+              "name": "Sandalphon",
+              "release": "Version 1.3.0 update",
+              "role": "High-end melee damage dealer",
+              "beginnerEase": "Medium",
+              "aiTeammate": "High",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "Excellent",
+              "survivability": "High",
+              "note": "A powerful post-launch character with strong payoff once his mechanics are understood."
+            },
+            {
+              "name": "Narmaya",
+              "release": "Base roster",
+              "role": "Stance-switching katana attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "Excellent",
+              "survivability": "Medium",
+              "note": "Excellent damage ceiling with stance management; best for players who enjoy active melee timing."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "A",
+          "label": "Very strong specialists",
+          "summary": "Excellent characters that perform best when their timing, range, or character-specific mechanics are used properly.",
+          "characters": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Vane",
+              "release": "Base roster",
+              "role": "Defensive bruiser",
+              "beginnerEase": "High",
+              "aiTeammate": "High",
+              "coOpValue": "Excellent",
+              "lateGameDamage": "Medium",
+              "survivability": "Excellent",
+              "note": "A sturdy frontliner whose defensive tools are especially useful in difficult co-op quests."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Percival",
+              "release": "Base roster",
+              "role": "Charged melee attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "Excellent",
+              "survivability": "Medium",
+              "note": "Strong burst damage with deliberate charge timing; rewards players who know boss openings."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "name": "Zeta",
+              "release": "Base roster",
+              "role": "Aerial spear attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "Great aerial pressure and satisfying timing windows, with more execution demand than simpler melee picks."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Siegfried",
+              "release": "Base roster",
+              "role": "Timed greatsword attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "Durable and powerful when attack timing is maintained, but less forgiving than faster characters."
+            },
+            {
+              "name": "Id",
+              "release": "Base roster",
+              "role": "Transforming melee attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "A strong story character with a clear power fantasy and solid performance after his kit opens up."
+            },
+            {
+              "name": "Seofon",
+              "release": "Version 1.2.0 update",
+              "role": "Sword avatar attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "Excellent",
+              "survivability": "Medium",
+              "note": "A high-ceiling DLC-era character built around sword pressure and strong offensive payoff."
+            },
+            {
+              "name": "Tweyen",
+              "release": "Version 1.2.0 update",
+              "role": "Ranged archer",
+              "beginnerEase": "Medium",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "A ranged Eternal who brings strong coverage and safe uptime once unlocked or purchased."
+            },
+            {
+              "name": "Beatrix",
+              "release": "Endless Ragnarok",
+              "role": "Technical melee attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "Cycles offensive, defensive, and recovery self-buffs, giving her strong flexibility in expansion content."
+            },
+            {
+              "name": "Eustace",
+              "release": "Endless Ragnarok",
+              "role": "Society marksman",
+              "beginnerEase": "Medium",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "A ranged expansion character suited to players who prefer steady distance control."
+            },
+            {
+              "name": "Captain",
+              "release": "Base roster",
+              "role": "Balanced swordfighter and support",
+              "beginnerEase": "High",
+              "aiTeammate": "High",
+              "coOpValue": "High",
+              "lateGameDamage": "Medium",
+              "survivability": "High",
+              "note": "A reliable first investment with simple skills, party utility, and story availability from the start."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "B",
+          "label": "Good but more situational",
+          "summary": "Useful characters with clear strengths, but they need more setup, more careful play, or a team that supports their preferred combat pattern.",
+          "characters": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Katalina",
+              "release": "Base roster",
+              "role": "Defensive swordfighter",
+              "beginnerEase": "High",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "Medium",
+              "survivability": "High",
+              "note": "A safe early-game choice with defensive value, though her overall output is less explosive than top melee picks."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Io",
+              "release": "Base roster",
+              "role": "Charge caster",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "Strong magic damage when charge windows are respected, but boss movement can interrupt her best rhythm."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "name": "Rackam",
+              "release": "Base roster",
+              "role": "Ranged gunner",
+              "beginnerEase": "High",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "Medium",
+              "survivability": "Medium",
+              "note": "Easy to use and safe at range, but generally less valuable than the highest-performing ranged options."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Ferry",
+              "release": "Base roster",
+              "role": "Mid-range whip and summon attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "Medium",
+              "survivability": "Medium",
+              "note": "Strong control and reach, with a playstyle that depends on managing spacing and summoned pets."
+            },
+            {
+              "name": "Rosetta",
+              "release": "Base roster",
+              "role": "Area-control support",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "High",
+              "lateGameDamage": "Medium",
+              "survivability": "Medium",
+              "note": "Excellent for players who understand placement, but less straightforward in fast-moving fights."
+            },
+            {
+              "name": "Vaseraga",
+              "release": "Base roster",
+              "role": "Heavy scythe attacker",
+              "beginnerEase": "Low",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "Durable and hard-hitting, but slow animations make him less beginner-friendly."
+            },
+            {
+              "name": "Yodarha",
+              "release": "Base roster",
+              "role": "Fast technical swordsman",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "Capable in practiced hands, but less universal than the easiest high-tier melee picks."
+            },
+            {
+              "name": "Maglielle",
+              "release": "Endless Ragnarok",
+              "role": "Magic-blade attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "An expansion character with stylish blade-based pressure and a more specialized learning curve."
+            },
+            {
+              "name": "Fraux",
+              "release": "Endless Ragnarok",
+              "role": "Devil pactbearer attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "A powerful expansion pick for players who want a more character-specific playstyle."
+            },
+            {
+              "name": "Fediel",
+              "release": "Endless Ragnarok",
+              "role": "Darkness-themed attacker",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "A Six Dragons character with strong theme and late-game potential, best treated as a focused investment."
+            },
+            {
+              "name": "Gallanza",
+              "release": "Endless Ragnarok",
+              "role": "Heavy spear-axe bruiser",
+              "beginnerEase": "Medium",
+              "aiTeammate": "Medium",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "High",
+              "note": "A powerhouse with wide attack range, suited to players who like heavy melee commitment."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "C",
+          "label": "Niche investment",
+          "summary": "Playable and usable, but less efficient as a first major investment compared with easier or more broadly valuable characters.",
+          "characters": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Ghandagoza",
+              "release": "Base roster",
+              "role": "Heavy fist attacker",
+              "beginnerEase": "Low",
+              "aiTeammate": "Low",
+              "coOpValue": "Medium",
+              "lateGameDamage": "High",
+              "survivability": "Medium",
+              "note": "Can hit hard, but his slow and commitment-heavy style is demanding against mobile bosses."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "granblueRelinkBeginnerGuide": {
+      "title": "Granblue Fantasy: Relink Beginner Guide",
+      "eyebrow": "Beginner Guide",
+      "subtitle": "A clean starting path for new players: story first, simple combat habits, sensible upgrades, and no early-game resource panic.",
+      "intro": "Relink is built around a four-person party, real-time action combat, story chapters, and repeatable quests. The smoothest start is to learn one main character, let AI teammates cover support and ranged damage, and avoid dumping rare materials into every shiny weapon like the sky realm is running a financial literacy experiment.",
+      "displayType": "stepByStep",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "step": 1,
+          "title": "Start with the story and learn the core menus",
+          "goal": "Unlock basic systems before worrying about builds.",
+          "actions": [
+            "Play through the opening story chapters instead of grinding immediately.",
+            "Use the main menu to review characters, weapons, skills, sigils, and quests.",
+            "Read tutorial prompts when new battle systems unlock."
+          ],
+          "avoid": [
+            "Do not judge a character before their core skills and weapon upgrades are available.",
+            "Do not spend rare materials just because a menu shows an upgrade button."
+          ],
+          "whyItMatters": "Story progress unlocks more characters, systems, quests, town services, and better upgrade paths."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "step": 2,
+          "title": "Pick one comfortable main character first",
+          "goal": "Build muscle memory instead of spreading resources across the whole roster.",
+          "actions": [
+            "Use Captain, Lancelot, Charlotta, Eugen, or Katalina for an easy early learning curve.",
+            "Test characters in quests before committing major materials.",
+            "Keep one main character slightly ahead in weapon level, skills, and sigils."
+          ],
+          "avoid": [
+            "Do not try to master the entire roster in the first few hours.",
+            "Do not force a technical character if basic dodging, guarding, and skill timing still feel messy."
+          ],
+          "whyItMatters": "A focused main character clears story and early quests faster, which unlocks better rewards for the rest of the party."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "step": 3,
+          "title": "Learn the basic battle loop",
+          "goal": "Understand how damage windows work before chasing advanced builds.",
+          "actions": [
+            "Use normal attacks to build pressure and create openings.",
+            "Use character skills when the boss is still, stunned, or locked in a long animation.",
+            "Watch the stun gauge and trigger Link Attacks when available.",
+            "Chain Skybound Arts with teammates to create Chain Bursts.",
+            "Guard or dodge instead of attacking through every boss animation."
+          ],
+          "avoid": [
+            "Do not spend every skill the moment it comes off cooldown.",
+            "Do not ignore Link Attacks and Skybound Arts; they are core party-damage tools."
+          ],
+          "whyItMatters": "Relink rewards uptime, timing, and party chains more than button mashing."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "step": 4,
+          "title": "Build a balanced four-person party",
+          "goal": "Let AI teammates cover jobs your main character does not handle well.",
+          "actions": [
+            "Run one main damage dealer controlled by you.",
+            "Add one durable melee or defensive character for stability.",
+            "Add one ranged attacker for consistent boss uptime.",
+            "Add one support-leaning character with healing, buffs, or safety tools."
+          ],
+          "avoid": [
+            "Do not build four fragile melee attackers as a first party.",
+            "Do not leave AI teammates under-leveled while only upgrading your main character."
+          ],
+          "whyItMatters": "AI allies can contribute strong damage, revives, link attacks, and Skybound Arts when they are properly equipped."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "step": 5,
+          "title": "Spend early Mastery Points on simple value",
+          "goal": "Buy upgrades that help immediately in every quest.",
+          "actions": [
+            "Prioritize basic offense, health, skill access, and practical survivability.",
+            "Unlock useful character skills before polishing small stat nodes.",
+            "Keep your main party's Mastery growth reasonably even."
+          ],
+          "avoid": [
+            "Do not over-optimize tiny stat routes during the story.",
+            "Do not ignore defensive upgrades if bosses are knocking characters down repeatedly."
+          ],
+          "whyItMatters": "Early Mastery choices should make fights safer and faster, not turn the first playthrough into a spreadsheet with sword noises."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "step": 6,
+          "title": "Upgrade weapons and sigils with restraint",
+          "goal": "Stay strong enough for current quests while saving rare materials for better gear.",
+          "actions": [
+            "Keep your active party's equipped weapons upgraded enough to meet quest difficulty.",
+            "Use sigils that clearly match your needs: attack, health, cooldown help, stun, survival, or character-specific value.",
+            "Replace weak early sigils as stronger versions drop from quests."
+          ],
+          "avoid": [
+            "Do not fully invest in every weapon as soon as it appears.",
+            "Do not hoard so hard that your party falls behind basic quest requirements."
+          ],
+          "whyItMatters": "Relink gives many upgrade paths, and careful spending prevents early material shortages."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "step": 7,
+          "title": "Use town services between quests",
+          "goal": "Turn quest rewards into steady progression.",
+          "actions": [
+            "Visit Siero's Knickknack Shack to claim add-ons, trade items, and manage useful services.",
+            "Check quest rewards before farming so you know what a mission actually drops.",
+            "Upgrade, equip, and review party members after major story beats."
+          ],
+          "avoid": [
+            "Do not leave bonus items unclaimed if you own eligible add-ons.",
+            "Do not farm random quests without checking whether they drop the material you need."
+          ],
+          "whyItMatters": "Town management is where most character growth happens between battles."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "step": 8,
+          "title": "After the story, climb quest ranks gradually",
+          "goal": "Move from casual clearing into endgame preparation.",
+          "actions": [
+            "Clear available quest tiers in order instead of jumping straight into the hardest missions.",
+            "Strengthen your main party before chasing perfect late-game sigils.",
+            "Use co-op when a quest is slow or inconsistent with AI teammates.",
+            "Learn boss patterns because higher quest ranks punish careless revives and missed damage windows."
+          ],
+          "avoid": [
+            "Do not copy an endgame build before unlocking the systems and materials that make it work.",
+            "Do not treat one failed high-rank quest as a character problem; it is often a gear, timing, or pattern-knowledge problem."
+          ],
+          "whyItMatters": "The post-story game is built around repeatable quests, stronger gear, tighter execution, and better party planning."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "granblueRelinkEndlessRagnarok": {
+      "title": "Granblue Fantasy: Relink - Endless Ragnarok",
+      "eyebrow": "Expansion Guide",
+      "subtitle": "A full guide to the expansion's release, editions, upgrade kits, demo, bonuses, new story, characters, Chaos quests, Conflux, summons, and crossplay.",
+      "intro": "Endless Ragnarok is the major expansion for Granblue Fantasy: Relink. It adds a new story chapter, six playable characters, new systems, harder quests, solo endgame content, and cross-platform online play across Nintendo Switch 2, PlayStation, and Steam.",
+      "displayType": "cardList",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "title": "Release Date and Platforms",
+          "category": "release-info",
+          "details": [
+            "Granblue Fantasy: Relink - Endless Ragnarok launches on July 9, 2026 according to Cygames' official announcement.",
+            "The expansion supports Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam.",
+            "The Steam product page lists the Upgrade Kit release date as July 8, 2026, reflecting the Steam store timing.",
+            "The game supports 1 player offline and 1 to 4 players online."
+          ]
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "title": "Which Edition to Buy",
+          "category": "buying-guide",
+          "details": [
+            "New players can buy Granblue Fantasy: Relink - Endless Ragnarok as a full game package.",
+            "Existing owners of the base game can buy the Endless Ragnarok Upgrade Kit.",
+            "The Upgrade Kit requires the base game on the same platform.",
+            "Standard and Special versions are available depending on platform and format."
+          ],
+          "editionPrices": [
+            {
+              "edition": "Full Standard Edition",
+              "format": "Physical or digital",
+              "price": "$59.99 / €59.99"
+            },
+            {
+              "edition": "Full Special Edition",
+              "format": "Digital",
+              "price": "$79.99 / €79.99"
+            },
+            {
+              "edition": "Upgrade Kit Standard Edition",
+              "format": "Digital",
+              "price": "$29.99 / €29.99"
+            },
+            {
+              "edition": "Upgrade Kit Special Edition",
+              "format": "Digital",
+              "price": "$54.99 / €54.99"
+            }
+          ]
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "title": "Standard vs Special Edition Contents",
+          "category": "edition-differences",
+          "details": [
+            "Standard full editions include the base game and Endless Ragnarok content.",
+            "Standard Upgrade Kit editions add Endless Ragnarok content for players who already own the base game.",
+            "Special full editions include the Endless Ragnarok Special Pack.",
+            "Special full editions and Special Upgrade Kit editions include the DLC Collection."
+          ]
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "title": "Pre-Order and Early Purchase Bonuses",
+          "category": "purchase-bonuses",
+          "details": [
+            "Full Endless Ragnarok editions include the Guts III and Autorevive III Sigil Set as the purchase bonus.",
+            "Endless Ragnarok Upgrade Kit editions include the Supplementary Damage V and War Elemental Sigil Set as the purchase bonus.",
+            "Nintendo Switch 2, PlayStation 5, and PlayStation 4 bonuses are available for purchases through July 8, 2026 at 11:59 p.m. local time.",
+            "Steam bonuses are available for purchases through August 31, 2026 at 11:59 p.m. local time.",
+            "Each bonus can be claimed once per user account."
+          ]
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "title": "Demo Content",
+          "category": "demo",
+          "details": [
+            "The Endless Ragnarok demo became available on June 18, 2026.",
+            "The PlayStation demo includes Story Mode, Quest Mode, and Tutorial Mode.",
+            "Quest Mode includes four quests in total.",
+            "Clearing the first three demo quests unlocks Sephira's Sanguine Glimmer, a quest that allows access to Summons.",
+            "Each demo quest grants rewards that can be redeemed in the full game after release.",
+            "Demo save data does not carry over to the full version."
+          ]
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "title": "New Story, Bosses, and Chaos Quests",
+          "category": "new-content",
+          "details": [
+            "Endless Ragnarok adds a new story arc after the base Relink adventure.",
+            "The expansion introduces new skybound threats including Beelzebub and The World.",
+            "Chaos is a new high-difficulty quest tier designed as the expansion's toughest challenge.",
+            "Chaos quests feature ragnalia and new boss mechanics, including EX Burst attacks."
+          ]
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "title": "Six New Playable Characters",
+          "category": "characters",
+          "details": [
+            "Gallanza joins as a heavy spear-axe powerhouse with wide attack range.",
+            "Maglielle joins as a magic-blade wielder and leader of the Sword Veil Fellowship.",
+            "Beatrix joins as a Society fighter who cycles offensive, defensive, and recovery self-buffs.",
+            "Eustace joins as a Society marksman wielding the seal weapon Flamek Thunder.",
+            "Fraux joins as a pactbearer to The Devil.",
+            "Fediel joins as one of the Six Dragons with dominion over darkness."
+          ],
+          "characters": [
+            "Gallanza",
+            "Maglielle",
+            "Beatrix",
+            "Eustace",
+            "Fraux",
+            "Fediel"
+          ]
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Summons and Primal Bursts",
+          "category": "battle-systems",
+          "details": [
+            "Endless Ragnarok adds Summons as a new battle mechanic.",
+            "Summons can be called during battle and have attack skills plus support abilities.",
+            "The player becomes invincible while directly controlling a summon.",
+            "Proto Bahamut and Excavallion can unleash Primal Bursts after specific battle conditions are met and all four party members use Skybound Arts."
+          ]
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "The Conflux Solo Mode",
+          "category": "solo-endgame",
+          "details": [
+            "Conflux is a solo-exclusive mode built around sequential zones, combat objectives, and temporary perks.",
+            "Players choose one of three temporary perks during a run.",
+            "Conflux objectives and perk choices vary between runs.",
+            "Rewards include materials and high-tier gear for character and weapon enhancement."
+          ]
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Crossplay and Local Play",
+          "category": "multiplayer",
+          "details": [
+            "Endless Ragnarok adds cross-platform online play across Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam.",
+            "Nintendo Switch 2 supports local communication with up to four players.",
+            "Online play can require the relevant platform's online membership service.",
+            "GameShare is not available during Nintendo Switch 2 local communication."
+          ]
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Granblue Fantasy Relink",
+    "titleHighlight": "FAQ",
+    "subtitle": "Key questions about Granblue Fantasy Relink Endless Ragnarok before you play.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Granblue Fantasy Relink Endless Ragnarok?",
+        "answer": "Granblue Fantasy Relink Endless Ragnarok is the major expansion for Granblue Fantasy: Relink. It adds a new story chapter, six playable characters, Chaos quests, the Conflux solo mode, Summons, and cross-platform online play across Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When does Granblue Fantasy Relink Endless Ragnarok release?",
+        "answer": "Granblue Fantasy Relink Endless Ragnarok launches on July 9, 2026 according to Cygames. The Endless Ragnarok demo became available on June 18, 2026 on PlayStation ahead of the full release."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Granblue Fantasy Relink use gift codes?",
+        "answer": "Granblue Fantasy Relink does not use public universal gift codes. Real rewards come from the Relink Pack for eligible PlayStation copies, official pre-order and early purchase bonuses, and Endless Ragnarok edition bonuses. Avoid third-party code lists and code generators that ask for account details."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which platforms is Granblue Fantasy Relink available on?",
+        "answer": "Granblue Fantasy Relink is available on PlayStation 5, PlayStation 4, and Steam. The Endless Ragnarok expansion also adds Nintendo Switch 2, with cross-platform online play across all supported platforms for 1 to 4 players."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Do I need the base game to play Granblue Fantasy Relink Endless Ragnarok?",
+        "answer": "Existing Granblue Fantasy Relink owners can buy the Endless Ragnarok Upgrade Kit, which requires the base game on the same platform. New players can buy a full Granblue Fantasy Relink Endless Ragnarok edition that includes the base game and the expansion together."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Granblue Fantasy Relink singleplayer or co-op?",
+        "answer": "Granblue Fantasy Relink supports 1 player offline and 1 to 4 players online. You can play the full story and quests solo with AI teammates, or join online co-op with other players, and Endless Ragnarok adds crossplay so PlayStation, Steam, and Nintendo Switch 2 users can play together."
       }
     ]
   },
@@ -802,126 +872,5 @@
     "copyright": "© 2026 Granblue Fantasy Relink Endless Ragnarok Wiki. Not affiliated with Cygames.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
-    }
-  }
+  "pages": {}
 }

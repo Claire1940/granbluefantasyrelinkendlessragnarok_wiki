@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Vaseraga Granblue Fantasy Relink : Guide Ultime du Meilleur Setup End-Game 2026",
+  description: "Maîtrisez le meilleur build Vaseraga de Granblue Fantasy Relink. Apprenez les sceaux optimaux, les armes et les annulations de combos pour atteindre 2 millions de dégâts par coup.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vaseraga+Build+Guide",
+  date: "2026-07-07",
+  author: "L'équipe Wiki de Granblue Fantasy Relink",
+  keywords: "build Vaseraga, Granblue Fantasy Relink, sceaux optimaux, guide end-game, Douleur Immortelle"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Le **build Vaseraga de Granblue Fantasy Relink** se concentre sur la maximisation des **dégâts d'Attaque Chargée** tout en maintenant le buff d'immortalité **Douleur Immortelle**.
+- **Douleur Immortelle** est la mécanique centrale, permettant à Vaseraga de survivre avec 1 PV tout en ignorant tous les malus et contrôles de foule.
+- **Équilibre d'Ébène** est un sceau de signature obligatoire qui réduit le temps de recharge des compétences jusqu'à 8 % par attaque chargée au maximum.
+- L'**Annulation de Combo** via l'esquive est essentielle pour sauter les animations de démarrage lentes et atteindre rapidement les puissants coups de grâce.
+- Des sceaux de **Limite de Dégâts** sont nécessaires pour atteindre le plafond de 2 millions de dégâts sur les frappes lourdes de Vaseraga.
+</Callout>
+
+<Section icon={Swords} title="Mécaniques de Base et Priorités de Compétences">
+
+Vaseraga fonctionne comme un tank-bruiser à haut risque et haute récompense dans **Granblue Fantasy Relink**. Sa boucle de gameplay principale consiste à utiliser ses compétences pour enchaîner sur de puissantes attaques lourdes chargées. Ces attaques remplissent sa jauge, lui octroyant **Cœur d'Acier**, des buffs de défense et des bonus d'attaque. En utilisant ses buffs uniques, il peut se tenir directement devant les boss, ignorant les mécaniques qui étourdiraient ou tueraient d'autres personnages.
+
+**Points Forts de la Vidéo :**
+- Analyse détaillée de la boucle **Douleur Immortelle** pour une invincibilité permanente.
+- Démonstration de la technique d'**Annulation par Esquive** pour accélérer les attaques chargées.
+- Recommandations de sceaux pour atteindre le seuil de **2 millions de dégâts** par coup.
+- Comparaison entre le build de compétences standard et le setup utilitaire "Moins c'est Mieux".
+
+<YouTubeEmbed videoId="aj-OQDge79E" title="VASERAGA PERFECTED Best Build Guide - Optimal Sigils Weapons & Combos | Granblue Fantasy Relink" />
+
+La sélection de compétences pour un **build Vaseraga de Granblue Fantasy Relink** de haut niveau est relativement fixe en raison de la nécessité de rapprochement et de survivabilité.
+
+| Nom de la Compétence | Rôle | Bénéfice Principal |
+| :--- | :--- | :--- |
+| Douleur Immortelle | Survivabilité | Octroie Immortalité (ne peut pas descendre sous 1 PV) et Immunité aux malus |
+| Bataillons de la Peur | Rapprochement | Rapprochement instantané qui s'annule en un coup chargé final |
+| Grande Faux Grynoth | Briseur de Bouclier | Ignore les boucliers et fournit une valeur d'étourdissement élevée |
+| Éclipse Ombrale | Contrôle de Foule | Applique Ralentissement aux ennemis, prolongeant les fenêtres de DPS pour l'équipe |
+| Colère du Néant | Soutien d'Équipe | Redirige les dégâts des alliés vers Vaseraga (Focus Multijoueur) |
+
+<Callout type="tip" title="Astuce de Synergie de Compétence">
+Utilisez toujours **Douleur Immortelle** au début d'un combat contre un boss. Avec le bon setup de sceaux, vous pouvez réinitialiser le temps de recharge de cette compétence avant que le buff de 20 secondes n'expire, rendant Vaseraga virtuellement invuable pendant tout le combat.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Le Setup de Sceaux Perfectionné">
+
+Pour atteindre le potentiel end-game d'un **build Vaseraga de Granblue Fantasy Relink**, vous devez équilibrer les dégâts bruts avec l'utilitaire qui alimente vos temps de recharge. Comme Vaseraga atteint facilement la limite de dégâts, votre focus doit se porter sur les **Dégâts Supplémentaires** et le **Temps de Recharge Rapide**.
+
+<CardGrid cols={3}>
+  <Card title="Essentiels Offensifs">
+    - **Limite de Dégâts V+** : Utilisez 4 emplacements pour atteindre le niveau 65.
+    - **Élément de Guerre** : Convertit tous les dégâts en éléments supérieurs (+20 % de dégâts).
+    - **Tyrannie** : Bonus d'attaque massif au prix des PV max (insignifiant grâce à Douleur Immortelle).
+  </Card>
+  <Card title="Utilitaires & Recharge">
+    - **Équilibre d'Ébène** : Réduit les temps de recharge de 8 % sur les coups chargés.
+    - **Temps de Recharge Rapide** : Réduit davantage le temps d'arrêt des compétences.
+    - **Cascade** : Réduit les temps de recharge en fonction de la fréquence des coups.
+  </Card>
+  <Card title="Sceaux d'Assurance">
+    - **Tripes** : Survie à 1 PV si les buffs tombent.
+    - **Collecteur de Potions** : Fournit plus de potions bleues pour la jauge de lien et le soin.
+    - **Garnison** : Augmente la défense à mesure que les PV chutent (synergie avec le style de jeu à 1 PV).
+  </Card>
+</CardGrid>
+
+| Type de Sceau | Niveau Recommandé | Raisonnement |
+| :--- | :--- | :--- |
+| Limite de Dégâts | Niveau 65 | Vaseraga atteint le plafond facilement ; c'est le seul moyen de monter plus haut |
+| Dégâts Supplémentaires | Niveau 45+ | Ajoute des coups supplémentaires qui déclenchent la réduction d'**Équilibre d'Ébène** |
+| Taux de Coup Critique | Niveau 15 | Augmente la régularité des plafonds de dégâts sur chaque frappe |
+| Lien Commun | Niveau 15 | Génération plus rapide de la jauge de lien pour le Link Time et l'OAM |
+| Nerfs d'Acier | Niveau 15 | Fournit une réduction de dégâts quand **Cœur d'Acier** est actif (constant pour Vaseraga) |
+
+<Callout type="info" title="Mécanique de l'Équilibre d'Ébène">
+Le sceau **Équilibre d'Ébène** est le moteur du build. Comme il se déclenche par coup, les sceaux de **Dégâts Supplémentaires** doublent efficacement la réduction de temps de recharge que vous recevez de chaque attaque chargée, permettant une disponibilité de 100 % sur **Douleur Immortelle**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Techniques de Combo Avancées et Annulation par Esquive">
+
+Maximiser le DPS dans un **build Vaseraga de Granblue Fantasy Relink** nécessite de maîtriser l'« Annulation par Esquive ». Les animations standards de Vaseraga sont lentes, mais vous pouvez sauter les frames de récupération de ses attaques légères pour atteindre ses coups de grâce à hauts dégâts plus rapidement.
+
+<Steps>
+  <Step num="1" title="Le Rapprochement de Base">
+    Si **Bataillons de la Peur** est en recharge, effectuez une attaque légère suivie immédiatement d'une attaque lourde. Cela crée une fente de rapprochement qui mène directement à un coup de grâce de combo.
+  </Step>
+  <Step num="2" title="Le Combo Léger-Léger-Lourd-Lourd (LLHH)">
+    Le combo LLHH inflige nettement plus de dégâts que la chaîne LLLHH plus longue. Concentrez-vous sur celui-ci pour les cibles stationnaires.
+  </Step>
+  <Step num="3" title="L'Astuce de l'Annulation par Esquive">
+    Effectuez la première attaque légère, puis esquivez immédiatement pour annuler l'animation. Effectuez la deuxième attaque légère et esquivez à nouveau. Vous pouvez ensuite passer immédiatement au coup de grâce lourd chargé massif.
+  </Step>
+  <Step num="4" title="Charge Infinie">
+    Après un coup de grâce de combo, esquivez immédiatement. Vous pouvez alors commencer à charger l'attaque lourde suivante instantanément, en contournant l'état neutre.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de Timing">
+Annuler trop tôt empêchera le coup d'être enregistré. Pratiquez le rythme dans la zone d'entraînement jusqu'à ce que l'esquive se produise exactement au moment où la faux entre en contact avec l'ennemi.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Builds Alternatifs : Le Setup Moins c'est Mieux">
+
+Il existe un style de jeu niche mais puissant pour Vaseraga qui ignore totalement les compétences. En utilisant le sceau **Moins c'est Mieux**, vous échangez l'usage des compétences contre un bonus d'attaque massif de 120 %. C'est idéal pour les joueurs qui préfèrent un style de jeu basé uniquement sur les attaques de base et veulent atteindre la plage de 45 à 50 millions de dégâts sur des tests de 60 secondes.
+
+| Caractéristique | Build Standard | Build Moins c'est Mieux |
+| :--- | :--- | :--- |
+| Style de jeu | Basé sur les compétences / Invincible | Attaque de base / Focus esquive |
+| Plafond de Dégâts | Élevé | Extrêmement élevé |
+| Survivabilité | Garantie (Douleur Immortelle) | Dépendante du skill (Esquives parfaites) |
+| Sceau Obligatoire | Équilibre d'Ébène | Moins c'est Mieux |
+| Difficulté | Modérée | Élevée |
+
+<Callout type="success" title="Recommandation de Build">
+Pour la plupart des joueurs, le **Build Standard** est supérieur car **Douleur Immortelle** supprime le risque de mourir. Le build **Moins c'est Mieux** est recommandé uniquement pour les speedrunners ou les joueurs ayant maîtrisé tous les patterns de boss et n'ayant pas besoin du buff d'immortalité.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Distinction et Sélection d'Arme">
+
+La dernière étape pour optimiser votre **build Vaseraga de Granblue Fantasy Relink** est de sécuriser l'**Arme Terminus** et d'obtenir les statistiques de Distinction parfaites.
+
+<Checklist
+  id="vaseraga-goals"
+  title="Checklist End-Game :"
+  items={[
+    "Obtenir l'Arme Terminus : Essence de l'Abandonné",
+    "Atteindre le niveau 100 et le niveau d'éveil 10 pour l'arme",
+    "Obtenir 'Limite de dégâts des attaques normales +20 %' en Distinction",
+    "Obtenir 'Taux de coup critique +20 %' en Distinction",
+    "Équiper le sceau Élément de Guerre (obtenu via les curiosités)",
+    "Atteindre 100 % de temps d'activité sur Douleur Immortelle en combat"
+  ]}
+/>
+
+**Tableau de Priorité des Distinctions :**
+
+| Priorité | Statistique | Valeur Idéale |
+| :--- | :--- | :--- |
+| 1 | Limite de dégâts des attaques normales | 20 % |
+| 2 | Taux de coup critique | 20 % |
+| 3 | Limite de dégâts des compétences | 20 % |
+| 4 | Puissance d'attaque | +1000 |
+
+<Callout type="info" title="Choix de l'Arme">
+Bien que l'**Arme d'Ascension** soit un bon substitut temporaire, l'**Arme Terminus** est obligatoire pour le end-game. Elle fournit le trait **Catastrophe**, qui augmente votre limite de dégâts de 100 % et votre attaque de 50 % tant que vos PV restent inférieurs à 45 000.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi mon Vaseraga n'inflige-t-il pas 2 millions de dégâts par coup ?",
+    answer: "Vous n'avez probablement pas atteint le niveau 65 de Limite de Dégâts ou il vous manque le buff Catastrophe de l'arme Terminus. Assurez-vous d'avoir 4 sceaux Limite de Dégâts V+ et que vos PV totaux sont inférieurs à 45 000 pour déclencher les traits Terminus."
+  },
+  {
+    question: "Équilibre d'Ébène est-il vraiment nécessaire si j'ai Temps de Recharge Rapide ?",
+    answer: "Oui. Temps de Recharge Rapide offre une réduction en pourcentage fixe, mais Équilibre d'Ébène offre une réduction massive de 8 % *par coup chargé*. Combiné aux Dégâts Supplémentaires, c'est le seul moyen de boucler Douleur Immortelle de manière fiable."
+  },
+  {
+    question: "Dois-je utiliser des sceaux de Drainage sur Vaseraga ?",
+    answer: "Le drainage peut être utile pour une récupération mineure, mais comme vous serez souvent à 1 PV avec Douleur Immortelle, ce n'est pas une priorité. Collecteur de Potions est généralement une meilleure utilisation d'un emplacement utilitaire."
+  },
+  {
+    question: "Quel build est le meilleur pour le multijoueur ?",
+    answer: "Le Build Standard est meilleur pour le multijoueur. Vous pouvez utiliser Colère du Néant pour protéger vos coéquipiers tout en restant invincible, ce qui est inestimable lors des raids de haut niveau comme celui de Lucilius."
+  }
+]} />
+
+Pour plus de discussions communautaires et d'idées de configurations alternatives, vous pouvez consulter la [Discussion sur le build de Vaseraga sur Steam](https://steamcommunity.com/app/881020/discussions/0/4208120159996883672/).
+
+</Section>

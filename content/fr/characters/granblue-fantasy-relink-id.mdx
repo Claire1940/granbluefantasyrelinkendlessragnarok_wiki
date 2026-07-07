@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Id : Meilleurs Builds et Guide de Combat",
+  description: "Maîtrisez Id dans Granblue Fantasy: Relink avec notre guide 2026. Découvrez le sceau Cœur de Versales, les combos en Forme Divine et les meilleurs builds d'armes pour un DPS maximum.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Id+Combat+Guide",
+  date: "2026-07-07",
+  author: "L'équipe du Wiki Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink, id build, guide de combat, cœur de versales, forme divine, dps"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Ce guide se concentre sur l'optimisation de **granblue fantasy relink id** via des builds de sceaux optimaux et la gestion des formes.
+- **Mécanique clé** : Maîtrisez la transition entre les formes Humaine, Dragon et Divine (Godmight) pour maintenir une pression constante.
+- **Cœur de Versales** : La méta 2026 s'articule autour du sceau Cœur de Versales, qui empêche les sorties de forme prématurées.
+- **Plafonds de dégâts** : Les dernières mises à jour ont considérablement augmenté les plafonds de dégâts pour les coups de grâce et les compétences en Forme Divine d'Id.
+- **Annulation d'animation** : Utilisez la garde et l'esquive pour retarder les transformations afin d'améliorer votre positionnement tactique.
+</Callout>
+
+<Section icon={Map} title="Présentation du Personnage et Recrutement">
+
+Dans le monde vaste de **granblue fantasy relink id** se distingue comme un personnage DPS unique d'élément Ténèbres. Contrairement à la plupart des personnages, Id dispose d'un style de jeu complexe basé sur la transformation qui modifie l'intégralité de son ensemble de mouvements au fur et à mesure du combat. Il est initialement rencontré comme un antagoniste mystérieux, mais finit par rejoindre l'équipage comme l'un des alliés les plus puissants disponibles en fin de jeu.
+
+**Points forts de la vidéo :**
+- Analyse détaillée du nouveau sceau de voie guerrière **Cœur de Versales**.
+- Comparaison des dégâts entre la forme Dragon et la Forme Divine.
+- Utilisation stratégique de l'annulation d'animation pour maximiser la fenêtre de transformation.
+- Présentation des buffs massifs du plafond de dégâts issus des dernières mises à jour de 2026.
+
+<YouTubeEmbed videoId="ZQk8WKq3v0Q" title="Guide du Meilleur Build d'Id - DÉGÂTS DÉMENTIELS - Présentation des Sceaux et Armes" />
+
+Recruter Id nécessite de progresser dans l'histoire principale. Il n'est pas disponible via les Cartes de coéquipier comme la plupart des autres personnages. Au lieu de cela, il est lié à l'arc narratif du Cœur par-delà le ciel.
+
+| Phase de recrutement | Condition de déblocage | Permanence |
+| :--- | :--- | :--- |
+| **Allié temporaire** | Atteindre le Chapitre 9 : Volontés opposées | Temporaire |
+| **Jouable obligatoire** | Commencer le Chapitre 0 : Le Cœur par-delà le ciel | Obligatoire |
+| **Membre permanent** | Terminer le Chapitre Final : Id | Permanent |
+| **Maîtrise de fin de jeu** | Atteindre les quêtes de difficulté Fier | Entièrement débloqué |
+
+<Callout type="success" title="Conseil de Recrutement">
+Concentrez-vous sur la fin rapide des chapitres de l'histoire principale. Id est essentiel pour le contenu de haut niveau d'élément Ténèbres, et son plein potentiel n'est débloqué qu'une fois le Chapitre 0 atteint.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maîtriser la Mécanique de Transformation">
+
+L'essence même de jouer **granblue fantasy relink id** efficacement réside dans la gestion de la jauge de Versales. Cette jauge dicte le moment où Id peut entrer dans ses états les plus puissants. Dans la méta actuelle de 2026, l'ajout du sceau **Cœur de Versales** a complètement changé la façon dont les joueurs interagissent avec ces formes.
+
+<CardGrid cols={3}>
+  <Card title="Forme Humaine">
+    - **Objectif** : Remplir la jauge de Versales.
+    - **Stratégie** : Utiliser les coups de grâce de combo et les compétences comme Vengeance quadruple.
+    - **Rôle** : Phase de préparation pour un burst élevé.
+  </Card>
+  <Card title="Forme Dragon">
+    - **Objectif** : Accumuler des "segments" pour la Forme Divine.
+    - **Stratégie** : Effectuer des coups de grâce de combo et des Attaques de Lien pour gagner 4 charges.
+    - **Buffs** : Gagne Cœur d'acier et une réduction de dégâts de 20%.
+  </Card>
+  <Card title="Forme Divine (Godmight)">
+    - **Objectif** : Sortie DPS maximale.
+    - **Stratégie** : Spammer les puissants coups de grâce et compétences avec des plafonds de dégâts accrus.
+    - **Statut** : Immunisé contre toutes les altérations d'état et gain d'un boost d'ATQ massif.
+  </Card>
+</CardGrid>
+
+Le sceau Cœur de Versales accorde 10% de dégâts supplémentaires en forme Dragon et Divine. Bien qu'il augmente le taux d'épuisement de la jauge de 200%, il empêche Id de redevenir humain tant que la jauge n'est pas complètement vide. Cela permet d'effectuer plusieurs coups de grâce divins en une seule fenêtre, surtout en combinaison avec l'Heure du Lien (Link Time).
+
+| Caractéristique de Forme | Effet de Base | Avec Cœur de Versales |
+| :--- | :--- | :--- |
+| **Dégâts de Dragon** | Dégâts Ténèbres standard | +10% de dégâts supplémentaires |
+| **Coups de grâce divins** | Une seule utilisation termine la forme | Utilisations multiples autorisées jusqu'à épuisement |
+| **Cœur d'acier** | Uniquement en forme Dragon | Actif dans les deux états transformés |
+| **Gestion de la jauge** | Transitions manuelles | Verrouillage automatique jusqu'à épuisement |
+
+<Callout type="warning" title="Timing de Transformation">
+Si vous n'avez pas 4 segments (charges) au moment où la jauge de forme Dragon s'épuise, vous repasserez en forme Humaine au lieu d'entrer en Forme Divine. Priorisez toujours les Attaques de Lien pour assurer la transition.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures Armes et Équipements de Sceaux">
+
+Choisir le bon équipement est vital pour pousser les dégâts d'Id à leur limite. En 2026, l'accent a été mis sur la maximisation du temps passé en Forme Divine tout en atteignant les nouveaux plafonds de dégâts augmentés. Les armes d'Id offrent un mélange d'utilité offensive et défensive, mais Susanoo reste le choix de prédilection pour le DPS pur.
+
+<Steps>
+  <Step num="1" title="Sélectionnez Votre Arme">
+    Pour le début de fin de jeu, Susanoo offre le meilleur équilibre entre ATQ et Taux de Critique. Une fois les étapes ultimes atteintes, priorisez l'arme Terminus pour le plafond de dégâts le plus élevé.
+  </Step>
+  <Step num="2" title="Équipez les Sceaux de Personnage">
+    Vous devez utiliser **Cœur de Versales** (le sceau de voie guerrière) et **Ignition de Versales**. Ces deux sceaux fournissent le Cœur d'acier, le Drain et le boost de 30% du Plafond de Dégâts nécessaires pour la Forme Divine.
+  </Step>
+  <Step num="3" title="Équilibrez les Plafonds de Dégâts">
+    Assurez-vous d'avoir quatre sceaux Plafond de Dégâts V+. Avec les récents buffs des compétences d'Id, atteindre le plafond est plus facile, mais vous avez besoin des emplacements pour permettre à ces chiffres élevés de s'enregistrer.
+  </Step>
+</Steps>
+
+| Nom de l'Arme | PV Max | ATQ Max | Spécialité / Bonus |
+| :--- | :--- | :--- | :--- |
+| **Susanoo** | 3058 | 4013 | Focus sur le Taux de Coup Critique |
+| **Ragnarok** | 2611 | 2003 | Équilibre Puissance d'Étourdissement et PV |
+| **Eiryl** | 2200 | 1800 | Réduction du Temps de Recharge des Compétences |
+| **Arme Terminus** | 1500 | 5000+ | Catastrophe / Récupération (Élite) |
+
+<Callout type="tip" title="Synergie de Sceaux">
+Associez **Ignition de Versales** à des sceaux **Drain**. Comme Id gagne Cœur d'acier en Forme Divine, il encaissera des coups tout en attaquant ; l'effet Drain garantit qu'il reste en bonne santé sans avoir besoin d'un soigneur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Analyse des Compétences et Stratégie de Combat">
+
+Les compétences d'Id changent de propriétés selon sa forme. Comprendre quelles compétences garder pour la Forme Divine fait la différence entre un joueur moyen et un DPS de haut niveau. Les derniers correctifs ont augmenté les plafonds de dégâts de presque toutes les compétences spécifiques à la Forme Divine.
+
+| Nom de la Compétence | Type | Utilité Clé |
+| :--- | :--- | :--- |
+| **Vengeance quadruple** | Attaque | Générateur de jauge massif / Dégâts élevés en Forme Divine |
+| **Forme Ragnarok** | Utilité | Entre instantanément en forme Dragon / Remplit la jauge |
+| **Arcadia** | Contrôle | Inflige Lenteur dans un large cône |
+| **Expiation** | Défense | Encaisse les dégâts pour les alliés / Contre-attaque |
+| **Jamais assez** | Attaque | Coups rapides avec un plafond de dégâts élevé en Forme Divine |
+
+**Tactiques de Combat Avancées :**
+- **Annulation d'animation** : Vous pouvez maintenir le bouton de Garde ou spammer l'Esquive pour retarder l'animation de transformation automatique. C'est utile si le boss est sur le point de bouger ou d'entrer dans une phase de transition.
+- **Synergie Heure du Lien (Link Time)** : Pendant l'Heure du Lien, la jauge de Versales ne s'épuise pas. Si vous entrez en Heure du Lien en Forme Divine avec le sceau Cœur de Versales, vous pouvez spammer le coup de grâce divin indéfiniment jusqu'à la fin de l'Heure du Lien.
+- **Réinitialisation de compétence** : Utilisez Forme Ragnarok pendant que vous êtes en Forme Divine pour restaurer complètement la jauge, doublant ainsi votre temps dans l'état le plus puissant.
+
+<Callout type="info" title="Priorité des Compétences">
+Gardez toujours **Forme Ragnarok** pour le moment où votre jauge de Forme Divine est presque vide. Cela vous permet de rester en Forme Divine beaucoup plus longtemps, maximisant ainsi votre fenêtre de DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Progression de Fin de Jeu">
+
+Pour vraiment maîtriser **granblue fantasy relink id**, vous devez franchir des étapes spécifiques qui débloquent son potentiel caché. Utilisez cette liste pour suivre votre progression dans le contenu de fin de jeu 2026.
+
+<Checklist
+  id="id-mastery-goals"
+  title="Objectifs de Maîtrise d'Id :"
+  items={[
+    "Terminer le Chapitre 0 pour débloquer Id de façon permanente",
+    "Obtenir le sceau Cœur de Versales dans les derniers raids",
+    "Améliorer Susanoo ou l'arme Terminus au niveau 150",
+    "Débloquer tous les nœuds liés à la Forme Divine dans l'arbre de maîtrise",
+    "Atteindre un score de test de dégâts de plus de 30 millions en 60 secondes",
+    "Maîtriser le spam du coup de grâce divin pendant l'Heure du Lien"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment débloquer Id en tant que personnage permanent ?",
+    answer: "Id est débloqué définitivement après avoir terminé le 'Chapitre Final : Id' dans l'histoire principale. Cela se produit après le générique de fin, au début du Chapitre 0 : Le Cœur par-delà le ciel."
+  },
+  {
+    question: "Quel est le meilleur sceau pour Id dans la mise à jour 2026 ?",
+    answer: "Le Cœur de Versales est obligatoire. Il change son gameplay en permettant plusieurs coups de grâce en Forme Divine et empêche la forme de se terminer prématurément, ce qui était un inconvénient majeur dans les versions précédentes."
+  },
+  {
+    question: "Id peut-il être joué comme un tank ?",
+    answer: "Bien qu'il possède la compétence Expiation pour absorber les dégâts à la place des alliés, Id est principalement un DPS. Son Cœur d'acier et sa réduction de dégâts en forme Dragon/Divine le rendent résistant, mais son rôle principal est d'infliger des dégâts de Ténèbres."
+  },
+  {
+    question: "Pourquoi mon Id ne se transforme-t-il pas en Forme Divine ?",
+    answer: "Vous devez collecter 4 'segments' (charges) pendant que vous êtes en forme Dragon. Ceux-ci sont obtenus en effectuant des coups de grâce de combo ou des Attaques de Lien. Si la jauge s'épuise avant d'avoir obtenu les 4 charges, vous repassez en forme Humaine."
+  }
+]} />
+
+<Callout type="success" title="Verdict Final">
+Avec les buffs de 2026, Id est passé de spécialiste de milieu de gamme à un monstre DPS de haut niveau. Sa capacité à maintenir la Forme Divine grâce au sceau Cœur de Versales en fait l'un des personnages les plus constants et les plus amusants à jouer dans Granblue Fantasy: Relink.
+</Callout>
+
+</Section>

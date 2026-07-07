@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink: Gran Character Setup & Playstyle Guide",
+  description: "Master the Captain in Granblue Fantasy Relink with this detailed 2026 guide on optimal skills, sigil setups, and high-damage combat loops.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Gran+Character+Guide",
+  date: "2026-07-07",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Granblue Fantasy Relink** Captain excels as a versatile, skill-spamming damage dealer.
+- **Adept Arts** is the core mechanic, requiring combo finishers to maximize skill effectiveness.
+- **Fearless Drive** is a mandatory sigil to reduce cooldowns and maintain high DPS uptime.
+- **Skill Rotations** should prioritize using damage-heavy abilities at Arts Level 4 for optimal performance.
+- **Strategic Utility** like Phalanx ensures party survival while maintaining consistent pressure on bosses.
+</Callout>
+
+<Section icon={Swords} title="Mastering the Captain Playstyle">
+
+The Captain in **Granblue Fantasy Relink** is a unique "Jack-of-all-trades" character. While they appear straightforward, their true power lies in the **Adept Arts** system. By landing combo finishers and charged power raises, you build your Arts level, which directly enhances the damage and utility of your 16 available skills.
+
+**Video Highlights:**
+- Understanding the **Adept Arts** level system for skill enhancement.
+- How to perform the optimal **Decimate** and **Overdrive Surge** combo.
+- Insights into why the Captain is considered a "cursed" but highly effective character.
+
+<YouTubeEmbed videoId="m4tSRVrgSEQ" title="Granblue Fantasy Relink - Gran/Djeeta Character Guide" />
+
+The key to high DPS is managing the reset timer of your Arts level. Once you reach level 4, you must unleash your skills before the buff expires. Because the Captain relies heavily on skill damage, running a build with at least three offensive abilities is recommended for competitive play.
+
+</Section>
+
+<Section icon={Sparkles} title="Recommended Sigil Loadout">
+
+Your sigil selection dictates how often you can cycle your skills. The **Terminus Weapon** remains the gold standard for its massive attack and damage cap bonuses.
+
+| Sigil Name | Effect | Priority |
+| :--- | :--- | :--- |
+| **Fearless Drive** | Reduces skill cooldowns on Arts gain | Essential |
+| **Combo Booster** | Increases attack power with hits | High |
+| **Quick Cooldown** | Faster skill recovery | High |
+| **Damage Cap** | Increases damage ceiling | Mandatory |
+| **Potion Hoarder** | Extra healing and revives | Utility |
+
+<Callout type="tip" title="Pro Tip">
+Always aim for 100% Critical Hit Rate through your Overmasteries and Sigils to ensure consistent performance, especially when tackling endgame raids.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Core Skill Rotations">
+
+Efficiency in **Granblue Fantasy Relink** comes from executing your rotations in the correct order. Use the following steps to maximize your output.
+
+<Steps>
+  <Step num="1" title="Build Arts Level">
+    Perform a full 4-hit normal attack combo followed by a finisher. Use a charged Power Raise to reach Arts Level 4 quickly.
+  </Step>
+  <Step num="2" title="Unleash Skills">
+    Activate your high-damage skills (e.g., Decimate, Reginleiv) immediately while at Level 4 to benefit from enhanced hits.
+  </Step>
+  <Step num="3" title="Cooldown Cycling">
+    Use Fearless Drive and Cascade to reset your cooldowns while rebuilding your Arts level for the next cycle.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gameplay Caution">
+Avoid relying solely on support skills. Because the Captain’s DPS is tied to skill damage, replacing all offensive skills with utility will result in significantly lower performance.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Support and Utility Options">
+
+While damage is priority, the Captain offers excellent utility for the party. Below is a comparison of common support skills and their situational effectiveness.
+
+| Skill | Primary Effect | Best Usage |
+| :--- | :--- | :--- |
+| **Phalanx** | 70% Damage Cut | Essential for raid survival |
+| **Armor Break** | Inflicts DEF Down | Boss damage windows |
+| **Veil** | Debuff Immunity | High-debuff encounters |
+| **Dispel** | Removes enemy buffs | Specific boss mechanics |
+
+<CardGrid cols={3}>
+  <Card title="Offensive Setup">
+    - **Decimate**
+    - **Reginleiv**
+    - **Overdrive Surge**
+    - **Armor Break**
+  </Card>
+  <Card title="Balanced Setup">
+    - **Decimate**
+    - **Overdrive Surge**
+    - **Phalanx**
+    - **Rain of Arrows**
+  </Card>
+  <Card title="Supportive Setup">
+    - **Phalanx**
+    - **Veil**
+    - **Dispel**
+    - **Decimate**
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Captain a good character for beginners in Granblue Fantasy Relink?",
+    answer: "Yes, the Captain is highly versatile and allows players to learn the game's mechanics, though mastering the Adept Arts system takes some practice."
+  },
+  {
+    question: "Why is Fearless Drive considered a mandatory sigil?",
+    answer: "It significantly reduces skill cooldowns whenever you gain an Arts level, which is the primary engine for the Captain's sustained DPS."
+  },
+  {
+    question: "Can I use the Captain as a dedicated support?",
+    answer: "While possible, the Captain's kit is most effective when balancing damage and support. Pure support builds often struggle to contribute enough damage in endgame content."
+  }
+]} />
+
+<Checklist
+  id="captain-goals"
+  title="Final Progression Checklist:"
+  items={[
+    "Obtain Terminus Weapon",
+    "Max out Skill Damage Cap sigils",
+    "Achieve 100% Critical Hit Rate",
+    "Master the Decimate-to-Dodge-to-Overdrive rotation"
+  ]}
+/>
+
+</Section>

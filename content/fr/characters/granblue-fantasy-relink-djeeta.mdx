@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Djeeta : Guide des meilleures compétences et builds",
+  description: "Maîtrisez Djeeta dans Granblue Fantasy Relink grâce à notre guide 2026 sur les meilleures compétences, la mécanique des Arts de combat et les builds de haut niveau pour le contenu de fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Djeeta+Build+Guide",
+  date: "2026-07-07",
+  author: "Équipe du Wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Granblue Fantasy Relink Djeeta** est une protagoniste polyvalente capable de remplir les rôles de DPS, Tank ou Support.
+- **Arts de combat** (Adept Arts) est sa mécanique principale ; réussir des enchaînements finaux augmente votre niveau d'Arts pour améliorer toutes les compétences.
+- **La polyvalence de ses compétences** permet à Djeeta de s'adapter à n'importe quelle composition d'équipe, ce qui en fait un choix incontournable pour les raids de haut niveau.
+- **Les builds de haut niveau** se concentrent sur la maximisation du Plafond de dégâts (Damage Cap) et l'utilisation des compétences de niveau de classe IV pour une efficacité maximale.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre la mécanique des Arts de combat de Djeeta">
+
+Dans la méta 2026 de **granblue fantasy relink djeeta**, elle reste l'un des personnages les plus flexibles grâce à son système unique d'« Arts de combat ». Contrairement aux unités spécialisées, l'efficacité de Djeeta est directement liée à son niveau de classe. En réussissant des combos finaux, les joueurs augmentent leur niveau d'Arts, ce qui renforce considérablement la puissance, la durée ou le nombre de coups de ses compétences équipées.
+
+Le rythme de jeu de Djeeta repose sur un cycle constant d'attaques de base suivies de coups finaux pour maintenir un niveau d'Arts élevé avant de déchaîner de puissantes compétences. Cela rend son gameplay à la fois gratifiant et stratégiquement profond, car vous devez décider s'il faut utiliser une compétence tôt pour une utilité immédiate ou attendre un niveau d'Arts plus élevé pour un impact maximal.
+
+| Type de statistique | Valeur de base (Nv 100) | Description |
+| :--- | :--- | :--- |
+| **PV max de base** | 3430 | Survivabilité standard pour un combattant de première ligne. |
+| **ATK de base** | 677 | Puissance offensive équilibrée avant les modificateurs d'armes. |
+| **Taux de critiques** | 5% | Chance de coup critique par défaut. |
+| **Puissance d'étourdissement** | 80 | Efficace pour briser les jauges ennemies. |
+
+<Callout type="tip" title="Conseil de pro : La Ruée d'adrénaline">
+La compétence de soutien **Ruée d'adrénaline** (Adrenaline Rush) de Djeeta augmente considérablement la vitesse de charge de « Power Raise » lorsqu'elle est déclenchée immédiatement après un enchaînement final. Cherchez toujours cette opportunité pour maximiser vos dégâts par seconde lors des phases d'attaque intenses.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Les meilleures compétences pour chaque rôle">
+
+Djeeta possède l'un des ensembles de compétences les plus vastes du jeu. Que vous ayez besoin d'un soigneur dédié ou d'un attaquant lourd, son équipement peut être personnalisé pour s'adapter à la situation. Voici une répartition de ses compétences les plus marquantes, classées par fonction principale dans une équipe.
+
+<CardGrid cols={3}>
+  <Card title="Puissance offensive">
+    - **Décimation** (Decimate) : Multi-coups à grand nombre de frappes.
+    - **Reginleiv** : Projectile à distance fiable.
+    - **Brise-armure** (Armor Break) : Affaiblissement de DEF indispensable.
+  </Card>
+  <Card title="Soutien et utilité">
+    - **Panacée** (Panacea) : Zone de soin à large portée.
+    - **Rage** : Bonus d'ATK pour toute l'équipe.
+    - **Brume misérable** (Miserable Mist) : Double affaiblissement ATK/DEF.
+  </Card>
+  <Card title="Défense et survie">
+    - **Phalange** (Phalanx) : Réduction importante des dégâts subis par l'équipe.
+    - **Voile** (Veil) : Confère une immunité aux altérations d'état à tous.
+    - **Substitution** (Substitute) : Subit les dégâts à la place des alliés.
+  </Card>
+</CardGrid>
+
+| Nom de la compétence | Type d'effet | Amélioration des Arts de combat |
+| :--- | :--- | :--- |
+| **Brise-armure** | Affaiblissement (DEF↓) | Augmente l'efficacité et la durée de l'effet. |
+| **Décimation** | Dégâts | Augmente le nombre total de coups. |
+| **Brume misérable** | Affaiblissement (ATK/DEF↓) | Augmente la puissance des deux affaiblissements. |
+| **Phalange** | Défensif | Augmente le pourcentage de réduction de dégâts. |
+| **Pluie de flèches** | Affaiblissement de zone | Augmente la durée de l'ATK↓ et les dégâts. |
+
+<Callout type="warning" title="Gestion des compétences">
+N'oubliez pas que l'utilisation d'une compétence réinitialise votre niveau d'Arts de combat. Essayez toujours d'atteindre le niveau d'Arts IV avant d'utiliser votre compétence la plus importante (comme Phalange ou Décimation) pour garantir une efficacité maximale.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration optimale des sceaux et progression des armes">
+
+Pour pousser **granblue fantasy relink djeeta** à ses limites en fin de jeu, vous devez vous concentrer sur des sceaux (Sigils) qui complètent sa nature polyvalente. Bien que les dégâts soient importants, Djeeta bénéficie énormément des sceaux qui améliorent ses temps de recharge et la génération de sa jauge d'Arts célestes (SBA).
+
+À mesure que vous progressez vers le contenu le plus difficile de 2026, votre choix d'arme dictera votre style de jeu. Les armes d'« Ascension » offrent un bonus équilibré en PV et en ATK, tandis que les armes « Terminus » sont la référence absolue pour maximiser les dégâts bruts.
+
+| Priorité des sceaux | Trait recommandé | Avantage |
+| :--- | :--- | :--- |
+| **Primaire** | Plafond de dégâts | Indispensable pour dépasser la limite stricte des dégâts. |
+| **Secondaire** | Élémentaire avantageux | Garantit que toutes les attaques infligent des dégâts élémentaires supérieurs. |
+| **Utilité** | Cascade | Réduit les temps de recharge des compétences lors des frappes. |
+| **Soutien** | Sublimation (Uplift) | Augmente le gain de la jauge de SBA pour des salves en chaîne plus rapides. |
+
+<Callout type="info" title="Focus sur l'arme">
+L'**arme Terminus** de Djeeta confère un bonus massif de +50% d'ATK et +100% de Plafond de dégâts lorsque les PV sont inférieurs à 45 000. C'est l'objectif ultime pour tout joueur sérieux de Djeeta souhaitant dominer les classements.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Stratégies de combat avancées">
+
+Maîtriser Djeeta demande plus que de simplement appuyer sur des touches. Vous devez comprendre le flux du combat et savoir comment exploiter ses compétences de soutien. La compétence **Conduction** est un excellent exemple de jeu de haut niveau, vous permettant de redistribuer votre jauge de SBA à vos alliés pour déclencher des salves complètes plus fréquemment.
+
+Face à des boss infligeant de lourds affaiblissements, équiper **Voile** (Veil) ou **Clarté** (Clarity) peut faire la différence entre une défaite et une victoire. Djeeta est le seul personnage capable de passer d'un rôle de pur DPS à celui de « purificatrice » à plein temps en cours de quête si l'équipe est en difficulté.
+
+| Axe stratégique | Compétences recommandées | Synergie d'équipe |
+| :--- | :--- | :--- |
+| **Soutien total** | Panacée, Réanimation, Clarté, Phalange | Idéal pour apprendre les nouveaux raids difficiles. |
+| **DPS équilibré** | Brise-armure, Rage, Décimation, Reginleiv | Idéal pour le farming général et les speedruns. |
+| **Tank/Leurre** | Substitution, Phalange, Retardement, Brise-armure | Utilisé pour protéger les alliés fragiles comme Narmaya. |
+
+<Callout type="success" title="Optimisation de la salve en chaîne">
+Utilisez **Conduction** lorsque vous avez 100% de SBA mais que vos coéquipiers sont à la traîne. En partageant votre jauge, vous pouvez forcer une salve en chaîne de 4, prolongeant la durée d'étourdissement du boss et maximisant la fenêtre de dégâts de l'équipe.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Feuille de route de progression de Djeeta">
+
+Débloquer le plein potentiel de Djeeta demande du temps et des ressources. Suivez ces étapes pour vous assurer de la développer correctement, du début du jeu jusqu'au contenu de fin de jeu de 2026.
+
+<Steps>
+  <Step num="1" title="Maîtriser le coup final du combo">
+    Entraînez-vous sur les enchaînements d'attaques de base pour réussir systématiquement vos coups finaux. C'est le seul moyen d'augmenter efficacement le niveau des Arts de combat.
+  </Step>
+  <Step num="2" title="Débloquer le niveau de classe IV">
+    Progressez dans l'arbre des maîtrises pour débloquer le dernier palier des Arts de combat. Cela augmente considérablement le plafond de chaque compétence de votre arsenal.
+  </Step>
+  <Step num="3" title="Équilibrer vos maîtrises">
+    Ne vous concentrez pas uniquement sur l'offensive. Les maîtrises défensives et de collection de Djeeta offrent des PV et des résistances cruciaux nécessaires pour les quêtes de difficulté Fierté (Proud).
+  </Step>
+  <Step num="4" title="Optimiser les emplacements de sceaux">
+    Une fois en fin de jeu, farmez des sceaux « V+ » offrant deux traits. Recherchez le Plafond de dégâts combiné à des traits de survivabilité comme Égide ou Courage.
+  </Step>
+</Steps>
+
+<Checklist
+  id="djeeta-goals"
+  title="Liste de contrôle de maîtrise de Djeeta :"
+  items={[
+    "Atteindre le niveau 100 et compléter l'arbre des maîtrises",
+    "Obtenir et éveiller complètement l'arme Terminus",
+    "Équiper 4x sceaux Plafond de dégâts V+",
+    "Débloquer le titre « Adepte » via les défis spécifiques au personnage",
+    "Terminer avec succès un raid Lucilius en tant que soutien principal"
+  ]}
+/>
+
+<Callout type="info" title="Ressources externes">
+Pour des données détaillées sur les animations et des stratégies spécifiques aux boss, consultez le [Wiki officiel de Granblue Fantasy Relink](https://relink.gbf.wiki/Djeeta) (mis à jour en mars 2025/2026).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Djeeta est-elle meilleure que Gran dans Granblue Fantasy Relink ?",
+    answer: "Mécaniquement, Djeeta et Gran sont identiques. Le choix entre les deux est purement cosmétique, car ils partagent les mêmes compétences, statistiques et mécaniques d'Arts de combat."
+  },
+  {
+    question: "Quel est le meilleur moyen d'augmenter rapidement le niveau des Arts de combat ?",
+    answer: "Le moyen le plus rapide est d'utiliser à plusieurs reprises l'enchaînement le plus court (Attaque légère > Attaque lourde). Cela vous permet d'atteindre le niveau d'Arts IV le plus rapidement possible."
+  },
+  {
+    question: "Faut-il toujours attendre le niveau d'Arts IV avant d'utiliser une compétence ?",
+    answer: "Pas toujours. Si un allié a besoin d'un soin immédiat via Panacée ou si un boss doit être ralenti par Retardement, utilisez la compétence immédiatement. L'utilité surpasse souvent le simple boost de statistiques d'un niveau d'Arts plus élevé."
+  },
+  {
+    question: "Quelle arme dois-je utiliser pour Djeeta en début de jeu ?",
+    answer: "Concentrez-vous d'abord sur la série d'armes de Défenseur pour augmenter vos PV, puis passez à la série Aiguillon pour augmenter le taux de critiques lorsque vous accédez à la difficulté Maniaque."
+  }
+]} />
+
+</Section>

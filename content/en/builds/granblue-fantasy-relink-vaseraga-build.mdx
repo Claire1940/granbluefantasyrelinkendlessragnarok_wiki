@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Vaseraga Build: 2026 Best End-Game Setup Guide",
+  description: "Master the best Granblue Fantasy Relink Vaseraga build. Learn optimal sigils, weapons, and combo cancels to achieve 2 million damage per hit.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Vaseraga+Build+Guide",
+  date: "2026-07-07",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Granblue fantasy relink Vaseraga build** focuses on maximizing **Charged Attack damage** while maintaining the **Immortal Pain** undying buff.
+- **Immortal Pain** is the core mechanic, allowing Vaseraga to survive at 1 HP while ignoring all debuffs and crowd control.
+- **Ebony Poise** is a mandatory signature sigil that reduces skill cooldowns by up to 8% per fully charged attack.
+- **Combo Canceling** via dodging is essential for skipping slow startup animations and reaching powerful finishers quickly.
+- **Damage Cap** sigils are required to hit the 2 million damage ceiling on Vaseraga's heavy strikes.
+</Callout>
+
+<Section icon={Swords} title="Core Mechanics and Skill Priorities">
+
+Vaseraga functions as a high-risk, high-reward tank-bruiser in **Granblue Fantasy Relink**. His primary gameplay loop revolves around using skills to bridge into powerful charged heavy attacks. These attacks fill his gauge, granting **Stout Heart**, defense buffs, and attack boosts. By utilizing his unique buffs, he can stand directly in front of bosses, ignoring mechanics that would stagger or kill other characters.
+
+**Video Highlights:**
+- Detailed breakdown of the **Immortal Pain** loop for permanent invincibility.
+- Demonstration of the **Dodge Cancel** technique to speed up charged attacks.
+- Sigil recommendations for hitting the **2 million damage** per hit threshold.
+- Comparison between the standard skill build and the "Less is More" utility setup.
+
+<YouTubeEmbed videoId="aj-OQDge79E" title="VASERAGA PERFECTED Best Build Guide - Optimal Sigils Weapons & Combos | Granblue Fantasy Relink" />
+
+The skill selection for a top-tier **granblue fantasy relink Vaseraga build** is relatively fixed due to the necessity of gap closing and survivability.
+
+| Skill Name | Role | Primary Benefit |
+| :--- | :--- | :--- |
+| Immortal Pain | Survivability | Grants Undying (cannot fall below 1 HP) and Debuff Immunity |
+| Battalions of Fear | Gap Closer | Instant distance closer that cancels into a final charged hit |
+| Great Scythe Grynoth | Shield Breaker | Ignores shields and provides high stun value for openings |
+| Umbral Eclipse | Crowd Control | Applies Slow to enemies, extending DPS windows for the whole team |
+| Nether Wrath | Team Support | Redirects damage from allies to Vaseraga (Multiplayer focus) |
+
+<Callout type="tip" title="Skill Synergy Tip">
+Always use **Immortal Pain** at the start of a boss encounter. With the right sigil setup, you can replenish the cooldown of this skill before the 20-second buff expires, effectively making Vaseraga unkillable for the entire fight.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Perfected Sigil Loadout">
+
+To reach the end-game potential of a **granblue fantasy relink Vaseraga build**, you must balance raw damage with utility that feeds back into your cooldowns. Because Vaseraga hits the damage cap easily, your focus should shift toward **Supplementary Damage** and **Quick Cooldown**.
+
+<CardGrid cols={3}>
+  <Card title="Offensive Essentials">
+    - **Damage Cap V+**: Use 4 slots to reach Level 65.
+    - **War Elemental**: Converts all damage to superior elements (+20% damage).
+    - **Tyranny**: Massive attack boost at the cost of max HP (irrelevant due to Immortal Pain).
+  </Card>
+  <Card title="Utility & Cooldown">
+    - **Ebony Poise**: Reduces cooldowns by 8% on charged hits.
+    - **Quick Cooldown**: Further reduces skill downtime.
+    - **Cascade**: Reduces cooldowns based on hit frequency.
+  </Card>
+  <Card title="Insurance Sigils">
+    - **Guts**: Survival at 1 HP if buffs drop.
+    - **Potion Hoarder**: Provides more blue potions for link gauge and healing.
+    - **Garrison**: Increases defense as HP drops (synergizes with 1 HP playstyle).
+  </Card>
+</CardGrid>
+
+| Sigil Type | Recommended Level | Reasoning |
+| :--- | :--- | :--- |
+| Damage Cap | Level 65 | Vaseraga hits the ceiling easily; this is the only way to scale higher |
+| Supplementary Damage | Level 45+ | Adds extra hits that trigger **Ebony Poise** cooldown reduction |
+| Critical Hit Rate | Level 15 | Increases consistency of hitting damage caps on every strike |
+| Link Together | Level 15 | Faster link gauge generation for Link Time and SBA |
+| Steel Nerves | Level 15 | Provides damage reduction while **Stout Heart** is active (constant for Vaseraga) |
+
+<Callout type="info" title="Ebony Poise Mechanic">
+The **Ebony Poise** sigil is the engine of the build. Because it triggers per hit, **Supplementary Damage** sigils effectively double the cooldown reduction you receive from every charged attack, allowing for 100% uptime on **Immortal Pain**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Advanced Combo Techniques and Dodge Canceling">
+
+Maximizing DPS in a **granblue fantasy relink Vaseraga build** requires mastering the "Dodge Cancel." Vaseraga's standard animations are slow, but you can skip the recovery frames of his light attacks to reach his high-damage finishers faster.
+
+<Steps>
+  <Step num="1" title="The Basic Gap Closer">
+    If **Battalions of Fear** is on cooldown, perform a light attack followed immediately by a heavy attack. This creates a lunging gap closer that leads directly into a combo finisher.
+  </Step>
+  <Step num="2" title="The Light-Light-Heavy-Heavy (LLHH) Combo">
+    The LLHH combo deals significantly more damage than the longer LLLHH chain. Focus on this for stationary targets.
+  </Step>
+  <Step num="3" title="The Dodge Cancel Trick">
+    Perform the first light attack, then immediately dodge to cancel the animation. Perform the second light attack and dodge again. You can then immediately transition into the massive charged heavy finisher.
+  </Step>
+  <Step num="4" title="Infinite Charging">
+    After a combo finisher, dodge immediately. You can then begin charging the next heavy attack instantly, bypassing the neutral state.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Timing Warning">
+Canceling too early will prevent the hit from registering. Practice the rhythm in the training area until the dodge occurs exactly as the scythe makes contact with the enemy.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Alternative Builds: The Less is More Setup">
+
+There is a niche but powerful playstyle for Vaseraga that ignores skills entirely. By using the **Less is More** sigil, you trade skill usage for a massive 120% attack boost. This is ideal for players who prefer a pure basic attack playstyle and want to reach the 45-50 million damage range in 60-second parses.
+
+| Feature | Standard Build | Less is More Build |
+| :--- | :--- | :--- |
+| Playstyle | Skill-based / Invincible | Basic Attack / Dodge-focused |
+| Damage Ceiling | High | Extremely High |
+| Survivability | Guaranteed (Immortal Pain) | Skill-dependent (Perfect Dodges) |
+| Mandatory Sigil | Ebony Poise | Less is More |
+| Difficulty | Moderate | High |
+
+<Callout type="success" title="Build Recommendation">
+For most players, the **Standard Build** is superior because **Immortal Pain** removes the risk of dying. The **Less is More** build is recommended only for speedrunners or players who have mastered every boss pattern and do not need the undying buff.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Overmastery and Weapon Selection">
+
+The final step in optimizing your **granblue fantasy relink Vaseraga build** is securing the **Terminus Weapon** and rolling the perfect Overmastery stats.
+
+<Checklist
+  id="vaseraga-goals"
+  title="End-Game Checklist:"
+  items={[
+    "Obtain the Terminus Weapon: Essence of the Forlorn",
+    "Reach Level 100 and Awakening Level 10 for the weapon",
+    "Roll 'Normal Attack Damage Cap Up 20%' on Overmastery",
+    "Roll 'Critical Hit Rate Up 20%' on Overmastery",
+    "Equip the War Elemental sigil from Curios",
+    "Achieve 100% uptime on Immortal Pain in combat"
+  ]}
+/>
+
+**Overmastery Priority Table:**
+
+| Priority | Stat | Ideal Value |
+| :--- | :--- | :--- |
+| 1 | Normal Attack Damage Cap | 20% |
+| 2 | Critical Hit Rate | 20% |
+| 3 | Skill Damage Cap | 20% |
+| 4 | Attack Power | +1000 |
+
+<Callout type="info" title="Weapon Choice">
+While the **Ascension Weapon** is a good placeholder, the **Terminus Weapon** is mandatory for the end-game. It provides the **Catastrophe** trait, which increases your damage cap by 100% and attack by 50% as long as your HP remains below 45,000.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is my Vaseraga not doing 2 million damage per hit?",
+    answer: "You likely haven't reached the Damage Cap Level 65 or you are missing the Terminus weapon's Catastrophe buff. Ensure you have 4 Damage Cap V+ sigils and your total HP is under 45,000 to trigger the Terminus traits."
+  },
+  {
+    question: "Is Ebony Poise really necessary if I have Quick Cooldown?",
+    answer: "Yes. Quick Cooldown provides a flat percentage reduction, but Ebony Poise provides a massive 8% reduction *per charged hit*. When combined with Supplementary Damage, it is the only way to reliably loop Immortal Pain."
+  },
+  {
+    question: "Should I use Drain sigils on Vaseraga?",
+    answer: "Drain can be useful for minor recovery, but since you will often be at 1 HP with Immortal Pain, it is not a priority. Potion Hoarder is generally a better use of a utility slot."
+  },
+  {
+    question: "Which build is better for multiplayer?",
+    answer: "The Standard Build is better for multiplayer. You can use Nether Wrath to protect your teammates while you remain invincible, which is invaluable during high-level raids like Lucilius."
+  }
+]} />
+
+For further community discussions and alternative setup ideas, you can refer to the [Vaseraga Build Discussion on Steam](https://steamcommunity.com/app/881020/discussions/0/4208120159996883672/).
+
+</Section>

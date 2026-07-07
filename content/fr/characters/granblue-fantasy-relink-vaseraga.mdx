@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vaseraga dans Granblue Fantasy Relink : Guide du meilleur build et de configuration",
+  description: "Maîtrisez Vaseraga dans Granblue Fantasy Relink avec notre build d'immortalité perfectionné, les annulations de combo avancées, les meilleurs sceaux et des guides de DPS élevé.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Vaseraga+Build+Guide",
+  date: "2026-07-07",
+  author: "L'équipe Wiki de Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink, vaseraga, build, guide, immortalité, combos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Style de jeu principal** : Exploitez la boucle d'immortalité de **Vaseraga** pour maintenir des bonus d'invincibilité permanents.
+- **Sceau clé** : Équipez **Équilibre d'ébène (Ebony Poise)** pour réduire considérablement les temps de recharge à chaque coup d'attaque lourde chargée.
+- **Technique avancée** : Utilisez les **annulations par esquive** sur les compétences et les attaques légères pour sauter les phases d'animation lentes.
+- **Configuration alternative** : Utilisez le build **Moins c'est plus (Less is More)** pour des dégâts bruts massifs au prix de l'utilisation des compétences.
+</Callout>
+
+<Section icon={Swords} title="Mécaniques de combat pour Vaseraga dans Granblue Fantasy Relink">
+
+Vaseraga est un redoutable guerrier Draph de l'élément Ténèbres dans Granblue Fantasy: Relink qui manie l'imposante Grande Faux Grynoth. Il se caractérise par des balayages lents et lourds qui possèdent un immense pouvoir destructeur. Bien que sa lenteur de mouvement et sa gestion de santé à haut risque présentent une courbe d'apprentissage abrupte, sa capacité à échanger des coups et à infliger des millions de dégâts en une seule frappe en fait l'un des personnages les plus puissants de la méta de fin de jeu.
+
+Son gameplay principal repose sur le remplissage de la jauge Grynoth en réussissant des attaques chargées. Une fois la jauge remplie, Vaseraga accède à Cœur de Lion (Stout Heart), un bonus d'Attaque et un bonus de Défense. Cela lui permet d'ignorer les attaques ennemies et de continuer à charger ses dévastateurs coups de grâce lourds sans interruption.
+
+**Points forts de la vidéo :**
+- Apprenez à maintenir le bonus **Douleur Immortelle (Immortal Pain)** indéfiniment pour une invincibilité virtuelle.
+- Maîtrisez le **combo d'annulation par esquive** pour ignorer les animations de préparation lentes et atteindre les coups de grâce lourds plus rapidement.
+- Découvrez la configuration utilitaire **Moins c'est plus** qui permet de dépasser les 2 millions de dégâts sur un seul coup.
+
+<YouTubeEmbed videoId="aj-OQDge79E" title="VASERAGA PERFECTED Best Build Guide - Optimal Sigils Weapons & Combos | Granblue Fantasy Relink" />
+
+Pour maximiser son potentiel, les joueurs doivent comprendre comment équilibrer ses animations lentes avec une défense active. Comme Vaseraga opère fréquemment avec peu de points de vie, l'utilisation de ses mécaniques uniques pour maintenir ses bonus est essentielle pour survivre aux raids de haut niveau.
+
+<Callout type="warning" title="Attention à la gestion des PV">
+Vaseraga échange souvent sa santé contre de la puissance. Se retrouver sans bonus défensifs actifs comme Cœur de Lion ou Immortalité alors que vos PV sont bas mènera à une défaite rapide dans les raids de fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Le build perfectionné de la boucle d'immortalité">
+
+La configuration de fin de jeu la plus populaire et la plus efficace pour Vaseraga est le build de la Boucle d'Immortalité. Ce style de jeu est centré sur la compétence **Douleur Immortelle (Immortal Pain)**, qui confère une immunité aux malus et le bonus Immortalité, empêchant la santé de Vaseraga de tomber en dessous de 1 PV.
+
+Le défi principal de Douleur Immortelle est son long temps de recharge et le fait qu'elle laisse Vaseraga à 1 PV à la fin de l'effet. Pour surmonter cela, le build utilise son sceau signature, **Équilibre d'ébène (Ebony Poise)**. Ce sceau réduit les temps de recharge des compétences jusqu'à 8 % à chaque fois qu'une attaque entièrement chargée touche sa cible. Associé aux sceaux de Dégâts Supplémentaires, chaque coup compte double, doublant ainsi l'efficacité de la réduction du temps de recharge et vous permettant de réactiver Douleur Immortelle avant que le bonus précédent n'expire.
+
+| Nom du sceau | Niveau recommandé | Avantage clé |
+|---|---|---|
+| Équilibre d'ébène (Ebony Poise) | Niveau 15 (Max) | Réduit les recharges de compétences jusqu'à 8 % par coup chargé |
+| Limite de dégâts (Damage Cap) | Niveau 65 (Max) | Augmente la limite de dégâts de toutes les attaques pour maximiser le potentiel |
+| Dégâts supplémentaires | Niveau 45 | Déclenche des coups bonus pour doubler la réduction de recharge d'Ebony Poise |
+| Agilité (Quick Cooldown) | Niveau 15-45 | Fournit une réduction passive pour combler les lacunes de rotation |
+| Garnison (Garrison) | Niveau 15 | Augmente la défense selon les PV manquants, assurant la survie |
+| Cran / Collectionneur de potions | Niveau 15 | Sert d'assurance quand les bonus tombent ou offre des soins rapides |
+
+Pour atteindre les statistiques les plus élevées, l'Arme Terminus est le meilleur choix possible. Elle offre un bonus massif à la puissance d'attaque et augmente la limite de dégâts via le trait Catastrophe, à condition que vos PV maximum restent sous le seuil requis.
+
+| Nom de l'arme | Type | Traits clés | Évaluation de performance |
+|---|---|---|---|
+| Faux de wurtzite | Ascension | Puissance d'attaque, bonus PV | Bonne pour la progression |
+| Grande faux Grynoth | Défenseur | PV élevés, puissance d'étourdissement | Utilité décente |
+| Arme Terminus | Ultime | Catastrophe, Booster de sceau | Excellente (Meilleure option) |
+
+<Callout type="success" title="Conseil de synergie">
+Les Dégâts Supplémentaires sont cruciaux pour ce build. Les instances de dégâts additionnelles déclenchent la réduction de recharge d'Équilibre d'ébène, vous permettant de réinitialiser Douleur Immortelle en seulement quatre attaques lourdes complètes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Techniques avancées d'annulation de combo">
+
+Parce que les animations standard de Vaseraga sont lentes, maîtriser les annulations d'animation est essentiel pour maximiser vos dégâts par seconde (DPS). Il existe deux méthodes d'annulation principales que les joueurs utilisent pour contourner les animations lentes et atteindre les coups de grâce lourds presque instantanément.
+
+La première est l'**Annulation de compétence par esquive**. En activant une compétence comme Grande Faux de Groth et en esquivant immédiatement, vous annulez l'animation de la compétence mais conservez la possibilité de passer directement à un coup de grâce lourd chargé. Crucialement, comme la compétence a été annulée avant sa fin, elle n'entre pas en temps de recharge, vous permettant de répéter cette boucle indéfiniment.
+
+La seconde méthode est l'**Annulation d'attaque légère par esquive**, qui est très efficace pour les builds n'utilisant pas de compétences.
+
+<Steps>
+  <Step num="1" title="Initier l'attaque légère">
+    Effectuez votre première attaque légère de base pour commencer la séquence de combo.
+  </Step>
+  <Step num="2" title="Annuler par esquive">
+    Esquivez immédiatement avant que le coup ne se termine pour annuler les frames de récupération.
+  </Step>
+  <Step num="3" title="Répéter l'annulation">
+    Effectuez une seconde attaque légère et annulez-la immédiatement avec une autre esquive.
+  </Step>
+  <Step num="4" title="Déchaîner le coup de grâce lourd">
+    Maintenez le bouton d'attaque lourde pour commencer immédiatement à charger votre coup de grâce le plus puissant, en sautant entièrement les phases de préparation lentes.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pratiquez le timing">
+Passez du temps dans la zone d'entraînement pour maîtriser le rythme des annulations par esquive. Annuler trop tôt empêchera la séquence de combo de s'enregistrer, tandis qu'annuler trop tard fait perdre l'intérêt du gain de temps.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Le build à haut DPS « Moins c'est plus »">
+
+Pour les joueurs cherchant à maximiser les dégâts bruts au détriment de l'utilité, le build « Moins c'est plus » est une alternative exceptionnelle. Cette configuration utilise les sceaux **Moins c'est plus (Less is More)**, qui accordent un bonus d'attaque massif de 120 % lorsqu'aucune compétence n'est équipée.
+
+Comme ce build vous interdit d'utiliser des compétences comme Douleur Immortelle, vous devez compter entièrement sur votre survivabilité passive. Cœur de Lion vous empêche d'être interrompu, tandis que Garnison et Drainage garantissent que vous pouvez récupérer de la santé rapidement après avoir échangé des coups avec les ennemis.
+
+<CardGrid cols={3}>
+  <Card title="Configuration Boucle d'Immortalité">
+    - **Haute Survivabilité**
+    - Temps d'invincibilité permanent
+    - Très cohérent pour les raids difficiles
+  </Card>
+  <Card title="Configuration Moins c'est plus">
+    - **Dégâts de rafale extrêmes**
+    - Difficulté d'exécution élevée
+    - Repose sur des annulations d'esquive parfaites
+  </Card>
+  <Card title="Configuration Coop équilibrée">
+    - **Grande Utilité**
+    - Fortes options de défense d'équipe
+    - Production de dégâts modérée
+  </Card>
+</CardGrid>
+
+Ce style de jeu à haut risque et haute récompense nécessite une exécution précise de l'annulation d'attaque légère par esquive pour placer systématiquement des attaques lourdes à 2 millions de dégâts tout en évitant les coups mortels des boss.
+
+| Métrique | Boucle d'Immortalité | Moins c'est plus |
+|---|---|---|
+| Potentiel de dégâts | Élevé (Constant) | Extrêmement élevé (Rafale) |
+| Survivabilité | Excellente (Invincible) | Modérée (Haut risque) |
+| Difficulté d'exécution | Modérée | Élevée (Requiert des annulations) |
+| Dépendance aux compétences | Très élevée | Aucune (Pas de compétences) |
+
+<Callout type="info" title="Choix du build">
+Bien que le build « Moins c'est plus » offre un DPS plus élevé sur mannequin d'entraînement, le build de la Boucle d'Immortalité est généralement préféré pour les combats de fin de jeu de haut niveau en raison de la sécurité offerte par le bonus d'Immortalité permanent.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de maîtrise et priorité des compétences">
+
+Pour optimiser pleinement Vaseraga, les joueurs doivent viser des transcendances (overmasteries) spécifiques et prioriser les compétences qui complètent leur style de jeu. L'augmentation de la limite de dégâts des attaques normales est la transcendance la plus critique à obtenir, suivie de près par le taux de coup critique et la limite de dégâts des compétences.
+
+<Checklist
+  id="vaseraga-milestones"
+  title="Liste de progression de Vaseraga :"
+  items={[
+    "Débloquer l'Arme Terminus pour des statistiques de base maximales",
+    "Obtenir le sceau signature Équilibre d'ébène",
+    "Maximiser les sceaux de Limite de dégâts pour atteindre le plafond de 2 millions",
+    "Maîtriser les rotations de combos d'annulation par esquive sur mannequin"
+  ]}
+/>
+
+Lors du choix des compétences pour le build de la Boucle d'Immortalité, concentrez-vous sur les outils qui comblent les distances ou fournissent une utilité pendant que vous enchaînez vos attaques chargées.
+
+| Nom de la compétence | Rôle | Recommandation |
+|---|---|---|
+| Bataillons de la peur | Rapprochement | Fortement recommandé (mène au coup lourd) |
+| Grande faux de Groth | Outil d'annulation | Obligatoire pour la rotation d'annulation |
+| Douleur Immortelle | Survie | Obligatoire pour le build Boucle d'Immortalité |
+| Éclipse Ombrale | Contrôle de foule | Optionnel (excellent pour ralentir les boss) |
+| Colère Infernale | Soutien Coop | Optionnel (absorbe les dégâts pour les alliés) |
+
+<Callout type="tip" title="Synergie en Coop">
+Dans les raids multijoueurs, combiner Colère Infernale avec Douleur Immortelle vous permet d'absorber tous les dégâts entrants pour vos alliés, les gardant en sécurité pendant qu'ils se concentrent sur l'attaque.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Comment maintenir le bonus d'Immortalité en permanence sur Vaseraga ?",
+    answer: "Équipez le sceau signature Équilibre d'ébène avec Dégâts Supplémentaires. Chaque coup d'attaque lourde chargée réduira vos recharges, vous permettant de réactiver Douleur Immortelle avant la fin de sa durée."
+  },
+  {
+    question: "L'Arme Terminus est-elle absolument nécessaire pour Vaseraga ?",
+    answer: "Bien que la Faux de wurtzite soit excellente pour la progression, l'Arme Terminus est requise pour le contenu de fin de jeu car elle fournit le trait Catastrophe et un bonus de niveau pour tous les sceaux équipés."
+  },
+  {
+    question: "Pourquoi les Dégâts Supplémentaires sont-ils si importants pour les recharges de Vaseraga ?",
+    answer: "Les Dégâts Supplémentaires créent une instance de dégâts supplémentaire à chaque coup. Comme Équilibre d'ébène se déclenche sur chaque coup chargé, ces instances comptent pour la réduction de recharge, doublant son efficacité."
+  },
+  {
+    question: "Quelles sont les meilleures transcendances (overmasteries) à viser pour Vaseraga ?",
+    answer: "Priorisez la Limite de dégâts des attaques normales et le Taux de coup critique. Si vous ne pouvez pas avoir les deux, la Limite de dégâts des compétences est une excellente option secondaire."
+  }
+]} />
+
+<Callout type="info" title="Verdict final">
+Que vous préfériez l'utilité invincible de la Boucle d'Immortalité ou la puissance brute du build Moins c'est plus, Vaseraga reste l'un des personnages les plus gratifiants et impactants à maîtriser dans Granblue Fantasy: Relink.
+</Callout>
+
+</Section>

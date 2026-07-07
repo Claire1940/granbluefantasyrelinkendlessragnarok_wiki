@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Cagliostro : Guide du Meilleur Build et des Combos",
+  description: "Maîtrisez Cagliostro dans Granblue Fantasy Relink avec notre guide sur les meilleurs builds, routes de combos, compétences et sceaux pour maximiser vos performances alchimiques en 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Cagliostro+Build+Guide",
+  date: "2026-07-07",
+  author: "Équipe Wiki de Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink, cagliostro, build, guide, combos, alchimie, sceaux"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Cagliostro dans Granblue Fantasy Relink** : Une alchimiste polyvalente de l'élément Terre capable de dégâts explosifs élevés et d'un soutien de groupe de premier ordre.
+- **Mécanique de base** : Utilisez les **Finishers de Combo** pour charger instantanément **Effondrement (Collapse)** et réduire le temps de recharge des compétences via ses sceaux uniques.
+- **Meilleur Bonus** : **Phantasmagoria** est obligatoire, car il offre des bonus d'Attaque, de Défense et de Taux de Coup Critique à l'ensemble du groupe.
+- **Priorité d'Arme** : Visez le **Magnum Opus** (Arme Terminus) pour le contenu de fin de jeu afin d'atteindre efficacement les plafonds de dégâts.
+- **Boucle de Compétences** : Alternez entre **Pain Train** et **Alexandria** tout en maintenant le bonus actif pour une efficacité DPS maximale.
+</Callout>
+
+<Section icon={Sparkles} title="Aperçu du personnage et mécaniques de base">
+
+Cagliostro s'impose comme l'une des unités les plus flexibles de la méta actuelle de 2026. En tant que fondatrice de l'alchimie, son style de jeu repose sur la transmutation de divers "instruments de meurtre" à travers des enchaînements d'attaques de base spécifiques. Contrairement à de nombreux personnages qui se concentrent sur un seul rôle, une **Cagliostro** bien construite peut passer d'un rôle de soutien dédié à celui de donneur de dégâts principal en fonction des sceaux et des compétences équipés.
+
+Sa mécanique unique, **Fondatrice de l'Alchimie**, lui permet d'exécuter quatre finishers de combo distincts. Chaque finisher a une utilité spécifique, allant des pics à longue portée aux lames de scie à haut potentiel d'étourdissement. De plus, son attaque **Effondrement (Collapse)** (attaque lourde chargée) sert de remplissage principal de dégâts, et se charge nettement plus vite lorsqu'elle est effectuée immédiatement après un finisher de combo ou une attaque de lien.
+
+**Points forts de la vidéo :**
+- **Polyvalence des combos** : Analyse des quatre routes de combos et quand les utiliser.
+- **Synergies de compétences** : Comment enchaîner Pain Train et Phantasmagoria pour un temps d'activité maximal.
+- **Configuration de fin de jeu** : Présentation de l'arme Terminus et des emplacements de sceaux optimaux.
+- **Combat pratique** : Application réelle contre des boss de haut niveau en mode Proud.
+
+<YouTubeEmbed videoId="UPyWd5d-D7M" title="Granblue Fantasy Relink - Guide du personnage Cagliostro" />
+
+<Callout type="tip" title="Conseil de Pro">
+Maintenez toujours le bouton d'attaque lourde immédiatement après un finisher de combo. Cela déclenche la mécanique de "Montée d'Adrénaline", vous permettant de relâcher un Effondrement pleinement chargé en une fraction du temps habituel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maîtriser les routes de combos et l'Effondrement">
+
+Comprendre quel combo utiliser fait toute la différence entre un joueur de Cagliostro médiocre et un joueur d'élite. Chaque enchaînement sert un objectif précis dans le feu de l'action, que vous ayez besoin de vous repositionner, d'augmenter l'étourdissement ou de maximiser la réduction du temps de recharge des compétences.
+
+| Type de Combo | Séquence de touches | Avantage principal | Meilleure utilisation |
+| :--- | :--- | :--- | :--- |
+| **Combo A** | Carré > Triangle | Pics longue portée / CDR rapide | Boss imposants / Rush de compétences |
+| **Combo B** | Carré x2 > Triangle | Ciseaux en zone circulaires | Nettoyage de sbires / Adds |
+| **Combo C** | Carré x3 > Triangle | Lames de scie à hauts dégâts | Boss mobiles / DPS soutenu |
+| **Combo D** | Carré x4 > Triangle | Étourdissement massif / Hauts dégâts | Briser des parties de boss / Jauge de lien |
+
+Le Combo A est particulièrement précieux car c'est le moyen le plus rapide de déclencher **Vérité de la Fondatrice**, son sceau unique qui réduit le temps de recharge des compétences de 3 % par finisher. Contre des ennemis massifs, les pics du Combo A peuvent frapper plusieurs fois, surpassant souvent en dégâts des enchaînements plus complexes. À l'inverse, le Combo C (Lames de scie) est excellent pour maintenir la pression sur des cibles plus petites et mobiles.
+
+<Callout type="warning" title="Important">
+Bien que le Combo D possède les dégâts bruts et la valeur d'étourdissement les plus élevés, son animation est longue. Évitez de l'utiliser contre des boss aux cycles d'attaque rapides, à moins que vous ne maîtrisiez parfaitement l'annulation par esquive.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Compétences essentielles et analyse des capacités">
+
+Le kit de Cagliostro regorge d'utilité. Choisir les quatre bonnes compétences dépend de si vous jouez en solo ou dans une équipe coordonnée. Cependant, certaines compétences sont si puissantes qu'elles sont considérées comme des incontournables dans presque tous les builds.
+
+<CardGrid cols={2}>
+  <Card title="Phantasmagoria">
+    - **Type** : Bonus (Buff)
+    - **Effet** : Augmente l'Attaque, la Défense et le Taux de Critique pour tout le groupe.
+    - **Verdict** : La compétence la plus importante de son kit.
+  </Card>
+  <Card title="Pain Train">
+    - **Type** : Dégâts / Rapprochement
+    - **Effet** : Charge vers l'avant avec d'énormes dégâts multi-coups.
+    - **Verdict** : Plafond de dégâts élevé et excellent pour rester sur la cible.
+  </Card>
+  <Card title="Mimic Doll">
+    - **Type** : Utilité / Repositionnement
+    - **Effet** : Esquive vers l'arrière et laisse une bombe qui charge l'Effondrement.
+    - **Verdict** : Parfait pour un jeu défensif tout en maintenant une pression offensive.
+  </Card>
+  <Card title="Alexandria">
+    - **Type** : Dégâts
+    - **Effet** : Invoque Ouroboros pour une frappe verticale.
+    - **Verdict** : Dégâts solides et permet un suivi rapide par Effondrement.
+  </Card>
+</CardGrid>
+
+Pour les joueurs cherchant à apporter plus d'utilité, **Rhizomata** peut être utilisé pour réanimer les alliés en état critique, ce qui est inestimable dans les raids de haute difficulté où les stocks de potions peuvent s'épuiser. **Disruption** est une autre option situationnelle puissante, capable de supprimer les bonus gênants des ennemis.
+
+| Nom de la compétence | Temps de recharge | Niveau d'utilité | Potentiel de dégâts |
+| :--- | :--- | :--- | :--- |
+| **Phantasmagoria** | Long | ★★★★★ | Soutien uniquement |
+| **Pain Train** | Court | ★★★☆☆ | ★★★★★ |
+| **Mimic Doll** | Moyen | ★★★★☆ | ★★★☆☆ |
+| **Alexandria** | Moyen | ★★☆☆☆ | ★★★★☆ |
+| **Rhizomata** | Très Long | ★★★★★ | Aucun |
+
+<Callout type="success" title="Stratégie gagnante">
+Pendant le Link Time (temps de lien), vous pouvez enchaîner **Pain Train** de manière répétée. Comme le temps de recharge est extrêmement court durant cette fenêtre, cela devient votre meilleure option de DPS pour vider la barre de vie d'un boss.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Build de fin de jeu : Armes et Sceaux">
+
+Pour atteindre le sommet du potentiel de **Cagliostro**, vous devez optimiser votre équipement pour la mécanique de Plafond de Dégâts (Damage Cap). En 2026, la norme pour les builds de fin de jeu s'articule autour de l'arme Terminus et de sceaux uniques spécifiques qui améliorent son cycle alchimique.
+
+<Steps>
+  <Step num="1" title="Équiper l'arme Terminus">
+    Obtenez le **Magnum Opus** auprès du Proto Bahamut. Cette arme confère l'effet "Catastrophe", augmentant considérablement votre plafond de dégâts et votre attaque lorsque vos PV sont inférieurs à 45 000.
+  </Step>
+  <Step num="2" title="Placer les sceaux uniques">
+    Priorisez **Vérité de la Fondatrice** (CDR sur finisher) et **Stratégie de la Fondatrice** (Baisse de Défense sur Effondrement). La Vérité est indispensable pour maintenir l'activité de Phantasmagoria.
+  </Step>
+  <Step num="3" title="Atteindre les plafonds de dégâts">
+    Équipez quatre sceaux **Plafond de Dégâts V+**. Recherchez des sous-traits comme **Égide**, **Collecteur de potions** ou **Esquive améliorée** pour augmenter votre survie.
+  </Step>
+  <Step num="4" title="Dégâts supplémentaires">
+    Ajoutez deux à trois sceaux de **Dégâts Supplémentaires** pour contourner le plafond de dégâts standard, ajoutant 20 % de dégâts bruts en plus à tous les coups.
+  </Step>
+</Steps>
+
+| Nom du sceau | Rang | Sous-trait recommandé |
+| :--- | :--- | :--- |
+| **Vérité de la Fondatrice** | S | Assaut de compétence / Booster de combo |
+| **Plafond de Dégâts V+** | S | Collecteur de potions / Égide |
+| **Élémentaire de Guerre** | S | Aucun (Unique) |
+| **Tyrannie** | A | Assaut Agile |
+| **Recharge rapide** | A | Cascade |
+
+<Callout type="info" title="Info sur le Build">
+Si vous utilisez **Phantasmagoria** de manière constante, vous n'avez pas besoin d'atteindre 100 % de taux de coup critique uniquement via les sceaux. Visez environ 80 % de critique de base, et le bonus couvrira les 20 % restants pour des critiques garantis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conseils avancés et liste de progression">
+
+Maîtriser Cagliostro demande plus que du simple matraquage de touches ; cela nécessite une compréhension des fenêtres d'opportunité des boss et des données de frame. Par exemple, vous pouvez annuler par esquive le délai à la fin du Combo C ou du Combo D pour commencer votre enchaînement suivant plus rapidement sans perdre le bonus du finisher.
+
+**Conseils de combat avancés :**
+- **Synergie Assaut Agile** : Utilisez Assaut Agile (Nimble Onslaught) pour gagner l'invincibilité et réduire le temps de recharge des compétences sur les esquives parfaites. Cela vous permet de jouer agressivement au milieu des zones d'effet des boss.
+- **Timing de l'Attaque de Lien** : Les attaques de lien permettent d'obtenir instantanément un Effondrement chargé au maximum. Utilisez-les pour sauter les longs enchaînements de combos lorsque la jauge de lien se déclenche.
+- **Focus sur la Sur-maîtrise** : Priorisez le **Plafond de dégâts des attaques normales** et le **Plafond de dégâts des compétences**. Comme l'Effondrement compte comme une attaque normale, booster son plafond est vital.
+
+<Checklist
+  id="cagliostro-mastery"
+  title="Liste de maîtrise de Cagliostro :"
+  items={[
+    "Débloquer tous les nœuds de Maîtrise pour Cagliostro",
+    "Obtenir et éveiller complètement l'arme Terminus Magnum Opus",
+    "Équiper les sceaux uniques Vérité de la Fondatrice et Stratégie de la Fondatrice",
+    "Atteindre le niveau 100 et optimiser les Sur-maîtrises pour le Plafond de Dégâts",
+    "Maintenir avec succès plus de 80 % de temps d'activité sur Phantasmagoria en raid"
+  ]}
+/>
+
+<Callout type="tip" title="Avis d'expert">
+Lorsque vous combattez des boss mobiles comme le Wyrm Blanc, comptez sur le Combo A. La portée des pics garantit que vous infligez toujours des dégâts et réduisez vos temps de recharge même lorsque le boss traverse l'arène.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Cagliostro est-elle meilleure en tant que soutien ou DPS dans Granblue Fantasy Relink ?",
+    answer: "Cagliostro est plus efficace en tant qu'hybride. Son bonus Phantasmagoria est trop puissant pour être ignoré, mais ses dégâts personnels avec les bons sceaux et le spam de Pain Train peuvent rivaliser avec des personnages purement DPS."
+  },
+  {
+    question: "Quel sceau unique est le plus important pour Cagliostro ?",
+    answer: "La Vérité de la Fondatrice est la priorité. La réduction de 3 % du temps de recharge sur chaque finisher de combo est essentielle pour garder vos compétences actives et maintenir vos bonus d'équipe."
+  },
+  {
+    question: "Est-ce que Phantasmagoria se cumule avec d'autres bonus d'attaque ?",
+    answer: "Oui, il se cumule généralement avec d'autres bonus uniques de personnages, mais faites attention au plafond de dégâts global. Une fois le plafond atteint, les bonus d'attaque supplémentaires ne servent que si vous n'atteignez pas déjà ces chiffres."
+  },
+  {
+    question: "Comment charger l'Effondrement plus rapidement ?",
+    answer: "Effectuez un finisher de combo (Triangle à la fin d'un enchaînement) ou une attaque de lien, puis maintenez immédiatement le bouton Triangle. Le temps de charge sera réduit d'environ 70 %."
+  }
+]} />
+
+</Section>

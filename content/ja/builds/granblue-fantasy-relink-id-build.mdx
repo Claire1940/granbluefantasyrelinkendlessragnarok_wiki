@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "グランブルーファンタジー リリンク イドのビルド：おすすめジーン、アビリティ、立ち回りガイド",
+  description: "グランブルーファンタジー リリンクにおけるイドの最強ビルドをマスターしましょう。DPSを最大化するための最適なジーン、アビリティ、武器、そして変身コンボについて詳しく解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Id+Build+Guide",
+  date: "2026-07-07",
+  author: "グランブルーファンタジー リリンク Wikiチーム",
+  keywords: "グランブルーファンタジー リリンク, イド, ビルド, ジーン, アビリティ, 立ち回り, 攻略"
+}
+
+<Callout type="info" title="クイックガイド">
+- **イドのビルド**: クリティカル確率、クリティカルダメージ、ダメージ上限を最大化し、圧倒的なバーストダメージを叩き出すことに特化します。
+- **主要メカニクス**: ヴェルサリスゲージを管理し、「通常時」「竜人化」「神威一体」の3つの形態をスムーズに移行させることが重要です。
+- **最強武器**: プレミアムソードは、エンドゲームの進行において最高の攻撃ステータスを提供します。
+- **おすすめアビリティ**: 「ラグナロクフォーム」は、即座に竜人化を起動したり、神威一体中にゲージを補充したりするために不可欠です。
+- **中核ジーン**: 専用ジーン「ヴェルサリスの心臓」は、神威一体フィニッシャーを複数回放てるようにすることで、イドのプレイスタイルを劇的に変化させます。
+</Callout>
+
+<Section icon={Swords} title="イドの形態変化とメカニクスの理解">
+
+イドは全キャラクターの中でも特に操作が楽しいDPSキャラクターの一人で、3つの異なる状態をサイクルする独自の変身メカニクスを持っています [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。完璧な**イドのビルド**を作り上げるには、これらの形態がどのように相互作用し、いかにして攻撃の手を緩めずに維持するかを深く理解する必要があります [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+
+**動画のハイライト:**
+- **ジーン「ヴェルサリスの心臓」**: この画期的なジーンがいかにイドの立ち回りを変えるか [ZQk8WKq3v0Q]。
+- **無限神威フィニッシャー**: 神威一体中やリンクタイム中に強力なフィニッシャーを連発する方法 [ZQk8WKq3v0Q]。
+- **変身アニメーションのキャンセル**: ガードや回避を使用して変身のタイミングをコントロールするテクニック [ZQk8WKq3v0Q]。
+
+<YouTubeEmbed videoId="ZQk8WKq3v0Q" title="INSANE DAMAGE ID Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink Guide" />
+
+イドの戦闘ループは、ヴェルサリスゲージを溜めて消費することを中心に展開します [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。以下の表は、各形態の主な特徴をまとめたものです。
+
+| 形態 | 発動条件 | 主なメリット | 主要コンボ / フィニッシャー |
+| --- | --- | --- | --- |
+| **通常形態** | デフォルト状態 | 高い機動力、素早いゲージ蓄積 | 弱x3 -> 強（連撃） |
+| **竜人化形態** | ヴェルサリスゲージを溜める | 怯み無効（被ダメージ20%軽減） | 弱コンボ（11ヒット） / 強（9ヒット） |
+| **神威一体** | 竜人化ゲージを4スタック消費 | 強化攻撃、高いダメージ上限 | ラグナロクフォーム / 奥義 |
+
+<Callout type="tip" title="変身のコツ">
+変身アニメーションはキャンセル可能です！ゲージが空になり神威一体に入る準備ができたら、ガードボタンを押し続けるか回避を行うことで、移行のタイミングを遅らせることができます [ZQk8WKq3v0Q]。これにより、安全な位置取りをしたり、ボスの攻撃を回避したりすることが可能になります [ZQk8WKq3v0Q]。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="「ヴェルサリスの心臓」による革命と立ち回り">
+
+専用ジーン「ヴェルサリスの心臓」の登場により、イドのプレイスタイルは完全に革命的に進化しました [ZQk8WKq3v0Q]。このジーンは竜人化および神威一体中のダメージを10%強化しますが、ヴェルサリスゲージの消費速度が200%増加します [ZQk8WKq3v0Q]。重要なのは、ゲージが完全に空になるまで形態が解除されなくなる点です [ZQk8WKq3v0Q]。
+
+これにより、フィニッシャーを1回放って神威一体が即終了するのではなく、1回のサイクルで複数のフィニッシャーを叩き込むことが可能になります [ZQk8WKq3v0Q]。
+
+<CardGrid cols={3}>
+  <Card title="通常から竜人化へ">
+    **レギンレイヴ・レリクト**や**アンバウンド**などのアビリティとコンボフィニッシュを組み合わせ、素早くゲージを溜めます [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+  </Card>
+  <Card title="竜人化での継続DPS">
+    コンボフィニッシュを決めてスタックを稼ぎます [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。ゲージの減少が早いため、4スタックを確保するために素早く行動する必要があります [ZQk8WKq3v0Q]。
+  </Card>
+  <Card title="神威一体のバーストフェーズ">
+    強力な神威フィニッシャーを連発します [ZQk8WKq3v0Q]。**ラグナロクフォーム**を使用して即座にゲージを回復させ、さらに多くのフィニッシャーを放ちましょう [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+  </Card>
+</CardGrid>
+
+| ローテーションの段階 | アクションの優先順位 | ヴェルサリスの心臓の影響 |
+| --- | --- | --- |
+| **通常フェーズ** | 突進 -> コンボフィニッシュ -> 遠距離アビリティ | 標準的なゲージ蓄積 [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+| **竜人化フェーズ** | 弱/強コンボを素早く叩き込む | ゲージが空になる前に4スタック確保が必須 [ZQk8WKq3v0Q, https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+| **神威一体フェーズ** | フィニッシャー連打 -> ラグナロクフォーム -> フィニッシャー連打 | 最大5回連続のフィニッシャーが可能 [ZQk8WKq3v0Q] |
+
+<Callout type="warning" title="怯み無効の活用">
+竜人化中はデフォルトで「怯み無効」が付与され、被ダメージが20%軽減されます [ZQk8WKq3v0Q]。この時間を活かして、敵の攻撃を恐れずにアグレッシブにコンボを叩き込みましょう [ZQk8WKq3v0Q]。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="イドにおすすめのジーンと武器">
+
+**イドのビルド**を最大化するには、クリティカル関連のステータス、ダメージ上限、そしてクールタイム短縮に重点を置く必要があります [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。イドは純粋なアビリティ連打よりも通常攻撃コンボに大きく依存するため、高い物理ダメージを構築することが鍵となります [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+
+### おすすめ武器：プレミアムソード
+そのコミカルなエビフライのような見た目に惑わされないでください。見た目はいつでも標準的な剣に武器スキンで変更可能です [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。この武器はクリティカル確率とクリティカルダメージのノードとの相性が非常に優れています [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+
+### 中核となるジーン構成
+
+| ジーン名 | 主な機能 | 優先度 |
+| --- | --- | --- |
+| **ヴェルサリスの心臓** | 神威一体フィニッシャーの連発を可能にし、形態ダメージを強化 | **必須** [ZQk8WKq3v0Q] |
+| **ヴェルサリスの焔** | 神威一体中に怯み無効/ドレインを付与、ダメージ上限+30% | **必須** [ZQk8WKq3v0Q] |
+| **ダメージ上限** | 高威力コンボの最大火力を引き上げる | 高 [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+| **属性変換** | すべての攻撃を敵の弱点属性として扱う | 高 [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+| **コンボボーナス** | 連続ヒットに応じてダメージが段階的に増加 | 高 [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+| **渾身 / 暴君** | 基礎攻撃力の底上げ（HP管理に注意） | 中 [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/] |
+
+<Callout type="success" title="サブステータスの優先順位">
+「+」付きのジーンを厳選する際は、**ポーション所持数**、**ガッツ**、**自動復活**、**怒涛**を優先しましょう [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。これらのユーティリティステータスは、高難易度のエンドゲームレイドでの生存率を大きく高めます [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="イドにおすすめのアビリティ">
+
+イドはコンボ中心のキャラクターですが、アクティブアビリティは形態移行、戦場のコントロール、または遠距離からのプレッシャー維持のための重要なツールとして機能します [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+
+<Steps>
+  <Step num="1" title="ラグナロクフォーム">
+    通常状態から即座に竜人化へと変身させます [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。神威一体中に使用するとゲージが全回復し、バースト時間を大幅に延長できます [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+  </Step>
+  <Step num="2" title="アルカディア">
+    イドの前方扇状の範囲にスロウ効果を付与します [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。オーバードライブ中のボスを足止めしたり、長いコンボを叩き込むための位置取りを確保したりするのに最適です [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+  </Step>
+  <Step num="3" title="レギンレイヴ・レリクト ＆ アンバウンド">
+    これらは主な遠距離攻撃手段となります [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。接近戦が危険な場面でもヴェルサリスゲージを溜めつつ、離れた場所からボスを削ることができます [https://gamerant.com/granblue-fantasy-relink-how-play-id-best-build-sigils-skills/]。
+  </Step>
+</Steps>
+
+<Callout type="info" title="アビリティダメージの強化">
+最近のバランス調整により、神威一体中の**レギンレイヴ**、**アンバウンド**、**ラグナロクフォーム**、**アトーンメント**のダメージ上限が大幅に引き上げられました [ZQk8WKq3v0Q]。これにより、神威フィニッシャーの合間にアビリティを織り交ぜる立ち回りが非常に強力になっています [ZQk8WKq3v0Q]。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="エンドゲームにおけるイドの進行チェックリスト">
+
+難易度「PROUD」以降に向けて**イドのビルド**を完全に最適化するために、以下の目標達成を目指しましょう。
+
+<Checklist
+  id="id-progression"
+  title="ビルドの到達目標:"
+  items={[
+    "プレミアムソードを入手し、最大まで強化する",
+    "専用ジーン「ヴェルサリスの心臓」と「ヴェルサリスの焔」の両方を入手・装備する",
+    "ダメージ上限ジーンを最大まで強化し、神威フィニッシャーの火力を限界まで引き出す",
+    "シェロカルテの鑑定からジーン「属性変換」を入手する",
+    "変身時のガードキャンセルを練習し、ボス戦での位置取りを最適化する"
+  ]}
+/>
+
+<Callout type="warning" title="DPS測定に関する注意点">
+イドのダメージを測定する際、トレーニング人形（ボロドール）での60秒間テストの結果だけで判断しないでください [ZQk8WKq3v0Q]。イドの変身アニメーションには数秒かかるため、短時間のテストでは実際のボス戦における彼の圧倒的な継続DPSを正確に反映できません [ZQk8WKq3v0Q]。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "「ヴェルサリスの心臓」はどうやって入手しますか？",
+    answer: "「ヴェルサリスの心臓」はイド専用のジーンです。大型アップデートで追加されたエンドゲームクエストの報酬や、トレジャー交換を通じて入手可能です。"
+  },
+  {
+    question: "神威一体に入る前に竜人化の時間が切れることはありますか？",
+    answer: "はい。ゲージがなくなる前に、コンボフィニッシュやリンク攻撃を成功させて4スタックを溜められなかった場合、神威一体には移行せず通常形態に戻ってしまいます。"
+  },
+  {
+    question: "イドの変身中に「怯み無効」は重複しますか？",
+    answer: "イドは竜人化中に標準で「怯み無効」を得ます。さらに「ヴェルサリスの焔」を装備することで神威一体中にも「怯み無効」が付与され、ローテーション全体を通してノックバックを完全に無視できるようになります。"
+  },
+  {
+    question: "イドはAIの仲間を入れたソロプレイにも向いていますか？",
+    answer: "もちろんです。高い生存能力、自己回復（ドレイン）、怯み無効、そしてスロウ付与（アルカディア）を持つイドは、ソロプレイや高難易度レイドの周回において非常に優秀なリーダーとなります。"
+  }
+]} />
+
+</Section>

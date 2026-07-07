@@ -1,0 +1,218 @@
+import { Swords, Target, Shield, Trophy, Sparkles, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Yodarha Granblue Fantasy Relink : Guide des meilleurs sceaux et compétences",
+  description: "Maîtrisez le build ultime de Yodarha dans Granblue Fantasy Relink. Découvrez les meilleurs sceaux, armes, compétences et rotations pour maximiser votre DPS et votre utilité de groupe.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Yodarha+Build+Guide",
+  date: "2026-07-07",
+  author: "Équipe Wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal du build** : Créer le meilleur **build Yodarha de Granblue Fantasy Relink** en utilisant des attaques de fin de combo à haute fréquence pour maintenir l'invincibilité et maximiser le DPS.
+- **Mécanique clé** : Gérer les **Marques de linceul** (sceaux) pour renforcer les effets des compétences et permettre des réinitialisations complètes des temps de recharge via Rotation perpétuelle.
+- **Meilleure arme** : Utilisez l'**Arme de Terminus (Zosimos)** pour le contenu de fin de jeu, ou l'**Arme critique (Fushirin)** pour la progression.
+- **Sceaux critiques** : Priorisez **Art du maître de l'épée**, **Limite de dégâts**, **Dégâts supplémentaires** et **Canon de verre** pour un maximum de dégâts.
+- **Utilité de groupe ultime** : Lancez **Hymne des centaines** avec 3 Marques de linceul pour accorder **Image miroir** à toute l'équipe.
+</Callout>
+
+<Section icon={Swords} title="Mécaniques de base et style de jeu de Yodarha">
+
+Yodarha est l'un des personnages les plus agiles et rapides du jeu, capable de déclencher des attaques multi-coups incessantes tout en restant totalement en sécurité [1]. Un **build Yodarha de Granblue Fantasy Relink** correctement optimisé transforme ce personnage en une machine de DPS immortelle [1]. Son style de jeu repose sur le maintien d'une pression offensive continue, l'exécution précise de fins de combo et la gestion de son système unique de Marques de linceul [1].
+
+**Points forts de la vidéo :**
+- **Style de jeu DPS immortel** : Utilisez des fins de combo en continu pour rester invincible pendant les animations d'attaque [1].
+- **Gestion des Marques de linceul** : Apprenez à cumuler et utiliser les marques pour améliorer les compétences et réinitialiser les temps de recharge [1].
+- **Présentation des sceaux de fin de jeu** : Analyse étape par étape de la configuration optimale des sceaux pour le endgame [1].
+
+<YouTubeEmbed videoId="prOWkmFUX1o" title="IMMORTAL DPS YODARHA Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink Guide" />
+
+### La boucle de fin de combo
+Exécuter quatre fins de combo consécutives raccourcit votre enchaînement d'attaques de base [1]. Cela vous permet d'effectuer un combo complet en appuyant sur un seul bouton, vous permettant d'enchaîner rapidement les attaques finales [1]. Yodarha étant invincible pendant les multiples entailles de sa fin de combo, cette boucle offre une survie inégalée tout en maintenant des dégâts extrêmement élevés [1].
+
+### Marques de linceul (Sceaux)
+Réaliser une fin de combo ou une Attaque de lien suivie d'une fin de combo octroie des Marques de linceul (jusqu'à un maximum de trois) [1]. Ces marques améliorent considérablement les dégâts, la durée ou l'utilité des compétences actives de Yodarha [1].
+
+### La fente lourde et la parade de contre
+Maintenir le bouton d'attaque lourde de Yodarha le place dans une posture de blocage [1]. Relâcher le bouton juste avant qu'une attaque ennemie ne touche déclenche une parade précise [1]. Une parade réussie accorde un bonus temporaire de **Dégâts supplémentaires** (infligeant 25 % de dégâts additionnels basés sur le coup d'origine) pendant 10 secondes [1]. Maîtriser ce timing distingue les joueurs moyens des joueurs d'élite de Yodarha [1].
+
+| Mécanique | Commande / Action | Bénéfice principal |
+| :--- | :--- | :--- |
+| **Fin de combo** | Fin de l'enchaînement d'attaques légères | Accorde des frames d'**Invincibilité** et 1 Marque de linceul [1] |
+| **Boucle infinie** | 4 fins de combo réussies | Raccourcit l'enchaînement de combos à une seule pression de bouton [1] |
+| **Suivi d'Attaque de lien** | Attaque de lien -> Fin de combo | Génère instantanément 2 Marques de linceul [1] |
+| **Parade de contre** | Relâcher l'attaque lourde sur le flash | Accorde des **Dégâts supplémentaires** pendant 10 secondes [1] |
+
+<Callout type="tip" title="Optimisation de la parade">
+La fenêtre de parade est indiquée par un flash circulaire blanc sur Yodarha [1]. Relâcher le bouton exactement pendant ce flash garantit le contre [1]. Si vous manquez le timing, vous pouvez rapidement esquiver pour sortir de l'animation et éviter de subir des dégâts [2].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuration des meilleures compétences pour Yodarha">
+
+Choisir les bonnes compétences actives est crucial pour maximiser vos dégâts et apporter une utilité vitale à votre équipe [1]. La configuration optimale de fin de jeu se concentre sur les dégâts de burst élevés, la gestion des temps de recharge et la survie globale de l'équipe [1, 2].
+
+### Analyse des compétences actives
+
+*   **Brouillard vide (Empty Mist)** : La principale compétence de dégâts de Yodarha [1]. Maintenir le bouton enfoncé déclenche des entailles rapides dont la durée augmente en fonction de vos Marques de linceul [1]. Cette compétence est incroyablement puissante contre les grands boss dotés de plusieurs zones d'impact [1].
+*   **Rotation perpétuelle (Perpetual Rotation)** : La pierre angulaire de la rotation de Yodarha [1, 2]. Utilisée avec zéro marque, elle accorde instantanément les trois Marques de linceul [1]. Utilisée lorsque vous avez déjà trois marques, elle réinitialise instantanément tous les temps de recharge des compétences actives de Yodarha [1].
+*   **Vide éclair (Flashing Void)** : Un rapprochement à gros dégâts qui nécessite des pressions de touche rythmées [1]. Appuyer sur le bouton d'attaque en synchronisation avec les cercles blancs lumineux prolonge le combo jusqu'à 12 fois, infligeant des dégâts massifs [1]. Vous pouvez vous déplacer pendant cette animation pour ajuster votre positionnement [1].
+*   **Hymne des centaines (Hymn of the Hundreds)** : Accorde à Yodarha le bonus **Image miroir**, lui permettant d'ignorer les trois prochains coups [1]. Activé à trois Marques de linceul, ce bonus est appliqué à l'ensemble du groupe, ce qui en fait un outil inestimable pour survivre aux mécaniques majeures des boss [1].
+
+| Nom de la compétence | Rôle | Effet de la Marque de linceul (Sceau) |
+| :--- | :--- | :--- |
+| **Brouillard vide** | DPS principal | Augmente la durée maximale de canalisation et les dégâts totaux [1] |
+| **Rotation perpétuelle** | Utilité / Reset | Réinitialise tous les temps de recharge des compétences (à 3 marques) [1] |
+| **Vide éclair** | DPS de Burst | Augmente le nombre total de coups et la limite de dégâts [1] |
+| **Hymne des centaines** | Défense de groupe | Accorde **Image miroir** à toute l'équipe (à 3 marques) [1] |
+| **Éveil (Awakening)** | Rapprochement | Augmente les dégâts de 350k à 700k [1] |
+
+<Callout type="info" title="Compétences à éviter">
+Évitez d'utiliser **Œil pour œil (Tit for Tat)** (compétence de parade redondante) et **Trisection** (bonus d'attaque) [1]. Les bonus d'attaque sont très inefficaces en fin de jeu car les sceaux offensifs permettent d'atteindre facilement les limites de dégâts naturelles de Yodarha [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de rotation étape par étape">
+
+Pour maximiser vos dégâts et garder vos compétences prêtes, vous devez maîtriser l'interaction entre les Marques de linceul et la Rotation perpétuelle [1].
+
+<Steps>
+  <Step num="1" title="Générer des marques">
+    Commencez le combat en exécutant des fins de combo ou en utilisant une Attaque de lien pour accumuler rapidement **3 Marques de linceul** [1].
+  </Step>
+  <Step num="2" title="Déchaîner les compétences de burst">
+    Lancez **Brouillard vide** et **Vide éclair** pour infliger des dégâts de burst massifs tout en consommant vos marques [1].
+  </Step>
+  <Step num="3" title="Appliquer les bonus d'équipe">
+    Si le boss est sur le point de déclencher une attaque de zone majeure, lancez **Hymne des centaines** à 3 marques pour protéger votre équipe [1].
+  </Step>
+  <Step num="4" title="Exécuter la réinitialisation des recharges">
+    Avec 3 marques actives, lancez **Rotation perpétuelle** pour réinitialiser instantanément les temps de recharge de toutes vos compétences actives [1].
+  </Step>
+  <Step num="5" title="Répéter la phase de burst">
+    Relancez immédiatement **Brouillard vide** et **Vide éclair** pour doubler vos dégâts sur une courte période [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergie en Heure du lien">
+Pendant l'Heure du lien (Link Time), les temps de recharge des compétences sont considérablement réduits [1]. Vous pouvez enchaîner plusieurs lancers de **Brouillard vide** d'affilée, ce qui génère des chiffres de dégâts astronomiques [1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleures armes et Distinctions de niveau">
+
+Sélectionner le bon équipement et obtenir des Distinctions de niveau (Over Masteries) optimales est essentiel pour dépasser les limites de dégâts strictes du jeu [1, 2].
+
+### Progression des armes
+
+1.  **Arme critique (Fushirin)** : Le meilleur choix pour la progression de début et de milieu de jeu [1]. Elle offre un boost massif au taux de coup critique, vous aidant à atteindre régulièrement vos limites de dégâts avant d'obtenir l'équipement de fin de jeu [1].
+2.  **Arme d'Ascension (Kiku-Ichimonji)** : Une alternative solide si vous préférez des statistiques équilibrées et n'avez pas encore débloqué la difficulté Fierté [1, 2].
+3.  **Arme de Terminus (Zosimos)** : L'arme ultime absolue obtenue sur le Proto-Bahamut [1, 2]. Elle procure les traits **Catastrophe** et **Sceau renforcé**, qui augmentent considérablement vos dégâts et vos limites de dégâts [1, 2].
+
+| Type d'arme | Nom | Trait clé | Idéal pour |
+| :--- | :--- | :--- | :--- |
+| **Critique (Stinger)** | Fushirin | Taux de coup critique | Progression et régularité [1] |
+| **Ascension** | Kiku-Ichimonji | Boost d'ATQ et de PV | Transition de milieu de jeu [1, 2] |
+| **Terminus** | Zosimos | Catastrophe / Sceau renforcé | DPS ultime de fin de jeu [1, 2] |
+
+### Distinctions de niveau recommandées
+Lorsque vous générez vos Distinctions de niveau au Bazar de Sirocco, donnez la priorité à ces statistiques par ordre d'importance :
+- **Limite de dégâts d'attaque normale augmentée** (Cible : +20 %) [1]
+- **Limite de dégâts de compétence augmentée** (Cible : +20 %) [1]
+- **Taux de coup critique** (Cible : +20 %) [1]
+- **Dégâts de compétence augmentés** ou **Attaque augmentée** [1]
+
+<Callout type="warning" title="Avertissement sur le seuil de PV">
+Si vous utilisez une arme de Terminus, vos PV maximaux doivent rester **en dessous de 45 000** pour que le trait **Catastrophe** reste actif [1]. Soyez prudent lorsque vous équipez des sceaux qui augmentent les PV comme Égide [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Build de sceaux optimal">
+
+Pour atteindre le plafond de dégâts absolu de Yodarha, votre sélection de sceaux doit équilibrer les modificateurs offensifs de dépassement de limite avec des options essentielles de survie et d'utilité [1, 2].
+
+<CardGrid cols={3}>
+  <Card title="Sceaux offensifs de base">
+    - **Limite de dégâts V** (x4) [1, 2]
+    - **Endurance V** (x1) [1, 2]
+    - **Tyrannie V** (x1) [1, 2]
+    - **Dégâts supplémentaires V** (x3) [1, 2]
+  </Card>
+  <Card title="Sceaux uniques du personnage">
+    - **Art du maître de l'épée** : Essentiel. Offre 75 % de chances de ne pas consommer de Marques de linceul [1, 2].
+    - *Prouesse du maître de l'épée* : Optionnel. Augmente l'attaque après les fins de combo, mais moins utile une fois la limite de dégâts atteinte [1].
+  </Card>
+  <Card title="Utilité & Défense">
+    - **Canon de verre V** [1]
+    - **Élémentaire supérieur** [1, 2]
+    - **Collecteur de potions V** [1, 2]
+    - **Esquive améliorée V** [1, 2]
+  </Card>
+</CardGrid>
+
+### Stratégie de sélection des sceaux
+
+*   **Limite de dégâts** : Obligatoire pour tout build de fin de jeu [1, 2]. Vous devez atteindre le niveau 65 de Limite de dégâts (généralement via quatre sceaux de niveau 15 renforcés par une arme de Terminus) pour maximiser vos dégâts [2].
+*   **Art du maître de l'épée** : Ce sceau signature vous donne 75 % de chances de conserver vos Marques de linceul lors de l'utilisation de compétences [1, 2]. Cela rend la réinitialisation de vos temps de recharge avec Rotation perpétuelle incroyablement fiable [1].
+*   **Canon de verre** : Fortement recommandé pour Yodarha [1]. Bien qu'il vous étourdisse en cas de coup reçu, Yodarha a accès à de multiples parades, frames d'invincibilité et à l'Image miroir, ce qui le rend exceptionnellement sûr [1, 2].
+*   **Dégâts supplémentaires** : Ajoute des instances de dégâts additionnelles qui contournent la limite de dégâts standard, augmentant votre DPS global jusqu'à 25 % [1, 2].
+
+<Callout type="success" title="Options de confort">
+Si vous avez du mal à rester en vie ou si vous ne possédez pas de sceaux de Dégâts supplémentaires rares, remplacez-les par des options de confort comme **Détermination**, **Autoranimation** ou **Drain** [1, 2].
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Liste de progression de fin de jeu">
+
+Suivez cette liste pour optimiser pleinement votre Yodarha et vous préparer aux affrontements les plus difficiles du jeu, tels que Lucilius et le Béhémoth [2].
+
+<Checklist
+  id="yodarha-progression"
+  title="Jalons d'optimisation de Yodarha :"
+  items={[
+    "Débloquez la difficulté Fierté et affrontez le Proto-Bahamut pour obtenir l'arme de Terminus Zosimos [2].",
+    "Acquérez le sceau signature Art du maître de l'épée au Bazar de Sirocco [1, 2].",
+    "Équipez quatre sceaux de Limite de dégâts V pour atteindre le plafond du niveau 65 [2].",
+    "Affrontez le Béhémoth pour obtenir des sceaux rares de Dégâts supplémentaires V+ et Élémentaire supérieur [2].",
+    "Obtenez une Distinction de niveau parfaite avec +20 % de Limite de dégâts d'attaque normale [1].",
+    "Maîtrisez le timing de la parade de l'attaque lourde pour maintenir un bonus de Dégâts supplémentaires actif à 100 % [1]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur le build de Yodarha">
+
+<FAQ items={[
+  {
+    question: "Pourquoi devrais-je jouer le build Yodarha de Granblue Fantasy Relink plutôt qu'un autre personnage de DPS ?",
+    answer: "Yodarha offre un mélange unique de DPS agile de premier ordre, de frames d'invincibilité constantes grâce à sa boucle de fin de combo, et d'une utilité d'équipe incroyable en accordant Image miroir à tout le groupe."
+  },
+  {
+    question: "La Prouesse du maître de l'épée vaut-elle la peine d'être jouée en fin de jeu ?",
+    answer: "En général, non. La Prouesse du maître de l'épée augmente votre puissance d'attaque brute, mais comme vous atteindrez facilement la limite de dégâts en utilisant Endurance et Tyrannie, cette puissance d'attaque supplémentaire sera gaspillée. Concentrez-vous plutôt sur l'Art du maître de l'épée."
+  },
+  {
+    question: "Comment puis-je maintenir mes PV en dessous de 45 000 tout en utilisant Égide ?",
+    answer: "Vous pouvez contrebalancer le boost de PV d'Égide en équipant un sceau de Tyrannie. Tyrannie réduit vos PV maximaux de 20 % tout en augmentant votre attaque, vous maintenant ainsi en toute sécurité sous le seuil des 45 000 requis pour le trait Catastrophe de l'arme de Terminus."
+  },
+  {
+    question: "Quel est le meilleur moyen de récupérer les meilleurs sceaux pour Yodarha ?",
+    answer: "Les sceaux standards de Limite de dégâts et de statistiques peuvent être récupérés dans les quêtes de difficulté Fierté de haut niveau. Les sceaux extrêmement rares, tels que Dégâts supplémentaires V+ et Élémentaire supérieur, s'obtiennent principalement en battant le Béhémoth."
+  }
+]} />
+
+</Section>

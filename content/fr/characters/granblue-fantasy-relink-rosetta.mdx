@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rosetta dans Granblue Fantasy Relink : Guide des meilleurs builds et configurations",
+  description: "Maîtrisez Rosetta dans Granblue Fantasy Relink grâce à notre guide 2026. Découvrez les meilleurs builds d'armes du Terminus, les stratégies de placement des roses et les rotations de compétences.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Rosetta+Build+Guide",
+  date: "2026-07-08",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink, rosetta, build, arme du terminus, sceaux, guide, compétences"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Rosetta dans Granblue Fantasy Relink** est un excellent personnage de contrôle de zone, spécialisé dans la plantation de roses qui confèrent d'immenses bonus d'équipe et infligent des dégâts de zone constants.
+- **Mécanique centrale** : Les roses peuvent monter jusqu'au niveau 4 ; les niveaux supérieurs augmentent la fréquence d'attaque, le rayon d'action et la puissance des bonus déclenchés par les enchaînements de combos.
+- **Meilleure arme** : L'**Arme du Terminus** (Zinkenstill) est le choix absolu pour le DPS de fin de jeu grâce au trait Catastrophe.
+- **Meilleure stratégie** : Priorisez immédiatement le passage des roses au niveau 4 et utilisez **Cyclone de roses** ou la **touche Y/Triangle** pour les repositionner lorsque les boss se déplacent.
+- **Conseil crucial** : Évitez les sceaux de **Dégâts supplémentaires**, car ils ne s'appliquent actuellement pas aux attaques des roses, ce qui rend d'autres multiplicateurs de dégâts bien plus efficaces.
+</Callout>
+
+<Section icon={Map} title="Rosetta dans Granblue Fantasy Relink : Mécaniques de Base">
+
+Maîtriser **Rosetta dans Granblue Fantasy Relink** nécessite une compréhension approfondie de sa mécanique unique de « Jardin de roses ». Contrairement aux combattants au corps-à-corps traditionnels, les dégâts et l'utilité de Rosetta dépendent de l'emplacement physique de ses roses. Ces plantes agissent comme des tourelles stationnaires qui montent en niveau au fil du combat, offrant une présence dynamique sur le terrain qui récompense un positionnement et un timing soignés.
+
+**Points clés de la vidéo :**
+- **Placement des roses** : Comment utiliser le système de ciblage pour planter des roses directement sur les ennemis.
+- **Gestion des bonus** : Démonstration de la différence entre les bonus d'Attaque, de Défense et de Régénération.
+- **Combat de fin de jeu** : Application pratique de Rosetta dans le raid Bahamut Versa.
+
+<YouTubeEmbed videoId="pudVnC9U22A" title="Granblue Fantasy Relink - Guide de personnage Rosetta" />
+
+Rosetta peut maintenir jusqu'à trois roses simultanément. Ces roses progressent du niveau 1 à 4 lorsqu'elles touchent des ennemis. Chaque niveau augmente la fréquence d'attaque de la rose et la puissance des bonus que Rosetta applique au groupe. Si Rosetta est mise KO, toutes les roses retombent au niveau 1, faisant de sa survie une priorité absolue.
+
+| Niveau de la rose | Intervalle d'attaque | Rayon | Puissance du bonus |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1** | 1 Attaque | Petit | De base |
+| **Niveau 2** | 2 Attacks | Moyen | Accrue |
+| **Niveau 3** | 3 Attacks | Grand | Élevée |
+| **Niveau 4** | 4 Attacks | Massif | Maximale |
+
+<Callout type="tip" title="Maîtrise du repositionnement">
+Utilisez la touche **Y (Xbox) ou Triangle (PS)** pour déplacer instantanément vos roses sur l'emplacement de votre cible actuelle. C'est un outil indispensable face aux boss très mobiles qui sautent fréquemment d'un bout à l'autre de l'arène.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures compétences et configurations d'aptitudes">
+
+Choisir les bonnes compétences pour **Rosetta dans Granblue Fantasy Relink** dépend de votre rôle : DPS pur ou soutien hybride. Dans la méta de 2026, les configurations les plus efficaces se concentrent sur la maximisation de l'interaction entre les attaques physiques de Rosetta et les frappes automatiques de ses roses.
+
+<CardGrid cols={2}>
+  <Card title="Configuration axée DPS">
+    - **Rose spirale** : Source principale de dégâts et moyen le plus rapide de faire monter le niveau des roses.
+    - **Vierge de fer** : Octroie le statut Volonté de fer et déclenche des attaques de roses à chaque coup porté.
+    - **Amour perdu** : Une explosion dévastatrice qui sacrifie les roses pour un burst de dégâts massif.
+    - **Cyclone de roses** : Indispensable pour repositionner les roses et appliquer l'altération Poison.
+  </Card>
+  <Card title="Configuration axée Soutien">
+    - **Bouquet** : Plante instantanément 3 roses et soigne l'ensemble du groupe.
+    - **Barrière de roses** : Offre une réduction massive des dégâts subis par les alliés à portée.
+    - **Cyclone de roses** : Maintient les roses centrées sur le boss pour des bonus constants.
+    - **Rose spirale** : Maintient le niveau des roses tout en infligeant des dégâts continus de harcèlement.
+  </Card>
+</CardGrid>
+
+La synergie entre **Rose spirale** and **Vierge de fer** est « l'arme secrète » de Rosetta. Lorsque Vierge de fer est active, chaque coup porté par le corps de Rosetta déclenche une attaque supplémentaire de la part de toutes les roses actives. Comme Rose spirale frappe 10 fois, vous pouvez déclencher pas moins de 30 attaques de roses supplémentaires en une seule fenêtre de compétence, générant ainsi des millions de dégâts additionnels.
+
+| Nom de la compétence | Type | Bénéfice clé | Temps de recharge |
+| :--- | :--- | :--- | :--- |
+| **Rose spirale** | Dégâts | Multi-coups, montée en niveau rapide | Court |
+| **Vierge de fer** | Bonus | Volonté de fer, déclenchements bonus | Moyen |
+| **Amour perdu** | Burst | Dégâts explosifs massifs (600k+) | Long |
+| **Cyclone de roses** | Utilitaire | Repositionnement, Poison (dégâts sur la durée) | Moyen |
+| **Bouquet** | Soutien | Niveau max instantané, Soin, Purge | Moyen |
+
+<Callout type="warning" title="Timing d'Amour perdu">
+N'utilisez **Amour perdu** que lorsque le boss est immobile (par exemple, pendant un État de choc ou un Link Time). L'explosion de vos roses réinitialise leur niveau à un, vous devez donc être prêt à reconstruire immédiatement votre configuration juste après.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration optimisée des sceaux et des armes">
+
+Pour la progression de fin de jeu de **Rosetta dans Granblue Fantasy Relink**, votre équipement doit viser à atteindre le plafond de dégâts tout en conservant suffisamment de points de vie pour survivre aux missions de niveau Fier. L'**Arme du Terminus** reste la référence absolue, mais le **Couteau de cristal de rose** est une excellente alternative pour les joueurs qui farm encore les derniers raids.
+
+**Sceaux prioritaires :**
+- **Plafond de dégâts (Niveau 65)** : Absolument obligatoire pour maximiser vos dégâts.
+- **Éveil de la rose** : Le sceau exclusif de Rosetta qui réduit l'intervalle d'attaque des roses de 30 % et renforce l'efficacité de ses bonus.
+- **Élémentaire supérieur** : Convertit tous les dégâts en l'élément supérieur face à la cible, contournant les plafonds standards.
+- **Canon de verre** : Offre un bonus de dégâts de 30 % au prix d'un effet Étourdissement lorsque vous subissez un coup.
+
+| Nom du sceau | Palier | Résumé de l'effet |
+| :--- | :--- | :--- |
+| **Plafond de dégâts** | **S+** | Augmente le seuil maximal des dégâts infligés |
+| **Élémentaire supérieur** | **S+** | Permet de toujours infliger des dégâts de faiblesse élémentaire |
+| **Éveil de la rose** | **S** | Exclusif : attaques de roses plus rapides, bonus plus puissants |
+| **Tyrannie** | **A** | Augmente l'ATQ en échange d'une baisse des PV max |
+| **Acharnement** | **A** | Augmente les dégâts en fonction des PV actuels |
+| **Herbes puissantes** | **B** | Purge les altérations lors de l'utilisation de potions (idéal avec Canon de verre) |
+
+<Callout type="info" title="L'astuce contre l'Étourdissement">
+Si vous utilisez **Canon de verre**, associez-le aux sceaux **Collecteur de potions** et **Herbes puissantes**. Boire une potion verte annulera instantanément l'effet Étourdissement, vous permettant de conserver le bonus de dégâts de 30 % avec un temps d'arrêt minimal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotation de combat étape par étape">
+
+Pour maximiser votre efficacité avec **Rosetta dans Granblue Fantasy Relink**, suivez cette séquence de combat optimisée. Cet enchaînement garantit que vos roses atteignent rapidement leur niveau maximal et restent idéalement placées pour couvrir vos alliés de bonus.
+
+<Steps>
+  <Step num="1" title="Mise en place initiale">
+    Dès le début du combat, plantez immédiatement trois roses en utilisant la touche **Y/Triangle** ou la compétence **Bouquet**. Ciblez directement le boss pour vous assurer que les roses commencent à attaquer et à monter de niveau sans attendre.
+  </Step>
+  <Step num="2" title="Montée en niveau des roses">
+    Utilisez **Rose spirale** ou vos enchaînements de combos de base pour accélérer la croissance des roses. Essayez d'atteindre le niveau 4 le plus vite possible. Évitez d'utiliser **Amour perdu** durant cette phase.
+  </Step>
+  <Step num="3" title="Activation des bonus">
+    Effectuez des fins de combos spécifiques pour appliquer les bonus nécessaires à votre équipe :
+    - **Combo A (1 coup)** : Bonus de Défense (jusqu'à 30 % avec le sceau exclusif).
+    - **Combo B (2 coups)** : Régénération de PV.
+    - **Combo C (3 coups)** : Bonus d'Attaque (jusqu'à 30 % avec le sceau exclusif).
+  </Step>
+  <Step num="4" title="La phase de burst">
+    Pendant le **Link Time** ou lorsque le boss est à terre, activez **Vierge de fer**, puis enchaînez en boucle **Rose spirale** et **Cyclone de roses**. Terminez cette fenêtre par **Amour perdu** pour une explosion finale dévastatrice.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Efficacité durant le Link Time">
+Pendant le Link Time, les temps de recharge de vos compétences sont considérablement réduits. Enchaînez sans relâche **Rose spirale** et **Cyclone de roses**. La capacité de Rosetta à saturer l'écran d'attaques de roses durant cette phase en fait l'un des meilleurs personnages pour infliger d'immenses dégâts de burst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de progression de fin de jeu">
+
+Suivez cette liste pour vous assurer que votre **Rosetta dans Granblue Fantasy Relink** est prête pour le contenu le plus difficile du jeu, y compris les raids du Proto-Bahamut et de Lucilius.
+
+<Checklist
+  id="rosetta-progression"
+  title="Objectifs de maîtrise de Rosetta :"
+  items={[
+    "Débloquer toutes les maîtrises offensives et défensives à 100 %",
+    "Obtenir et éveiller complètement l'Arme du Terminus (Zinkenstill)",
+    "Équiper 4 sceaux Plafond de dégâts V+ avec de bonnes statistiques secondaires",
+    "Obtenir le sceau exclusif Éveil de la rose au Bazar de Sierokarte",
+    "Optimiser les Distinctions pour obtenir le Plafond de dégâts des compétences et le Taux de critique",
+    "S'entraîner à repositionner les roses sans perdre de temps de frappe sur les boss mobiles"
+  ]}
+/>
+
+| Nom de l'arme | Type | Idéal pour |
+| :--- | :--- | :--- |
+| **Zinkenstill** | Terminus | DPS absolu de fin de jeu |
+| **Couteau de cristal de rose** | Ascension | Builds à fort taux de coup critique |
+| **Amour éternel** | Critique | Progression de milieu de jeu et builds Crit |
+| **Égoïsme** | Défense | Survivabilité en début de jeu |
+
+<Callout type="tip" title="Priorités des Distinctions">
+Lorsque vous optimisez vos Distinctions, donnez la priorité à **Plafond de dégâts des compétences accru** et **Plafond de dégâts des attaques normales accru**. Comme l'essentiel des dégâts de Rosetta provient de ses roses et de ses compétences, ces statistiques offrent le meilleur retour sur investissement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que les Dégâts supplémentaires fonctionnent sur les roses de Rosetta ?",
+    answer: "Non, actuellement les Dégâts supplémentaires ne s'appliquent qu'aux coups portés par le corps physique de Rosetta et n'affectent pas les attaques de ses roses plantées. Il est préférable d'utiliser ces emplacements de sceaux pour le Plafond de dégâts, Élémentaire supérieur ou Acharnement."
+  },
+  {
+    question: "Quel est le meilleur moyen de garder les roses en vie ?",
+    answer: "Les roses n'ont pas de barre de vie et ne peuvent pas être détruites par les ennemis. Cependant, elles disparaissent si Rosetta est mise KO. Pour les garder actives, concentrez-vous sur la survie de Rosetta elle-même en utilisant des sceaux comme Guts (頑強), Égide ou Collecteur de potions."
+  },
+  {
+    question: "Dois-je utiliser Amour perdu dès que la compétence est disponible ?",
+    answer: "Non. Amour perdu doit être utilisé de manière stratégique. Étant donné que cette compétence réinitialise vos roses au niveau un, vous ne devez l'utiliser que lorsque vous savez que vous aurez le temps de les replanter, ou comme un burst final juste avant qu'un boss ne change de phase ou ne se déplace."
+  },
+  {
+    question: "Quel bonus dois-je prioriser avec les combos de Rosetta ?",
+    answer: "Dans la plupart des contenus de haut niveau, le bonus d'Attaque (Combo C) est la priorité absolue. Cependant, si votre équipe peine à survivre lors d'une phase difficile, passer sur le bonus de Défense (Combo A) peut offrir une réduction de dégâts vitale de 30 %."
+  }
+]} />
+
+</Section>

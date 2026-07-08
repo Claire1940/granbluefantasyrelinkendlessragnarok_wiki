@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Ferry Granblue Fantasy Relink : Meilleurs Sceaux et Compétences",
+  description: "Maîtrisez le meilleur build pour Ferry dans Granblue Fantasy Relink avec notre guide sur la technique DPS aérien, les sceaux de fin de jeu et les rotations optimales pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Ferry+Best+Build",
+  date: "2026-07-08",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "Ferry build, Granblue Fantasy Relink, sceaux Ferry, guide Ferry, DPS aérien"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Build Ferry Granblue Fantasy Relink** : Concentrez-vous sur le style de jeu **Barrage Aérien** pour un rendement DPS maximal.
+- **Mécanique Centrale** : Invoquez les quatre animaux (Fugi, Nicola, Beppo et Geegee) pour maximiser les buffs des compétences comme **Hinrichten**.
+- **Meilleurs Sceaux** : Priorisez la **Limite de Dégâts**, les **Dégâts Supplémentaires** et la **Concorde du Fantasme** pour maintenir les malus.
+- **Choix de l'Arme** : L'**Arme de Terminus** (Esprit de Drang) est le meilleur choix absolu pour le contenu de fin de jeu.
+- **Stratégie Clé** : Utilisez **Umlauf** pour obtenir Cœur d'Acier (Stout Heart), vous permettant d'ignorer les projections ennemies pendant vos combos aériens.
+</Callout>
+
+<Section icon={Map} title="Mécaniques de Base et Gestion des Animaux">
+
+Ferry est l'un des personnages les plus polyvalents de Granblue Fantasy Relink, capable de jouer le rôle de cogneur à gros dégâts ou de support utilitaire dédié. Son kit repose sur l'invocation de ses quatre animaux fantomatiques, qui attaquent automatiquement les cibles et renforcent ses capacités spéciales. Comprendre comment maintenir ces animaux est la base de tout **build Ferry Granblue Fantasy Relink** réussi.
+
+**Points Forts de la Vidéo :**
+- Analyse détaillée des enchaînements de combos de base de Ferry et des mécaniques d'invocation.
+- Comparaison entre l'attaque lourde Assaut (Onslaught) et la technique supérieure du Barrage Aérien.
+- Démonstration de la rotation à plus de 30 millions de dégâts par minute.
+- Aperçu approfondi des sceaux de fin de jeu et de la configuration de l'arme de Terminus.
+
+<YouTubeEmbed videoId="70N5yfbBe-M" title="EASY 30+ Million Damage FERRY Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink" />
+
+Ferry possède quatre animaux uniques, bien qu'ils soient représentés par trois icônes sur l'interface (Fugi et Nicola partagent un emplacement). Les invoquer est essentiel car ses buffs les plus puissants s'adaptent en fonction du nombre d'animaux actifs sur le champ de bataille.
+
+<CardGrid cols={4}>
+  <Card title="Fugi & Nicola">
+    - **Emplacement 1**
+    - Frappes de mêlée rapides
+    - Essentiels pour les buffs de base
+  </Card>
+  <Card title="Beppo">
+    - **Emplacement 2**
+    - Attaques lourdes puissantes
+    - Requis pour Umlauf
+  </Card>
+  <Card title="Geegee">
+    - **Emplacement 3**
+    - Spécialiste utilitaire
+    - Permet les malus de Lenteur
+  </Card>
+  <Card title="Attaques de Lien">
+    - **Invocation Instantanée**
+    - Sort tous les animaux
+    - Maximise le temps de présence DPS
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Astuce d'Invocation">
+Maintenir le bouton d'attaque de base (Carré) effectue un fléau chargé. Le relâcher pendant l'éclair non seulement invoque un animal, mais parre également les attaques entrantes, offrant un outil défensif vital pour les joueurs agressifs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures Compétences et Rotations">
+
+Choisir les bonnes compétences est crucial pour équilibrer les dégâts et les capacités de soutien de Ferry. Dans la méta actuelle de 2026, les compétences offensives qui maintiennent la présence des animaux sont privilégiées par rapport aux options purement défensives.
+
+| Nom de la Compétence | Effet Principal | Requis Animaux | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Hinrichten** | Atq/Crit/Dégâts Supp/Invincible | 1 à 4 Animaux | Utiliser à 4 animaux pour un burst DPS max |
+| **Purge Spirits** | Étourdissement élevé + Invoque tous | Aucun | Outil principal pour déclencher les Attaques de Lien |
+| **Umlauf** | AOE Beppo + Cœur d'Acier | Aucun | Essentiel pour les combos aériens ininterrompus |
+| **Strife** | Invoque tous + Étourdissement élevé | Aucun | Récupération rapide des animaux après Assaut |
+| **Benediction** | Régén/Déf+/Atq+ | 1 à 3 Animaux | Soutien utilitaire pour le début de la difficulté Fier |
+| **Blaues Gespenst** | Déf- + Dissipation | Aucun | Boss avec une défense élevée ou des buffs gênants |
+
+**Hinrichten** est la pierre angulaire de ses dégâts. Lorsqu'elle est lancée avec quatre animaux, elle offre un bonus massif de 50 % d'Attaque, 30 % de taux de Coup Critique et des Dégâts Supplémentaires. La fenêtre d'invincibilité est une bouée de sauvetage pendant les phases de boss chaotiques.
+
+<Callout type="warning" title="Scaling des Buffs en Fin de Jeu">
+En fin de jeu, le buff d'Attaque de 20 % de Benediction atteint souvent la limite de dégâts, ce qui le rend moins efficace que les compétences qui fournissent des Dégâts Supplémentaires ou de l'utilitaire comme Lenteur.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La Technique Aérienne à 30 Millions de Dégâts">
+
+Bien que de nombreux joueurs s'appuient sur le coup de grâce **Assaut** (attaque lourde), le DPS le plus élevé pour un **build Ferry Granblue Fantasy Relink** provient en réalité de son style de jeu aérien. Cette méthode évite la pénalité de perte d'animaux d'Assaut tout en maintenant un plafond de dégâts élevé.
+
+<Steps>
+  <Step num="1" title="Configuration Initiale">
+    Lancez **Strife** et annulez-le immédiatement avec une esquive. Cela place tous les animaux sur le terrain sans la longue animation.
+  </Step>
+  <Step num="2" title="Buffs">
+    Activez **Umlauf** pour Cœur d'Acier et **Hinrichten** pour les Dégâts Supplémentaires. Annulez-les également avec une esquive pour rester mobile.
+  </Step>
+  <Step num="3" title="Le Lanceur">
+    Utilisez votre attaque de lancement (Saut + Triangle/Y) pour monter dans les airs.
+  </Step>
+  <Step num="4" title="Spam du Barrage Aérien">
+    Utilisez le Barrage Aérien de manière répétée. Il a la même limite de dégâts qu'Assaut mais permet à vos animaux de continuer à attaquer indépendamment.
+  </Step>
+  <Step num="5" title="Intégration de l'Attaque de Lien">
+    Lorsqu'une Attaque de Lien se déclenche, utilisez-la pour rafraîchir instantanément vos animaux et continuer la boucle.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Synergie avec Cœur d'Acier">
+En utilisant Umlauf pour obtenir Cœur d'Acier, Ferry devient impossible à interrompre. Cela vous permet de rester en l'air et de maintenir votre barrage même si le boss tente de vous repousser avec des attaques mineures.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleures Armes et Sur-Maîtrise">
+
+Votre choix d'arme dicte votre plafond de dégâts. Alors que les armes de coup critique sont excellentes pour la progression, la fin de jeu est dominée par la série Terminus.
+
+| Niveau d'Arme | Nom de l'Arme | Avantages Clés |
+| :--- | :--- | :--- |
+| **Début de Jeu** | **White Petals** | Taux de Critique et Dégâts Critiques élevés |
+| **Milieu de Jeu** | **Ethereal Lasher** | Statistiques équilibrées, plus facile à maxer tôt |
+| **Fin de Jeu** | **Esprit de Drang** | Trait **Catastrophe** : +50% Atq et +100% Limite de Dégâts |
+
+Pour la **Sur-Maîtrise**, vous devriez viser des statistiques spécifiques pour contourner les limites naturelles de la progression du jeu.
+
+<Checklist
+  id="overmastery-goals"
+  title="Priorités de Sur-Maîtrise :"
+  items={[
+    "Limite de Dégâts d'Attaque Normale (20 % est obligatoire)",
+    "Limite de Dégâts de Compétence (20 %)",
+    "Taux de Coup Critique (Pour atteindre 100 % au total)",
+    "Dégâts de Compétence ou Attaque"
+  ]}
+/>
+
+<Callout type="info" title="Note sur la Limite de Dégâts">
+Une fois que vous atteignez la limite de dégâts, les statistiques d'Attaque standard deviennent inutiles. Priorisez toujours la « Limite de Dégâts » par rapport à l'« Attaque » brute dans votre build de fin de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Configuration des Sceaux de Fin de Jeu">
+
+L'économie des sceaux est l'endroit où un **build Ferry Granblue Fantasy Relink** brille vraiment. Vous avez besoin d'un équilibre entre l'augmentation de la limite de dégâts et l'utilité spécifique au personnage.
+
+| Nom du Sceau | Importance | Effet |
+| :--- | :--- | :--- |
+| **Limite de Dégâts V+** | Obligatoire | Requis pour atteindre le niveau 65 pour un rendement max |
+| **Concorde du Fantasme** | Essentiel | Augmente les dégâts des animaux et applique Atq/Déf- |
+| **Dégâts Supplémentaires** | Élevée | Ajoute des coups supplémentaires qui ignorent la limite |
+| **Élémentaire de Guerre** | Élevée | Toutes les attaques comptent comme la faiblesse élémentaire |
+| **Canon de Verre** | Élevée | Boost massif de 30 % de la Limite de Dégâts (coût : Étourdi) |
+| **Endurance** | Moyenne | Augmente l'Attaque en fonction du pourcentage de PV actuels |
+| **Temps de Recharge Rapide** | Moyenne | Assure une haute disponibilité pour Hinrichten et Umlauf |
+
+<CardGrid cols={2}>
+  <Card title="Concorde vs Harmonie du Fantasme">
+    **Concorde** est supérieur pour le build aérien car il maintient les malus sur l'ennemi en permanence. **Harmonie** se concentre sur Assaut, que nous utilisons moins fréquemment dans les rotations à haut DPS.
+  </Card>
+  <Card title="Sceaux Utilitaires">
+    **Collecteur de Potions** et **Esquive Améliorée** sont non négociables pour la difficulté Fier. Ils offrent la survie nécessaire pour maintenir une présence agressive.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimisation du Temps de Recharge">
+Associer **Cascade** à **Temps de Recharge Rapide** permet à Ferry de réinitialiser ses compétences rapidement car elle frappe de nombreuses fois par seconde. C'est la clé pour garder Hinrichten actif pendant presque chaque fenêtre de burst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ du Build de Ferry">
+
+<FAQ items={[
+  {
+    question: "Pourquoi ma Ferry ne fait-elle pas 30 millions de dégâts même avec les bons sceaux ?",
+    answer: "Vérifiez votre niveau de Limite de Dégâts. Vous devez atteindre le niveau 65 (généralement via quatre sceaux V+ et une arme de Terminus) pour voir ces chiffres. Assurez-vous également que votre Limite de Dégâts d'Attaque Normale en Sur-Maîtrise est à 20 %."
+  },
+  {
+    question: "Ferry est-elle viable pour le jeu en solo dans Granblue Fantasy Relink ?",
+    answer: "Oui, elle est exceptionnellement forte en solo car ses animaux exercent une pression constante, et sa capacité à appliquer Lenteur et Réduction de Défense rend les boss difficiles beaucoup plus gérables."
+  },
+  {
+    question: "Dois-je utiliser Assaut (Onslaught) ?",
+    answer: "Assaut est excellent pour le nettoyage de zone (AOE) ou lorsque vous devez libérer vos animaux pour un burst massif avant qu'un boss ne change de phase. Cependant, pour un DPS soutenu sur cible unique, le barrage aérien est meilleur."
+  },
+  {
+    question: "Quelle arme utiliser si je n'ai pas encore obtenu l'arme de Terminus ?",
+    answer: "L'Arme d'Ascension pleinement éveillée est votre meilleure alternative. Elle offre un bon équilibre entre PV et Attaque qui vous portera à travers la plupart des quêtes de difficulté Fier."
+  }
+]} />
+
+</Section>

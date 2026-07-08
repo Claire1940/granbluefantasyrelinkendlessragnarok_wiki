@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Gran dans Granblue Fantasy Relink : Meilleurs Sceaux et Compétences",
+  description: "Maîtrisez le Capitaine avec le build ultime pour Gran dans Granblue Fantasy Relink. Découvrez les meilleures rotations de compétences, configurations de sceaux et stratégies de DPS de fin de jeu pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gran+Build+Guide",
+  date: "2026-07-08",
+  author: "Équipe du Wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Optimisez votre **build de Gran dans Granblue Fantasy Relink** en vous concentrant sur la gestion du niveau d'Arts 4.
+- **Mécanique clé** : La jauge d'Arts dicte l'efficacité des compétences ; essayez toujours de lancer vos compétences au niveau 4 pour un impact maximal.
+- **Meilleure stratégie** : Utilisez le combo **X-X-Y-X-Y** pour atteindre rapidement le niveau d'Arts 4 et réinitialiser les temps de recharge de vos compétences.
+- **Conseil crucial** : **Élan valeureux** (Fearless Drive) est le sceau de personnage obligatoire pour maintenir une excellente disponibilité des compétences grâce à la réduction des temps de recharge.
+- **Meilleur choix** : Un hybride de **Choc** (Stun) et de **DPS** fait du Capitaine l'une des unités les plus polyvalentes de la méta de 2026.
+</Callout>
+
+<Section icon={Sparkles} title="Maîtriser les Mécaniques de la Jauge d'Arts">
+
+La base de tout **build de Gran dans Granblue Fantasy Relink** efficace repose sur une compréhension approfondie de la jauge d'Arts. Ce système, unique au Capitaine (Gran/Djeeta), évolue du niveau 1 au niveau 4. À mesure que votre niveau d'Arts augmente, vos compétences gagnent des propriétés supplémentaires, telles que des dégâts accrus, des valeurs de choc plus élevées ou des bonus défensifs améliorés. Dans le endgame actuel de 2026, maximiser la vitesse à laquelle vous atteignez le niveau 4 fait toute la différence entre un build moyen et une contribution DPS de premier ordre.
+
+**Points forts de la vidéo :**
+- **Combo d'Arts 4 le plus rapide** : Analyse détaillée des commandes X-X-Y-X-Y.
+- **Rotations de compétences** : Comment intégrer Régénération de feuille (Regan Leaf) entre les réinitialisations d'Arts.
+- **Gestion des temps de recharge** : Profiter du bonus de réduction de recharge de 9 % au niveau d'Arts 4.
+- **Potentiel de reine du Choc** : Démonstration de la manière dont Surchauffe de l'overdrive (Overdrive Surge) détruit les jauges des boss.
+
+<YouTubeEmbed videoId="eS1vPhva9Xs" title="How To Play Granblue Fantasy Relink: Captain Tutorial!" />
+
+La jauge d'Arts ne se contente pas de buffer vos compétences ; elle offre également une réduction passive du temps de recharge d'environ 9 % lorsque vous atteignez le niveau 4. Combiné avec le sceau **Élan valeureux** (Fearless Drive), le Capitaine peut enchaîner des compétences puissantes comme **Régénération de feuille** (Regan Leaf) avec presque aucun temps mort. Cette synergie vous permet de maintenir une offensive implacable, gardant les boss sous pression constante.
+
+| Type de Combo | Commandes | Gain d'Arts | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Arts 4 le plus rapide** | X, X, Y, X, Y (Maintenir Y) | Niveau 4 | Rotation principale de DPS |
+| **Incrémentation rapide** | X, Y, Y | +1 Niveau | Ajustement du niveau après une Attaque de lien |
+| **Choc instantané** | X, X, Y, X | Niveau 2 | Accumulation rapide de choc avant une phase de burst |
+| **Arts 4 alternatif** | X, Y, Y, X, X, X, X, Y | Niveau 4 | Plus de sécurité, moins de dégâts |
+
+<Callout type="tip" title="Synergie avec l'Attaque de lien">
+Effectuer une Attaque de lien vous octroie automatiquement +1 niveau d'Arts. Si vous êtes au niveau 3, une Attaque de lien vous propulsera instantanément au niveau 4, vous permettant d'ignorer un combo pour lancer directement vos compétences. Vérifiez toujours votre jauge avant de déclencher un lien.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurations de Compétences Optimales pour un DPS Max">
+
+Sélectionner les bonnes compétences est crucial pour un **build de Gran dans Granblue Fantasy Relink** performant. Bien que le Capitaine ait accès à des compétences défensives et de soutien comme Phalange (Phalanx) et Ranimer (Revive), la méta de 2026 privilégie largement les dégâts bruts et l'utilité de choc. Comme les plafonds de dégâts sont facilement atteints en fin de jeu, les débuffs comme Brume misérable (Miserable Mist) perdent souvent de leur valeur par rapport aux compétences à hits multiples qui déclenchent **Cascade**.
+
+| Nom de la Compétence | Potentiel de Dégâts | Valeur de Choc | Caractéristique Clé |
+| :--- | :--- | :--- | :--- |
+| **Régénération de feuille** | Élevé | Moyen | Pilier du build ; temps de recharge extrêmement court |
+| **Surchauffe de l'overdrive** | Moyen | Massif | Meilleure compétence de choc du jeu ; attaque plongeante |
+| **Brise-armure** | Moyen | Faible | Réduction de défense (utile avant le plafond) et grande mobilité |
+| **Décimation** | Massif | Moyen | Nombre élevé de coups ; parfait pour déclencher Cascade |
+| **Arrêt** | Faible | Faible | Inflige Lenteur ; essentiel pour les builds de destruction de parties |
+
+<CardGrid cols={3}>
+  <Card title="Le Roi du DPS">
+    - **Régénération de feuille**
+    - **Surchauffe de l'overdrive**
+    - **Brise-armure**
+    - **Décimation**
+    Se concentre sur la vitesse de rotation maximale des compétences.
+  </Card>
+  <Card title="Le Spécialiste du Choc">
+    - **Surchauffe de l'overdrive**
+    - **Arrêt**
+    - **Brise-armure**
+    - **Pluie de flèches**
+    Priorise la destruction des parties de boss et le contrôle de foule.
+  </Card>
+  <Card title="Soutien Équilibré">
+    - **Régénération de feuille**
+    - **Phalange**
+    - **Purification générale**
+    - **Décimation**
+    Idéal pour les raids de difficulté Fierté (Proud) les plus exigeants.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Évitez les Débuffs Redondants">
+Dans les scénarios de fin de jeu où les membres de votre groupe atteignent déjà les plafonds de dégâts, les compétences comme **Brume misérable** (Miserable Mist) ou **Pluie de flèches** (Rain of Arrows) pour la réduction d'attaque n'apportent aucun bénéfice réel. Privilégiez les compétences qui infligent des dégâts directs ou offrent une utilité non plafonnée, comme **Arrêt** (Stall) ou **Phalange** (Phalanx).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression des Sceaux de Fin de Jeu & Choix de la Méta">
+
+À la mi-2026, la méta des sceaux pour le Capitaine s'est stabilisée autour de la maximisation de la disponibilité des compétences et de l'atteinte constante du plafond de dégâts. Le **build de Gran dans Granblue Fantasy Relink** nécessite un équilibre spécifique entre puissance offensive et utilité pour s'assurer que vous ne frappez pas seulement fort, mais aussi souvent.
+
+| Type de Sceau | Priorité | Niveau Recommandé | Justification |
+| :--- | :--- | :--- | :--- |
+| **Plafond de dégâts** | Obligatoire | Niveau 65 | Indispensable pour tous les builds de fin de jeu |
+| **Élan valeureux** | Obligatoire | Niveau 15 | Offre une réduction massive du temps de recharge lors du gain d'Arts |
+| **Recharge rapide** | Élevée | Niveau 45 | Se cumule avec Élan valeureux pour des rotations rapides |
+| **Cascade** | Élevée | Niveau 15 | Réduit les temps de recharge selon le nombre de coups (synergie avec Décimation) |
+| **Guerrier élémentaire** | Élevée | Niveau 15 | Permet à toutes les attaques d'infliger des dégâts d'élément supérieur |
+| **Tyrannie/Endurance** | Moyenne | Niveau 15-30 | Investissement minimal requis pour atteindre les plafonds de dégâts |
+
+<Steps>
+  <Step num="1" title="Plafonnez Vos Dégâts">
+    Équipez quatre sceaux Plafond de dégâts V+. C'est la première étape non négociable pour tout build de difficulté Fierté (Proud).
+  </Step>
+  <Step num="2" title="Équipez les Sceaux de Personnage">
+    Obtenez et équipez **Élan valeureux** (Fearless Drive). Bien que l'autre sceau de personnage (Esprit valeureux / Fearless Spirit) soit correct, Élan est celui qui permet la méta de rotation ultra-rapide.
+  </Step>
+  <Step num="3" title="Optimisez les Temps de Recharge">
+    Concentrez-vous sur **Recharge rapide** (Quick Cooldown) et **Cascade**. Comme le Capitaine dépend énormément de compétences comme Régénération de feuille, réduire leur temps de récupération de base a plus de valeur que la puissance d'attaque brute.
+  </Step>
+  <Step num="4" title="Utilitaires de Survie">
+    Ajoutez **Collecteur de potions** (Potion Hoarder) et **Esquive améliorée** (Improved Dodge). Ils offrent la capacité de survie nécessaire pour rester dans la mêlée et maintenir vos combos d'Arts sans être interrompu.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Bonus de l'Arme Terminus">
+Une fois que vous débloquez et éveillez complètement l'Arme Terminus du Capitaine, vous gagnez 5 niveaux supplémentaires de Plafond de dégâts. Cela vous permet potentiellement de remplacer un sceau de Plafond de dégâts par plus d'utilité, comme **Élan de ferveur** (Uplift) pour une génération de jauge d'OBA plus rapide.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La Rotation de Combat Optimale">
+
+Exécuter la rotation parfaite est ce qui sépare un maître Capitaine d'un novice. Le but d'un **build de Gran dans Granblue Fantasy Relink** est d'enchaîner vos compétences autant de fois que possible dans une fenêtre de 60 secondes. En 2026, la rotation standard sur mannequin d'entraînement a été optimisée pour les scénarios de combat réels où les boss se déplacent fréquemment.
+
+**Le Déroulement de la Rotation Standard :**
+1.  Commencez par **Régénération de feuille** pour lancer immédiatement le temps de recharge.
+2.  Lancez **Surchauffe de l'overdrive** et **Brise-armure**.
+3.  Utilisez **Décimation** en dernier pour bénéficier des déclenchements maximaux de réduction de recharge de Cascade.
+4.  Effectuez le combo **X-X-Y-X-Y (Maintenir Y)** pour atteindre le niveau d'Arts 4.
+5.  En atteignant le niveau 4, vos compétences (en particulier Régénération de feuille) devraient être presque prêtes.
+6.  Relancez immédiatement **Régénération de feuille**.
+7.  Attendez que la jauge d'Arts se réinitialise (environ 6,5 secondes) et répétez.
+
+| Phase de la Rotation | Action | Objectif |
+| :--- | :--- | :--- |
+| **Ouverture** | Décharge de Compétences | Burst initial et accumulation de choc |
+| **Récupération** | Combo d'Arts | Recharger la jauge et réduire les temps de recharge |
+| **Pic de Puissance** | Niveau d'Arts 4 | Maximiser les dégâts des compétences et le bonus de réduction de recharge |
+| **Réinitialisation** | Épuisement de la Jauge | Se préparer pour le prochain cycle de compétences |
+
+<Callout type="success" title="Tactique Avancée : Double Régénération de Feuille">
+Grâce à l'incroyable réduction de temps de recharge au niveau d'Arts 4, vous pouvez souvent lancer **Régénération de feuille** au niveau 0, terminer votre combo pour atteindre le niveau 4, et avoir à nouveau **Régénération de feuille** prête avant que l'état de niveau 4 n'expire. Ce double lancement booste considérablement votre DPS global.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Progression Endgame">
+
+Pour finaliser pleinement votre **build de Gran dans Granblue Fantasy Relink**, vous devez suivre un parcours de progression strict. Le contenu endgame de 2026 exige d'atteindre des étapes spécifiques avant de pouvoir farmer confortablement les raids de plus haut niveau.
+
+<Checklist
+  id="gran-progression"
+  title="Liste de Maîtrise du Capitaine :"
+  items={[
+    "Débloquer entièrement l'Arbre de Maîtrise du Capitaine (Attaque et Défense)",
+    "Obtenir l'Arme Terminus dans le raid 'La fureur de Bahamut'",
+    "Atteindre le niveau 65 de Plafond de dégâts grâce aux sceaux et aux bonus d'arme",
+    "Sécuriser un sceau Élan valeureux+ avec un trait secondaire utile",
+    "Atteindre un taux de coup critique de 100 % grâce aux sceaux et à la Surmaîtrise",
+    "Maîtriser le timing du combo X-X-Y-X-Y dans la zone d'entraînement"
+  ]}
+/>
+
+| Palier d'Arme | Nom | Avantage Principal |
+| :--- | :--- | :--- |
+| **Ascension** | Épée d'Éos | Statistiques de base élevées pour la progression de milieu de jeu |
+| **Choc** | Partenza | Boost de choc massif pour détruire les parties de boss |
+| **Terminus** | Épée des sept étoiles | Meilleure arme du jeu pour les dégâts et trait unique Catastrophe |
+
+<Callout type="tip" title="Priorités de la Surmaîtrise">
+Lorsque vous cherchez à obtenir une Surmaîtrise pour le Capitaine, donnez la priorité au **Plafond de dégâts d'attaque normale**, au **Plafond de dégâts de compétence**, et au **Taux de coup critique**. Comme Gran atteint facilement les plafonds, augmenter la limite de ces derniers est le seul moyen d'accroître encore vos dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Est-ce que Gran est meilleur que Djeeta pour ce build ?",
+    answer: "Gran et Djeeta sont fonctionnellement identiques en termes de statistiques, de compétences et de frame data. Le choix est purement cosmétique et n'affecte en rien les performances de votre build."
+  },
+  {
+    question: "Pourquoi devrais-je utiliser Décimation en dernier dans ma rotation ?",
+    answer: "Décimation possède un grand nombre de coups durant son animation. En l'utilisant en dernier, vous maximisez les chances que Cascade réduise les temps de recharge des compétences que vous venez d'utiliser (Régénération de feuille et Brise-armure) pendant que ces dernières sont effectivement en recharge."
+  },
+  {
+    question: "Ai-je besoin du sceau Esprit valeureux (Fearless Spirit) ?",
+    answer: "Esprit valeureux augmente le niveau d'Arts en fonction du nombre de coups réussis, mais il est généralement considéré comme inférieur à Élan valeureux. Élan offre la réduction de temps de recharge qui définit le style de jeu méta du Capitaine en 2026."
+  },
+  {
+    question: "Comment gérer les boss très mobiles ?",
+    answer: "Utilisez Brise-armure et Surchauffe de l'overdrive comme outils de rapprochement. Le Capitaine dispose d'une excellente mobilité, et ces compétences vous permettent de rester collé au boss tout en maintenant votre combo d'Arts."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Narmaya : Meilleur Build et Guide de Postures 2026",
+  description: "Maîtrisez Narmaya dans Granblue Fantasy Relink avec notre guide 2026. Apprenez la danse des postures, la gestion des papillons, les meilleurs sceaux et les rotations à haut DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Narmaya+Character+Guide",
+  date: "2026-07-09",
+  author: "L'équipe du Wiki Granblue Fantasy Relink",
+  keywords: "Narmaya, Granblue Fantasy Relink, build, guide, postures, papillons, DPS"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Danse des Postures** : Le succès avec **Narmaya dans Granblue Fantasy Relink** dépend de l'alternance entre les postures Dawnfly et Freeflutter au moment idéal.
+- **Gestion des Papillons** : Visez toujours à maintenir 6 papillons pour maximiser les dégâts et l'utilité de vos compétences offensives.
+- **Sceaux Signatures** : Équiper à la fois Grâce du papillon et Bravoure du papillon est obligatoire pour les performances de fin de jeu.
+- **Choix de l'Arme** : L'Arme de Terminus est le meilleur choix absolu, bien que l'arme de Taux de critique soit une alternative solide pour le début du mode Fier.
+- **Priorité des Compétences** : Concentrez-vous sur Transient et Setsuna comme sources principales de dégâts, tout en utilisant Danse des pétales roses pour les buffs essentiels.
+</Callout>
+
+<Section icon={Swords} title="Comprendre les mécaniques de posture de Narmaya">
+
+Narmaya est un personnage DPS de mêlée avec un plafond de compétence élevé dans Granblue Fantasy Relink, utilisant une mécanique unique de "Changement de Posture". Son gameplay repose sur l'alternance entre deux formes de combat distinctes pour générer des papillons, qui à leur tour renforcent ses puissantes compétences. Maîtriser le rythme de ses transitions de posture fait la différence entre des dégâts médiocres et l'atteinte du plafond de 45 millions de DPS dans les attaques de score.
+
+**Points forts de la vidéo :**
+- Analyse détaillée des différences entre les postures Dawnfly et Freeflutter.
+- Explication de la mécanique des papillons et de leur influence sur les dégâts des compétences.
+- Démonstration des coups de grâce de changement de posture parfaits pour une génération maximale de papillons.
+- Conseils sur l'utilisation des attaques de lien pour réinitialiser instantanément les combos de posture.
+
+<YouTubeEmbed videoId="x0N4zILJDzY" title="Granblue Fantasy Relink - Guide du personnage Narmaya" />
+
+Les deux postures définissent ses enchaînements d'attaques de base et son interaction avec l'ennemi. La posture Dawnfly se caractérise par un éclat rose et des entailles plus lentes et larges, tandis que la posture Freeflutter présente un éclat bleu et des frappes rapides sur cible unique.
+
+| Posture | Couleur de l'éclat | Vitesse d'attaque | Utilisation principale | Type de coup de grâce |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dawnfly** | Rose | Lente | Zone / Préparation | Entaille chargée |
+| **Freeflutter** | Bleu | Rapide | DPS cible unique | Multi-coups rapides |
+
+<Callout type="tip" title="Maîtriser le Changement">
+Ne changez jamais de posture manuellement avec le bouton de posture en restant immobile. Effectuez toujours un Changement de Posture en appuyant sur le bouton à la fin d'un combo ou après une compétence pour réaliser une puissante attaque de transition qui octroie des papillons.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Le système de papillons et le flux de combat">
+
+Le cœur de **Narmaya dans Granblue Fantasy Relink** est la mécanique des papillons. Vous pouvez posséder jusqu'à six papillons à la fois. Ils ne sont pas seulement esthétiques ; ils augmentent considérablement les dégâts et la durée des effets de ses compétences. Réussir des coups de grâce spécifiques, des changements de posture parfaits et des attaques de lien octroie ces papillons.
+
+Pour optimiser la génération de papillons, vous devez comprendre le "Changement Parfait". Pour la posture Dawnfly, le moyen le plus rapide de charger l'attaque maintenue est d'effectuer d'abord trois attaques normales. Pour Freeflutter, il suffit d'enchaîner les attaques jusqu'à ce que l'animation du "moulinet" se déclenche, puis de changer de posture.
+
+| Action | Gain de papillons | Notes |
+| :--- | :--- | :--- |
+| **Coup de grâce de changement** | 1-2 | Nécessite un timing parfait à la fin d'un combo |
+| **Attaque de lien** | 1 | Permet un coup de grâce de changement immédiat |
+| **Danse des pétales roses** | 3 | Gain instantané à l'activation |
+| **Danse des pétales bleus** | 3 | Gain instantané plus buffs défensifs |
+| **Grâce du papillon** | +1 | Papillon bonus sur chaque coup de grâce (Sceau requis) |
+
+<CardGrid cols={2}>
+  <Card title="Stratégie Dawnfly">
+    - À utiliser pour le **nettoyage de zone** et l'engagement initial.
+    - Concentrez-vous sur le combo **trois coups vers l'entaille chargée**.
+    - Passez en Freeflutter immédiatement après le coup chargé.
+  </Card>
+  <Card title="Stratégie Freeflutter">
+    - Votre **posture de DPS principale** pour les boss.
+    - La vitesse d'attaque élevée facilite le **remplissage de la jauge SBA**.
+    - Très efficace pour déclencher les **Dégâts supplémentaires**.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Consommation de papillons">
+Les compétences consomment tous les papillons actuels à moins que vous n'ayez le sceau Bravoure du papillon. Vérifiez toujours votre nombre de papillons avant d'utiliser Transient ou Setsuna pour ne pas gaspiller un temps de recharge avec des dégâts faibles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleures compétences et priorité des capacités">
+
+Le set de compétences de Narmaya permet un mélange d'entailles de haute intensité et de buffs utilitaires. Dans la méta 2026, se concentrer sur les dégâts purs est généralement préféré pour les raids de fin de jeu comme Proto Bahamut ou Lucilius.
+
+| Nom de la compétence | Type | Posture requise | Effet |
+| :--- | :--- | :--- | :--- |
+| **Transient** | Dégâts | Freeflutter | Dégâts massifs sur cible unique ; bien plus faible en Dawnfly. |
+| **Setsuna** | Dégâts | Les deux | Entaille chargeable ; atteint facilement la limite de dégâts à pleine charge. |
+| **Kyokatsu** | Utilité | Les deux | Attaque d'estoc ; excellente pour réduire la distance avec un court temps de recharge. |
+| **Danse des pétales roses** | Buff | Les deux | Accorde **Cœur d'acier**, Attaque ↑, et Dégâts supplémentaires. |
+
+<Steps>
+  <Step num="1" title="Activation des Buffs">
+    Commencez le combat en activant **Danse des pétales roses**. Cela vous donne 3 papillons et empêche les interruptions pendant votre combo initial.
+  </Step>
+  <Step num="2" title="Réduction de Distance">
+    Utilisez **Kyokatsu** pour foncer sur le boss. Cette compétence vous permet de passer immédiatement à une attaque Dawnfly chargée rapidement.
+  </Step>
+  <Step num="3" title="Transition de Posture">
+    Effectuez le coup de grâce Dawnfly et passez en **Freeflutter**. Cela devrait vous amener instantanément à 5-6 papillons.
+  </Step>
+  <Step num="4" title="Dégâts de Burst">
+    Déchaînez **Transient** en posture Freeflutter. Enchaînez avec un **Setsuna** non chargé ou partiellement chargé pour un DPS maximum.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nuance de Compétence">
+Lors de l'utilisation de **Setsuna**, n'esquivez pas immédiatement après l'entaille. Narmaya doit rengainer son sabre pour déclencher l'explosion finale de dégâts. Annuler cette animation entraînera une perte significative de dégâts totaux.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sceaux optimaux et configuration de l'arme">
+
+Pour atteindre la limite de dégâts de manière constante avec **Narmaya**, votre configuration de sceaux doit être hautement optimisée. La méta de fin de jeu 2026 repose lourdement sur l'Arme de Terminus, qui fournit les traits **Catastrophe** et **Régénération**.
+
+| Type de sceau | Priorité | Traits recommandés |
+| :--- | :--- | :--- |
+| **Unique au personnage** | Obligatoire | Éveil (Grâce + Bravoure) ou versions individuelles V+. |
+| **Limite de dégâts** | Obligatoire | Le niveau 65 est requis via quatre sceaux Limite de dégâts V+. |
+| **Élémentaire de guerre** | Obligatoire | Permet à toutes les attaques d'infliger des dégâts de faiblesse élémentaire. |
+| **Dégâts supplémentaires**| Haute | Au moins deux emplacements pour déclencher des coups bonus à chaque attaque. |
+| **Taux de critique** | Haute | Visez 100% de taux de critique via les sceaux et la Surmaîtrise. |
+
+<CardGrid cols={3}>
+  <Card title="Grâce du papillon">
+    Accorde un **papillon supplémentaire** chaque fois que vous réussissez un coup de grâce ou une attaque de lien. Essentiel pour le maintien.
+  </Card>
+  <Card title="Bravoure du papillon">
+    Offre **50% de chance** de ne pas consommer de papillons lors de l'utilisation d'une compétence. C'est la clé des dégâts de burst basés sur la chance.
+  </Card>
+  <Card title="Canon de verre">
+    Augmente massivement l'attaque mais inflige **Étourdissement** en cas de coup reçu. Uniquement pour les joueurs confiants dans leurs esquives.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Utilité Défensive">
+Même en mode "canon de verre", utiliser **Collecteur de potions** et **Tripes** est fortement recommandé pour le mode Fier. Cela vous permet de survivre aux coups mortels et de maintenir votre élan offensif sans dépendre des coéquipiers pour les réanimations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conseils de combat avancés et liste de contrôle">
+
+Pour les joueurs cherchant à pousser Narmaya dans ses retranchements, le timing de vos esquives est critique. Vous pouvez esquiver au milieu d'un combo d'attaques normales et reprendre le combo immédiatement après l'animation d'esquive, ce qui vous permet de maintenir votre timing de "Changement Parfait" même sous un feu nourri.
+
+**Priorité de Surmaîtrise :**
+1. **Limite de dégâts d'attaque normale ↑** (20%)
+2. **Limite de dégâts de compétence ↑** (20%)
+3. **Taux de critique ↑** (20%)
+4. **Attaque ↑** ou **Limite de dégâts SBA ↑**
+
+<Checklist
+  id="narmaya-mastery"
+  title="Objectifs de progression de Narmaya :"
+  items={[
+    "Débloquer toutes les maîtrises dans les arbres d'Offensive et de Défense",
+    "Obtenir et éveiller complètement l'Arme de Terminus (Ame-no-Habakiri)",
+    "Atteindre 100% de taux de critique via les sceaux et la Surmaîtrise",
+    "Équiper au moins le niveau 45 de Recharge rapide pour une meilleure disponibilité des compétences",
+    "Maîtriser le combo d'annulation par esquive pour maintenir le rythme des postures"
+  ]}
+/>
+
+<Callout type="tip" title="Stratégie en Link Time">
+Pendant le **Link Time**, les temps de recharge des compétences de Narmaya sont considérablement réduits. Enchaînez **Transient** et **Setsuna** en posture Freeflutter de manière répétée. Vous n'avez pas besoin de vous soucier autant de la génération de papillons pendant cette fenêtre, car le volume de compétences l'emporte sur la logique de rotation standard.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Quelle arme utiliser avant d'obtenir l'arme de Terminus ?",
+    answer: "La Venustas (arme de Taux de critique) est le meilleur choix pour la progression. Elle vous aide à atteindre le seuil de 100% de critique bien plus tôt, rendant vos dégâts plus constants en difficulté Maniaque et au début du mode Fier."
+  },
+  {
+    question: "Vaut-il la peine d'utiliser les compétences défensives de Narmaya comme Danse des pétales bleus ?",
+    answer: "En jeu solo ou dans des raids très difficiles comme Lucilius, le bonus de 40% de Défense et la régénération de PV peuvent être utiles. Cependant, dans la plupart des scénarios de fin de jeu, l'utilité offensive des quatre compétences de dégâts principales surpasse largement les avantages défensifs."
+  },
+  {
+    question: "Comment gérer la pénalité de PV bas de Tyrannie sur Narmaya ?",
+    answer: "Si la pénalité de PV de Tyrannie vous expose au risque d'être tué en un coup, équipez un sceau Égide. Cela compense la perte de PV tout en vous permettant de conserver le bonus d'attaque massif de Tyrannie."
+  },
+  {
+    question: "Pourquoi mon Transient inflige-t-il parfois peu de dégâts ?",
+    answer: "Transient dépend énormément de votre posture actuelle et de votre nombre de papillons. Assurez-vous d'être en posture Freeflutter (éclat bleu) et d'avoir 6 papillons pour un impact maximal. L'utiliser en posture Dawnfly représente une perte de DPS significative."
+  }
+]} />
+
+</Section>

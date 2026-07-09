@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Narmaya: 2026 Best Build & Stance Guide",
+  description: "Master Narmaya in Granblue Fantasy Relink with our 2026 guide. Learn stance dancing, butterfly management, best sigils, and high-DPS rotations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Narmaya+Character+Guide",
+  date: "2026-07-09",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Stance Dancing**: Success with **granblue fantasy relink narmaya** depends on switching between Dawnfly and Freeflutter stances at the perfect moment.
+- **Butterfly Management**: Always aim to maintain 6 butterflies to maximize the damage and utility of your offensive skills.
+- **Signature Sigils**: Equipping both Butterflies' Grace and Butterflies' Valor is mandatory for endgame performance.
+- **Weapon Choice**: The Terminus Weapon is the absolute best-in-slot, though the Critical Hit Rate weapon is a solid alternative for early Proud mode.
+- **Skill Priority**: Focus on Transient and Setsuna as your primary damage dealers while using Dance of Pink Petals for essential buffs.
+</Callout>
+
+<Section icon={Swords} title="Understanding Narmaya Stance Mechanics">
+
+Narmaya is a high-skill ceiling melee DPS character in Granblue Fantasy Relink who utilizes a unique "Stance Shift" mechanic. Her gameplay revolves around alternating between two distinct combat forms to generate butterflies, which in turn empower her powerful skills. Mastering the rhythm of her stance transitions is the difference between mediocre damage and reaching the 45 million DPS ceiling in score attacks.
+
+**Video Highlights:**
+- Detailed breakdown of Dawnfly and Freeflutter stance differences.
+- Explanation of the butterfly mechanic and how it scales skill damage.
+- Demonstration of perfect stance shift finishers for maximum butterfly generation.
+- Tips on using link attacks to instantly reset stance combos.
+
+<YouTubeEmbed videoId="x0N4zILJDzY" title="Granblue Fantasy Relink - Narmaya Character Guide" />
+
+The two stances define her basic attack strings and how she interacts with the enemy. Dawnfly stance is characterized by a pink flare and slower, wide-reaching slashes, while Freeflutter stance features a blue flare and rapid-fire, single-target strikes.
+
+| Stance | Flare Color | Attack Speed | Primary Use | Finisher Type |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dawnfly** | Pink | Slow | AOE / Setup | Charged Slash |
+| **Freeflutter** | Blue | Fast | Single Target DPS | Rapid Multi-hit |
+
+<Callout type="tip" title="Mastering the Shift">
+Never switch stances manually with the stance button while standing still. Always perform a Stance Shift by pressing the stance button at the end of a combo or after a skill to perform a powerful transition attack that grants butterflies.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Butterfly System and Combat Flow">
+
+The core of **granblue fantasy relink narmaya** is the butterfly mechanic. You can hold up to six butterflies at once. These are not just visual flair; they significantly increase the damage and effect duration of her skills. Landing specific combo finishers, stance shift finishers, and link attacks grants these butterflies.
+
+To optimize butterfly generation, you must understand the "Perfect Shift." For Dawnfly stance, the fastest way to charge the hold attack is to perform three normal attacks first. For Freeflutter, you simply spam the attack button until the windmill animation triggers, then shift.
+
+| Action | Butterfly Gain | Notes |
+| :--- | :--- | :--- |
+| **Stance Shift Finisher** | 1-2 | Requires perfect timing at the end of a combo |
+| **Link Attack** | 1 | Allows for an immediate stance shift finisher |
+| **Dance of Pink Petals** | 3 | Instant gain upon activation |
+| **Dance of Blue Petals** | 3 | Instant gain plus defensive buffs |
+| **Butterflies' Grace** | +1 | Bonus butterfly on every finisher (Sigil required) |
+
+<CardGrid cols={2}>
+  <Card title="Dawnfly Strategy">
+    - Use for **AOE clearing** and initial engagement.
+    - Focus on the **three-hit into charged slash** combo.
+    - Shift into Freeflutter immediately after the charged hit.
+  </Card>
+  <Card title="Freeflutter Strategy">
+    - Your **primary DPS stance** for bosses.
+    - High attack speed facilitates faster **SBA gauge building**.
+    - Most effective for proccing **Supplementary Damage**.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Butterfly Consumption">
+Skills consume all current butterflies unless you have the Butterflies' Valor sigil. Always check your butterfly count before using Transient or Setsuna to ensure you aren't wasting a cooldown on low-damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Skills and Ability Priority">
+
+Narmaya's skill set allows for a mix of high-intensity slashes and utility buffs. In the 2026 meta, focusing on pure damage output is generally preferred for endgame raids like Proto Bahamut or Lucilius.
+
+| Skill Name | Type | Stance Requirement | Effect |
+| :--- | :--- | :--- | :--- |
+| **Transient** | Damage | Freeflutter | Massive single-target damage; much weaker in Dawnfly. |
+| **Setsuna** | Damage | Either | Chargeable slash; hits damage cap easily at full charge. |
+| **Kyokatsu** | Utility | Either | Lunge attack; excellent gap closer with low cooldown. |
+| **Dance of Pink Petals** | Buff | Either | Grants **Stout Heart**, Attack Up, and Supplementary Damage. |
+
+<Steps>
+  <Step num="1" title="Buff Activation">
+    Start the fight by activating **Dance of Pink Petals**. This grants you 3 butterflies and prevents interruption during your initial combo.
+  </Step>
+  <Step num="2" title="Gap Closing">
+    Use **Kyokatsu** to lunge at the boss. This skill allows you to immediately transition into a fast-charged Dawnfly hold attack.
+  </Step>
+  <Step num="3" title="Stance Transition">
+    Perform the Dawnfly finisher and shift into **Freeflutter**. This should bring you to 5-6 butterflies instantly.
+  </Step>
+  <Step num="4" title="Burst Damage">
+    Unleash **Transient** while in Freeflutter stance. Follow up with an uncharged or partially charged **Setsuna** for maximum DPS.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Skill Nuance">
+When using **Setsuna**, do not dodge immediately after the slash. Narmaya must sheath her sword to trigger the final explosion of damage. Canceling this animation will result in a significant loss of total damage.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimal Sigils and Weapon Setup">
+
+To reach the damage cap consistently with **granblue fantasy relink narmaya**, your sigil loadout must be highly optimized. The 2026 endgame meta relies heavily on the Terminus Weapon, which provides the **Catastrophe** and **Regeneration** traits.
+
+| Sigil Type | Priority | Recommended Traits |
+| :--- | :--- | :--- |
+| **Character Unique** | Mandatory | Awakening (Grace + Valor) or individual V+ versions. |
+| **Damage Cap** | Mandatory | Level 65 is required via four Damage Cap V+ sigils. |
+| **War Elemental** | Mandatory | Allows all attacks to deal elemental weakness damage. |
+| **Supplementary Damage**| High | At least two slots to trigger extra hits on every attack. |
+| **Critical Hit Rate** | High | Aim for 100% crit rate via sigils and Overmastery. |
+
+<CardGrid cols={3}>
+  <Card title="Butterflies' Grace">
+    Grants an **additional butterfly** whenever you land a combo finisher or link attack. Essential for upkeep.
+  </Card>
+  <Card title="Butterflies' Valor">
+    Provides a **50% chance** to not consume butterflies on skill use. This is the key to RNG-based burst damage.
+  </Card>
+  <Card title="Glass Cannon">
+    Massively increases attack but inflicts **Dizzy** on hit. Only for players confident in their dodging.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Defensive Utility">
+Even as a glass cannon, running **Potion Hoarder** and **Guts** is highly recommended for Proud mode. These allow you to survive lethal hits and maintain your offensive momentum without relying on teammates for revives.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Combat Tips and Checklist">
+
+For players looking to push Narmaya to her absolute limits, timing your dodges is critical. You can dodge in the middle of a normal attack combo and resume the combo immediately after the dodge animation, allowing you to maintain your "Perfect Shift" timing even under heavy fire.
+
+**Overmastery Priority:**
+1. **Normal Attack Damage Cap Up** (20%)
+2. **Skill Damage Cap Up** (20%)
+3. **Critical Hit Rate Up** (20%)
+4. **Attack Up** or **SBA Damage Cap Up**
+
+<Checklist
+  id="narmaya-mastery"
+  title="Narmaya Progression Goals:"
+  items={[
+    "Unlock all Masteries in the Offense and Defense trees",
+    "Obtain and fully awaken the Terminus Weapon (Ame-no-Habakiri)",
+    "Reach 100% Critical Hit Rate through Sigils and Overmastery",
+    "Equip at least Level 45 of Quick Cooldown for higher skill uptime",
+    "Master the dodge-cancel combo to maintain stance rhythm"
+  ]}
+/>
+
+<Callout type="tip" title="Link Time Strategy">
+During **Link Time**, Narmaya's skill cooldowns are drastically reduced. Spam **Transient** and **Setsuna** in Freeflutter stance repeatedly. You do not need to worry about butterfly generation as much during this window, as the sheer volume of skills will override standard rotation logic.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Which weapon should I use before getting the Terminus weapon?",
+    answer: "The Venustas (Critical Hit Rate weapon) is the best choice for progression. It helps you reach the 100% crit threshold much earlier, making your damage more consistent in Maniac and early Proud difficulty."
+  },
+  {
+    question: "Is it worth using Narmaya's defensive skills like Dance of Blue Petals?",
+    answer: "In solo play or very difficult raids like Lucilius, the 40% Defense boost and HP regen can be helpful. However, in most endgame scenarios, the offensive utility of the four main damage skills far outweighs the defensive benefits."
+  },
+  {
+    question: "How do I deal with Narmaya's low health penalty from Tyranny?",
+    answer: "If the health penalty from Tyranny puts you in danger of being one-shot, slot in an Aegis sigil. This offsets the HP loss while allowing you to keep the massive attack boost from Tyranny."
+  },
+  {
+    question: "Why does my Transient deal low damage sometimes?",
+    answer: "Transient scales heavily with both your current stance and your butterfly count. Ensure you are in Freeflutter stance (blue flare) and have 6 butterflies for maximum impact. Using it in Dawnfly stance is a significant DPS loss."
+  }
+]} />
+
+</Section>

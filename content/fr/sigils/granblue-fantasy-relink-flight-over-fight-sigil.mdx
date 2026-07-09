@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sceau Vol au-dessus du combat dans Granblue Fantasy Relink : Guide de configuration",
+  description: "Apprenez à obtenir et optimiser le sceau Vol au-dessus du combat dans Granblue Fantasy: Relink pour atteindre l'invincibilité tout en maintenant vos plafonds de dégâts.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Flight+Over+Fight+Sigil",
+  date: "2026-07-09",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink, vol au-dessus du combat, sceau, guide, farm, curiosités"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Vol au-dessus du combat** : Un sceau rare exclusif aux Curiosités qui sacrifie la puissance d'attaque pour une utilité défensive inégalée.
+- **Extension d'invincibilité** : Prolonge l'invincibilité des esquives parfaites de 3 secondes et rend le timing d'esquive très indulgent.
+- **Pénalité d'attaque** : Réduit la puissance d'attaque brute de 50 %, nécessitant des ajustements spécifiques pour atteindre les plafonds de dégâts.
+- **Méthode de farm** : S'obtient principalement en farmant des quêtes de Curiosités à haute efficacité comme "Saga illustrée : Enfer".
+- **Meilleure synergie** : Idéal pour les personnages à haute mobilité comme Lancelot qui comptent sur l'esquive continue pour maintenir leur DPS.
+</Callout>
+
+<Section icon={Sparkles} title="Mécaniques et aperçu du sceau Vol au-dessus du combat">
+
+Le sceau **Vol au-dessus du combat** (Flight over Fight) est l'un des objets utilitaires les plus transformateurs de la méta de fin de jeu. Contrairement aux sceaux défensifs standards qui offrent des bonus de statistiques mineurs, ce sceau unique modifie fondamentalement les mécaniques d'évasion de votre personnage. Il accorde une augmentation massive de votre fenêtre d'esquive, rendant les esquives parfaites incroyablement faciles à exécuter, et prolonge la durée d'invincibilité après esquive.
+
+Cependant, ce boost de survie s'accompagne d'un inconvénient majeur : une réduction nette de 50 % de votre puissance d'attaque. Pour utiliser ce sceau efficacement dans les raids de haut niveau, vous devez optimiser votre équipement pour compenser cette pénalité et toujours atteindre les plafonds de dégâts de votre personnage.
+
+**Points forts de la vidéo :**
+- Les drops exclusifs aux Curiosités comme Élément supérieur et Dégâts supplémentaires sont essentiels pour contourner les plafonds de dégâts standards.
+- Le farm de quêtes spécifiques en Maniaque et Très Difficile permet d'obtenir de gros volumes de Curiosités à expertiser.
+- Construire son build autour des plafonds de dégâts est crucial lors de l'utilisation de sceaux utilitaires qui réduisent l'attaque brute.
+
+<YouTubeEmbed videoId="poXyCwYhxnQ" title="Granblue Fantasy Relink : Comment obtenir les 2 MEILLEURS et plus rares sceaux ! Élément supérieur et Dégâts supplémentaires" />
+
+| Niveau du sceau | Pénalité d'attaque | Extension d'invincibilité d'esquive | Facilité de la fenêtre d'esquive |
+|---|---|---|---|
+| **Niv 15** | -50% | +3,0 Secondes | Augmentation massive |
+
+<Callout type="tip" title="Stratégie de survie">
+Bien que la pénalité d'attaque de 50 % semble dévastatrice, les plafonds de dégâts de fin de jeu signifient qu'avec les bons sceaux offensifs, vous pouvez toujours atteindre votre rendement maximal de dégâts même avec la pénalité active.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comment farmer le sceau Vol au-dessus du combat">
+
+Le sceau Vol au-dessus du combat ne peut pas être fabriqué au Bazar de Sierokarte, et il ne tombe pas non plus en récompense directe de quête. Il est entièrement verrouillé derrière le système d'expertise des Curiosités. Pour l'obtenir, vous devez collecter des Curiosités en terminant des quêtes et les faire expertiser par Zathba à Seedhollow.
+
+Pour maximiser vos chances d'obtenir ce sceau rare, vous devriez vous concentrer sur les quêtes qui offrent les temps de complétion les plus rapides et des drops de Curiosités réguliers.
+
+| Nom de la quête | Difficulté | Ennemi ciblé | Temps moyen | Viabilité AFK |
+|---|---|---|---|---|
+| **Saga illustrée : Enfer** | Maniaque | Vulcan Bolla | 1 - 2 Minutes | Faible (Nécessite du burst) |
+| **Le prochain sujet brûlant** | Très Difficile | Infernodile | 10 - 20 Secondes | Élevée (Mode Assistance Totale) |
+
+<Steps>
+  <Step num="1" title="Sélectionnez votre itinéraire de farm">
+    Choisissez entre "Saga illustrée : Enfer" pour un farm actif ou "Le prochain sujet brûlant" pour un farm semi-AFK en utilisant le mode Assistance Totale.
+  </Step>
+  <Step num="2" title="Optimisez la configuration de votre équipe">
+    Pour le farm actif, amenez des personnages capables d'appliquer Lenteur ou Paralysie (comme Cagliostro ou Yodarha) pour immobiliser le boss et contourner les transitions de phase.
+  </Step>
+  <Step num="3" title="Expertisez les Curiosités en gros">
+    Accumulez 30 à 50 Curiosités avant de rendre visite à Zathba pour rationaliser le processus d'expertise et suivre vos récompenses.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement RNG">
+Les drops de Curiosités sont régis par la génération de nombres aléatoires (RNG). Bien que certaines quêtes soient très efficaces pour farmer les curiosités, la patience est de mise pour obtenir des drops spécifiques comme Vol au-dessus du combat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleurs builds de personnages et synergies">
+
+Tous les personnages ne bénéficient pas de la même manière du sceau Vol au-dessus du combat. Les personnages qui comptent sur des attaques lentes et lourdes peuvent trouver la pénalité d'attaque difficile à surmonter. À l'inverse, les personnages aux attaques rapides qui utilisent des annulations d'esquive ou qui possèdent des contre-attaques d'esquive intégrées peuvent transformer cet outil défensif en un atout offensif.
+
+<CardGrid cols={3}>
+  <Card title="Lancelot">
+    - **Spam d'esquive infini** : Enchaîne les attaques d'esquive de manière fluide.
+    - **Style de jeu immortel** : Maintient un temps d'activité constant pendant les phases de fureur des boss.
+    - **Plafond facile à atteindre** : Le nombre élevé de coups facilite la compensation de la pénalité.
+  </Card>
+  <Card title="Yodarha">
+    - **Préservation de combo** : Les esquives parfaites préservent ses marques de linceul.
+    - **Axé sur les contres** : Synergie avec les mécaniques de contre basées sur l'esquive.
+    - **Haute mobilité** : Reste collé à la cible.
+  </Card>
+  <Card title="Charlotta">
+    - **Assaut tournoyant** : Maintient sa posture noble facilement.
+    - **Récupération rapide** : Remonte rapidement ses jauges de combo après une esquive.
+    - **Aggro sécurisée** : Lui permet d'attirer l'attention sans subir de dégâts.
+  </Card>
+</CardGrid>
+
+Pour contrer la réduction d'attaque de 50 %, vous devez cumuler des sceaux offensifs spécifiques qui ramènent vos statistiques brutes au plafond de dégâts.
+
+| Sceau de contre-mesure | Effet | Synergie avec Vol au-dessus du combat |
+|---|---|---|
+| **Endurance** | Boost d'ATQ basé sur des PV élevés | Aide à récupérer la puissance d'attaque de base perdue |
+| **Tyrannie** | Boost d'ATQ au prix des PV max | Fournit une valeur d'attaque brute élevée pour compenser la pénalité |
+| **Élément supérieur** | Convertit toutes les attaques en faiblesse élémentaire | Ajoute un multiplicateur de dégâts net qui ignore la pénalité |
+| **Dégâts supplémentaires** | Inflige des coups bonus basés sur un pourcentage | Contourne les plafonds de dégâts pour maximiser votre DPS réel |
+
+<Callout type="success" title="Optimisation du Build">
+Lorsque vous utilisez Vol au-dessus du combat, donnez la priorité à l'atteinte de votre plafond de dégâts sur vos compétences principales en premier. Si vous remarquez une baisse de vos chiffres de dégâts, remplacez les sceaux utilitaires par des options de puissance d'attaque brute comme Tyrannie.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist d'optimisation de fin de jeu">
+
+Avant d'emmener un build Vol au-dessus du combat dans des raids de difficulté Fier ou des rencontres ultimes, assurez-vous que votre équipement est pleinement optimisé pour gérer le compromis de dégâts.
+
+<Checklist
+  id="fof-optimization"
+  title="Checklist de préparation du build :"
+  items={[
+    "Vérifiez que vos compétences de dégâts principales atteignent toujours leurs plafonds de dégâts sur le mannequin d'entraînement.",
+    "Équipez au moins un sceau Dégâts supplémentaires de niveau 15 pour augmenter le rendement total.",
+    "Assurez-vous que la configuration de votre touche d'esquive est confortable pour une activation continue.",
+    "Associez le sceau à Assaut agile pour gagner de la jauge d'arts et une réduction du temps de recharge sur les esquives parfaites."
+  ]}
+/>
+
+<Callout type="info" title="Conseil de synergie">
+Associer Vol au-dessus du combat avec Assaut agile transforme chaque esquive parfaite en générateur de ressources, vous octroyant simultanément l'invincibilité, de la jauge de SBA et une réduction du temps de recharge des compétences.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Le sceau Vol au-dessus du combat se cumule-t-il avec d'autres sceaux d'esquive ?",
+    answer: "Oui, il se cumule avec des sceaux comme Assaut agile et Esquive améliorée. Bien qu'il n'augmente pas la limite maximale d'esquives consécutives au-delà du plafond standard, il rend l'exécution des esquives parfaites nettement plus facile."
+  },
+  {
+    question: "Est-ce que Vol au-dessus du combat vaut le coup sur des personnages lents comme Siegfried ?",
+    answer: "Généralement, non. Les personnages lents qui frappent fort ont beaucoup plus de mal à surmonter la pénalité d'attaque de 50 % et à atteindre leurs plafonds de dégâts. Il est préférable de le réserver aux personnages rapides et mobiles."
+  },
+  {
+    question: "Puis-je obtenir Vol au-dessus du combat via l'expertise Transmerveille ?",
+    answer: "Non, Vol au-dessus du combat est strictement une récompense d'expertise de Curiosités. Il ne peut pas être obtenu via les vouchers de Sierokarte ou les transmutations Transmerveille."
+  }
+]} />
+
+<Callout type="tip" title="Verdict Final">
+Pour le contenu de haute difficulté en 2026, Vol au-dessus du combat reste une option de confort de premier plan. Si vous avez du mal à survivre dans les raids de fin de jeu, farmer ce sceau devrait être votre priorité absolue.
+</Callout>
+
+</Section>

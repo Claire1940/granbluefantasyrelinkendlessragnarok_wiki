@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Cagliostro Granblue Fantasy Relink : Configuration DPS Soutien",
+  description: "Maîtrisez le build ultime de Cagliostro dans Granblue Fantasy Relink. Découvrez les meilleurs sceaux, armes, compétences et combos pour dominer le contenu de fin de jeu.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Cagliostro+Build+Guide",
+  date: "2026-07-09",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "cagliostro, build, granblue fantasy relink, dps soutien, sceaux, armes"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif Principal du Build** : Optimiser le **build de Cagliostro dans Granblue Fantasy Relink** en équilibrant des attaques chargées à fort impact avec une utilité d'équipe de premier ordre.
+- **Sceau Essentiel** : Prioriser la **Stratégie de la fondatrice** (Founder's Strategy) pour infliger un malus de défense permanent de 30 % aux boss avec des attaques complètement chargées.
+- **Meilleur Buff d'Équipe** : Lancer **Phantasmagorie** (Phantasmagoria) pour augmenter l'attaque, la défense et le taux de coup critique de tout le groupe.
+- **Combo de Base** : Enchaîner **trois attaques de base suivies d'un combo puissant** pour exécuter le coup de grâce optimal à disques rotatifs sur cible unique.
+- **Meilleure Arme** : Équiper l'**Arme Terminus (Zosimos)** pour bénéficier du puissant trait Catastrophe une fois débloqué.
+</Callout>
+
+<Section icon={Map} title="Style de jeu et mécaniques de base de Cagliostro">
+
+Cagliostro est l'un des personnages les plus polyvalents et puissants de Granblue Fantasy: Relink [zdz4bEo4XVc]. Elle fonctionne comme un mage DPS de soutien de haut niveau, Excellant dans la réduction des défenses ennemies, l'augmentation des statistiques offensives du groupe et l'infliction de dégâts de burst massifs grâce à ses attaques chargées Effondrement (Collapse) [zdz4bEo4XVc]. 
+
+Son enchaînement d'attaques de base repose sur l'invocation d'armes en or, qui peut être prolongé en utilisant son attaque alternative pour réaliser un coup de grâce puissant [zdz4bEo4XVc]. La clé pour jouer Cagliostro efficacement réside dans la charge de son sort **Effondrement** [zdz4bEo4XVc]. Cette attaque chargée possède trois paliers distincts, indiqués visuellement par le nombre d'étoiles flottant autour d'elle [zdz4bEo4XVc]. Réussir un Effondrement de palier trois complètement chargé inflige des dégâts exceptionnels et déclenche ses malus de soutien les plus puissants [zdz4bEo4XVc].
+
+**Points forts de la vidéo :**
+- **Paliers d'attaques chargées** : Guide visuel sur la façon de charger Effondrement jusqu'au palier trois [zdz4bEo4XVc].
+- **Permutations de combos** : Comment les enchaînements d'attaques de base modifient le coup de grâce puissant [zdz4bEo4XVc].
+- **Rotations de compétences** : Charger rapidement Effondrement à l'aide de sorts offensifs [zdz4bEo4XVc].
+- **Démonstration de fin de jeu** : Vaincre des boss de difficulté Fierté (Proud) avec une configuration DPS de soutien [zdz4bEo4XVc].
+
+<YouTubeEmbed videoId="zdz4bEo4XVc" title="BROKEN SUPPORT DPS Cagliostro Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink" />
+
+Pour maximiser votre efficacité, vous devez maîtriser ses permutations de combos. Le nombre d'attaques de base exécutées avant d'appuyer sur le bouton d'attaque alternative modifie les propriétés du coup de grâce [zdz4bEo4XVc] :
+
+| Attaques de base | Type de coup de grâce | Effet principal |
+|---|---|---|
+| **1 Attaque** | Sphères | Projette en l'air les petits ennemis [zdz4bEo4XVc] |
+| **2 Attaques** | Large zone d'effet | Élimine les groupes d'ennemis [zdz4bEo4XVc] |
+| **3 Attaques** | Disques rotatifs | Meilleurs dégâts sur cible unique [zdz4bEo4XVc] |
+| **4 Attaques** | Haches plongeantes | Frappe lourde au sol avec une valeur d'étourdissement élevée [zdz4bEo4XVc] |
+
+<Callout type="tip" title="Astuce de Combo Pro">
+Visez toujours le **combo de 3 attaques de base suivies des disques rotatifs** lorsque vous affrontez des boss [zdz4bEo4XVc]. Il frappe plusieurs fois et vous permet d'enchaîner sur un Effondrement de palier trois complètement chargé plus rapidement qu'avec les autres enchaînements [zdz4bEo4XVc].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures compétences pour le soutien et le DPS">
+
+Les emplacements de compétences de Cagliostro sont extrêmement flexibles, lui permettant de s'adapter à des rôles de pur DPS, de soutien hybride ou d'utilitaire complet [zdz4bEo4XVc]. Pour la majeure partie du contenu de fin de jeu, une configuration hybride DPS de soutien est fortement recommandée [zdz4bEo4XVc].
+
+| Compétence | Type | Description & Utilité |
+|---|---|---|
+| **Phantasmagorie** (Phantasmagoria) | Buff | Augmente l'Attaque, la Défense et le Taux de Critique de toute l'équipe [zdz4bEo4XVc]. |
+| **Alexandrie** (Alexandria) | Offensive | Sort de feu qui inflige des dégâts de zone et charge rapidement Effondrement [zdz4bEo4XVc]. |
+| **Poupée leurre** (Mimic Doll) | Défensive/Offensive | Ruée avec leurre qui garantit votre sécurité et charge rapidement Effondrement [zdz4bEo4XVc]. |
+| **Train de la douleur** (Pain Train) | Rapprochement | Charge vers l'avant pour initier rapidement des combos au corps à corps [zdz4bEo4XVc]. |
+| **Disruption** | Utilité | Dissipe les buffs ennemis et inflige des dégâts sur cible unique [zdz4bEo4XVc]. |
+| **Renforcement** (Reinforce) | Soin | Place une zone de soin au sol pour le groupe [zdz4bEo4XVc]. |
+| **Rhizomata** | Soutien | Réanime les alliés à terre à distance [zdz4bEo4XVc]. |
+
+<CardGrid cols={3}>
+  <Card title="Phantasmagorie">
+    Le meilleur buff unique du jeu [zdz4bEo4XVc]. Il augmente le taux de coup critique, permettant à vos coéquipiers d'équiper des sceaux plus offensifs au lieu de sceaux de taux critique [zdz4bEo4XVc].
+  </Card>
+  <Card title="Poupée leurre">
+    Sert d'échappatoire parfaite [zdz4bEo4XVc]. Elle laisse un leurre derrière elle tout en vous repositionnant en toute sécurité pour charger votre prochain Effondrement [zdz4bEo4XVc].
+  </Card>
+  <Card title="Disruption">
+    Essentiel pour les boss de fin de jeu qui augmentent leur propre attaque et défense [zdz4bEo4XVc]. Retire instantanément ces améliorations [zdz4bEo4XVc].
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Éviter le mauvais placement du piège de Mayhem">
+Si vous utilisez la compétence **Mayhem**, ne la placez pas directement sous un boss actif [zdz4bEo4XVc]. Elle a besoin de temps pour s'armer [zdz4bEo4XVc]. La déclencher trop tôt réduit ses dégâts et empêche l'application du malus d'Attaque de 20 % [zdz4bEo4XVc].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleurs sceaux pour Cagliostro">
+
+Pour concevoir le **build ultime de Cagliostro dans Granblue Fantasy Relink**, vous devez donner la priorité à ses sceaux spécifiques de personnage, aux côtés des sceaux standards de limite de dégâts et d'utilité [zdz4bEo4XVc].
+
+### Sceaux spécifiques de personnage
+- **Stratégie de la fondatrice** (Founder's Strategy) : Priorité absolue [zdz4bEo4XVc]. Réussir un Effondrement complètement chargé applique un malus de Défense permanent de 30 % à la cible [zdz4bEo4XVc].
+- **Vérité de la fondatrice** (Founder's Truth) : Réduit le temps de recharge des compétences lors de la réussite de coups de grâce de combo [zdz4bEo4XVc]. Excellent pour maintenir Phantasmagorie active [zdz4bEo4XVc].
+
+### Sceaux recommandés pour la fin de jeu
+
+| Nom du Sceau | Priorité | Niveau recommandé | Bénéfice principal |
+|---|---|---|---|
+| **Limite de dégâts** (Damage Cap) | Obligatoire | Niveau 65 | Empêche vos dégâts d'atteindre leur plafond [zdz4bEo4XVc]. |
+| **Tir concentré** (Concentrated Fire) | Haute | Niveau 30 | Augmente les attaques à distance (y compris Effondrement) de 50 % [zdz4bEo4XVc]. |
+| **Remuer le couteau dans la plaie** (Injury to Insult) | Haute | Niveau 15 | Augmente les dégâts de 30 % contre les cibles souffrant d'un malus [zdz4bEo4XVc]. |
+| **Coup de grâce** (Combo Finisher) | Moyenne | Niveau 15 | Augmente les dégâts du coup de grâce d'Effondrement jusqu'à 50 % [zdz4bEo4XVc]. |
+| **Concentration constante** (Steady Focus) | Moyenne | Niveau 15 | Confère Cœur vaillant (Stout Heart) et 20 % de Défense pendant la charge [zdz4bEo4XVc]. |
+| **Dégâts supplémentaires** (Supplementary Damage) | Fin de jeu | Max | Donne une chance de déclencher des attaques bonus infligeant 25 % de dégâts [zdz4bEo4XVc]. |
+
+<Callout type="info" title="Pourquoi Charge rapide est optionnel">
+Puisque Cagliostro dispose de plusieurs compétences (comme Alexandrie et Poupée leurre) qui chargent instantanément son Effondrement, investir massivement dans le sceau **Charge rapide** (Quick Charge) est généralement superflu [zdz4bEo4XVc].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression des armes">
+
+Choisir la bonne arme est crucial pour atteindre votre potentiel de dégâts maximum. Cagliostro bénéficie grandement des armes qui augmentent ses paramètres critiques ou sa puissance d'attaque brute [zdz4bEo4XVc].
+
+<Steps>
+  <Step num="1" title="Début de fin de jeu : Arme de point faible">
+    Concentrez-vous sur les armes qui augmentent les dégâts sur les points faibles pour booster vos attaques Effondrement lorsque vous touchez des faiblesses élémentaires [zdz4bEo4XVc].
+  </Step>
+  <Step num="2" title="Milieu de fin de jeu : Arme d'Ascension">
+    Fabriquez et éveillez complètement son arme d'Ascension pour obtenir un boost massif de statistiques de base et de limites de dégâts.
+  </Step>
+  <Step num="3" title="Objectif Ultime : Arme Terminus (Zosimos)">
+    Affrontez le Proto-Bahamut pour obtenir Zosimos [zdz4bEo4XVc]. Cette arme possède le trait **Catastrophe**, qui augmente l'attaque de 50 % et la limite de dégâts de 100 % tant que vos PV max restent inférieurs à 45 000 [zdz4bEo4XVc].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Astuce d'optimisation des PV">
+Lorsque vous utilisez l'arme Terminus, ajustez vos sceaux pour vous assurer que vos PV totaux restent strictement inférieurs à **45 000** [zdz4bEo4XVc]. Dépasser cette limite désactive complètement le bonus de dégâts de Catastrophe [zdz4bEo4XVc].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de progression de fin de jeu">
+
+Suivez cette liste pour finaliser votre build de Cagliostro et maximiser votre contribution lors des raids de difficulté Fierté.
+
+<Checklist
+  id="cagliostro-progression"
+  title="Étapes clés du build de Cagliostro :"
+  items={[
+    "Débloquer Cagliostro en utilisant une Carte de coéquipier",
+    "Acquérir le sceau de personnage Stratégie de la fondatrice",
+    "Atteindre le niveau 65 sur les sceaux de Limite de dégâts",
+    "Équiper au moins un sceau Concentration constante niveau 15 pour des charges ininterruptibles",
+    "Obtenir et éveiller complètement l'arme Terminus Zosimos",
+    "Optimiser les PV totaux pour qu'ils restent strictement inférieurs à 45 000"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Cagliostro est-elle un DPS principal ou un personnage de soutien dans Granblue Fantasy Relink ?",
+    answer: "Elle est un DPS de soutien hybride. Bien qu'elle fournisse les meilleurs buffs offensifs et malus de défense du jeu, ses attaques chargées Effondrement lui permettent d'infliger des dégâts de premier ordre aux côtés des personnages purement DPS."
+  },
+  {
+    question: "Dois-je utiliser des sceaux de Taux de coup critique sur Cagliostro ?",
+    answer: "Non, vous pouvez minimiser votre investissement dans les sceaux de Taux critique car sa compétence Phantasmagorie améliore le taux de coup critique de toute l'équipe, vous permettant d'équiper d'autres sceaux augmentant les dégâts à la place."
+  },
+  {
+    question: "Comment maintenir des malus de défense permanents sur les boss ?",
+    answer: "Équipez le sceau de personnage Stratégie de la fondatrice. Réussir un Effondrement chargé au palier trois applique un malus de défense de 30 % pendant 15 secondes, qui peut facilement être rafraîchi avant son expiration."
+  },
+  {
+    question: "Pourquoi devrais-je éviter d'utiliser Canon de verre (Glass Cannon) sur Cagliostro ?",
+    answer: "Canon de verre augmente votre limite de dégâts mais vous inflige l'état Étourdi (Dizzy) à chaque fois que vous subissez des dégâts. Cagliostro devant charger ses attaques au corps à corps avec Cœur vaillant, être touché interrompra votre rotation de DPS."
+  }
+]} />
+
+</Section>

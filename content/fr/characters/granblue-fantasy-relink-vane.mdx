@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "granblue fantasy relink vane : Meilleur Build Tank/DPS & Guide",
+  description: "Maîtrisez Vane dans Granblue Fantasy: Relink avec notre guide 2026. Découvrez les meilleurs builds tank DPS, sceaux, armes et stratégies de combat avancées.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Vane+Build+Guide",
+  date: "2026-07-09",
+  author: "Équipe du Wiki Granblue Fantasy: Relink"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Granblue fantasy relink vane** est l'hybride Tank/DPS par excellence, offrant une protection d'équipe inégalée et de lourds dégâts de burst.
+- La **Jauge de Beatdown** est sa mécanique centrale, permettant de longs combos ininterruptibles qui bloquent automatiquement les attaques entrantes.
+- La compétence **Rampart** crée une zone d'invincibilité, essentielle pour contourner les mécaniques complexes des boss de fin de jeu dans les raids de 2026.
+- Le **Soutien autonome** est intégré à son kit ; les coups de grâce de ses combos soignent Vane, réduisant le besoin de soigneurs dédiés dans l'équipe.
+- Les **Sceaux prioritaires** incluent Plafond de dégâts, Combo de fin, ainsi que ses sceaux uniques pour la réduction du temps de recharge et l'atténuation des dégâts.
+</Callout>
+
+<Section icon={Map} title="Présentation du personnage et recrutement">
+
+Vane est un personnage surpuissant dans **granblue fantasy relink vane** qui bouscule le cliché traditionnel des RPG selon lequel les tanks ne peuvent pas infliger de dégâts. En tant que Chevalier de la Compagnie, Vane utilise une immense hallebarde pour balayer les ennemis tout en offrant la protection défensive la plus robuste du jeu. Son style de jeu unique tourne autour de la mécanique de « Beatdown », qui récompense un jeu agressif par des fenêtres défensives améliorées. Que vous vous attaquiez à des quêtes de difficulté Maniaque ou à des raids de fin de jeu, Vane offre un filet de sécurité que peu d'autres personnages peuvent égaler.
+
+**Points forts de la vidéo :**
+- Vane est considéré comme le meilleur tank du jeu grâce à son bouclier invincible.
+- Il possède une grande capacité de survie autonome, se soignant lui-même grâce aux coups de grâce de ses combos standards.
+- Son combo de Beatdown lui permet de bloquer tout en attaquant, maintenant ainsi une pression offensive constante.
+- Les sceaux clés de fin de jeu comme Plafond de dégâts et Combo de fin sont obligatoires pour maximiser son potentiel.
+
+<YouTubeEmbed videoId="d9iRXPlzQPk" title="BROKEN TANK DPS VANE Best Build Guide - Sigils & Weapons Showcase" />
+
+Pour ajouter Vane à votre équipe, vous devez progresser dans l'histoire principale. Le recrutement devient disponible tôt dans la campagne, vous permettant de le bâtir comme votre tank principal bien avant d'atteindre le farm de fin de jeu.
+
+| Méthode de recrutement | Condition requise | Disponibilité |
+| :--- | :--- | :--- |
+| **Carte de coéquipier** | Bazar de Siero | Dès le Chapitre 4 |
+| **Progression de l'histoire** | Terminer des chapitres spécifiques | Récompenses de la campagne principale |
+| **Comptoir des quêtes** | Terminer des quêtes secondaires spécifiques | Post-game / Difficulté Maniaque |
+
+<Callout type="tip" title="Conseil de recrutement">
+Économisez vos premières cartes de coéquipier pour Vane si vous préférez un style de jeu de type « Bruiser ». Sa capacité à ignorer les mécaniques de boss avec Rampart rend la progression de début de jeu nettement plus fluide pour les joueurs solo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mécaniques de combat et compétences">
+
+La clé pour jouer efficacement **granblue fantasy relink vane** réside dans la gestion de la jauge de Beatdown. Cette jauge se remplit à mesure que vous portez des attaques de base et des coups de grâce de combo. Une fois pleine, Vane peut déclencher un combo de Beatdown prolongé. L'avantage le plus important de ce combo spécial est sa propriété de blocage intégrée ; Vane bloquera automatiquement la plupart des attaques frontales pendant le déroulement de l'animation, vous permettant d'ignorer les coups ennemis qui interrompraient d'autres personnages.
+
+Les compétences de Vane sont partagées entre des frappes offensives à fort étourdissement et de puissants bonus personnels qui améliorent sa capacité de survie.
+
+| Nom de la compétence | Type | Effet clé | Pouvoir d'étourdissement |
+| :--- | :--- | :--- | :--- |
+| **Arm Destruction** | Offensif | Onde de choc frontale avec un étourdissement massif | Élevé |
+| **Heroic Beat** | Offensif | Rapprochement rapide qui soigne Vane à l'impact | Moyen |
+| **Rift Divider** | Offensif | Combo multi-coups qui attire les ennemis | Moyen |
+| **Energy Destruction** | Offensif | Coup massif indexé sur la jauge de SBA | Très élevé |
+| **Breakthrough** | Buff | Augmente l'ATQ et l'hostilité (Provocation) | N/A |
+| **Drachenstolz** | Buff | Accorde Persévérance, ATQ Up et DEF Up | N/A |
+| **Rampart** | Défensif | Crée un dôme d'invincibilité pour l'équipe | N/A |
+
+<Callout type="warning" title="Synergie des compétences">
+Energy Destruction inflige des dégâts massifs mais s'avère irrégulier si votre équipe utilise fréquemment les Arts Célestes (SBA). Si vous constatez que votre jauge de SBA est souvent vide, pensez à remplacer cette compétence par Arm Destruction pour vous concentrer sur la rupture des parties de boss.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Build de fin de jeu : Sceaux et Armes">
+
+Pour optimiser **granblue fantasy relink vane** pour le contenu de fin de jeu en 2026, vous devez équilibrer ses dégâts avec sa robustesse naturelle. Comme Vane atteint rapidement son plafond de dégâts en raison de ses multiplicateurs élevés, les sceaux de **Plafond de dégâts** sont votre priorité absolue. Sans eux, vos coups de grâce à gros dégâts seront gâchés.
+
+<CardGrid cols={2}>
+  <Card title="Le Build du Tank Immortel">
+    - **Focus** : Survie maximale et provocation.
+    - **Sceaux clés** : Provocateur, Égide, Nerfs d'acier.
+    - **Style de jeu** : Attirer toute l'attention sur soi et utiliser Rampart pour protéger l'équipe lors des mécaniques de wipe.
+  </Card>
+  <Card title="Le Build du Bruiser DPS">
+    - **Focus** : Dégâts de burst élevés et rupture de parties.
+    - **Sceaux clés** : Combo de fin, Ligne de mire, Pouvoir d'étourdissement.
+    - **Style de jeu** : Se concentrer sur l'enchaînement des coups de grâce de Beatdown pour détruire les PV et les jauges d'étourdissement des boss.
+  </Card>
+</CardGrid>
+
+Les armes jouent également un rôle essentiel dans sa progression. Bien que l'arme d'Ascension soit un excellent objectif de milieu de jeu, son arme de Terminus reste la référence absolue pour les performances de fin de jeu.
+
+| Nom de l'arme | Focus | Stats de base (Niv. 150) | Atout unique |
+| :--- | :--- | :--- | :--- |
+| **Alabarda** | Équilibré | 2568 PV / 2003 ATQ | Progression standard |
+| **Treuer Krieger** | Attaque | 3058 PV / 4013 ATQ | Taux de coup critique élevé |
+| **Arme d'Ascension** | Évolution | Stats évolutives | Nécessite un investissement lourd |
+
+<Callout type="success" title="Stratégie de sceaux">
+Vane est l'un des rares personnages à pouvoir utiliser efficacement **Ligne de mire** (Life on the Line). Même si cela empêche vos alliés de vous soigner, les propres compétences et coups de grâce de Vane lui fournissent suffisamment de soin autonome pour le maintenir en pleine santé.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Enchaînements de combos avancés">
+
+Exécuter la rotation parfaite avec **granblue fantasy relink vane** garantit que votre jauge de Beatdown reste pleine et que vos temps de recharge restent bas. Réussir un coup de grâce n'est pas seulement une question de dégâts ; c'est votre principale source de soin et de génération de jauge.
+
+<Steps>
+  <Step num="1" title="Génération de la jauge">
+    Effectuez le combo de base de 3 coups (Carré, Carré, Carré) suivi du coup de grâce Triangle. C'est le moyen le plus rapide de remplir votre jauge de Beatdown initiale.
+  </Step>
+  <Step num="2" title="Intégration des compétences">
+    Utilisez **Heroic Beat** pour réduire la distance ou **Arm Destruction** pour infliger un lourd étourdissement. Enchaînez immédiatement n'importe quelle compétence offensive avec un coup de grâce Triangle pour obtenir un bonus de jauge et de PV.
+  </Step>
+  <Step num="3" title="Burst de Beatdown">
+    Une fois la jauge pleine, appuyez sur Triangle pour lancer le combo de Beatdown. Maintenez le bouton enfoncé pour poursuivre l'enchaînement. N'oubliez pas que vous bloquez pendant toute cette séquence !
+  </Step>
+  <Step num="4" title="Utilité défensive">
+    Surveillez les signaux du boss. Lorsqu'une zone d'effet (AOE) massive est imminente, activez **Rampart**. Restez immobile pour maintenir le dôme et permettre à vos coéquipiers de s'abriter à l'intérieur pour une invincibilité totale.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mécaniques du Link Time">
+Pendant le Link Time, Vane peut enchaîner ses attaques Triangle sans consommer la jauge de Beatdown. Cela permet un blocage infini et un DPS soutenu massif pendant toute la durée de l'effet.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Épisodes de destin et progression">
+
+Terminer les Épisodes de destin est indispensable pour débloquer tout le potentiel de Vane. Ces épisodes offrent des bonus de statistiques permanents et débloquent des emplacements de sceaux supplémentaires, essentiels pour équiper tous les sceaux de Plafond de dégâts requis en fin de jeu.
+
+| Épisode | Condition requise | Récompense |
+| :--- | :--- | :--- |
+| **Prologue** | Recruter Vane | Boost de PV |
+| **Épisode 3** | Niveau 10 | Boost d'ATQ |
+| **Épisode 6** | Niveau 30 | Nouvel emplacement de sceau |
+| **Épilogue** | Niveau 60 + Tous les épisodes | Bonus de statistiques massif |
+
+<Checklist
+  id="vane-progression"
+  title="Liste de contrôle de maîtrise de Vane :"
+  items={[
+    "Atteindre le niveau 100 avec Vane",
+    "Débloquer toutes les maîtrises offensives et défensives",
+    "Équiper au moins 4 sceaux de Plafond de dégâts de niveau 15",
+    "Obtenir et améliorer au maximum la hallebarde Treuer Krieger",
+    "Terminer tous les Épisodes de destin pour un maximum de bonus de statistiques"
+  ]}
+/>
+
+<Callout type="tip" title="Priorité des maîtrises">
+Donnez d'abord la priorité à l'arbre « Offensif » dans les Maîtrises pour débloquer ses coups de grâce de combo, puis passez à l'arbre « Défensif » pour améliorer ses PV et l'efficacité de son blocage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Vane est-il meilleur en tant que pur tank ou DPS ?",
+    answer: "Dans Granblue Fantasy: Relink, Vane excelle particulièrement en tant qu'hybride. Ses compétences défensives comme Rampart étant situationnelles, un build axé sur de gros dégâts lui permet de contribuer tout au long du combat tout en restant prêt à tanker en cas de besoin."
+  },
+  {
+    question: "Quel sceau unique est le meilleur pour Vane ?",
+    answer: "Volonté du Héros (Hero's Will) est généralement préféré car il réduit les temps de recharge des compétences après avoir réussi des coups de grâce de combo. Cela vous permet d'utiliser vos puissantes compétences offensives et Rampart beaucoup plus fréquemment."
+  },
+  {
+    question: "Vane peut-il vaincre en solo les boss en difficulté Maniaque ?",
+    answer: "Oui. Grâce à ses soins autonomes sur ses coups de grâce et à sa capacité à bloquer pendant son combo de Beatdown, Vane est l'un des personnages les plus sûrs pour affronter en solo le contenu de haute difficulté."
+  },
+  {
+    question: "Comment maximiser les dégâts d'Energy Destruction ?",
+    answer: "Attendez que votre jauge de SBA soit à 100 % avant d'utiliser la compétence. Cependant, si votre équipe enchaîne constamment les SBA, il peut être préférable de remplacer cette compétence par une option offensive plus régulière."
+  }
+]} />
+
+<Callout type="success" title="Verdict Final">
+Vane est un choix de rang S pour n'importe quelle composition d'équipe. Sa capacité à transformer des mécaniques de boss jugées « impossibles » en de simples formalités grâce à Rampart en fait un atout inestimable pour le jeu en solo comme en multijoueur.
+</Callout>
+
+</Section>

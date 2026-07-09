@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Io : Meilleurs Builds et Astuces de Quick Cast",
+  description: "Maîtrisez Io dans Granblue Fantasy Relink avec ce guide d'optimisation. Apprenez la technique du quick cast, les builds endgame à haut DPS et les astuces de paralysie stratégique.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Io+Build+And+Tech+Guide",
+  date: "2026-07-09",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "granblue fantasy relink io, build io, quick cast io, stargaze io, guide endgame"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Maîtrisez **granblue fantasy relink io** pour dominer les raids de haut niveau en fin de jeu.
+- **Mécanique clé** : Utilisez le **Quick Cast** immédiatement après un sort ou une attaque chargée pour charger instantanément Stargaze.
+- **Meilleure stratégie** : Annulez la longue animation de fin de Stargaze avec une **esquive** pour rester mobile et augmenter votre DPS.
+- **Conseil critique** : Utilisez **Foudre (Lightning)** pour paralyser les boss dès qu'ils entrent en Overdrive, retardant ou sautant les phases de fureur sanguinaire (bloodthirst).
+- **Meilleur choix** : Priorisez l'**Arme de Terminus (Gambanteinn)** et maximisez vos sceaux de Limite de dégâts (Damage Cap) en fin de jeu.
+</Callout>
+
+<Section icon={Map} title="Présentation du personnage : Io dans Granblue Fantasy Relink">
+
+Io est l'un des lanceurs de sorts à distance les plus explosifs du jeu [1]. Son style de jeu repose sur la génération d'orbes de **Vortex Mystique** pour déclencher des attaques **Stargaze** entièrement chargées, qui constituent sa principale source de dégâts de zone massifs [1, 2]. En maîtrisant ses mécaniques de lancement rapide (quick-cast) et ses annulations d'animation, vous pouvez infliger un DPS de premier ordre tout en restant à une distance de sécurité lors des combats de boss dangereux [1].
+
+**Points forts de la vidéo :**
+- **Mécaniques de base** : Attaques standard, génération de Vortex Mystique et lancement rapide de Stargaze [1].
+- **Kit de compétences optimal** : Choisir les meilleurs sorts pour le jeu général et les combats de boss situationnels [1].
+- **Progression Endgame** : Maîtrises recommandées, configurations de sceaux et choix d'armes [1].
+- **Techniques avancées** : Utilisation des optimisations de "Charge Rapide" et stratégies de saut de phase [1].
+
+<YouTubeEmbed videoId="-8lEvMa1nUI" title="GUIDE COMPLET IO ! Bases, Builds et Astuces pour améliorer votre gameplay ! | Granblue Fantasy Relink" />
+
+### Statistiques de base et profil du personnage
+Avant de plonger dans les rotations de sorts complexes, il est important de comprendre les capacités de base d'Io [2].
+
+| Attribut | Valeur de base | Description |
+|--- |--- |--- |
+| **PV de base** | 3156 | Réserve de santé standard pour un mage à distance [2] |
+| **ATQ de base** | 666 | Puissance d'attaque de base modérée [2] |
+| **Taux de coup critique** | 5% | Taux critique de départ standard [2] |
+| **Puissance d'étourdissement** | 80 | Capacité de vacillement de base décente [2] |
+
+<Callout type="tip" title="Annulation d'animation">
+Stargaze possède une longue animation de récupération après le tir du sort [1]. Vous devriez toujours esquiver immédiatement après la décharge du sort pour annuler cette animation [1]. Cela augmente considérablement votre DPS global et vous protège des attaques de boss entrantes [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Analyse et sélection des compétences">
+
+Io a accès à une large gamme de magie élémentaire [2]. Sélectionner la bonne combinaison de compétences est crucial pour maintenir vos orbes de Vortex Mystique et apporter de l'utilité à votre groupe [1, 2].
+
+### Comparaison des compétences actives
+
+| Nom de la compétence | Élément | Recharge | Effets clés et utilité |
+|--- |--- |--- |--- |
+| **Feu (Fire)** | Feu | Rapide | Inflige réduction de DEF, touche jusqu'à 3 fois, donne 1 orbe [1, 2] |
+| **Gel (Freeze)** | Eau | Rapide | Inflige réduction d'ATQ, saut en arrière, donne 1 orbe [1, 2] |
+| **Foudre (Lightning)** | Terre | Moyen | Inflige Paralysie, maintenir pour viser, donne 1 orbe [1, 2] |
+| **Septennat Fleuri** | Lumière | Lent | Fait tomber 7 météores, maintenir pour charger, dégâts massifs [1, 2] |
+| **Vortex Mystique** | Aucun | Lent | Donne instantanément le max (4) d'orbes de Vortex Mystique [1, 2] |
+| **Puits de Gravité** | Eau | Moyen | Attire les petits ennemis, inflige des dégâts sur la durée [1, 2] |
+| **Vents de Guérison** | Vent | Moyen | Restaure les PV des alliés sur la durée dans une zone ciblée [1, 2] |
+
+<CardGrid cols={3}>
+  <Card title="Configuration Générale">
+    - **Feu** (Debuff DEF et orbe rapide) [1, 2]
+    - **Gel** (Debuff ATQ et mobilité) [1, 2]
+    - **Foudre** (CC Paralysie) [1, 2]
+    - **Vortex Mystique** (Stacks max instantanés) [1, 2]
+  </Card>
+  <Card title="Configuration Pur DPS">
+    - **Feu** (Hauts dégâts à mi-distance) [1]
+    - **Gel** (Déclencheur de quick cast) [1]
+    - **Septennat Fleuri** (Nuke de zone massif) [1, 2]
+    - **Vortex Mystique** (Préparation rapide de Stargaze) [1, 2]
+  </Card>
+  <Card title="Contrôle et Soutien">
+    - **Feu** ou **Gel** [1]
+    - **Foudre** (Paralysie) [1, 2]
+    - **Puits de Gravité** (Contrôle de mobilité) [1, 2]
+    - **Vents de Guérison** (Soin de zone sur la durée) [1, 2]
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Positionnement de Feu et Gel">
+Le sort Feu inflige de un à trois coups selon votre distance [1]. Le premier coup nécessite une portée de mêlée, le second une mi-distance, et le troisième peut toucher de n'importe où [1]. Essayez toujours de vous positionner à mi-distance pour porter le second coup, ce qui double les dégâts de Feu et s'accumule rapidement sur la durée [1]. Pour Gel, faites attention à ne pas le lancer trop près des murs, sinon certains projectiles de glace entreront en collision avec l'environnement et rateront leur cible [1].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guide de rotation étape par étape">
+
+Pour maximiser vos dégâts en tant que main **granblue fantasy relink io**, vous devez maîtriser la mécanique du "Quick Cast" [1, 2]. Le lancement rapide augmente considérablement la vitesse de charge de Stargaze lorsqu'il est exécuté immédiatement après avoir obtenu un orbe de Vortex Mystique [1, 2].
+
+<Steps>
+  <Step num="1" title="Générer des orbes">
+    Lancez un sort (comme Feu ou Gel) ou portez une attaque normale entièrement chargée pour générer des orbes de Vortex Mystique [1, 2].
+  </Step>
+  <Step num="2" title="Déclencher le Quick Cast">
+    Appuyez immédiatement sur le bouton Stargaze et maintenez-le enfoncé juste après la fin de l'action génératrice d'orbe [1, 2]. Vous verrez un indicateur visuel distinct montrant que Stargaze se charge beaucoup plus vite [1, 2].
+  </Step>
+  <Step num="3" title="Libérer Stargaze Niveau 4">
+    Relâchez l'attaque Stargaze une fois qu'elle atteint le niveau 4 (consommant 4 orbes pour des dégâts maximums) [1, 2].
+  </Step>
+  <Step num="4" title="Annulation par esquive">
+    Dès que le cercle magique apparaît et que Stargaze fait feu, esquivez dans n'importe quelle direction pour annuler l'animation de récupération et vous repositionner [1].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimisation du Link Time">
+Pendant le Link Time, Io reçoit automatiquement le maximum de stacks de Vortex Mystique, et les temps de recharge de ses compétences sont fortement réduits [1]. Votre rotation optimale pendant cette fenêtre consiste simplement à alterner entre un sort rapide (Feu ou Gel) et un Stargaze en Quick Cast de manière répétée [1]. Si vos temps de recharge ne sont pas assez rapides, utilisez une attaque chargée rapide pour combler le vide [1].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Build Endgame, Armes et Sceaux">
+
+Optimiser Io pour le contenu de fin de jeu nécessite d'équilibrer les limites de dégâts offensifs avec l'utilité et la vitesse de charge [1].
+
+### Progression des armes
+À mesure que vous progressez dans le endgame, donnez la priorité à l'amélioration de ces armes spécifiques pour maximiser vos statistiques [1].
+
+| Nom de l'arme | Type d'arme | Passif / Trait clé | Priorité |
+|--- |--- |--- |--- |
+| **Sceptre de Colossus Omega** | Critique | Augmente le taux de coup critique [1] | Haute (Mid-game) [1] |
+| **Sceptre de la Petite Sorcière** | Défenseur | Nœuds de PV pour la survie [1] | Moyenne (Early-game) [1] |
+| **Gambanteinn** | Terminus | Catastrophe & Régénération (Limite DMG Max) [1, 2] | Haute (Endgame) [1] |
+
+### Configuration de sceaux recommandée
+
+| Type de sceau | Emplacements recommandés | Objectif |
+|--- |--- |--- |
+| **Limite de dégâts** | 4 Emplacements | Essentiel pour atteindre vos seuils de dégâts maximums [1] |
+| **Charge rapide** | 2 Emplacements | Accélère considérablement le temps de charge de Stargaze [1] |
+| **Cœur d'acier / Concentration** | 1 Emplacement | Empêche le tressaillement et les interruptions pendant la charge [1, 2] |
+| **Élément de guerre** | 1 Emplacement | Convertit toutes les attaques en l'élément faible de l'ennemi [1] |
+| **Charge chanceuse** | 1 Emplacement | Maximise votre taux de coup critique sur les attaques chargées [1] |
+
+<Callout type="info" title="Priorités de Distinction de Maîtrise">
+Lors du tirage de vos Distinctions de Maîtrise (Overmastery) pour Io, votre priorité absolue est **Limite de dégâts des attaques normales** (qui affecte directement Stargaze) [1]. Ensuite, recherchez **Limite de dégâts des compétences**, **Limite de dégâts de l'Art Céleste (SBA)**, et **Taux de coup critique** [1].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Techniques avancées et saut de phase de boss">
+
+Pour élever votre gameplay sur **granblue fantasy relink io** au plus haut niveau, vous devriez incorporer des stratégies de combat avancées qui exploitent les mécaniques des boss [1].
+
+### DPS Avancé : La méthode Stargaze à une étoile
+Bien que lancer un Stargaze de niveau 4 soit la norme, vous pouvez optimiser votre DPS global en effectuant une mini-rotation [1]. Après avoir obtenu un seul stack de Vortex Mystique, lancez rapidement un Stargaze de niveau 1 avant de monter vers votre Stargaze de niveau 4 [1]. Lorsqu'elle est correctement exécutée, cette petite optimisation peut générer une **augmentation de 10 % à 15 % du DPS global** [1]. Cependant, évitez de le faire pendant les fenêtres de dégâts serrées où vous n'avez le temps de porter qu'un seul gros coup [1].
+
+### Saut de phase de boss avec la Paralysie
+La plupart des boss dans Granblue Fantasy: Relink entrent dans un état de "Fureur sanguinaire" (Bloodthirst) peu après être passés en Overdrive, gagnant une réduction massive des dégâts et effectuant des attaques dangereuses sur toute l'arène [1].
+
+<Checklist
+  id="phase-skip-steps"
+  title="Comment sauter la Fureur sanguinaire :"
+  items={[
+    "Attendez que le boss entre en état d'Overdrive.",
+    "Lancez Foudre (Lightning) immédiatement pour infliger Paralysie et figer le boss.",
+    "Coordonnez-vous avec vos coéquipiers pour déclencher des compétences à fort vacillement (comme Septennat Fleuri).",
+    "Brisez la garde du boss avant que la Paralysie ne se dissipe.",
+    "Annulez avec succès l'état d'Overdrive et sautez entièrement la phase de fureur sanguinaire."
+  ]}
+/>
+
+<Callout type="warning" title="Exceptions au saut de phase">
+Bien que la grande majorité des boss suivent ce schéma, quelques boss spécifiques de fin de jeu sont programmés pour entrer en fureur sanguinaire immédiatement après l'Overdrive ou le déclencheront quoi qu'il arrive [1]. Apprenez quels boss sont susceptibles d'être interrompus pour vous coordonner efficacement avec votre équipe [1].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure arme pour Io en fin de jeu ?",
+    answer: "L'Arme de Terminus (Gambanteinn) est son arme absolue de prédilection, offrant une puissance d'attaque massive et augmentant la limite de dégâts tant que vos PV max restent inférieurs à 45 000."
+  },
+  {
+    question: "Comment déclencher le Quick Cast sur Io ?",
+    answer: "Vous devez maintenir le bouton Stargaze enfoncé immédiatement après avoir porté une attaque normale chargée, une attaque de lien (link attack), ou après avoir lancé l'un de ses sorts actifs."
+  },
+  {
+    question: "Le Septennat Fleuri vaut-il la peine d'être utilisé en fin de jeu ?",
+    answer: "Oui. Bien qu'il ait un long temps de recharge, le Septennat Fleuri est une attaque dévastatrice qui atteint facilement la limite de dégâts en fin de jeu et inflige d'énormes dégâts de vacillement pour aider à briser les boss."
+  },
+  {
+    question: "Pourquoi devrais-je annuler Stargaze par une esquive ?",
+    answer: "Esquiver immédiatement après le tir de Stargaze annule la longue animation de récupération. Cela vous permet de commencer à bouger, d'esquiver les attaques du boss ou de charger votre prochain sort beaucoup plus rapidement, augmentant ainsi considérablement votre sécurité et votre DPS."
+  }
+]} />
+
+</Section>

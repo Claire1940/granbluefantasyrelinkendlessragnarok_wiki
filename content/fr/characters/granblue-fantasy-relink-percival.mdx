@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Percival : Guide du Meilleur Build de Fin de Jeu",
+  description: "Maîtrisez Percival dans Granblue Fantasy Relink. Découvrez le meilleur build de fin de jeu, les sceaux optimaux, les armes, la technique d'annulation de compétence et les combos à gros dégâts.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Percival+Build+Guide",
+  date: "2026-07-10",
+  author: "Équipe Wiki Granblue Fantasy Relink",
+  keywords: "percival, build, granblue fantasy relink, guide, fin de jeu, sceaux, armes"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Percival dans Granblue Fantasy Relink** : Un personnage DPS de Feu de premier plan capable d'infliger instantanément des millions de dégâts.
+- **Mécanique Principale** : Charger son attaque lourde unique, **Schlacht**, qui peut être accélérée via des compétences spécifiques et des annulations.
+- **Meilleure Arme** : L'**Arme de Terminus** est le choix absolu pour la progression en fin de jeu.
+- **Sceaux Clés** : Procession du Seigneur, Limite de Dégâts, Élément de Guerre et Dégâts Supplémentaires sont obligatoires.
+- **Technique Avancée** : Utilisez l'annulation par esquive d'**Autorité Royale** et le bug de limite de dégâts de la Roue de Flammes pour maximiser le DPS.
+</Callout>
+
+<Section icon={Swords} title="Aperçu du Personnage Percival dans Granblue Fantasy Relink">
+
+Percival, connu sous le nom de Seigneur des Flammes, est l'un des donneurs de dégâts les plus puissants de **Granblue Fantasy Relink**. Maniant un sabre et exploitant l'élément du Feu, son style de jeu repose sur des attaques chargées nécessitant un engagement élevé mais offrant de grandes récompenses. En utilisant ses compétences efficacement, vous pouvez contourner les longs temps de charge et déclencher des frappes dévastatrices sur vos ennemis.
+
+**Points Forts de la Vidéo :**
+- **Technique d'Annulation de Compétence** : Apprenez à accélérer les charges de Schlacht en effectuant une esquive tôt dans l'animation des compétences.
+- **Bug de la Roue de Flammes** : Découvrez comment dépasser la limite de dégâts de la Roue de Flammes en la couplant avec Schlacht.
+- **Configuration des Sceaux de Fin de Jeu** : Une analyse des sceaux optimaux requis pour atteindre systématiquement les limites de dégâts.
+
+<YouTubeEmbed videoId="wGUpYt0C5bo" title="PERCIVAL PERFECTED Best Build Guide - Optimal Sigils Weapons & Combos | Granblue Fantasy Relink" />
+
+### Statistiques et Attributs de Base du Personnage
+
+| Attribut | Détail |
+| --- | --- |
+| **Race** | Humain |
+| **Élément** | Feu |
+| **Style de Combat** | Attaque (DPS) |
+| **Type d'Arme** | Sabre |
+| **Art Céleste** | Lohenwolf |
+
+<Callout type="tip" title="Stratégie de Rôle">
+Percival fonctionne mieux en tant que pur DPS agressif. Bien qu'il possède une certaine utilité, votre objectif principal est de maintenir une présence active avec son attaque chargée, Schlacht, pour faire fondre les barres de vie des boss.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comment Recruter Percival et Débloquer les Épisodes de Destin">
+
+Débloquer Percival est simple mais nécessite de progresser dans la campagne principale. Vous devez obtenir une **Carte de Coéquipier** et rendre visite au Bazar de Siero pour le recruter dans votre équipe.
+
+<Steps>
+  <Step num="1" title="Atteindre le Chapitre 4">
+    Progressez dans l'histoire principale jusqu'au début du **Chapitre 4 : Skies Forever Blue**. C'est à ce moment que la fonction de recrutement de personnages se débloque officiellement.
+  </Step>
+  <Step num="2" title="Acquérir des Cartes de Coéquipier">
+    Obtenez des Cartes de Coéquipier en franchissant des étapes majeures de la campagne ou en terminant des quêtes secondaires spécifiques de difficulté supérieure au **Comptoir de Quêtes**.
+  </Step>
+  <Step num="3" title="Recruter au Bazar de Siero">
+    Apportez votre Carte de Coéquipier à Siero en ville pour débloquer Percival. Il rejoindra votre effectif à un niveau indexé sur votre progression actuelle dans la campagne.
+  </Step>
+  <Step num="4" title="Terminer les Épisodes de Destin">
+    Jouez les **Épisodes de Destin** de Percival. Terminer ces segments d'histoire octroie des bonus de statistiques permanents, débloque des emplacements de Sceaux critiques et approfondit son histoire.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Conseil de Recrutement">
+Priorisez le déblocage de Percival tôt dans votre partie afin de commencer à augmenter ses Maîtrises et à acquérir les améliorations de ses armes au fur et à mesure de votre progression vers la fin du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Techniques de Combat Avancées et Combos de Percival">
+
+Pour jouer **Percival dans Granblue Fantasy Relink** au plus haut niveau, vous devez maîtriser ses annulations d'animation uniques et ses exploits mécaniques. Ces techniques élèvent son DPS de "très bon" à "phénoménal".
+
+### Analyse des Techniques Avancées
+
+<CardGrid cols={3}>
+  <Card title="Charge de Schlacht">
+    L'attaque secondaire de Percival, **Schlacht**, est une frappe lourde chargeable. Normalement, elle le laisse vulnérable, mais l'utilisation de compétences au préalable augmente considérablement sa vitesse de charge.
+  </Card>
+  <Card title="Annulation par Esquive">
+    Activez une compétence comme **Autorité Royale** ou **Macht** et esquivez immédiatement. Vous annulez l'animation de la compétence (préservant son temps de recharge) tout en bénéficiant de la charge ultra-rapide de Schlacht.
+  </Card>
+  <Card title="Bug de la Roue de Flammes">
+    Lancez **Roue de Flammes**, chargez immédiatement **Schlacht**, relâchez-le, et **lâchez votre manette**. Cela associe l'énorme limite de dégâts de Schlacht aux tics de la Roue de Flammes.
+  </Card>
+</CardGrid>
+
+### Efficacité Optimale des Compétences et Combos
+
+| Type d'Action | Entrée / Description | Évaluation de Performance |
+| --- | --- | --- |
+| **Combo de Base** | Carré > Carré > Carré > Carré | Moyenne |
+| **Schlacht Rapide** | Compétence > Annulation par Esquive > Maintenir Triangle | Excellente |
+| **Configuration Roue de Flammes** | Buff > Roue de Flammes > Schlacht > Ne plus toucher | Surpuissante |
+| **Rapprochement** | Macht (Octroie Cœur de Fer) | Bonne |
+
+<Callout type="warning" title="Avertissement de Bug">
+L'exploit de la limite de dégâts de la Roue de Flammes est incroyablement puissant, poussant les dégâts au-delà de 10 millions en quelques secondes. Cependant, comme il s'agit d'un bug, il pourrait être corrigé dans de futures mises à jour. Entraînez-vous à la boucle standard d'annulation par esquive comme base fiable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleur Build de Fin de Jeu : Armes et Sceaux">
+
+Pour atteindre vos limites de dégâts sur presque chaque attaque du kit de Percival, vous devez vous équiper de la bonne configuration de fin de jeu. Les configurations suivantes sont optimisées pour la difficulté Fier et les raids post-jeu.
+
+### Progression des Armes
+
+| Nom de l'Arme | Type d'Arme | Focus Passif | Priorité |
+| --- | --- | --- | --- |
+| **Seigneur des Flammes** | Ascension | ATK & PV élevés | Milieu de jeu |
+| **Flamberge** | Défenseur | PV & Étourdissement | Transition |
+| **Gottfried** | Terminus | Catastrophe & Régénération | Meilleur choix |
+
+### Configuration Optimale des Sceaux
+
+| Nom du Sceau | Niveau Recommandé | Fonction Principale |
+| --- | --- | --- |
+| **Procession du Seigneur** | Max (Niv 15) | Signature du Personnage : Limite Schlacht +50%, Vitesse de mouvement +20% |
+| **Limite de Dégâts** | Max (Niv 65 / 4 Sceaux) | Augmente les limites de dégâts globales (Obligatoire) |
+| **Élément de Guerre** | Max (Niv 15) | Convertit toutes les attaques en dégâts d'élément supérieur (+20% global) |
+| **Dégâts Supplémentaires**| Max (Niv 45 / 3 Sceaux) | Garantit des coups supplémentaires infligeant 20% des dégâts originaux |
+| **Tyrannie + Égide** | Max | Augmente l'ATK tout en gardant les PV équilibrés au-dessus des seuils critiques |
+| **Charge Rapide** | Niv 15 (Optionnel) | Accélère les temps de charge de Schlacht pour un confort de jeu accru |
+
+<Callout type="info" title="Priorités de Surmaîtrise">
+Lors du tirage des Surmaîtrises pour Percival au Bazar de Siero, donnez la priorité à **Limite de dégâts d'attaque normale** (idéalement +20%) et **Limite de dégâts de compétence** pour maximiser le rendement de Schlacht et de la Roue de Flammes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle des Jalons de Fin de Jeu">
+
+Utilisez cette liste pour suivre votre progression alors que vous construisez l'ultime Seigneur des Flammes.
+
+<Checklist
+  id="percival-progression"
+  title="Objectifs de Fin de Jeu pour Percival :"
+  items={[
+    "Débloquer Percival en utilisant une Carte de Coéquipier au Bazar de Siero",
+    "Terminer les 10 Épisodes de Destin de Percival pour des emplacements de Sceaux supplémentaires",
+    "Obtenir et éveiller complètement l'arme de Terminus Gottfried",
+    "Acquérir le sceau de signature Procession du Seigneur",
+    "Obtenir +20% de Limite de dégâts d'attaque normale sur les Surmaîtrises",
+    "Maîtriser la mécanique d'annulation par esquive d'Autorité Royale dans la zone d'entraînement"
+  ]}
+/>
+
+<Callout type="success" title="Build Terminé">
+Une fois ces jalons cochés, Percival atteindra facilement ses limites de dégâts, vous permettant de porter vos alliés en multijoueur et de réussir les quêtes de difficulté Fier en solo avec aisance.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quel est le sceau le plus important pour Percival dans Granblue Fantasy Relink ?",
+    answer: "Le sceau de signature Procession du Seigneur est indispensable. Il augmente la limite de dégâts de Schlacht de 50% et accroît votre vitesse de déplacement de 20% pendant la charge."
+  },
+  {
+    question: "Comment exécuter la technique d'annulation par esquive de Schlacht ?",
+    answer: "Activez une compétence comme Autorité Royale ou Macht. Appuyez immédiatement sur le bouton d'esquive pour annuler l'animation, puis maintenez Triangle pour charger Schlacht instantanément."
+  },
+  {
+    question: "Ai-je besoin de Charge Rapide si j'utilise déjà la technique d'annulation ?",
+    answer: "Non, vous pouvez atteindre la limite de dégâts sans Charge Rapide. Cependant, de nombreux joueurs utilisent un sceau de Charge Rapide pour le confort général et une charge neutre plus rapide."
+  },
+  {
+    question: "L'arme de Terminus est-elle absolument requise pour Percival ?",
+    answer: "Oui, Gottfried (son arme de Terminus) fournit le trait Catastrophe, essentiel pour atteindre les limites de dégâts les plus élevées en fin de jeu."
+  }
+]} />
+
+</Section>

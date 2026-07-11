@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "granblue fantasy relink rosetta build: Best Setup & Endgame Gear",
+  description: "Master the best granblue fantasy relink rosetta build with our guide on sigils, skills, and rose management for maximum endgame DPS and support utility.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d1b4e/fff?text=Rosetta+Endgame+Build",
+  date: "2026-07-11",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Granblue fantasy relink rosetta build** focuses on maximizing **Rose Levels** to provide team-wide buffs and massive multi-hit damage.
+- **Mandatory Skills**: Always equip **Spiral Rose** and **Iron Maiden** for the highest burst damage potential during Link Time.
+- **Core Sigil**: The character-specific sigil **Roses Blooming** is essential to reduce the attack interval of your plants by 30%.
+- **Optimal Buff**: Prioritize the **Defense Buff** (Yellow) in endgame raids to ensure party survivability while hitting damage caps.
+- **Weapon Choice**: The **Terminus Weapon** is the ultimate goal, but the Critical Hit Rate weapon serves as a top-tier alternative during the grind.
+</Callout>
+
+<Section icon={Map} title="Understanding Rosetta Mechanics and Rose Management">
+
+Rosetta is often misunderstood as a low-tier character due to her reliance on stationary plants. However, a proper **granblue fantasy relink rosetta build** transforms her into a battlefield commander who dictates the flow of combat through zoning and massive multi-hit combos. Her primary mechanic involves planting up to three roses that attack automatically and provide various buffs based on their current level (1 to 4).
+
+**Video Highlights:**
+- Detailed breakdown of Rose Levels (1-4) and how they affect range and damage.
+- Explanation of the **Dodge Cancel** technique to plant roses faster.
+- Visual guide for identifying combo finisher buffs by color (Yellow, Blue, Pink).
+- Showcase of the Iron Maiden and Spiral Rose synergy for 70+ hits.
+
+<YouTubeEmbed videoId="6tftbRjP2tA" title="THE MOST UNDERRATED ROSETTA Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink" />
+
+To play Rosetta effectively, you must master the placement and leveling of her roses. Roses level up when they hit enemies or through specific skills like Bouquet. High-level roses have significantly larger ranges and deal more hits per second.
+
+| Rose Level | Range Indicator | Hits per Interval | Buff Potency |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | Small Green Circle | 1 Hit | 5% |
+| **Level 2** | Medium Green Circle | 2 Hits | 10% |
+| **Level 3** | Large Green Circle | 3 Hits | 15% |
+| **Level 4** | Maximum Green Circle | 4+ Hits | 20% |
+
+<Callout type="tip" title="Pro Tip: Animation Canceling">
+You can significantly speed up your setup by using a dodge immediately after pressing the Rose placement button (Triangle/Y or Right-Click). This cancels the recovery animation while still spawning the rose, allowing you to reposition or attack sooner.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Skills for Maximum DPS and Utility">
+
+Selecting the right skills is the most critical part of an optimized **granblue fantasy relink rosetta build**. While Rosetta has several support-oriented skills, her endgame meta revolves around a specific interaction between **Iron Maiden** and **Spiral Rose**.
+
+| Skill Name | Role | Why It Is Used |
+| :--- | :--- | :--- |
+| **Spiral Rose** | Main DPS | Spawns vines from Rosetta and all roses; hits dozens of times in seconds. |
+| **Iron Maiden** | Buff/Enabler | Grants Stout Heart and adds extra rose attacks to every hit Rosetta makes. |
+| **Rose Tycoon** | Utility | Repositions all roses to the target and applies a 1.5% Max HP poison. |
+| **Rose Barrier** | Defense | Provides up to 40% damage cut based on rose level; vital for survivability. |
+| **Lost Love** | Burst | Explodes all roses for massive damage; roses are instantly replanted after. |
+
+The "Secret Tech" for Rosetta involves activating Iron Maiden before using Spiral Rose. Because Spiral Rose creates many individual hitboxes originating from Rosetta's model, Iron Maiden triggers an additional rose attack for every single one of those hits. This results in a "shredding" effect that can delete boss HP bars, especially during Link Time.
+
+<CardGrid cols={2}>
+  <Card title="The DPS Core">
+    - **Iron Maiden**: Essential for the extra hit triggers.
+    - **Spiral Rose**: Your primary source of burst damage.
+    - **Synergy**: Use them together for maximum efficiency.
+  </Card>
+  <Card title="The Support Flex">
+    - **Rose Barrier**: Best for high-difficulty raids like Proto Bahamut.
+    - **Rose Tycoon**: Mandatory for mobile bosses to keep roses in range.
+    - **Lost Love**: Use only if your team already has enough defense.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Avoid Over-Healing">
+Skills like **Bouquet** offer healing and cleanses, but in the endgame, these are often redundant due to Potion Hoarder and specialized healers. Stick to Damage Cut or high-DPS skills to contribute more to the team.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Combo Finishers and Buff Cycles">
+
+Rosetta provides three distinct buffs to the entire party through her combo finishers. The potency of these buffs scales with the highest rose level currently on the field. In a completed **granblue fantasy relink rosetta build**, you will almost always have Level 4 roses, providing 20% bonuses.
+
+<Steps>
+  <Step num="1" title="Identify the Buff Color">
+    Watch the circle under Rosetta as you perform basic attacks. Yellow indicates Defense, Blue indicates Regen, and Pink indicates Attack.
+  </Step>
+  <Step num="2" title="Defense Buff (1 Attack + Finisher)">
+    Perform one basic swing followed by the finisher. This is the most valuable endgame buff as it helps the team survive chip damage.
+  </Step>
+  <Step num="3" title="Regen Buff (2 Attacks + Finisher)">
+    Perform two swings then the finisher. Useful during downtime or transition phases where the boss is untargetable.
+  </Step>
+  <Step num="4" title="Attack Buff (3 Attacks + Finisher)">
+    Perform three swings then the finisher. Only use this if your teammates are struggling to hit the damage cap.
+  </Step>
+</Steps>
+
+| Buff Type | Color | Effect at Level 4 | Strategic Use |
+| :--- | :--- | :--- | :--- |
+| **Defense** | Yellow | +20% Defense | Default for most endgame raids. |
+| **Regen** | Blue | Passive HP Recovery | Best for "heal-check" mechanics. |
+| **Attack** | Pink | +20% Attack | Use for teammates with low-investment builds. |
+
+<Callout type="success" title="Buff Retention">
+Using the skill **Lost Love** to explode your roses does not remove the active buff. The newly replanted roses will automatically inherit the last buff you applied, saving you from having to restart your combo cycle immediately.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Endgame Sigils and Over Mastery Priority">
+
+To reach the damage cap and maximize the efficiency of your **granblue fantasy relink rosetta build**, you need a specific set of sigils. Rosetta benefits more from cooldown reduction and utility than raw supplementary damage, as her roses do not trigger supplementary hits as effectively as other characters.
+
+| Sigil Category | Recommended Sigils | Priority |
+| :--- | :--- | :--- |
+| **Character Specific** | **Roses Blooming** | **Highest** (Reduces rose attack interval) |
+| **Damage Cap** | Damage Cap V+ (x4) | **Mandatory** (To reach endgame ceilings) |
+| **Core Utility** | Potion Hoarder / Improved Dodge | **High** (Essential for survival and utility) |
+| **Offense** | Tyranny / Stamina / War Elemental | **High** (Standard damage boosters) |
+| **Cooldown** | Quick Cooldown / Nimble Onslaught | **Medium** (Increases Iron Maiden uptime) |
+
+**Over Mastery Recommendations:**
+For the best results, aim for these stats in your Over Mastery slots at Level 100:
+1. **Skill Damage Cap Up** (20%)
+2. **Normal Attack Damage Cap Up** (20%)
+3. **Critical Hit Rate Up** (20%)
+4. **Attack Power Up** or **Skill Damage Up**
+
+<CardGrid cols={3}>
+  <Card title="Roses Blooming">
+    Reduces rose attack intervals by 30%. This is the single biggest DPS increase for Rosetta.
+  </Card>
+  <Card title="Nimble Onslaught">
+    Increases invincibility after a perfect dodge and reduces skill cooldowns. Perfect for Rosetta's defensive playstyle.
+  </Card>
+  <Card title="Glass Cannon">
+    A high-risk sigil that boosts damage cap by 30%. Only recommended for veteran players who master dodging.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Supplementary Damage Note">
+While Supplementary Damage is meta for most characters, Rosetta's roses do not proc it. You only need one or two instances of this sigil for Rosetta's own blade attacks; don't waste three slots on it.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist and Goals">
+
+Building the ultimate Rosetta takes time and luck with drops. Use the following checklist to track your progress toward a top-tier endgame setup.
+
+<Checklist
+  id="rosetta-progression"
+  title="Endgame Build Milestones:"
+  items={[
+    "Obtain the Terminus Weapon (Zvarka) from Proto Bahamut",
+    "Equip the Roses Blooming character sigil",
+    "Reach Level 65 Damage Cap (including weapon bonuses)",
+    "Roll 20% Skill Damage Cap on Over Mastery",
+    "Master the Iron Maiden + Spiral Rose combo timing",
+    "Acquire the War Elemental sigil for universal damage"
+  ]}
+/>
+
+<Callout type="tip" title="Survival Strategy">
+Combine **Rose Barrier** (40% cut) with the **Defense Buff** (20% boost) and **Stout Heart** (from Iron Maiden). This makes Rosetta nearly unkillable, allowing you to face-tank many boss mechanics while continuing your DPS rotation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Roses Profusion sigil worth using in a granblue fantasy relink rosetta build?",
+    answer: "Roses Profusion increases the potency of your buffs (e.g., +10% to Attack/Defense). While nice, it is often considered a 'filler' sigil because most endgame players already hit the damage cap without the extra 10% attack."
+  },
+  {
+    question: "How do I keep my roses alive if the boss moves constantly?",
+    answer: "Use Rose Tycoon. It has a relatively short cooldown and instantly teleports all active roses to the boss's current location. You should rarely manually replant roses once the fight has started."
+  },
+  {
+    question: "Do Rosetta's roses benefit from my character's Attack stats?",
+    answer: "Yes, the roses scale directly with Rosetta's stats. This is why Sigils like Tyranny and Stamina are still important to ensure the roses are hitting their individual damage caps."
+  },
+  {
+    question: "Which weapon should I use before I get the Terminus Weapon?",
+    answer: "The Critical Hit Rate weapon (Rose Crystal) is the best choice for progression. It helps you reach 100% crit rate easily, which is essential for consistent damage output."
+  }
+]} />
+
+</Section>

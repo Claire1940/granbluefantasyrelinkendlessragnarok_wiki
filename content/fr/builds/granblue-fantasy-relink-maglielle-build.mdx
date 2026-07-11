@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Maglielle Granblue Fantasy Relink : Guide de Configuration Optimale",
+  description: "Maîtrisez le build ultime de Maglielle pour le endgame de Granblue Fantasy Relink. Découvrez les meilleures armes, sceaux, traits de maîtrise et rotations de compétences pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Maglielle+Endgame+Build",
+  date: "2026-07-11",
+  author: "Équipe Wiki de Granblue Fantasy Relink",
+  keywords: "build Maglielle, Granblue Fantasy Relink, endgame, guide, meilleures armes, sceaux"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Build Maglielle Granblue Fantasy Relink** : Se concentre sur la maximisation du plafond de dégâts des attaques normales pour booster la Danse des Lames.
+- **Mécanique de base** : Chargez la jauge de Voile à l'aide de finishers de combo manuels de couleur rose pour déclencher des barrages de lames continus.
+- **Meilleure arme** : L'Arme d'Ascension totalement transcendée, Excalibur, Souveraine Ointe, offre des plafonds de dégâts inégalés.
+- **Meilleurs sceaux** : Équipez les sceaux Alpha et Gamma aux côtés d'Écho du Berserker et Écho du Spartiate pour des dégâts supplémentaires multi-instances.
+- **Compétences essentielles** : Utilisez Battleheim, Lance des Légendes et Pistolet des Démons comme configuration de base non négociable.
+</Callout>
+
+<Section icon={Swords} title="Style de jeu et Mécaniques de Base de Maglielle">
+
+Maglielle est l'un des lanceurs de sorts à distance les plus distinctifs de l'extension Endless Ragnarok. Elle invoque des armes légendaires pour combattre à ses côtés, combinant une grande utilité pour le groupe avec un potentiel de burst dévastateur. Son cycle offensif repose entièrement sur la gestion de sa jauge de Voile unique et le déclenchement de son attaque signature, la **Danse des Lames**.
+
+Comprendre comment remplir sa jauge efficacement est le fondement de tout **build Maglielle Granblue Fantasy Relink** réussi.
+
+**Points forts de la vidéo :**
+- **Mécaniques de Combo** : Apprenez à passer des attaques de base aux finishers de combo à haut rendement.
+- **Gestion de la Jauge de Voile** : Maîtrisez le timing requis pour récupérer une partie de votre jauge.
+- **Présentation des Compétences** : Démonstration visuelle de ses invocations d'armes, y compris l'imposant Pistolet des Démons.
+
+<YouTubeEmbed videoId="7w8B2TQyHFM" title="DÉGÂTS INSENSÉS Guide Meilleur Build MAGLIELLE - Meilleurs Sceaux et Armes | Guide Granblue Fantasy Relink" />
+
+### La Jauge de Voile et la Danse des Lames
+
+Contrairement aux personnages standards, le combo d'attaque de base en trois coups de Maglielle ne génère pas de jauge dans des circonstances normales. Au lieu de cela, sa jauge est directement liée à son attaque triangle unique, la Danse des Lames. Pour remplir la jauge, vous devez exécuter des finishers de combo.
+
+| Finishers | Séquence d'Entrée | Gain de Jauge | Utilité du Style de Jeu |
+|---|---|---|---|
+| **Combo A** | Carré -> Triangle (Maintenir) | Modéré | Le plus rapide à exécuter, très fiable |
+| **Combo B** | Carré -> Carré -> Triangle (Maintenir) | Élevé | Équilibre entre dégâts de zone et cible unique |
+| **Combo C** | Carré -> Carré -> Carré -> Triangle (Maintenir) | Massif | Dégâts les plus élevés, le plus difficile à viser |
+
+Pour optimiser votre rotation, priorisez le Combo A. Les Combos B et C ont des animations plus longues et sont plus difficiles à viser manuellement lors de rencontres rapides.
+
+### Finishers Renforcés (Lueur Rose)
+
+Maintenir le bouton Triangle pendant n'importe quel finisher de combo vous permet de viser manuellement l'attaque. Une fois que les lames touchent l'ennemi, elles passent de l'or à une teinte violet-rose.
+
+Ce changement visuel indique que l'attaque est renforcée. Réussir ces finishers roses octroie nettement plus de jauge de Voile et améliore temporairement vos attaques carrées de base, leur permettant de générer également de la jauge.
+
+<Callout type="tip" title="Mécanique de Remboursement de Jauge">
+Lors de la canalisation de la Danse des Lames, relâcher le bouton Triangle environ une demi-seconde après que la jauge se soit complètement vidée remboursera jusqu'à un tiers de votre jauge de Voile totale. Évitez de relâcher le bouton à la milliseconde exacte où elle atteint zéro, sinon vous manquerez cette fenêtre de remboursement cruciale.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Meilleures Armes et Progression">
+
+Les armes de l'extension Endless Ragnarok ont reçu des mises à jour massives, rendant les anciennes options comme l'arme Terminus obsolètes en raison de sa limite stricte de 45 000 PV. Pour le contenu endgame de haut niveau, maximiser votre survie tout en dépassant les plafonds de dégâts est essentiel.
+
+| Type d'Arme | Nom de l'Arme | Traits de Base | Condition du Plafond de Dégâts |
+|---|---|---|---|
+| **Ascension** | Excalibur, Souveraine Ointe | ATQ, Dégâts Suppl., Plafond de Dégâts, Booster de Sceau | Plafond de Dégâts inconditionnel de 350% (Transcendée) |
+| **Perceur** | Exo Maitrah Karuna | Taux de Critique, Dégâts Critiques | Plafond de Dégâts de 270% quand le Taux de Critique dépasse 200% |
+| **Défenseur** | Al Fine | Égide Supérieure, Forteresse, Nerfs d'Acier | Plafond de Dégâts de 260% quand les PV Max dépassent 200 000 |
+
+### Recommandation d'Arme
+
+L'**Arme d'Ascension (Excalibur)** est absolument le meilleur choix pour Maglielle. Une fois totalement transcendée, elle débloque le trait **Technique Déchaînée**, augmentant tous les plafonds de dégâts de compétences de 30%, et fournit une augmentation massive et inconditionnelle de 350% du plafond de dégâts.
+
+Bien que l'arme de Défenseur (Al Fine) soit excellente pour progresser dans la difficulté Fier grâce à ses statistiques défensives, vous devriez passer à Excalibur dès que vous pouvez vous permettre le coût en ressources.
+
+<Callout type="warning" title="Avertissement Arme Terminus">
+Ne comptez pas sur les armes Terminus pour le DLC Endless Ragnarok. La limite de 45 000 PV vous rend extrêmement vulnérable face aux boss de rang Chaos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration des Compétences et Rotation">
+
+Maglielle possède un kit polyvalent d'invocations offensives et de sorts utilitaires. Choisir la bonne combinaison de compétences détermine votre temps de présence offensive et votre contribution au groupe.
+
+<CardGrid cols={3}>
+  <Card title="Pistolet des Démons">
+    Invoque un pistolet massif qui tire en tandem avec vos attaques. Il fournit un DPS passif continu, surtout pendant la Danse des Lames et l'Heure du Lien.
+  </Card>
+  <Card title="Lance des Légendes">
+    Lance une lance perforante qui inflige un malus de Défense de 10%. Elle dispose d'un temps de recharge court et permet d'annuler l'animation par une esquive instantanée.
+  </Card>
+  <Card title="Battleheim">
+    Un buff personnel obligatoire qui augmente le taux de remplissage de votre jauge de Voile et booste les dégâts de toutes les attaques Triangle, y compris la Danse des Lames.
+  </Card>
+</CardGrid>
+
+### Choisir votre Quatrième Emplacement de Compétence
+
+Bien que les trois premières compétences soient non négociables pour un **build Maglielle Granblue Fantasy Relink** de haut niveau, votre quatrième emplacement doit s'adapter à votre style de jeu ou aux besoins de l'équipe :
+
+- **Bâton de Divinité** : Invoque Caducée, un cercle de soin mobile qui réanime automatiquement les alliés tombés. C'est l'une des meilleures compétences de soutien du jeu.
+- **Knock Music** : Une esquive défensive en arrière qui octroie des frames d'invincibilité et génère une jauge massive lorsqu'elle est synchronisée parfaitement contre les attaques ennemies.
+- **Senuutu** : Applique un bouclier personnel. À utiliser uniquement si vous vous spécialisez dans l'arbre de traits de maîtrise Protection du Voile de l'Épée.
+
+<Steps>
+  <Step num="1" title="Activer les Buffs">
+    Lancez **Battleheim** immédiatement au début du combat pour booster votre taux d'acquisition de jauge.
+  </Step>
+  <Step num="2" title="Appliquer les Malus">
+    Lancez **Lance des Légendes** pour appliquer le malus de Défense de 10%. Esquivez immédiatement après le lancement pour annuler l'animation et gagner du temps.
+  </Step>
+  <Step num="3" title="Déployer l'Offensive">
+    Invoquez le **Pistolet des Démons** pour commencer les attaques coordonnées.
+  </Step>
+  <Step num="4" title="Charger et Déchaîner">
+    Exécutez le **Combo A (Carré -> Triangle)** pour charger votre jauge de Voile, puis maintenez Triangle pour déchaîner la **Danse des Lames**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dominance en Heure du Lien">
+Entrer en Heure du Lien remplit instantanément votre jauge de Voile et l'empêche de s'épuiser. Pendant cette fenêtre, spammez la Danse des Lames en continu. Vos coups rapides prolongeront également la durée de l'Heure du Lien pour tout le groupe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuration des Sceaux Endgame">
+
+Pour maximiser vos dégâts dans les quêtes de rang Chaos, vous devez contourner les plafonds de dégâts standards tout en maintenant des filets de sécurité défensifs.
+
+| Nom du Sceau | Niveau de Palier | Effet Principal | Valeur pour le Style de Jeu |
+|---|---|---|---|
+| **Alpha+** | Niveau 30 | Boost le plafond de dégâts des attaques normales | Essentiel pour maximiser les coups de la Danse des Lames |
+| **Gamma+** | Niveau 30 | Boost le plafond de dégâts global ; octroie un bouclier de 50k sur SBA | Excellent mélange d'offensive et de sécurité |
+| **Briseur de Destin** | Niveau 16 | +50% ATQ et Plafond de Dégâts pendant les quêtes Chaos | Obligatoire pour le contenu du DLC Endless Ragnarok |
+| **Écho du Berserker** | Niveau 15 | Dégâts supplémentaires garantis | Nécessite que votre ATQ de base soit de 25 000+ |
+| **Écho du Spartiate** | Niveau 15 | Dégâts supplémentaires garantis | Nécessite que vos PV Max soient de 80 000+ |
+
+### Sceaux Uniques au Personnage
+
+Pour vos emplacements spécifiques au personnage, priorisez **Sentier de la Reine des Lames** et **Circuit de la Reine des Lames**.
+
+- **Sentier de la Reine des Lames** : Octroie une augmentation de dégâts de 15% lors du démarrage de la Danse des Lames avec une jauge pleine ou lors de l'exécution du finisher Danse des Lames IV.
+- **Circuit de la Reine des Lames** : Boost votre plafond de dégâts de 10% et augmente le gain de jauge de Voile de 20% sur les relâchements au timing parfait.
+- **Sérénade de la Reine des Lames** : Ce sceau réduit les temps de recharge des compétences de 10% lors de la réussite d'attaques de suivi après des finishers renforcés. Il est optionnel et peut être remplacé si vous trouvez des sceaux avec de meilleurs sous-traits défensifs.
+
+<Callout type="success" title="Le Pouvoir du Drain">
+L'équipement d'un sous-trait Drain est fortement recommandé pour Maglielle. Comme ses armes invoquées et ses pistolets frappent indépendamment, ils vous soigneront passivement même pendant que vous esquivez ou vous repositionnez.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Traits de Maîtrise et Priorités de Surmaîtrise">
+
+Le système de Traits de Maîtrise vous permet de spécialiser Maglielle dans des rôles de combat distincts. Pour les builds endgame généraux, la voie du **Danseur d'Ardan** est supérieure.
+
+### Choix des Traits de Maîtrise
+
+- **Danseur d'Ardan** : Se concentre sur le gain de jauge et la Danse des Lames. Le dernier avantage octroie un boost d'ATQ de 15% et un boost de dégâts de 20% à la Danse des Lames au prix d'une réduction de défense de 30% pendant l'animation. Il fournit également un buff de plafond de dégâts de compétence de 20% pour tout le groupe lors de l'exécution de la Danse des Lames IV.
+- **Sorcellerie Superlative** : Boost le gain de jauge spécifiquement à partir des compétences d'invocation.
+- **Protection du Voile de l'Épée** : Améliore la force du bouclier personnel de 10% pour un style de jeu plus tanky.
+
+### Priorités de Surmaîtrise et Cibles de Stats d'Invocation
+
+Lors de la dépense de points de maîtrise, priorisez ces bonus spécifiques :
+
+<Checklist
+  id="maglielle-overmastery"
+  title="Liste de Priorité de Surmaîtrise :"
+  items={[
+    "Augmentation du Plafond de Dégâts d'Attaque Normale (20% est obligatoire)",
+    "Augmentation du Plafond de Dégâts de Compétence",
+    "Augmentation du Plafond de Dégâts de l'Art Céleste (SBA)",
+    "Augmentation du Taux de Critique"
+  ]}
+/>
+
+Pour vos emplacements d'invocation, équipez des invocations qui portent le trait **Augmentation du Plafond de Dégâts d'Attaque Normale**. Combiner des invocations de haut niveau comme le Dragon Sombre et le Dragon de Feu peut donner jusqu'à une **augmentation de 135%** de votre plafond de dégâts d'attaque normale, portant votre Danse des Lames à des niveaux astronomiques.
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Pourquoi l'arme d'Ascension est-elle préférée à l'arme Terminus pour ce build Maglielle ?",
+    answer: "L'arme d'Ascension (Excalibur) offre un plafond de dégâts plus élevé et inconditionnel de 350% lorsqu'elle est totalement transcendée et débloque le trait Technique Déchaînée. Contrairement à l'arme Terminus, elle ne limite pas vos PV à 45 000, vous protégeant ainsi des éliminations en un coup dans le endgame."
+  },
+  {
+    question: "Comment déclencher les finishers de combo renforcés roses de manière cohérente ?",
+    answer: "Pour déclencher un finisher renforcé, vous devez maintenir le bouton Triangle pendant un finisher de combo et viser manuellement le réticule de ciblage jusqu'à ce que les lames frappent l'ennemi. Une fois qu'elles touchent, elles brilleront en violet-rose, signalant un gain de jauge accru."
+  },
+  {
+    question: "Le sceau Sérénade de la Reine des Lames est-il requis pour le build endgame ?",
+    answer: "Non, la Sérénade de la Reine des Lames est optionnelle. Bien qu'elle offre une réduction du temps de recharge, la fenêtre d'exécution peut être serrée. Si vous avez d'autres sceaux avec des sous-traits défensifs supérieurs comme Collecteur de Potions ou Auto-récupération, n'hésitez pas à le remplacer."
+  },
+  {
+    question: "Comment activer à la fois Écho du Berserker et Écho du Spartiate simultanément ?",
+    answer: "Écho du Berserker nécessite 25 000+ d'Attaque, et Écho du Spartiate nécessite 80 000+ de PV. Vous pouvez facilement atteindre ces deux seuils sans gaspiller d'emplacements de sceaux en traits de PV en améliorant complètement votre arme d'Ascension, en complétant vos Surmaîtrises et en remplissant vos bonus de collection d'armes."
+  }
+]} />
+
+</Section>

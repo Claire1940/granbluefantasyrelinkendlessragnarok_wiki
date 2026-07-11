@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Seofon Granblue Fantasy Relink : Guide des Meilleurs Sceaux et Compétences",
+  description: "Maîtrisez le build ultime de Seofon dans Granblue Fantasy Relink. Découvrez les meilleurs sceaux, la progression d'arme optimale, les compétences et les rotations de combos pour Siete.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Seofon+Build+Guide",
+  date: "2026-07-11",
+  author: "Équipe du Wiki Granblue Fantasy Relink",
+  keywords: "seofon, siete, build, granblue fantasy relink, sceaux, compétences, rotation"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Build Seofon Granblue Fantasy Relink** : Se concentre sur la maximisation du temps de présence de la forme d'Avatar et l'exécution de puissants Finishers d'Avatar.
+- **Mécanique Centrale** : Équilibrez la Jauge d'Avatar (à gauche) et le Niveau de Brillance de l'Épée (à droite) pour augmenter les coups des compétences et débloquer les finishers ultimes.
+- **Meilleure Arme** : Arme d'Ascension entièrement améliorée (fournit des dégâts supplémentaires et un booster de sceau).
+- **Sceaux Essentiels** : Sentier de Guerre des Lames Spirituelles, Fureur des Lames Spirituelles et Ralliement des Lames Spirituelles.
+- **Configuration de Compétences Optimale** : Tempesta, Infinito Crear, Despedar et Rotura.
+</Callout>
+
+<Section icon={Map} title="Comment Débloquer Seofon dans Granblue Fantasy Relink">
+
+Pour commencer à assembler votre **build de Seofon dans Granblue Fantasy Relink**, vous devez d'abord débloquer Seofon (Siete), le chef des Éternels. Contrairement aux personnages du roster de base, Seofon nécessite des matériaux de fin de jeu spécifiques obtenus lors de quêtes difficiles.
+
+**Points Forts de la Vidéo :**
+- **Conditions de Déblocage** : Terminez des quêtes spécifiques de difficulté Extrême et Fier pour collecter des médaillons.
+- **Échange au Bazar de Sierokarte** : Échangez des Médaillons de Revenant contre des Essences d'Arme Suprême.
+- **Carte de Coéquipier** : Échangez des Essences d'Arme Suprême contre la carte de recrutement spéciale de Seofon.
+
+<YouTubeEmbed videoId="hA97VcFlbVU" title="BROKEN DPS SEOFON Best Build Guide - Sigils & Weapons Showcase | Granblue Fantasy Relink Guide" />
+
+Vous pouvez acquérir les matériaux requis en farmant des combats de boss de fin de jeu spécifiques.
+
+| Nom de la Quête | Difficulté | Récompenses Clés |
+|-----------------|------------|------------------|
+| Gloup... Ce sont les monstres de la rumeur | Extrême | Médaillon de Revenant |
+| Entrechoquer les cornes | Fier | Essence d'Arme Suprême, Médaillon de Revenant |
+
+Échangez 30 Médaillons de Revenant au Bazar de Sierokarte contre une Essence d'Arme Suprême. Une fois que vous avez trois Essences d'Arme Suprême, échangez-les contre la Carte de Coéquipier spéciale pour débloquer Seofon.
+
+<Callout type="tip" title="Chance de Butin chez Sierokarte">
+Les développeurs ont confirmé que les joueurs peuvent occasionnellement recevoir directement le ticket de recrutement spécial comme butin rare lors de ces quêtes, vous épargnant ainsi le farm de médaillons.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mécaniques de Base : Jauge d'Avatar et Brillance de l'Épée">
+
+Le style de jeu de Seofon s'apparente à celui d'un Bruiser à haute vitesse. Son interface utilisateur dispose d'un système de double jauge qui dicte ses dégâts. Gérer correctement ces ressources est la base de tout **build de Seofon réussi dans Granblue Fantasy Relink**.
+
+| Composant de la Jauge | Objectif | Comment la Remplir |
+|-----------------------|----------|--------------------|
+| **Jauge d'Avatar** (Gauche) | Détermine la durée de votre Avatar invoqué. | Combos de base, Attaques de Lien, compétence Tempesta. |
+| **Brillance de l'Épée** (Droite) | Augmente le nombre de coups de l'Avatar et débloque le finisher ultime. | Combos pendant que l'Avatar est actif, Compétences, Attaques de Lien. |
+
+Pour maximiser efficacement votre Jauge d'Avatar, vous devez utiliser la bonne séquence de combo de base.
+
+| Enchaînement de Combo | Efficacité de Remplissage | Cas d'Utilisation Optimal |
+|-----------------------|---------------------------|---------------------------|
+| 1 Attaque Légère -> Attaque Lourde | Très Faible (11 combos pour le max) | Non recommandé |
+| 2 Attaques Légères -> 2 Attaques Lourdes | Modérée (7 combos pour le max) | Correct pour un repositionnement rapide |
+| 3 Attaques Légères -> 2 Attaques Lourdes | Bonne (6 combos pour le max) | Bon enchaînement de transition |
+| 4 Attaques Légères -> 1 Attaque Lourde | Excellente (5 combos pour le max) | Meilleur moyen standard de remplir la jauge |
+
+<Callout type="warning" title="Conservez Votre Jauge">
+Vous pouvez renvoyer manuellement votre Avatar en appuyant à nouveau sur le bouton d'attaque lourde. Faire cela avant que la Jauge d'Avatar ne se vide complètement conserve le reste de la jauge pour votre prochaine opportunité.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures Compétences pour Seofon">
+
+Seofon a accès à une grande variété de compétences offensives et utilitaires. Sélectionner les bonnes compétences vous assure de pouvoir augmenter rapidement votre niveau de Brillance de l'Épée et maintenir un DPS élevé.
+
+<CardGrid cols={2}>
+  <Card title="Tempesta (Essentiel)">
+    - **Maxe instantanément la Jauge d'Avatar**
+    - Augmente l'ATQ et le Taux de Critique de 30% à 50%
+    - Essentiel pour engager les combats
+  </Card>
+  <Card title="Infinito Crear (Haut DPS)">
+    - Invoque un barrage d'épées
+    - Permet un mouvement libre immédiatement après l'activation
+    - Excellent pour accumuler la Brillance de l'Épée
+  </Card>
+  <Card title="Despedar (Finisher)">
+    - Inflige de multiples coups rapides suivis d'une entaille lourde
+    - Bénéficie d'un scaling de dégâts massif grâce à une Brillance de l'Épée élevée
+    - Source principale de dégâts
+  </Card>
+  <Card title="Rotura (Mobilité & Utilité)">
+    - Esquive en arrière suivie d'un rapprochement rapide
+    - **Pouvoir d'étourdissement extrêmement élevé** pour des Attaques de Lien faciles
+    - Peut esquiver les attaques de boss entrantes
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Note sur le Remplacement de Compétence">
+Bien que *Splendeur des Sept Étoiles* soit visuellement spectaculaire et maxe la jauge de SBA pour tout le groupe, elle commence la quête avec un temps de recharge massif et ne peut être utilisée qu'une seule fois. Pour le farm général et les nettoyages rapides, elle est très inefficace par rapport à une configuration offensive standard.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sceaux Optimaux et Sélection d'Arme">
+
+Vos choix d'équipement feront le succès ou l'échec de vos performances dans les raids de difficulté Fier comme Lucilius ou le Béhémoth.
+
+### Progression d'Arme
+Seofon n'a que deux armes disponibles. Vous devriez donner la priorité à l'amélioration complète de son **Arme d'Ascension**. Au niveau maximum, elle octroie des Dégâts Supplémentaires intégrés et un Booster de Sceau, augmentant de 1 le niveau de tous vos traits de sceaux équipés.
+
+### Configuration de Sceaux Recommandée
+
+| Nom du Sceau | Effet Principal | Pourquoi C'est Vital |
+|--------------|-----------------|----------------------|
+| **Frontière des Sept Étoiles** | +50% ATQ, +100% Limite de Dégâts, plafonne les PV à 45 000 | C'est la version Seofon du passif Terminus. |
+| **Sentier de Guerre des Lames Spirituelles** | Octroie Robustesse, Drainage, Immunité aux Altérations, et +20% de Dégâts Accrus | Se déclenche automatiquement après avoir exécuté un Finisher d'Avatar. |
+| **Fureur des Lames Spirituelles** | +30% ATQ, +30% Puissance d'Étourdissement, +15% Limite de Dégâts | Augmentation directe de la limite de dégâts sans pénalité négative. |
+| **Ralliement des Lames Spirituelles** | +12,5% de Niveau de Brillance de l'Épée par compétence activée | Vous permet d'atteindre instantanément la Brillance maximale en utilisant vos compétences. |
+
+<Callout type="success" title="Astuce de Transmutation de Sceaux">
+Vous pouvez obtenir la version Éveil des sceaux uniques de Seofon au Bazar de Sierokarte, qui combine le Ralliement et la Fureur des Lames Spirituelles en un seul emplacement, libérant de la place pour plus d'utilitaire.
+</Callout>
+
+### Configuration des Sceaux de Soutien
+Pour compléter vos capacités offensives et défensives, visez les sceaux de soutien suivants :
+
+- **Élémentaire Supérieur** : Convertit toutes les attaques en l'élément faible de l'ennemi (+20% de dégâts).
+- **Tyrannie & Acharnement** : Plafonne facilement vos dégâts physiques bruts.
+- **Sceaux de Lucilius (Alpha/Bêta/Gamma)** : Augmentent encore plus les limites de dégâts.
+- **Dégâts Supplémentaires** : Visez un niveau élevé pour déclencher fréquemment des coups de dégâts bonus.
+
+</Section>
+
+<Section icon={Target} title="Guide de Rotation Optimale Étape par Étape">
+
+Pour jouer Seofon à son plein potentiel, vous devez exécuter une boucle de combat spécifique qui maximise ses buffs uniques.
+
+<Steps>
+  <Step num="1" title="Activation Initiale">
+    Invoquez votre Avatar immédiatement au début du combat, puis activez **Tempesta** pour maxer instantanément votre Jauge d'Avatar et obtenir le buff d'attaque.
+  </Step>
+  <Step num="2" title="Rapprochement et Étourdissement">
+    Utilisez **Rotura** pour réduire la distance avec le boss. Cela inflige des dégâts d'étourdissement élevés, aidant votre équipe à déclencher une Attaque de Lien rapide.
+  </Step>
+  <Step num="3" title="Décharge de Compétences">
+    Activez **Infinito Crear** et **Despedar**. Grâce au sceau *Ralliement des Lames Spirituelles*, l'utilisation de ces compétences maxera rapidement votre niveau de Brillance de l'Épée.
+  </Step>
+  <Step num="4" title="Exécuter le Finisher">
+    Effectuez votre combo de base (4 attaques Légères vers 1 Lourde) pour déclencher le **Finisher d'Avatar**. Cela active le buff du *Sentier de Guerre*, vous donnant Robustesse, Drainage et Dégâts Accrus pendant 30 secondes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Tampon d'Attaque de Lien">
+Assurez-vous toujours que votre Avatar est invoqué *avant* de cliquer sur une invite d'Attaque de Lien. Déclencher une Attaque de Lien avec votre Avatar actif remplit simultanément votre Jauge d'Avatar et votre Niveau de Brillance de l'Épée.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist du Build de Fin de Jeu">
+
+Utilisez cette checklist pour suivre votre progression vers la complétion de la configuration ultime de fin de jeu pour Seofon.
+
+<Checklist
+  id="seofon-progression"
+  title="Étapes Clés du Build :"
+  items={[
+    "Débloquer Seofon en utilisant des Essences d'Arme Suprême",
+    "Améliorer complètement l'Arme d'Ascension pour débloquer le Booster de Sceau",
+    "Acquérir les sceaux uniques Frontière des Sept Étoiles et Lames Spirituelles",
+    "Obtenir des Distinctions de niveau max avec du Taux de Coup Critique et de la Limite de Dégâts Classiques/de Compétence",
+    "Équiper les sceaux Élémentaire Supérieur et Dégâts Supplémentaires pour un DPS maximum"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Quelle est la meilleure arme pour un build Seofon dans Granblue Fantasy Relink ?",
+    answer: "L'Arme d'Ascension est le meilleur choix. Une fois pleinement éveillée, elle fournit des Dégâts Supplémentaires intégrés et un trait Booster de Sceau qui augmente de 1 le niveau de tous les sceaux équipés."
+  },
+  {
+    question: "Comment maintenir la forme d'Avatar de Seofon pendant les temps morts du boss ?",
+    answer: "Vous pouvez renvoyer manuellement votre Avatar en appuyant sur le bouton d'attaque lourde. Cela met en pause la consommation de la Jauge d'Avatar, vous permettant de conserver vos ressources jusqu'à ce que le boss soit à nouveau ciblable."
+  },
+  {
+    question: "Ai-je besoin de sceaux défensifs sur Seofon ?",
+    answer: "Généralement, non. Grâce à son sceau Sentier de Guerre des Lames Spirituelles, Seofon gagne automatiquement Robustesse (résistance aux interruptions) et Drainage (soin par coup) lorsqu'il effectue son Finisher d'Avatar, offrant une excellente capacité de survie naturelle."
+  },
+  {
+    question: "La Splendeur des Sept Étoiles vaut-elle la peine d'être utilisée dans les quêtes standard ?",
+    answer: "Non. Bien qu'elle maxe instantanément la jauge de SBA pour tout le groupe, son temps de recharge initial extrêmement long la rend inutile pour les quêtes de farm rapides. Il est préférable d'utiliser une compétence de dégâts constants."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Fraux Granblue Fantasy Relink : Meilleures compétences et équipements",
+  description: "Optimisez votre build de Fraux dans Granblue Fantasy Relink avec les meilleures armes, sceaux et rotations de compétences pour l'extension Endless Ragnarok de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Fraux+Best+Build",
+  date: "2026-07-11",
+  author: "Équipe du Wiki Granblue Fantasy Relink"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Build de Fraux dans Granblue Fantasy Relink** : Concentrez-vous sur **Radiant Pointe** pour le milieu de jeu et **Terminus** pour la fin de jeu.
+- **Priorité des compétences** : Utilisez **Dead Lands** et **All Fall Down** pour maximiser les dégâts et affaiblir les ennemis.
+- **Mécanique clé** : Maîtrisez l'état **Strength Gains** pour lancer gratuitement trois compétences améliorées.
+- **Sceaux principaux** : Priorisez les attributs **Beta** et **Gamma** pour dépasser la limite de dégâts.
+- **Changement de posture** : Basculez entre les postures **Upright** (rapide) et **Reversed** (lourde) pour remplir rapidement les jauges.
+</Callout>
+
+<Section icon={Swords} title="Meilleures armes et optimisation de la pierre de divination">
+
+Créer un puissant **build de Fraux dans Granblue Fantasy Relink** commence par le choix de l'arme idéale pour compléter son style de jeu hybride. Fraux dépend fortement des dégâts de ses compétences (Skill DMG) et de sa capacité à alterner entre ses postures. Bien que son arme Terminus reste l'objectif ultime pour les joueurs de fin de jeu dans l'extension Endless Ragnarok, son arme d'Ascension est le choix le plus fiable pour la progression.
+
+| Arme | Type | Attributs clés | Meilleur cas d'utilisation |
+| :--- | :--- | :--- | :--- |
+| **Radiant Pointe** | Ascension | ATK, Supplementary DMG | Progression générale et contenu DLC |
+| **Mephisto's Waltz** | Par défaut | Greater Aegis, Stronghold, Cascade | Survie en haute difficulté et apprentissage |
+| **Arme Terminus** | Fin de jeu | Catastrophe, Regen | DPS ultime pour Endless Ragnarok |
+
+Pour la pierre de divination (Wrightstone), visez une **pierre de vitalité** (Vitality Wrightstone) afin d'obtenir un taux de coup critique élevé. Dans la méta d'Endless Ragnarok, atteindre le seuil de 100 % de critiques est indispensable pour infliger des dégâts constants.
+
+| Emplacement de Wrightstone | Attribut recommandé | Priorité |
+| :--- | :--- | :--- |
+| Attribut primaire | **Critical Hit Rate** | Obligatoire (Niveau 10) |
+| Attribut secondaire | **Skilled Assault** | Haute (Niveau 8) |
+| Attribut tertiaire | **Uplift** | Modérée (Niveau 5) |
+
+<Callout type="tip" title="Conseil pour l'arme d'Ascension">
+L'éveil complet de la **Radiant Pointe** confère l'attribut **Sigil Booster** (Renfort de sceau), essentiel pour maximiser l'efficacité globale de votre build avant de passer à l'arme Terminus.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuration des compétences essentielles et mécaniques de posture">
+
+Le kit de Fraux est divisé entre invocations offensives et bonus utilitaires. Sa mécanique unique consiste à invoquer « The Devil » pour lancer de puissantes attaques. Dans un **build de Fraux standard pour Granblue Fantasy Relink**, vous rechercherez un équilibre entre dégâts bruts et affaiblissements d'ennemis pour soutenir l'équipe.
+
+| Nom de la compétence | Type | Effet | Valeur au combat |
+| :--- | :--- | :--- | :--- |
+| **Dead Lands** | Offensif | Invoque The Devil pour un assaut frontal | Compétence aux dégâts bruts les plus élevés |
+| **All Fall Down** | Affaiblissement | Boules de feu qui réduisent la DEF et suppriment les bonus | Essentiel pour les affrontements de boss |
+| **Indominus** | Bonus | Confère Drain à Fraux pour le maintien des PV | Haute survivabilité |
+| **Kick Face** | Contre | Contre-attaque face aux mouvements prévisibles | Défense basée sur le timing |
+
+<Callout type="warning" title="Gestion des compétences">
+Pendant l'état **Strength Gains**, vous pouvez lancer trois compétences gratuitement. Cependant, vous ne pouvez pas lancer la même compétence deux fois au cours d'une même instance de Strength Gains, même si le temps de recharge est réinitialisé.
+</Callout>
+
+Fraux utilise deux postures distinctes. Comprendre quand basculer de l'une à l'autre fait toute la différence entre un joueur moyen et un maître de l'Enchanteresse Écarlate.
+
+<CardGrid cols={2}>
+  <Card title="Posture Upright (Orange)">
+    - **Axée sur la vitesse** : Enchaînements rapides qui remplissent rapidement la jauge orange.
+    - **Utilisation** : Idéal pour les boss mobiles ou lorsque vous devez vous repositionner rapidement.
+  </Card>
+  <Card title="Posture Reversed (Bleue)">
+    - **Axée sur la puissance** : Frappes lentes et lourdes qui remplissent la jauge bleue.
+    - **Utilisation** : À utiliser pendant les phases de vulnérabilité (Break) ou lorsque le boss est immobile.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Configuration des sceaux pour Endless Ragnarok">
+
+Pour maximiser votre **build de Fraux dans Granblue Fantasy Relink**, vous devez comprendre le système de limite de dégâts (Damage Cap). Fraux atteint ses limites très facilement en raison de ses multiplicateurs élevés, ce qui fait des sceaux de limite de dégâts la partie la plus importante de son équipement.
+
+| Type de sceau | Attributs clés | Niveau recommandé |
+| :--- | :--- | :--- |
+| **Gamma+** | DMG Cap, SBA Shield | Niveau 65 (Total) |
+| **Beta+** | Skill DMG Cap, Skill CD on SBA | Niveau 30 (Total) |
+| **Warpath** | Enchantress's Warpath (Unique) | Niveau 15 |
+| **Awakening** | Enchantress's Blessing & Rhythm | Niveau 15 |
+
+<Callout type="success" title="Synergie unique de sceaux">
+Équiper **Enchantress's Warpath** fournit un boost de dégâts significatif chaque fois que vous activez une compétence avec Strength Gains. Cela doit être combiné avec son sceau d'**Éveil** (Awakening) pour s'assurer que vos postures se remplissent assez rapidement pour maintenir le bonus actif.
+</Callout>
+
+Au-delà des dégâts, Fraux a besoin de sceaux utilitaires spécifiques pour survivre aux affrontements brutaux de l'extension de 2026.
+
+<Checklist
+  id="essential-utility"
+  title="Sceaux utilitaires obligatoires :"
+  items={[
+    "**Potion Hoarder** (Stock de potions) : Essentiel pour la survie en fin de jeu et le soutien d'équipe.",
+    "**Autorevive** (Auto-résurrection) : Un filet de sécurité pour les mécaniques de boss infligeant de lourds dégâts.",
+    "**Improved Dodge** (Esquive améliorée) : Permet à Fraux de maintenir le flux de ses combos tout en évitant les attaques.",
+    "**Supplementary DMG** (Dégâts supplémentaires) : Ajoute des coups supplémentaires à chaque attaque, contournant les limites standards."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Rotation de combat optimale et priorité des maîtrises">
+
+La boucle de gameplay principale d'un **build de Fraux dans Granblue Fantasy Relink** tourne autour de la gestion des jauges. Vous devez entrer dans l'état **Strength Gains** aussi souvent que possible pour déchaîner ses compétences améliorées.
+
+<Steps>
+  <Step num="1" title="Génération de jauge">
+    Effectuez le combo d'attaque de base jusqu'au coup de grâce **Flip Kick**. Cela change automatiquement votre posture et commence à remplir l'autre jauge sans perdre votre élan.
+  </Step>
+  <Step num="2" title="Activation de Strength Gains">
+    Une fois que les jauges bleue et orange sont pleines, Strength Gains s'active. Vos trois prochains lancements de compétences seront améliorés et n'auront pas de temps de recharge.
+  </Step>
+  <Step num="3" title="Cycle de compétences améliorées">
+    Priorisez l'utilisation de **Dead Lands** pour les dégâts, **All Fall Down** pour l'affaiblissement de DEF, et **Indominus** si vous avez besoin de PV ou **Crimson Nightmare** pour l'effet Ralentissement (Slow).
+  </Step>
+  <Step num="4" title="Réinitialisation et répétition">
+    Après les trois lancements gratuits, utilisez l'attaque spéciale **Stance Flip** pour blesser les ennemis proches et recommencer immédiatement à remplir vos jauges.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Priorités des maîtrises">
+Lorsque vous dépensez vos points de maîtrise, priorisez la **limite de dégâts de compétence** (Skill Damage Cap Up) et le **taux de coup critique** (Critical Hit Rate Up). Comme Fraux compte sur ses invocations pour la majeure partie de son DPS, augmenter le plafond de ces attaques spécifiques offre le meilleur retour sur investissement.
+</Callout>
+
+| Nœud de maîtrise | Priorité | Impact |
+| :--- | :--- | :--- |
+| **Skill DMG Cap** | ★★★★★ | Augmente la limite de Dead Lands et All Fall Down |
+| **Crit Rate** | ★★★★☆ | Assure la régularité des dégâts infligés |
+| **Normal DMG Cap** | ★★★☆☆ | Augmente les dégâts des combos de changement de posture |
+| **SBA DMG Cap** | ★★☆☆☆ | Utile mais secondaire par rapport aux dégâts des compétences |
+
+</Section>
+
+<Section icon={Sparkles} title="Synergie d'équipe et questions fréquemment posées">
+
+Fraux excelle lorsqu'elle est associée à des personnages capables de contrôler les ennemis ou d'offrir des fenêtres de dégâts supplémentaires. Dans la méta actuelle, avoir un DPS puissant contrôlé par l'IA ou par un joueur, comme **Zeta** ou **Narmaya**, permet à Fraux de se concentrer sur ses rotations de postures sans interruption constante.
+
+<Callout type="success" title="Composition d'équipe méta">
+Associez Fraux à **Zeta** pour des dégâts aériens élevés et à **Cagliostro** pour des bonus de taux critique. Cette combinaison garantit que Fraux atteigne régulièrement ses limites de dégâts tout en apportant de l'utilité grâce à ses propres affaiblissements.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Quelle arme est la meilleure pour débuter un build de Fraux dans Granblue Fantasy Relink ?",
+    answer: "Commencez par la Radiant Pointe (arme d'Ascension). Elle offre un équilibre entre ATK et dégâts supplémentaires (Supplementary DMG), et son attribut Sigil Booster est inestimable pour la progression en milieu de jeu."
+  },
+  {
+    question: "Comment maximiser les dégâts pendant Strength Gains ?",
+    answer: "Utilisez toujours Dead Lands comme l'un de vos trois lancements gratuits. C'est sa compétence qui inflige le plus de dégâts. Assurez-vous que l'ennemi est d'abord affaibli par All Fall Down pour maximiser l'impact."
+  },
+  {
+    question: "Le sceau Warpath est-il obligatoire pour Fraux ?",
+    answer: "Oui, Enchantress's Warpath est un élément central de son build de fin de jeu. Le boost de dégâts qu'il procure lors de l'activation de compétences sous Strength Gains est essentiel pour surmonter le contenu DLC de haut niveau."
+  },
+  {
+    question: "Fraux peut-elle être jouée comme un pur support ?",
+    answer: "Bien qu'elle possède des affaiblissements comme Ralentissement (Slow) et Réduction de DEF, Fraux est principalement un DPS. Ses capacités de soutien sont conçues pour accroître ses propres dégâts et offrir de l'utilité, plutôt que pour faire d'elle une soigneuse dédiée."
+  }
+]} />
+
+</Section>

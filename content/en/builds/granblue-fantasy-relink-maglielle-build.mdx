@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Granblue Fantasy Relink Maglielle Build: Best Setup Guide",
+  description: "Master the ultimate endgame Granblue Fantasy Relink Maglielle build. Discover the best weapons, sigils, master traits, and skill rotations for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Maglielle+Endgame+Build",
+  date: "2026-07-11",
+  author: "granblue fantasy relink Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Granblue fantasy relink maglielle build**: Focuses on maximizing normal attack damage cap to boost Blade Dance output.
+- **Core mechanic**: Charge the Veil gauge using manual, pink-colored combo finishers to unleash continuous blade barrages.
+- **Best weapon**: The fully transcended Ascension Weapon, Excalibur, Anointed Sovereign, provides unmatched damage caps.
+- **Top sigils**: Equip Alpha and Gamma sigils alongside Berserker Echo and Spartan Echo for multi-instance supplementary damage.
+- **Essential skills**: Run Battleheim, Spear of Legends, and Pistol of Demons as your non-negotiable core loadout.
+</Callout>
+
+<Section icon={Swords} title="Maglielle Playstyle and Core Mechanics">
+
+Maglielle is one of the most distinctive ranged casters in the Endless Ragnarok expansion. She summons legendary weapons to fight alongside her, combining high party utility with devastating burst potential. Her offensive loop revolves entirely around managing her unique Veil gauge and unleashing her signature **Blade Dance** attack. 
+
+Understanding how to build her gauge efficiently is the foundation of any successful **granblue fantasy relink maglielle build**.
+
+**Video Highlights:**
+- **Combo Mechanics**: Learn how to transition from basic attacks to high-yield combo finishers.
+- **Veil Gauge Management**: Master the timing required to refund a portion of your gauge.
+- **Skill Showcases**: Visual demonstration of her weapon summons, including the massive Pistol of Demons.
+
+<YouTubeEmbed videoId="7w8B2TQyHFM" title="INSANE DAMAGE MAGLIELLE Best Build Guide - Best Sigils & Weapons | Granblue Fantasy Relink Guide" />
+
+### The Veil Gauge and Blade Dance
+
+Unlike standard characters, Maglielle's basic three-hit attack combo does not generate gauge under normal circumstances. Instead, her gauge is tied directly to her unique triangle attack, Blade Dance. To fill the gauge, you must execute combo finishers.
+
+| Finishers | Input Sequence | Gauge Gain | Playstyle Utility |
+|---|---|---|---|
+| **Combo A** | Square -> Triangle (Hold) | Moderate | Fastest to execute, highly reliable |
+| **Combo B** | Square -> Square -> Triangle (Hold) | High | Balanced AoE and single-target damage |
+| **Combo C** | Square -> Square -> Square -> Triangle (Hold) | Massive | Highest damage, hardest to aim |
+
+To optimize your rotation, prioritize Combo A. Combos B and C have longer animations and are more difficult to aim manually in fast-paced encounters.
+
+### Empowered Finishers (Pink Glow)
+
+Holding down the Triangle button during any combo finisher allows you to manually aim the attack. Once the blades connect with the enemy, they turn from gold to a purple-pink hue. 
+
+This visual change indicates that the attack is empowered. Landing these pink finishers grants significantly more Veil gauge and temporarily enhances your basic square attacks, allowing them to generate gauge as well.
+
+<Callout type="tip" title="Gauge Refund Mechanic">
+When channeling Blade Dance, letting go of the Triangle button roughly half a second after the gauge completely empties will refund up to a third of your total Veil gauge. Avoid releasing the button the exact millisecond it hits zero, or you will miss this crucial refund window.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Weapons and Progression Path">
+
+Weapons in the Endless Ragnarok expansion have received massive updates, making older options like the Terminus weapon obsolete due to its strict 45,000 HP cap. For high-tier endgame content, maximizing your survivability while breaking damage caps is essential.
+
+| Weapon Type | Weapon Name | Base Traits | Damage Cap Condition |
+|---|---|---|---|
+| **Ascension** | Excalibur, Anointed Sovereign | ATK, Supplementary DMG, DMG Cap, Sigil Booster | Unconditional 350% DMG Cap (Transcended) |
+| **Stinger** | Exo Maitrah Karuna | Critical Hit Rate, Critical Damage | 270% DMG Cap when Crit Rate exceeds 200% |
+| **Defender** | Al Fine | Greater Aegis, Stronghold, Steel Nerves | 260% DMG Cap when Max HP exceeds 200,000 |
+
+### Weapon Recommendation
+
+The **Ascension Weapon (Excalibur)** is the absolute best-in-slot choice for Maglielle. Once fully transcended, it unlocks the **Unbound Technique** trait, boosting all skill damage caps by 30%, and provides a massive, unconditional 350% damage cap increase. 
+
+While the Defender weapon (Al Fine) is excellent for progression through Proud difficulty due to its defensive stats, you should transition to Excalibur as soon as you can afford the resource grind.
+
+<Callout type="warning" title="Terminus Weapon Warning">
+Do not rely on Terminus weapons for the Endless Ragnarok DLC. The 45,000 HP limit leaves you highly vulnerable to being one-shot by Chaos-tier bosses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Skill Loadout and Rotation">
+
+Maglielle possesses a versatile kit of offensive summons and utility spells. Selecting the right combination of skills determines your damage uptime and party contribution.
+
+<CardGrid cols={3}>
+  <Card title="Pistol of Demons">
+    Summons a massive gun that fires in tandem with your attacks. It provides continuous passive DPS, especially during Blade Dance and Link Time.
+  </Card>
+  <Card title="Spear of Legends">
+    Launches a piercing spear that inflicts a 10% Defense debuff. It features a short cooldown and allows you to dodge-cancel the animation instantly.
+  </Card>
+  <Card title="Battleheim">
+    A mandatory self-buff that increases your Veil gauge fill rate and boosts the damage of all Triangle attacks, including Blade Dance.
+  </Card>
+</CardGrid>
+
+### Choosing Your Fourth Skill Slot
+
+While the first three skills are non-negotiable for a top-tier **granblue fantasy relink maglielle build**, your fourth slot should adapt to your playstyle or team needs:
+
+- **Stave of Divinity**: Summons Caduceus, a mobile healing circle that automatically revives fallen allies. It is easily one of the best support skills in the game.
+- **Knock Music**: A defensive back-step dodge that grants invincibility frames and generates massive gauge when timed perfectly against enemy attacks.
+- **Senuutu**: Applies a personal shield. This should only be used if you specialize in the Sword Veil Guardianship master trait tree.
+
+<Steps>
+  <Step num="1" title="Activate Buffs">
+    Cast **Battleheim** immediately at the start of the fight to boost your gauge acquisition rate.
+  </Step>
+  <Step num="2" title="Apply Debuffs">
+    Cast **Spear of Legends** to apply the 10% Defense debuff. Dodge immediately after casting to cancel the animation and save time.
+  </Step>
+  <Step num="3" title="Deploy Offense">
+    Summon the **Pistol of Demons** to begin coordinated attacks.
+  </Step>
+  <Step num="4" title="Build and Unleash">
+    Execute **Combo A (Square -> Triangle)** to charge your Veil gauge, then hold Triangle to unleash **Blade Dance**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Link Time Dominance">
+Entering Link Time instantly fills your Veil gauge and stops it from depleting. During this window, spam Blade Dance continuously. Your rapid hits will also extend the duration of Link Time for the entire party.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Endgame Sigil Setup">
+
+To maximize your damage output in Chaos-tier quests, you must bypass standard damage caps while maintaining defensive safety nets.
+
+| Sigil Name | Tier Level | Primary Effect | Playstyle Value |
+|---|---|---|---|
+| **Alpha+** | Level 30 | Boosts normal attack damage cap | Essential for maximizing Blade Dance hits |
+| **Gamma+** | Level 30 | Boosts overall damage cap; grants 50k shield on SBA | Excellent mix of offense and safety |
+| **Fate Breaker** | Level 16 | 50% ATK & DMG Cap up during Chaos quests | Mandatory for Endless Ragnarok DLC content |
+| **Berserker Echo** | Level 15 | Guaranteed supplementary damage | Requires your base ATK to be 25,000+ |
+| **Spartan Echo** | Level 15 | Guaranteed supplementary damage | Requires your max HP to be 80,000+ |
+
+### Character-Unique Sigils
+
+For your character-specific slots, prioritize **Blade Queen's Warpath** and **Blade Queen's Circuit**. 
+
+- **Blade Queen's Warpath**: Grants a 15% damage increase when starting Blade Dance with a full gauge or executing the Blade Dance IV finisher.
+- **Blade Queen's Circuit**: Boosts your damage cap by 10% and increases Veil gauge gain by 20% on perfect timing releases.
+- **Blade Queen's Serenade**: This sigil reduces skill cooldowns by 10% when landing follow-up attacks after enhanced finishers. It is optional and can be replaced if you find sigils with better defensive sub-traits.
+
+<Callout type="success" title="The Power of Drain">
+Equipping a Drain sub-trait is highly recommended for Maglielle. Because her summoned weapons and pistols strike independently, they will passively heal you even while you are dodging or repositioning.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Master Traits and Overmastery Priorities">
+
+The Master Trait system allows you to specialize Maglielle into distinct combat roles. For general endgame builds, the **Ardan Dancer** path is superior.
+
+### Master Trait Choices
+
+- **Ardan Dancer**: Focuses on gauge gain and Blade Dance. The final perk grants a 15% ATK boost and 20% DMG boost to Blade Dance at the cost of 30% reduced defense during the animation. It also provides a party-wide 20% skill damage cap buff upon executing Blade Dance IV.
+- **Superlative Sorcery**: Boosts gauge gain specifically from summoning skills.
+- **Sword Veil Guardianship**: Enhances personal shield strength by 10% for a tankier playstyle.
+
+### Overmastery and Summon Stat Targets
+
+When spending mastery points, prioritize these specific bonuses:
+
+<Checklist
+  id="maglielle-overmastery"
+  title="Overmastery Priority Checklist:"
+  items={[
+    "Normal Attack Damage Cap Up (20% is mandatory)",
+    "Skill Damage Cap Up",
+    "Skybound Art (SBA) Damage Cap Up",
+    "Critical Hit Rate Up"
+  ]}
+/>
+
+For your summon slots, equip summons that carry the **Normal Attack Damage Cap Up** trait. Combining high-tier summons like the Dark Dragon and Fire Dragon can yield up to a **135% increase** in your normal attack damage cap, scaling your Blade Dance to astronomical levels.
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is the Ascension weapon preferred over the Terminus weapon for this Maglielle build?",
+    answer: "The Ascension weapon (Excalibur) offers a higher, unconditional damage cap of 350% when fully transcended and unlocks the Unbound Technique trait. Unlike the Terminus weapon, it does not cap your health at 45,000 HP, keeping you safe from endgame one-shots."
+  },
+  {
+    question: "How do I trigger the pink empowered combo finishers consistently?",
+    answer: "To trigger an empowered finisher, you must hold down the Triangle button during a combo finisher and manually aim the targeting reticle until the blades strike the enemy. Once they connect, they will flash purple-pink, signaling increased gauge gain."
+  },
+  {
+    question: "Is the Blade Queen's Serenade sigil required for the endgame build?",
+    answer: "No, Blade Queen's Serenade is optional. While it offers cooldown reduction, the execution window can be tight. If you have other sigils with superior defensive sub-traits like Potion Hoarder or Autorevive, feel free to replace it."
+  },
+  {
+    question: "How do I activate both Berserker Echo and Spartan Echo simultaneously?",
+    answer: "Berserker Echo requires 25,000+ Attack, and Spartan Echo requires 80,000+ HP. You can easily meet both thresholds without wasting sigil slots on HP traits by fully upgrading your Ascension weapon, completing your Overmasteries, and filling out your weapon collection bonuses."
+  }
+]} />
+
+</Section>
